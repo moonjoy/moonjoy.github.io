@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <!-- <script type="text/javascript" src="js/three.min.js"></script> -->
+    <!-- <script type="text/javascript" src="js/landing.js"/></script> -->
 </head>
 <body>
 
     <div class="container">
+<!--         <div id="world">
+
+        </div> -->
         <nav>
             <input type="checkbox" id="nav" class="hidden">
             <label for="nav" class="nav-btn">
@@ -26,8 +31,11 @@
             </div>
             <div class="nav-wrapper">
                 <ul>
-                    <li class= "projects"><a href="#">Projects</a></li>
-                    <li class= "contact"><a href="#">Contact</a></li>
+                    <li class= "pro"><a href="#">VR</a></li>
+                    <li class= "pro"><a href="#">Animation</a></li>
+                    <li class= "pro"><a href="#">Graphics</a></li>
+                    <li class= "pro"><a href="#">Web Dev</a></li>
+                    <li class= "about"><a href="#">About</a></li>
                     <li class= "resume"><a href="#">Resume</a></li>
                     <!-- <li><a href="#">Purchase</a></li> -->
                 </ul>
@@ -37,6 +45,20 @@
         <div class="tag">
             <span>Page in Development <br>barsha@newschool.edu</span>
             <!-- <span>Graduate student at Parsons School of Design <br> specializing in <br> Animation / Web Design and Development / Virtual Reality Development</span> -->
+        </div>
+
+        <div class="mypic">
+            <img src="img/mypic.jpg" alt="">
+        </div>
+
+        <div class="title">
+            <span>&nbsp;All<br>&nbsp;Projects</span>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="tag-line">
+            <span>MFADT'19 | Parsons School of Design | New York</span>
         </div>
 
         <div class="media">
@@ -50,46 +72,60 @@
     <script type="text/javascript">
 
         TweenMax.from(".logo", 1.6, {
-            delay: 0.8,
+            delay: 1,
             opacity: 0,
             y: 20,
             ease: Expo.easeInOut
         });
 
         TweenMax.from(".projects", 1.6, {
-            delay: 1.2,
+            delay: 1.4,
             opacity: 0,
             x: -20,
             ease: Expo.easeInOut
         });
 
-        TweenMax.from(".contact", 1.6, {
-            delay: 1,
+        TweenMax.from(".about", 1.6, {
+            delay: 1.2,
             opacity: 0,
             y: 40,
             ease: Expo.easeInOut
         });
 
         TweenMax.from(".tag", 1.4, {
-            delay: 1.4,
+            delay: 1.6,
             opacity: 0,
             x: -40,
             ease: Expo.easeInOut
         });
 
         TweenMax.from(".resume", 1.4, {
-            delay: 1.5,
+            delay: 1.7,
             opacity: 0,
             x: -40,
             ease: Expo.easeInOut
         });
 
+        TweenMax.from(".line", 2, {
+            delay: 2.2,
+            opacity: 0,
+            x: -30,
+            ease: Expo.easeInOut
+        });
+
         TweenMax.staggerFrom(".media ul li", 1.7, {
-            delay: 1.8,
+            delay: 2,
             opacity: 0,
             y: 40,
             ease: Expo.easeInOut
         }, 0.2);
+
+        TweenMax.staggerFrom(".nav-wrapper ul .pro", 1.4, {
+            delay: 1,
+            opacity: 0,
+            y: 10,
+            ease: Expo.easeInOut
+        }, 0.1);
 
     </script>
 
