@@ -49,9 +49,16 @@
     <script type="text/javascript">
 
         TweenMax.from(".logo", 1.6, {
-            delay: 1,
+            delay: 0.8,
             opacity: 0,
             y: 20,
+            ease: Expo.easeInOut
+        });
+
+        TweenMax.from(".projects", 1.6, {
+            delay: 1.2,
+            opacity: 0,
+            x: -20,
             ease: Expo.easeInOut
         });
 
@@ -77,7 +84,7 @@
         });
 
         TweenMax.staggerFrom(".media ul li", 1.7, {
-            delay: 1.6,
+            delay: 1.8,
             opacity: 0,
             y: 40,
             ease: Expo.easeInOut
