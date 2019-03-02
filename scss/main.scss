@@ -66,6 +66,16 @@ nav {
     }
 }
 
+.nav-wrapper{
+    .resume {
+        padding: 10px 30px;
+        position: fixed;
+        left: -50px;
+        top: 180px;
+        transform: rotate(-90deg);
+    }
+}
+
 @media screen and (max-width: 864px) {
     .logo {
         padding: 0;
@@ -101,9 +111,6 @@ nav {
                 &:nth-child(3) a{
                     transition-delay: 0.4s;
                 }
-                &:nth-child(4) a{
-                    transition-delay: 0.5s;
-                }
                 &:not(:first-child){
                     margin-left: 0;
                 }
@@ -117,6 +124,14 @@ nav {
                     letter-spacing: 1.2px;
                     transform: translateX(-20px);
                     transition: all 0.2s ease;
+                }
+
+                &.resume {
+                    padding: 0;
+                    position: initial;
+                    left: 0;
+                    top: 0;
+                    transform: rotate(0deg);
                 }
             }
         }
