@@ -18,6 +18,7 @@ body {
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    color: #252525;
     // background: url(../background-img.jpg);
     // background-position: center;
     // background-size: cover;
@@ -49,7 +50,7 @@ nav {
             a{
                 display: inline-block;
                 outline: none;
-                color: #000;
+                color: #252525;
                 text-transform: uppercase;
                 text-decoration: none;
                 font-size: 14px;
@@ -66,7 +67,7 @@ nav {
     margin-left: 20px;
     margin-top: 8px;
     a{
-        color: #000;
+        color: #252525;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 18px;
@@ -171,6 +172,14 @@ nav {
         background-color: #ffffff91;
         animation: appear-text 0.0001s linear forwards;
         animation-delay: 2s;
+        a {
+            color: #252525;
+            letter-spacing: 0px;
+            text-decoration: none;
+        }
+        &:hover{
+            background-color: #ffffffb5;
+        }
     }
 
     &:after {
@@ -295,7 +304,7 @@ nav {
                 a {
                     padding: 10px 24px;
                     opacity: 0;
-                    color: #000;
+                    color: #252525;
                     font-size: 14px;
                     font-weight: 600;
                     letter-spacing: 1.2px;
