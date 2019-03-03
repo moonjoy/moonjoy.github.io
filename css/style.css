@@ -308,23 +308,25 @@ header {
     color: #7c7c7c;
     line-height: 1.7; }
 
-.vr-projects {
+.work-projects {
   text-align: center;
   width: 100%; }
-  .vr-projects img {
+  .work-projects img {
     margin: 1%;
     width: 72%; }
-  .vr-projects .video-wrapper {
+  .work-projects .video-wrapper {
     max-width: 72%;
     margin: 0 auto 2% auto; }
-    .vr-projects .video-wrapper .iframe-container {
+    .work-projects .video-wrapper .iframe-container {
       position: relative;
       padding-bottom: 56.25%; }
-      .vr-projects .video-wrapper .iframe-container iframe {
+      .work-projects .video-wrapper .iframe-container iframe {
         position: absolute;
         width: 100%;
         height: 100%;
         left: 0; }
+      .work-projects .video-wrapper .iframe-container:first-child {
+        margin-bottom: 4%; }
 
 .project-des {
   display: block;
@@ -342,7 +344,7 @@ header {
   text-transform: uppercase;
   font-weight: 600; }
   .details .project-title p {
-    margin-top: 9%;
+    margin-top: 2%;
     letter-spacing: 0.1rem; }
 .details .project-info {
   float: right;
@@ -356,7 +358,8 @@ header {
 
 .project-description {
   display: inline-block;
-  text-align: left; }
+  text-align: left;
+  width: 100%; }
   .project-description p {
     font-size: 16px;
     font-weight: 400;
@@ -393,7 +396,7 @@ footer p {
       font-size: 12px;
       width: 90%; }
 
-  .vr-projects img {
+  .work-projects img {
     margin: 2%;
     width: 90%; } }
 
