@@ -32,14 +32,16 @@ nav {
       nav ul li a {
         display: inline-block;
         outline: none;
-        color: #252525;
         text-transform: uppercase;
         font-size: 14px;
         letter-spacing: 1.2px;
         font-weight: 600; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #252525; }
+  a:hover {
+    color: #b78c6f; }
 
 .logo {
   float: left;
@@ -66,6 +68,8 @@ a {
   top: 250px;
   left: 152px;
   line-height: 1.6; }
+  .tag .intro-email {
+    color: #b78c6f; }
 
 .resume {
   position: fixed;
@@ -343,11 +347,6 @@ header {
   font-size: 25px;
   text-transform: uppercase;
   font-weight: 600; }
-  .details .project-title a {
-    color: #252525; }
-    .details .project-title a:hover {
-      color: #b78c6f;
-      transition: easein; }
   .details .project-title p {
     margin-top: 2%;
     letter-spacing: 0.1rem; }
