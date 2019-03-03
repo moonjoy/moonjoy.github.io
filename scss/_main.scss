@@ -50,7 +50,6 @@ nav {
             a{
                 display: inline-block;
                 outline: none;
-                color: #252525;
                 text-transform: uppercase;
                 font-size: 14px;
                 letter-spacing: 1.2px;
@@ -62,6 +61,10 @@ nav {
 
 a {
     text-decoration: none;
+    color: #252525;
+        &:hover{
+            color: #b78c6f;
+            }
 }
 
 .logo {
@@ -94,6 +97,9 @@ a {
     top: 250px;
     left: 152px;
     line-height: 1.6;
+    .intro-email {
+        color: #b78c6f;
+    }
 }
 
 .resume {
