@@ -295,14 +295,18 @@ a {
   margin: 0 auto; }
 
 header {
-  margin: 10% 0 4% 14%; }
+  margin: 10% 0 6% 14%; }
   header h1 {
     font-size: 48px; }
-    header h1 p {
-      font-size: 16px;
-      font-weight: 300;
-      width: 60%;
-      margin-top: 10px; }
+  header p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin-top: 10px;
+    letter-spacing: 0.1px;
+    word-spacing: 1.2px;
+    color: #7c7c7c;
+    line-height: 1.7; }
 
 .vr-projects {
   text-align: center;
@@ -310,6 +314,17 @@ header {
   .vr-projects img {
     margin: 1%;
     width: 72%; }
+  .vr-projects .video-wrapper {
+    max-width: 72%;
+    margin: 0 auto 2% auto; }
+    .vr-projects .video-wrapper .iframe-container {
+      position: relative;
+      padding-bottom: 56.25%; }
+      .vr-projects .video-wrapper .iframe-container iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0; }
 
 .project-des {
   display: block;
