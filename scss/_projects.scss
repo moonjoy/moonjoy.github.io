@@ -20,7 +20,7 @@ header {
     }
 }
 
-.vr-projects {
+.work-projects {
     text-align: center;
     width: 100%;
 
@@ -41,6 +41,9 @@ header {
                 width: 100%;
                 height: 100%;
                 left: 0;
+            }
+            &:first-child{
+                margin-bottom: 4%;
             }
         }
     }
@@ -67,7 +70,7 @@ header {
         text-transform: uppercase;
         font-weight: 600;
         p {
-            margin-top: 9%;
+            margin-top: 2%;
             letter-spacing: 0.1rem;
         }
     }
@@ -89,6 +92,7 @@ header {
 .project-description {
     display: inline-block;
     text-align: left;
+    width: 100%;
     p {
         font-size: 16px;
         font-weight: 400;
@@ -138,7 +142,7 @@ footer {
         }
     }
 
-    .vr-projects {
+    .work-projects {
         img {
             margin: 2%;
             width: 90%;
