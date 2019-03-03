@@ -1,0 +1,15 @@
+.wall-item {
+    position: relative;
+    max-width: 50%;
+    min-width: 0;
+    background: none;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+}
+

@@ -42,8 +42,8 @@ header {
                 height: 100%;
                 left: 0;
             }
-            &:first-child{
-                margin-bottom: 4%;
+            &.twovids{
+                margin-bottom: 2%;
             }
         }
     }
@@ -69,6 +69,13 @@ header {
         font-size: 25px;
         text-transform: uppercase;
         font-weight: 600;
+        a {
+                color: #252525;
+                &:hover{
+                    color: #b78c6f;
+                    transition: easein;
+                }
+            }
         p {
             margin-top: 2%;
             letter-spacing: 0.1rem;
