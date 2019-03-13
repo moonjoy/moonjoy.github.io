@@ -111,6 +111,7 @@ a {
     top: 250px;
     left: 152px;
     line-height: 1.6;
+    width: 34%;
     .intro-email {
         color: #b78c6f;
     }
@@ -146,7 +147,8 @@ a {
     position: fixed;
     z-index: 0;
     top: 24.6%;
-    left: 38%;
+    left: 46%;
+    width: 60%;
     opacity: 0;
     animation: appear-text 1s linear forwards;
     animation-delay: 1.5s;
@@ -187,8 +189,8 @@ a {
 .title {
     font-size: 62px;
     position: absolute;
-    top: 246px;
-    right: 470px;
+    top: 35%;
+    right: 14%;
     span {
         opacity: 0;
         background-color: #ffffff91;
@@ -227,8 +229,8 @@ a {
 
 .tag-line {
     position: fixed;
-    top: 595px;
-    left: 851px;
+    bottom: 25%;
+    right: 22%;
     padding: 10px 30px;
     color: #6f6f6f;
     font-size: 13px;
