@@ -105,6 +105,22 @@ header {
             color: #b68c70;
             line-height: 2;
         }
+
+        &.project-info-title {
+        font-size: 30px;
+        font-weight: 400;
+        }
+
+        &.project-info-sub-title {
+        font-size: 20px;
+        font-weight: 400;
+        }
+
+        &.statement {
+            font-size: 30px;
+            color: #757575;
+
+        }
     }
 }
 
