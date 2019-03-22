@@ -396,6 +396,9 @@ header {
       color: #757575; }
   .project-description.project-website-des img {
     margin-left: 0; }
+  .project-description.project-website-des hr {
+    border: 0.5px solid #e1e1e1;
+    margin-bottom: 4%; }
 
 .web-images-display {
   margin-bottom: 5%; }
@@ -475,5 +478,25 @@ footer p {
   .work-projects.web-projects .info-wrapper {
     width: 100%;
     margin: 2% 0 0 0; }
+
+footer {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 2% 14% 2% 11%;
+  padding-bottom: 5%; }
+  footer .abt-re {
+    float: left;
+    width: 50%; }
+    footer .abt-re li {
+      display: inline-block;
+      float: left;
+      padding-right: 10%; }
+  footer .oth {
+    float: right;
+    width: 50%; }
+    footer .oth li {
+      display: inline-block;
+      float: right;
+      padding-left: 10%; }
 
 /*# sourceMappingURL=style.css.map */
