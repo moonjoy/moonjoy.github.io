@@ -86,6 +86,11 @@ header {
             word-spacing: 1px;
             color: #4f4f4f;
         }
+        &.project-web {
+            p{
+                margin-top: 0;
+            }
+        }
     }
 }
 
@@ -121,6 +126,23 @@ header {
             color: #757575;
 
         }
+    }
+
+    &.project-website-des {
+        img {
+            margin-left: 0;
+        }
+    }
+}
+
+.web-images-display{
+    margin-bottom: 5%;
+    p {
+        color:#8d8d8d;
+    }
+
+    img {
+        width: 45%;
     }
 }
 

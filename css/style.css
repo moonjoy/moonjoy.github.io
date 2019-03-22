@@ -368,6 +368,8 @@ header {
     letter-spacing: 0.4px;
     word-spacing: 1px;
     color: #4f4f4f; }
+  .details .project-info.project-web p {
+    margin-top: 0; }
 
 .project-description {
   display: inline-block;
@@ -392,6 +394,15 @@ header {
     .project-description p.statement {
       font-size: 30px;
       color: #757575; }
+  .project-description.project-website-des img {
+    margin-left: 0; }
+
+.web-images-display {
+  margin-bottom: 5%; }
+  .web-images-display p {
+    color: #8d8d8d; }
+  .web-images-display img {
+    width: 45%; }
 
 .project-tags {
   text-align: left;
