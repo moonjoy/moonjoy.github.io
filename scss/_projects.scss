@@ -199,13 +199,13 @@ footer {
     display: inline-block;
     margin-top: 5%;
 
-    div {
-        &:first-child{
+
+       .project-des-left{
             position: absolute;
             float: left;
             width: 25%;
             text-align: center;
-            p {
+            .purple-back{
                 padding-top: 20%;
                 span {
                 font-size: 40px;
@@ -213,9 +213,9 @@ footer {
                 color: #fff;
                 }
             }
-
         }
-        &:last-child{
+
+        .project-des-right{
             float: right;
             width: 60%;
             p {
@@ -225,5 +225,5 @@ footer {
             }
         }
     }
-}
+
 

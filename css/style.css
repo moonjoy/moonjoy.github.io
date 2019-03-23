@@ -96,7 +96,7 @@ a {
   list-style: none;
   position: fixed;
   right: 26px;
-  top: 77%;
+  top: 70%;
   padding: 10px 10px; }
   .media ul li {
     font-size: 18px;
@@ -437,21 +437,21 @@ footer p {
 .project-two-des {
   display: inline-block;
   margin-top: 5%; }
-  .project-two-des div:first-child {
+  .project-two-des .project-des-left {
     position: absolute;
     float: left;
     width: 25%;
     text-align: center; }
-    .project-two-des div:first-child p {
+    .project-two-des .project-des-left .purple-back {
       padding-top: 20%; }
-      .project-two-des div:first-child p span {
+      .project-two-des .project-des-left .purple-back span {
         font-size: 40px;
         background-color: #71205A;
         color: #fff; }
-  .project-two-des div:last-child {
+  .project-two-des .project-des-right {
     float: right;
     width: 60%; }
-    .project-two-des div:last-child p span {
+    .project-two-des .project-des-right p span {
       font-size: 20px; }
 
 .wall-item {
