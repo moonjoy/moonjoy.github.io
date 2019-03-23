@@ -1,10 +1,11 @@
 .wrapper {
     width: 90%;
     margin: 0 auto;
+    padding: 0 10%;
 }
 
 header {
-    margin: 10% 0 6% 14%;
+    margin: 10% 0 6% 0;
     h1 {
         font-size: 48px;
     }
@@ -22,16 +23,15 @@ header {
 
 .work-projects {
     text-align: center;
-    width: 100%;
 
     img {
-        margin: 1%;
-        width: 72%;
+        // margin: 1%;
+        width: 100%;
     }
 
     .video-wrapper{
-        max-width: 72%;
-        margin: 0 auto 2% auto;
+        // max-width: 72%;
+        // margin: 0 auto 2% auto;
 
         .iframe-container{
             position: relative;
@@ -59,7 +59,7 @@ header {
 }
 
 .info-wrapper {
-    width: 72%;
+    // width: 72%;
     margin: 0 auto;
 }
 
@@ -69,6 +69,7 @@ header {
         font-size: 25px;
         text-transform: uppercase;
         font-weight: 600;
+        margin-top: 12px;
 
         p {
             margin-top: 2%;
@@ -189,7 +190,39 @@ footer {
     .work-projects {
         img {
             margin: 2%;
-            width: 90%;
+            width: 100%;
+        }
+    }
+}
+
+.project-two-des {
+    display: inline-block;
+    margin-top: 5%;
+
+    div {
+        &:first-child{
+            position: absolute;
+            float: left;
+            width: 25%;
+            text-align: center;
+            p {
+                padding-top: 20%;
+                span {
+                font-size: 40px;
+                background-color: #71205A;
+                color: #fff;
+                }
+            }
+
+        }
+        &:last-child{
+            float: right;
+            width: 60%;
+            p {
+                span {
+                    font-size: 20px;
+                }
+            }
         }
     }
 }

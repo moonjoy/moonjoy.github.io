@@ -17,6 +17,9 @@ body {
   font-weight: 400;
   color: #252525; }
 
+p {
+  color: #494848; }
+
 nav {
   padding: 8px; }
   nav ul {
@@ -305,10 +308,11 @@ a {
 
 .wrapper {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 10%; }
 
 header {
-  margin: 10% 0 6% 14%; }
+  margin: 10% 0 6% 0; }
   header h1 {
     font-size: 48px; }
   header p {
@@ -322,24 +326,19 @@ header {
     line-height: 1.7; }
 
 .work-projects {
-  text-align: center;
-  width: 100%; }
+  text-align: center; }
   .work-projects img {
-    margin: 1%;
-    width: 72%; }
-  .work-projects .video-wrapper {
-    max-width: 72%;
-    margin: 0 auto 2% auto; }
-    .work-projects .video-wrapper .iframe-container {
-      position: relative;
-      padding-bottom: 56.25%; }
-      .work-projects .video-wrapper .iframe-container iframe {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0; }
-      .work-projects .video-wrapper .iframe-container.twovids {
-        margin-bottom: 2%; }
+    width: 100%; }
+  .work-projects .video-wrapper .iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; }
+    .work-projects .video-wrapper .iframe-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0; }
+    .work-projects .video-wrapper .iframe-container.twovids {
+      margin-bottom: 2%; }
 
 .project-des {
   display: block;
@@ -348,14 +347,14 @@ header {
     padding-top: 3%; }
 
 .info-wrapper {
-  width: 72%;
   margin: 0 auto; }
 
 .details .project-title {
   float: left;
   font-size: 25px;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-top: 12px; }
   .details .project-title p {
     margin-top: 2%;
     letter-spacing: 0.1rem; }
@@ -434,10 +433,29 @@ footer p {
 
   .work-projects img {
     margin: 2%;
-    width: 90%; } }
+    width: 100%; } }
+.project-two-des {
+  display: inline-block;
+  margin-top: 5%; }
+  .project-two-des div:first-child {
+    position: absolute;
+    float: left;
+    width: 25%;
+    text-align: center; }
+    .project-two-des div:first-child p {
+      padding-top: 20%; }
+      .project-two-des div:first-child p span {
+        font-size: 40px;
+        background-color: #71205A;
+        color: #fff; }
+  .project-two-des div:last-child {
+    float: right;
+    width: 60%; }
+    .project-two-des div:last-child p span {
+      font-size: 20px; }
+
 .wall-item {
   position: relative;
-  max-width: 50%;
   min-width: 0;
   background: none;
   margin: 0 auto; }
@@ -449,9 +467,7 @@ footer p {
     overflow-y: visible; }
 
 .work-projects.web-projects {
-  width: 100%;
-  text-align: none;
-  padding: 0 12%; }
+  width: 100%; }
   .work-projects.web-projects .project-des {
     width: 47%;
     display: inline-block;
@@ -482,11 +498,12 @@ footer p {
 footer {
   font-size: 16px;
   font-weight: 600;
-  margin: 2% 14% 2% 11%;
+  margin: 2% 0;
   padding-bottom: 5%; }
   footer .abt-re {
     float: left;
-    width: 50%; }
+    width: 50%;
+    padding-left: 0; }
     footer .abt-re li {
       display: inline-block;
       float: left;
