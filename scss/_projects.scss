@@ -74,7 +74,12 @@ header {
         p {
             margin-top: 2%;
             letter-spacing: 0.1rem;
+
+            &:hover{
+                color: #b68c70;
+            }
         }
+
     }
 
     .project-info {

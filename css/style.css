@@ -358,6 +358,8 @@ header {
   .details .project-title p {
     margin-top: 2%;
     letter-spacing: 0.1rem; }
+    .details .project-title p:hover {
+      color: #b68c70; }
 .details .project-info {
   float: right;
   text-align: left; }
