@@ -1,0 +1,167 @@
+
+// web projects
+.web-project1 {
+    background: url(../../images/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "prism";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 72%;
+        left: 96%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.web-one:hover {
+    cursor: pointer;
+    .web-project1{
+      background: url(../../images/web/mfadt/prism.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+
+
+.web-project2 {
+    background: url(../../images/web/cardin/cardin.png) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "album template";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 48%;
+        left: -27%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.web-two:hover {
+    cursor: pointer;
+    .web-project2{
+      background: url(../../images/web/cardin/cardin.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+// VR projects
+
+.vr-project1 {
+    background: url(../../images/vr/magikku/magikku.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "magikku";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 72%;
+        left: 96%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.vr-one:hover {
+    cursor: pointer;
+    .vr-project1{
+      background: url(../../images/vr/magikku/magikku.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+
+.vr-project2 {
+    background: url(../../images/vr/mythicalland/mythicalland.png) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "mythical land";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 48%;
+        left: -27%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.vr-two:hover {
+    cursor: pointer;
+    .vr-project2{
+      background: url(../../images/vr/mythicalland/mythicalland.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+
+
+// motion project
+
+.motion-project1 {
+    background: url(../../images/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "chagu bakha";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 72%;
+        left: 96%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.motion-one:hover {
+    cursor: pointer;
+    .motion-project1{
+      background: url(../../images/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+
+.motion-project2 {
+    background: url(../../images/motion/micdrop/micdrop.png) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "mic drop";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 48%;
+        left: -27%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.motion-two:hover {
+    cursor: pointer;
+    .motion-project2{
+      background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
