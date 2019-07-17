@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .whitespace {
@@ -274,6 +274,8 @@ nav {
       #resize li:nth-child(1) {
           margin-top: 70px !important;
       }
+
+
 
 }
 
