@@ -593,7 +593,7 @@ h6 {
 
             &.project2 {
                 &::after {
-                    top: 3%;
+                    top: -7%;
                     left: 1%;
                     font-size: 29px;
                   }
@@ -840,6 +840,7 @@ textarea:focus {
             margin: 5% -8%;
             width: 98%;
       }
+
 }
 
 /*--------------- project page --------------- */
@@ -860,6 +861,7 @@ textarea:focus {
 .client-images {
   border-top: 1px solid #191919;
   border-bottom: 1px solid #191919;
+  margin-bottom: 20%;
   div {
       padding: 20px;
       img {

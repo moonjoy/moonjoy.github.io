@@ -422,7 +422,7 @@ h6 {
       left: 0%;
       font-size: 29px; }
     .project.project2::after {
-      top: 3%;
+      top: -7%;
       left: 1%;
       font-size: 29px; }
     .project.project3::after {
@@ -612,7 +612,8 @@ textarea:focus {
 
 .client-images {
   border-top: 1px solid #191919;
-  border-bottom: 1px solid #191919; }
+  border-bottom: 1px solid #191919;
+  margin-bottom: 20%; }
   .client-images div {
     padding: 20px; }
     .client-images div img {
@@ -786,6 +787,26 @@ textarea:focus {
 
 @media (max-width: 768px) {
   .project {
-    height: 350px; } }
+    height: 350px; }
+
+  .web-project1::after, .web-project2::after, .vr-project1::after, .vr-project2::after, .motion-project1::after, .motion-project2::after {
+    top: 6%;
+    left: 0%;
+    font-size: 22px; } }
+/*---------------about page --------------- */
+.about {
+  height: 500px;
+  margin-top: 120px; }
+
+.image {
+  background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%; }
+
+.s-portrait {
+  width: 90%; }
+
+@media (max-width: 768px) {
+  .s-portrait {
+    width: 50% !important;
+    margin: 10% 0; } }
 
 /*# sourceMappingURL=main.css.map */

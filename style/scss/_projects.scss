@@ -172,4 +172,10 @@
     .project {
         height: 350px;
     }
+
+    .web-project1::after, .web-project2::after, .vr-project1::after, .vr-project2::after, .motion-project1::after, .motion-project2::after  {
+        top: 6%;
+        left: 0%;
+        font-size: 22px;
+    }
 }
