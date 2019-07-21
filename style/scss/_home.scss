@@ -565,47 +565,53 @@ h6 {
   padding-bottom: 56.25%;
   height: 0;
       iframe{
-      position: absolute;
-      top:0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }
 
 
-
-
 @media(max-width: 768px) {
+      .project-sm-space {
+          padding-top: 8%;
+      }
+
       .project {
             width: 90% !important;
             margin: 14px auto;
 
             &.project1 {
                 &::after {
-                    top: 93%;
-                    left: 62%;
+                    top: -5%;
+                    left: 0%;
+                    font-size: 29px;
                   }
             }
 
             &.project2 {
                 &::after {
-                    top: 86%;
-                    left: 75%;
+                    top: 3%;
+                    left: 1%;
+                    font-size: 29px;
                   }
             }
 
             &.project3 {
                 &::after {
-                    top: 77%;
-                    left: 81%;
+                    top: 11%;
+                    left: 1%;
+                    font-size: 29px;
                   }
             }
 
             &.project4 {
                 &::after {
-                    top: 94%;
-                    left: 75%;
+                    top: -5%;
+                    left: 1%;
+                    font-size: 29px;
                   }
             }
       }

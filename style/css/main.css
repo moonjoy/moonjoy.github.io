@@ -411,21 +411,28 @@ h6 {
     height: 100%; }
 
 @media (max-width: 768px) {
+  .project-sm-space {
+    padding-top: 8%; }
+
   .project {
     width: 90% !important;
     margin: 14px auto; }
     .project.project1::after {
-      top: 93%;
-      left: 62%; }
+      top: -5%;
+      left: 0%;
+      font-size: 29px; }
     .project.project2::after {
-      top: 86%;
-      left: 75%; }
+      top: 3%;
+      left: 1%;
+      font-size: 29px; }
     .project.project3::after {
-      top: 77%;
-      left: 81%; }
+      top: 11%;
+      left: 1%;
+      font-size: 29px; }
     .project.project4::after {
-      top: 94%;
-      left: 75%; }
+      top: -5%;
+      left: 1%;
+      font-size: 29px; }
 
   .vertical {
     display: none; }
