@@ -804,6 +804,9 @@ textarea:focus {
 .s-portrait {
   width: 90%; }
 
+.d-portrait {
+  padding: 4% 0; }
+
 @media (max-width: 768px) {
   .s-portrait {
     width: 50% !important;
