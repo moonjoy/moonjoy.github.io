@@ -784,4 +784,8 @@ textarea:focus {
     background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
     background-size: 100%; }
 
+@media (max-width: 768px) {
+  .project {
+    height: 350px; } }
+
 /*# sourceMappingURL=main.css.map */

@@ -165,3 +165,11 @@
       background-size: 100%;
     }
 }
+
+
+
+@media(max-width: 768px) {
+    .project {
+        height: 350px;
+    }
+}
