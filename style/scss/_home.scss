@@ -580,15 +580,54 @@ h6 {
       .project {
             width: 90% !important;
             margin: 14px auto;
+
+            &.project1 {
+                &::after {
+                    top: 93%;
+                    left: 62%;
+                  }
+            }
+
+            &.project2 {
+                &::after {
+                    top: 86%;
+                    left: 75%;
+                  }
+            }
+
+            &.project3 {
+                &::after {
+                    top: 77%;
+                    left: 81%;
+                  }
+            }
+
+            &.project4 {
+                &::after {
+                    top: 94%;
+                    left: 75%;
+                  }
+            }
       }
 
       .vertical {
             display: none;
       }
 
-      .project1::after, .project2::after, .project3::after, .project4::after {
-            display: none;
+      .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
+        display: none !important;
       }
+
+      // .project-one:hover, .project-one:focus {
+      //   .project-des1::after {
+      //     top: 26%;
+      //     left: 7%;
+      //     width: 87%;
+      //   }
+      // }
+
+
+
 }
 
 /*--------------- footer section --------------- */
