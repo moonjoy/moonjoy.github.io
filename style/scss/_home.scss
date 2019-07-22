@@ -573,6 +573,18 @@ h6 {
     }
 }
 
+.web-link {
+  &:hover {
+    color: #ccc;
+  }
+
+  span {
+    font-size: 13px;
+    font-weight: 100;
+
+  }
+}
+
 
 @media(max-width: 768px) {
       .project-sm-space {

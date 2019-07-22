@@ -410,6 +410,12 @@ h6 {
     width: 100%;
     height: 100%; }
 
+.web-link:hover {
+  color: #ccc; }
+.web-link span {
+  font-size: 13px;
+  font-weight: 100; }
+
 @media (max-width: 768px) {
   .project-sm-space {
     padding-top: 8%; }
