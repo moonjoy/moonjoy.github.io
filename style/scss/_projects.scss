@@ -152,7 +152,7 @@
         color: #fff;
         display: block;
         top: 48%;
-        left: -27%;
+        left: -13%;
         right: 0;
         bottom: 0;
   }
@@ -162,6 +162,61 @@
     cursor: pointer;
     .motion-project2{
       background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+
+.motion-project3 {
+    background: url(../../images/motion/divergent/divergent.png) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "divergent";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 72%;
+        left: 96%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.motion-three:hover {
+    cursor: pointer;
+    .motion-project3{
+      background: url(../../images/motion/divergent/divergent.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+}
+
+
+
+.motion-project4 {
+    background: url(../../images/motion/free/free.jpg) no-repeat 50% 50%;
+    background-size: 100%;
+
+    &::after {
+        content: "be free";
+        font-family: "Roboto Mono";
+        font-size: 36px;
+        position: relative;
+        color: #fff;
+        display: block;
+        top: 78%;
+        left: -13%;
+        right: 0;
+        bottom: 0;
+  }
+}
+
+.motion-four:hover {
+    cursor: pointer;
+    .motion-project4{
+      background: url(../../images/motion/free/free.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
