@@ -833,6 +833,69 @@ textarea:focus {
     background: url(../../images/motion/free/free.gif) no-repeat 50% 50%;
     background-size: 100%; }
 
+.motion-project5 {
+  background: url(../../images/motion/childcare/childcare.jpg) no-repeat 50% 50%;
+  background-size: 100%; }
+  .motion-project5::after {
+    content: "childcare";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 72%;
+    left: 96%;
+    right: 0;
+    bottom: 0; }
+
+.motion-five:hover {
+  cursor: pointer; }
+  .motion-five:hover .motion-project5 {
+    background: url(../../images/motion/childcare/childcare.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+
+.motion-project6 {
+  background: url(../../images/motion/phantom/phantom.jpg) no-repeat 50% 50%;
+  background-size: 100%; }
+  .motion-project6::after {
+    content: "phantom";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 78%;
+    left: -13%;
+    right: 0;
+    bottom: 0; }
+
+.motion-six:hover {
+  cursor: pointer; }
+  .motion-six:hover .motion-project6 {
+    background: url(../../images/motion/phantom/phntom.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+
+.motion-project7 {
+  background: url(../../images/motion/mandala/mandala.jpg) no-repeat 50% 50%;
+  background-size: 100%; }
+  .motion-project7::after {
+    content: "asthamangala";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    color: #fff;
+    display: block;
+    top: 72%;
+    left: 96%;
+    right: 0;
+    bottom: 0; }
+
+.motion-seven:hover {
+  cursor: pointer; }
+  .motion-seven:hover .motion-project7 {
+    background: url(../../images/motion/mandala/mandala.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+
 @media (max-width: 768px) {
   .project {
     height: 350px; }
