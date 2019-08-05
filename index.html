@@ -26,6 +26,7 @@
       <!-- for on scroll animations -->
       <link rel="stylesheet" href="style/css/animate.css">
       <script src="js/wow.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
 
 </head>
 <body>
@@ -71,7 +72,9 @@
             <!-- hero section -->
             <div class="hero">
                   <div class="header">
-                        <h1 class="line anim-typewriter">I am a designer.</h1>
+                        <h1 class="line reveal-text">Conceptual Design</h1>
+                        <h1 class="line reveal-text">Rapid Prototyping</h1>
+                        <h1 class="line reveal-text">Usability Testing</h1>
                   </div>
             </div>
 
@@ -241,6 +244,16 @@
       // nav animation ends
 
       new WOW().init();
+
+
+      const text = baffle (".reveal-text");
+      text.set({
+            characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
+            speed: 120
+      });
+
+      text.start();
+      text.reveal(4000)
 
       </script>
 </body>

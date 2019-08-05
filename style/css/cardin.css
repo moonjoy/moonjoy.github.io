@@ -5,109 +5,129 @@ html, body {
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+}
 
 a {
-  color: #f3dad8 !important; }
-  a:hover {
-    cursor: pointer;
-    color: #fff !important;
-    text-decoration: none !important; }
+  color: #f3dad8 !important;
+}
+a:hover {
+  cursor: pointer;
+  color: #fff !important;
+  text-decoration: none !important;
+}
 
 .wrapper .left-col, .wrapper .right-col {
   height: 100vh !important;
-  font-family: 'Poppins', sans-serif;
-  color: #fff; }
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
 
 .upper {
   height: 50vh;
-  background: #8b5d5a; }
+  background: #8b5d5a;
+}
 
 .bottom {
   height: 50vh;
-  background: red; }
+  background: red;
+}
 
 .play, .next ion-icon {
   color: #fff;
   opacity: 0.6;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 2em; }
+  padding: 2em;
+}
 
 .left-col {
   background: #c08c44;
   padding: 1% 2% !important;
   opacity: 0;
   animation: appear-text 0.0001s linear forwards;
-  animation-delay: 1.5s; }
-  .left-col .left-top .logo {
-    display: inline-block;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 1.5px; }
-    .left-col .left-top .logo a {
-      color: #fff !important; }
-  .left-col .left-top .concert {
-    display: inline-block;
-    float: right;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-    color: #feeacf; }
-  .left-col .cover-container {
-    text-align: center;
-    padding: 8% 2% 7% 2%;
-    position: relative; }
-    .left-col .cover-container .cover {
-      background: url(../../pages/web/cardin/charlotte.jpg) no-repeat 50% 50%;
-      background-size: cover;
-      width: 400px;
-      height: 470px;
-      display: inline-block;
-      opacity: 0;
-      animation: appear-text 0.0001s linear forwards;
-      animation-delay: 2.6s; }
-      .left-col .cover-container .cover .play {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); }
-    .left-col .cover-container .album {
-      position: absolute;
-      top: 30%;
-      left: 22%;
-      text-transform: uppercase;
-      letter-spacing: 4px;
-      font-weight: bolder;
-      text-align: left; }
-      .left-col .cover-container .album .album-artist {
-        font-size: 10px;
-        font-weight: normal; }
-  .left-col .release-date {
-    position: absolute;
-    bottom: 7%;
-    color: #fcdeb5;
-    letter-spacing: 1.5px; }
-    .left-col .release-date p {
-      transform: rotate(-90deg); }
+  animation-delay: 1.5s;
+}
+.left-col .left-top .logo {
+  display: inline-block;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.left-col .left-top .logo a {
+  color: #fff !important;
+}
+.left-col .left-top .concert {
+  display: inline-block;
+  float: right;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  color: #feeacf;
+}
+.left-col .cover-container {
+  text-align: center;
+  padding: 8% 2% 7% 2%;
+  position: relative;
+}
+.left-col .cover-container .cover {
+  background: url(../../pages/web/cardin/charlotte.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  width: 400px;
+  height: 470px;
+  display: inline-block;
+  opacity: 0;
+  animation: appear-text 0.0001s linear forwards;
+  animation-delay: 2.6s;
+}
+.left-col .cover-container .cover .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left-col .cover-container .album {
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  text-align: left;
+}
+.left-col .cover-container .album .album-artist {
+  font-size: 10px;
+  font-weight: normal;
+}
+.left-col .release-date {
+  position: absolute;
+  bottom: 7%;
+  color: #fcdeb5;
+  letter-spacing: 1.5px;
+}
+.left-col .release-date p {
+  transform: rotate(-90deg);
+}
 
 .left-cover {
   position: absolute;
   transform: translate -50%, -50%;
   width: 60%;
-  height: 100%; }
-  .left-cover::after {
-    content: '';
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    background: #fff;
-    animation: rev-block 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-    animation-delay: 1s;
-    clear: both; }
+  height: 100%;
+}
+.left-cover::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #fff;
+  animation: rev-block 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 1s;
+  clear: both;
+}
 
 .block-cover {
   position: absolute;
@@ -115,46 +135,56 @@ a {
   left: 26.7%;
   transform: translate -50%, -50%;
   width: 46.7%;
-  height: 65.5%; }
-  .block-cover::after {
-    content: '';
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    background: #c2c3bc;
-    animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-    animation-delay: 2s;
-    clear: both; }
+  height: 65.5%;
+}
+.block-cover::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #c2c3bc;
+  animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 2s;
+  clear: both;
+}
 
 .upper, .bottom {
-  padding: 4% 6%; }
+  padding: 4% 6%;
+}
 
 .right-col .upper {
   color: #f3dad8;
   text-transform: uppercase;
   opacity: 0;
   animation: appear-text 0.0001s linear forwards;
-  animation-delay: 2.4s; }
-  .right-col .upper .about {
-    padding-top: 30px;
-    padding-left: 15px; }
-    .right-col .upper .about h1 {
-      font-weight: bolder;
-      margin-bottom: 20px; }
-    .right-col .upper .about p {
-      letter-spacing: 4px;
-      font-size: 10px;
-      margin-bottom: 10px; }
-    .right-col .upper .about .media-share {
-      margin-top: 50px; }
-    .right-col .upper .about .media ul {
-      list-style: none;
-      padding: 0; }
-      .right-col .upper .about .media ul li {
-        display: inline-block;
-        padding-right: 10px; }
+  animation-delay: 2.4s;
+}
+.right-col .upper .about {
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.right-col .upper .about h1 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.right-col .upper .about p {
+  letter-spacing: 4px;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.right-col .upper .about .media-share {
+  margin-top: 50px;
+}
+.right-col .upper .about .media ul {
+  list-style: none;
+  padding: 0;
+}
+.right-col .upper .about .media ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
 .right-col .bottom {
   width: 150%;
   background: url(../../pages/web/cardin/cardin.jpg) no-repeat 50% 64%;
@@ -162,20 +192,24 @@ a {
   filter: grayscale(60%);
   opacity: 0;
   animation: appear-text 0.0001s linear forwards;
-  animation-delay: 2.9s; }
-  .right-col .bottom .next {
-    margin: 2%; }
-  .right-col .bottom .data2 {
-    padding: 3.5%;
-    color: #f3dad8;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 14px; }
-  .right-col .bottom .more {
-    width: 100%;
-    margin: 18% 4%;
-    font-size: 12px;
-    letter-spacing: 1.5px; }
+  animation-delay: 2.9s;
+}
+.right-col .bottom .next {
+  margin: 2%;
+}
+.right-col .bottom .data2 {
+  padding: 3.5%;
+  color: #f3dad8;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+}
+.right-col .bottom .more {
+  width: 100%;
+  margin: 18% 4%;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
 
 .upper-block {
   position: absolute;
@@ -183,18 +217,20 @@ a {
   left: 0%;
   transform: translate -50%, -50%;
   width: 100%;
-  height: 50%; }
-  .upper-block::after {
-    content: '';
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    background: #c48a86;
-    animation: rev-block 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-    animation-delay: 2.2s;
-    clear: both; }
+  height: 50%;
+}
+.upper-block::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #c48a86;
+  animation: rev-block 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 2.2s;
+  clear: both;
+}
 
 .bottom-block {
   position: absolute;
@@ -202,66 +238,85 @@ a {
   left: 0%;
   transform: translate -50%, -50%;
   width: 100%;
-  height: 50%; }
-  .bottom-block::after {
-    content: '';
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    background: #333335;
-    animation: rev-block 2.2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
-    animation-delay: 2.4s;
-    clear: both; }
+  height: 50%;
+}
+.bottom-block::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background: #333335;
+  animation: rev-block 2.2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+  animation-delay: 2.4s;
+  clear: both;
+}
 
 @keyframes rev-block {
   0% {
     left: 0;
-    width: 0%; }
+    width: 0%;
+  }
   50% {
     left: 0;
-    width: 100%; }
+    width: 100%;
+  }
   100% {
     left: 100%;
-    width: 0%; } }
+    width: 0%;
+  }
+}
 @keyframes appear-text {
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 @media (max-width: 900px) {
   html, body {
-    overflow-y: scroll !important; }
+    overflow-y: scroll !important;
+  }
 
   .left-cover {
-    width: 110%; }
+    width: 110%;
+  }
 
   .cover-container {
-    padding-top: 15% !important; }
+    padding-top: 15% !important;
+  }
 
   .left-top {
-    padding: 1% 4% !important; }
+    padding: 1% 4% !important;
+  }
 
   .cover {
     width: 350px !important;
-    height: 470px !important; }
+    height: 470px !important;
+  }
 
   .album {
     top: 30% !important;
-    left: 9% !important; }
+    left: 9% !important;
+  }
 
   .more {
-    margin: 6% 4% 1% 3% !important; }
+    margin: 6% 4% 1% 3% !important;
+  }
 
   .left-col {
-    animation-delay: 1s; }
+    animation-delay: 1s;
+  }
 
   .block-cover {
     top: 18.37%;
     left: 17%;
     transform: translate -50%, -50%;
     width: 66%;
-    height: 65.5%; } }
+    height: 65.5%;
+  }
+}
 
 /*# sourceMappingURL=cardin.css.map */

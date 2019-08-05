@@ -34,56 +34,62 @@ a {
     }
 }
 
+/*--------------- typewriter effect --------------- */
+
+.reveal-text {
+  margin-bottom: 15px;
+}
+
 
 /*--------------- typewriter effect --------------- */
-.line {
-      width: 24em;
-      top: 50%;
-      margin: auto;
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
-      text-align: center;
-      white-space: nowrap;
-      overflow: hidden;
-      transform: translateY(-50%);
-}
+// .line {
+//       width: 24em;
+//       top: 50%;
+//       margin: auto;
+//       border-right: 2px solid rgba(255, 255, 255, 0.75);
+//       text-align: center;
+//       white-space: nowrap;
+//       overflow: hidden;
+//       transform: translateY(-50%);
+// }
 
-.anim-typewriter {
-      animation: typewriter 2.5s steps(40) 1s 1 normal both,
-      blinkTextCussor 500ms steps(40) infinite normal;
-}
+// .anim-typewriter {
+//       animation: typewriter 2.5s steps(40) 1s 1 normal both,
+//       blinkTextCussor 500ms steps(40) infinite normal;
+// }
 
-@keyframes typewriter {
-      from {
-            width: 0;
-      }
-      to {
-            width: 9em;
-      }
-}
+// @keyframes typewriter {
+//       from {
+//             width: 0;
+//       }
+//       to {
+//             width: 9em;
+//       }
+// }
 
-@media(max-width: 768px) {
-    .whitespace {
-            display: none;
-      }
+// @media(max-width: 768px) {
+//     .whitespace {
+//             display: none;
+//       }
 
-      @keyframes typewriter {
-            from {
-                  width: 0;
-            }
-            to {
-                  width: 9em;
-            }
-      }
-}
+//       @keyframes typewriter {
+//             from {
+//                   width: 0;
+//             }
+//             to {
+//                   width: 9em;
+//             }
+//       }
+// }
 
-@keyframes blinkTextCussor {
-      from {
-            border-right-color: rgba(255, 255, 255, 0.75);
-      }
-      to {
-            border-right-color: transparent;
-      }
-}
+// @keyframes blinkTextCussor {
+//       from {
+//             border-right-color: rgba(255, 255, 255, 0.75);
+//       }
+//       to {
+//             border-right-color: transparent;
+//       }
+// }
 
 /*--------------- navigation --------------- */
 nav {
