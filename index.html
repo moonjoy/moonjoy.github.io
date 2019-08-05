@@ -72,9 +72,9 @@
             <!-- hero section -->
             <div class="hero">
                   <div class="header">
-                        <h1 class="line reveal-text">Conceptual Design</h1>
-                        <h1 class="line reveal-text">Rapid Prototyping</h1>
-                        <h1 class="line reveal-text">Usability Testing</h1>
+                        <h1 class="line reveal-text-one">Conceptual Design</h1>
+                        <h1 class="line reveal-text-two">Rapid Prototyping</h1>
+                        <h1 class="line reveal-text-three">Usability Testing</h1>
                   </div>
             </div>
 
@@ -246,14 +246,34 @@
       new WOW().init();
 
 
-      const text = baffle (".reveal-text");
-      text.set({
+      const textone = baffle (".reveal-text-one");
+      textone.set({
             characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
             speed: 120
       });
 
-      text.start();
-      text.reveal(4000)
+      textone.start();
+      textone.reveal(1000)
+
+
+      const texttwo = baffle (".reveal-text-two");
+      texttwo.set({
+            characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
+            speed: 200
+      });
+
+      texttwo.start();
+      texttwo.reveal(2500)
+
+
+      const textthree = baffle (".reveal-text-three");
+      textthree.set({
+            characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
+            speed: 300
+      });
+
+      textthree.start();
+      textthree.reveal(3000)
 
       </script>
 </body>
