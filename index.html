@@ -229,14 +229,14 @@
       // nav animation
 
       TweenMax.from("#brand", 1, {
-            delay: 0.4,
+            delay: 1.7,
             y: 10,
             opacity: 0,
             ease: Expo.easeInOut
       })
 
       TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
+            delay: 1.7,
             opacity: 0,
             ease: Expo.easeInOut
       }, 0.1);
@@ -249,31 +249,31 @@
       const textone = baffle (".reveal-text-one");
       textone.set({
             characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
-            speed: 120
+            speed: 70
       });
 
       textone.start();
-      textone.reveal(1000)
+      textone.reveal(700)
 
 
       const texttwo = baffle (".reveal-text-two");
       texttwo.set({
             characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
-            speed: 200
+            speed: 150
       });
 
       texttwo.start();
-      texttwo.reveal(2500)
+      texttwo.reveal(1600)
 
 
       const textthree = baffle (".reveal-text-three");
       textthree.set({
             characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
-            speed: 280
+            speed: 200
       });
 
       textthree.start();
-      textthree.reveal(3000)
+      textthree.reveal(2000)
 
       </script>
 </body>
