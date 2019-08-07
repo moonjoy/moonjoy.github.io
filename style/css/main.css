@@ -775,7 +775,7 @@ textarea:focus {
 
 .hero-para {
   text-align: center;
-  margin: 2rem 0 6rem 0;
+  margin: 2rem 0;
 }
 
 @media (max-width: 768px) {
