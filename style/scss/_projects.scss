@@ -1,7 +1,7 @@
 
 // web projects
 .web-project1 {
-    background: url(../../images/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+    background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -21,7 +21,7 @@
 .web-one:hover {
     cursor: pointer;
     .web-project1{
-      background: url(../../images/web/mfadt/prism.gif) no-repeat 50% 50%;
+      background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -29,7 +29,7 @@
 
 
 .web-project2 {
-    background: url(../../images/web/cardin/cardin.png) no-repeat 50% 50%;
+    background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -49,7 +49,7 @@
 .web-two:hover {
     cursor: pointer;
     .web-project2{
-      background: url(../../images/web/cardin/cardin.gif) no-repeat 50% 50%;
+      background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -57,7 +57,7 @@
 // VR projects
 
 .vr-project1 {
-    background: url(../../images/vr/magikku/magikku.jpg) no-repeat 50% 50%;
+    background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -77,14 +77,14 @@
 .vr-one:hover {
     cursor: pointer;
     .vr-project1{
-      background: url(../../images/vr/magikku/magikku.gif) no-repeat 50% 50%;
+      background: url(../../projects/vr/magikku/magikku.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
 
 
 .vr-project2 {
-    background: url(../../images/vr/mythicalland/mythicalland.png) no-repeat 50% 50%;
+    background: url(../../projects/vr/mythicalland/mythicalland.png) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -104,7 +104,7 @@
 .vr-two:hover {
     cursor: pointer;
     .vr-project2{
-      background: url(../../images/vr/mythicalland/mythicalland.gif) no-repeat 50% 50%;
+      background: url(../../projects/vr/mythicalland/mythicalland.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -114,7 +114,7 @@
 // motion project
 
 .motion-project1 {
-    background: url(../../images/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
+    background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -134,14 +134,14 @@
 .motion-one:hover {
     cursor: pointer;
     .motion-project1{
-      background: url(../../images/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
 
 
 .motion-project2 {
-    background: url(../../images/motion/micdrop/micdrop.png) no-repeat 50% 50%;
+    background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -161,14 +161,14 @@
 .motion-two:hover {
     cursor: pointer;
     .motion-project2{
-      background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
 
 
 .motion-project3 {
-    background: url(../../images/motion/divergent/divergent.png) no-repeat 50% 50%;
+    background: url(../../projects/motion/divergent/divergent.png) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -188,7 +188,7 @@
 .motion-three:hover {
     cursor: pointer;
     .motion-project3{
-      background: url(../../images/motion/divergent/divergent.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/divergent/divergent.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -196,7 +196,7 @@
 
 
 .motion-project4 {
-    background: url(../../images/motion/free/free.jpg) no-repeat 50% 50%;
+    background: url(../../projects/motion/free/free.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -216,7 +216,7 @@
 .motion-four:hover {
     cursor: pointer;
     .motion-project4{
-      background: url(../../images/motion/free/free.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/free/free.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -225,7 +225,7 @@
 
 
 .motion-project5 {
-    background: url(../../images/motion/childcare/childcare.jpg) no-repeat 50% 50%;
+    background: url(../../projects/motion/childcare/childcare.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -245,7 +245,7 @@
 .motion-five:hover {
     cursor: pointer;
     .motion-project5{
-      background: url(../../images/motion/childcare/childcare.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/childcare/childcare.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -254,7 +254,7 @@
 
 
 .motion-project6 {
-    background: url(../../images/motion/phantom/phantom.jpg) no-repeat 50% 50%;
+    background: url(../../projects/motion/phantom/phantom.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -274,7 +274,7 @@
 .motion-six:hover {
     cursor: pointer;
     .motion-project6{
-      background: url(../../images/motion/phantom/phantom.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/phantom/phantom.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -284,7 +284,7 @@
 
 
 .motion-project7 {
-    background: url(../../images/motion/mandala/mandala.jpg) no-repeat 50% 50%;
+    background: url(../../projects/motion/mandala/mandala.jpg) no-repeat 50% 50%;
     background-size: 100%;
 
     &::after {
@@ -304,7 +304,7 @@
 .motion-seven:hover {
     cursor: pointer;
     .motion-project7{
-      background: url(../../images/motion/mandala/mandala.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/mandala/mandala.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }

@@ -34,6 +34,10 @@ a {
     }
 }
 
+.container .web-container {
+  margin-bottom: 10%;
+}
+
 /*--------------- typewriter effect --------------- */
 
 .reveal-text {
@@ -363,7 +367,7 @@ h6 {
       height: 500px;
 
         &.project1 {
-              background: url(../../images/motion/chapubakha/chapubakha.jpg) no-repeat 31% 50%;
+              background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 31% 50%;
               background-size: cover;
               &::after {
                   content: "chagu bakha";
@@ -378,7 +382,7 @@ h6 {
                   bottom: 0;
             }
             // &:hover {
-            //   background: url(../../images/chapubakha/chapubakha.gif) no-repeat 40% 50%;
+            //   background: url(../../projects/chapubakha/chapubakha.gif) no-repeat 40% 50%;
             //   cursor: pointer;
             //   background-size: cover;
             // }
@@ -386,8 +390,8 @@ h6 {
         }
 
       &.project2 {
-          background: url(../../images/vr/magikku/magikku.jpg) no-repeat 80% 50%;
-          // background-size: cover;
+          background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 80% 50%;
+          background-size: 100%;
 
           &::after {
                   content: "magikku";
@@ -397,12 +401,12 @@ h6 {
                   color: #fff;
                   display: block;
                   top: 12%;
-                  left: -15%;
+                  left: 95%;
                   right: 0;
                   bottom: 0;
             }
             // &:hover {
-            //   background: url(../../images/magikku/magikku.gif) no-repeat 80% 50%;
+            //   background: url(../../projects/magikku/magikku.gif) no-repeat 80% 50%;
             //   cursor: pointer;
             // }
         }
@@ -410,7 +414,7 @@ h6 {
 
 
         &.project3 {
-              background: url(../../images/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+              background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
               background-size: 100%;
 
               &::after {
@@ -426,7 +430,7 @@ h6 {
                   bottom: 0;
             }
             //  &:hover {
-            //   background: url(../../images/mfadt/mfadt.gif) no-repeat 50% 50%;
+            //   background: url(../../projects/mfadt/mfadt.gif) no-repeat 50% 50%;
             //   cursor: pointer;
             //   background-size: 100%;
             // }
@@ -441,7 +445,7 @@ h6 {
 
 
         &.project4 {
-              background: url(../../images/motion/micdrop/micdrop.png) no-repeat 50% 50%;
+              background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
               background-size: cover;
 
               &::after {
@@ -457,7 +461,7 @@ h6 {
                   bottom: 0;
             }
             // &:hover {
-            //   background: url(../../images/micdrop/micdrop2.gif) no-repeat 50% 50%;
+            //   background: url(../../projects/micdrop/micdrop2.gif) no-repeat 50% 50%;
             //   cursor: pointer;
             //   background-size: cover;
             // }
@@ -468,7 +472,7 @@ h6 {
 .project-one:hover {
     cursor: pointer;
     .project1{
-      background: url(../../images/motion/chapubakha/chapubakha.gif) no-repeat 31% 50%;
+      background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 31% 50%;
       background-size: cover;
     }
 }
@@ -476,14 +480,15 @@ h6 {
 .project-two:hover {
     cursor: pointer;
     .project2{
-      background: url(../../images/vr/magikku/magikku.gif) no-repeat 80% 50%;
+      background: url(../../projects/vr/magikku/magikku.gif) no-repeat 80% 50%;
+      background-size: 100%;
     }
 }
 
 .project-three:hover {
     cursor: pointer;
     .project3{
-      background: url(../../images/web/mfadt/prism.gif) no-repeat 50% 50%;
+      background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
       background-size: 100%;
     }
 }
@@ -491,7 +496,7 @@ h6 {
 .project-four:hover {
     cursor: pointer;
     .project4{
-      background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
+      background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
       background-size: cover;
     }
 }
@@ -525,11 +530,11 @@ h6 {
       color: grey;
       display: block;
       top: 40%;
-      left: 25%;
+      left: 10%;
       right: 0;
       bottom: 0;
       width: 70%;
-      text-align: right;
+      text-align: left;
     }
   }
 
@@ -752,29 +757,6 @@ h6 {
       }
 }
 
-/*--------------- work page --------------- */
-
-.hero-content {
-      margin-left: 0%;
-}
-
-.hero-content p {
-      font-weight: 300;
-      line-height: 36px;
-      color: grey;
-}
-
-.hero-content h6 {
-      text-align: left;
-}
-
-@media(max-width: 768px) {
-      .hero-content {
-            padding-top: 50px;
-            width: 96%;
-            margin: 0 auto;
-      }
-}
 
 /*---------------about page --------------- */
 
@@ -783,9 +765,9 @@ h6 {
       margin-top: 120px;
 }
 
-.image {
-      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
-}
+// .image {
+//       background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+// }
 
 /*--------------- contact form --------------- */
 
@@ -870,16 +852,17 @@ textarea:focus {
   }
 }
 
-.client-head {
+.header-text {
   font-size: 1.1rem;
   color: grey;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .client-images {
   border-top: 1px solid #191919;
   border-bottom: 1px solid #191919;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
   div {
       padding: 20px;
       img {
@@ -891,6 +874,29 @@ textarea:focus {
     &:hover{
       background: #ffffff12;
     }
+  }
+}
+
+.ui-project-video {
+    &.inner-vid {
+      margin-bottom: 4%;
+    }
+    video {
+      width: 100% !important;
+      height: auto !important;
+      outline: none !important;
+    }
+  }
+
+.ui-project-description {
+  text-align: left;
+    .ui-project-des-title {
+        margin: 2% 0 1% 0;
+        font-size: 1.7rem;
+      }
+    .ui-project-des-sub {
+        color: #616161;
+   
   }
 }
 

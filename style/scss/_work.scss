@@ -1,17 +1,26 @@
 /*--------------- work page --------------- */
 
+
 .hero-content {
       margin-left: 0%;
 }
 
 .hero-content p {
-      font-weight: 300;
-      line-height: 36px;
-      color: grey;
+    font-weight: 300;
+    line-height: 26px;
+    color: #ababab;
+    font-size: 14px;
+    letter-spacing: px;
+    word-spacing: -1.2px;
 }
 
 .hero-content h6 {
       text-align: left;
+}
+
+.hero-para {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
 }
 
 @media(max-width: 768px) {

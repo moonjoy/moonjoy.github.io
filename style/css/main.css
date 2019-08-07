@@ -33,6 +33,10 @@ a:hover {
   color: #fff;
 }
 
+.container .web-container {
+  margin-bottom: 10%;
+}
+
 /*--------------- typewriter effect --------------- */
 .reveal-text {
   margin-bottom: 15px;
@@ -288,7 +292,7 @@ h6 {
   height: 500px;
 }
 .project.project1 {
-  background: url(../../images/motion/chapubakha/chapubakha.jpg) no-repeat 31% 50%;
+  background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 31% 50%;
   background-size: cover;
 }
 .project.project1::after {
@@ -304,7 +308,8 @@ h6 {
   bottom: 0;
 }
 .project.project2 {
-  background: url(../../images/vr/magikku/magikku.jpg) no-repeat 80% 50%;
+  background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 80% 50%;
+  background-size: 100%;
 }
 .project.project2::after {
   content: "magikku";
@@ -314,12 +319,12 @@ h6 {
   color: #fff;
   display: block;
   top: 12%;
-  left: -15%;
+  left: 95%;
   right: 0;
   bottom: 0;
 }
 .project.project3 {
-  background: url(../../images/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .project.project3::after {
@@ -338,7 +343,7 @@ h6 {
   content: none;
 }
 .project.project4 {
-  background: url(../../images/motion/micdrop/micdrop.png) no-repeat 50% 50%;
+  background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
   background-size: cover;
 }
 .project.project4::after {
@@ -358,7 +363,7 @@ h6 {
   cursor: pointer;
 }
 .project-one:hover .project1 {
-  background: url(../../images/motion/chapubakha/chapubakha.gif) no-repeat 31% 50%;
+  background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 31% 50%;
   background-size: cover;
 }
 
@@ -366,14 +371,15 @@ h6 {
   cursor: pointer;
 }
 .project-two:hover .project2 {
-  background: url(../../images/vr/magikku/magikku.gif) no-repeat 80% 50%;
+  background: url(../../projects/vr/magikku/magikku.gif) no-repeat 80% 50%;
+  background-size: 100%;
 }
 
 .project-three:hover {
   cursor: pointer;
 }
 .project-three:hover .project3 {
-  background: url(../../images/web/mfadt/prism.gif) no-repeat 50% 50%;
+  background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
@@ -381,7 +387,7 @@ h6 {
   cursor: pointer;
 }
 .project-four:hover .project4 {
-  background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -407,11 +413,11 @@ h6 {
   color: grey;
   display: block;
   top: 40%;
-  left: 25%;
+  left: 10%;
   right: 0;
   bottom: 0;
   width: 70%;
-  text-align: right;
+  text-align: left;
 }
 
 .project-three:hover .project-des3::after {
@@ -596,36 +602,10 @@ h6 {
     padding: 0;
   }
 }
-/*--------------- work page --------------- */
-.hero-content {
-  margin-left: 0%;
-}
-
-.hero-content p {
-  font-weight: 300;
-  line-height: 36px;
-  color: grey;
-}
-
-.hero-content h6 {
-  text-align: left;
-}
-
-@media (max-width: 768px) {
-  .hero-content {
-    padding-top: 50px;
-    width: 96%;
-    margin: 0 auto;
-  }
-}
 /*---------------about page --------------- */
 .about {
   height: 500px;
   margin-top: 120px;
-}
-
-.image {
-  background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
 }
 
 /*--------------- contact form --------------- */
@@ -705,16 +685,17 @@ textarea:focus {
   height: 100%;
 }
 
-.client-head {
+.header-text {
   font-size: 1.1rem;
   color: grey;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
 
 .client-images {
   border-top: 1px solid #191919;
   border-bottom: 1px solid #191919;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 .client-images div {
   padding: 20px;
@@ -727,6 +708,26 @@ textarea:focus {
 }
 .client-images div:hover {
   background: #ffffff12;
+}
+
+.ui-project-video.inner-vid {
+  margin-bottom: 4%;
+}
+.ui-project-video video {
+  width: 100% !important;
+  height: auto !important;
+  outline: none !important;
+}
+
+.ui-project-description {
+  text-align: left;
+}
+.ui-project-description .ui-project-des-title {
+  margin: 2% 0 1% 0;
+  font-size: 1.7rem;
+}
+.ui-project-description .ui-project-des-sub {
+  color: #616161;
 }
 
 .prev, .next p {
@@ -761,12 +762,20 @@ textarea:focus {
 
 .hero-content p {
   font-weight: 300;
-  line-height: 36px;
-  color: grey;
+  line-height: 26px;
+  color: #ababab;
+  font-size: 14px;
+  letter-spacing: px;
+  word-spacing: -1.2px;
 }
 
 .hero-content h6 {
   text-align: left;
+}
+
+.hero-para {
+  text-align: center;
+  margin: 2rem 0 6rem 0;
 }
 
 @media (max-width: 768px) {
@@ -777,7 +786,7 @@ textarea:focus {
   }
 }
 .web-project1 {
-  background: url(../../images/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .web-project1::after {
@@ -797,12 +806,12 @@ textarea:focus {
   cursor: pointer;
 }
 .web-one:hover .web-project1 {
-  background: url(../../images/web/mfadt/prism.gif) no-repeat 50% 50%;
+  background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .web-project2 {
-  background: url(../../images/web/cardin/cardin.png) no-repeat 50% 50%;
+  background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
   background-size: 100%;
 }
 .web-project2::after {
@@ -822,12 +831,12 @@ textarea:focus {
   cursor: pointer;
 }
 .web-two:hover .web-project2 {
-  background: url(../../images/web/cardin/cardin.gif) no-repeat 50% 50%;
+  background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .vr-project1 {
-  background: url(../../images/vr/magikku/magikku.jpg) no-repeat 50% 50%;
+  background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .vr-project1::after {
@@ -847,12 +856,12 @@ textarea:focus {
   cursor: pointer;
 }
 .vr-one:hover .vr-project1 {
-  background: url(../../images/vr/magikku/magikku.gif) no-repeat 50% 50%;
+  background: url(../../projects/vr/magikku/magikku.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .vr-project2 {
-  background: url(../../images/vr/mythicalland/mythicalland.png) no-repeat 50% 50%;
+  background: url(../../projects/vr/mythicalland/mythicalland.png) no-repeat 50% 50%;
   background-size: 100%;
 }
 .vr-project2::after {
@@ -872,12 +881,12 @@ textarea:focus {
   cursor: pointer;
 }
 .vr-two:hover .vr-project2 {
-  background: url(../../images/vr/mythicalland/mythicalland.gif) no-repeat 50% 50%;
+  background: url(../../projects/vr/mythicalland/mythicalland.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project1 {
-  background: url(../../images/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
+  background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project1::after {
@@ -897,12 +906,12 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-one:hover .motion-project1 {
-  background: url(../../images/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project2 {
-  background: url(../../images/motion/micdrop/micdrop.png) no-repeat 50% 50%;
+  background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project2::after {
@@ -922,12 +931,12 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-two:hover .motion-project2 {
-  background: url(../../images/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project3 {
-  background: url(../../images/motion/divergent/divergent.png) no-repeat 50% 50%;
+  background: url(../../projects/motion/divergent/divergent.png) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project3::after {
@@ -947,12 +956,12 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-three:hover .motion-project3 {
-  background: url(../../images/motion/divergent/divergent.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/divergent/divergent.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project4 {
-  background: url(../../images/motion/free/free.jpg) no-repeat 50% 50%;
+  background: url(../../projects/motion/free/free.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project4::after {
@@ -972,12 +981,12 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-four:hover .motion-project4 {
-  background: url(../../images/motion/free/free.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/free/free.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project5 {
-  background: url(../../images/motion/childcare/childcare.jpg) no-repeat 50% 50%;
+  background: url(../../projects/motion/childcare/childcare.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project5::after {
@@ -997,12 +1006,12 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-five:hover .motion-project5 {
-  background: url(../../images/motion/childcare/childcare.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/childcare/childcare.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project6 {
-  background: url(../../images/motion/phantom/phantom.jpg) no-repeat 50% 50%;
+  background: url(../../projects/motion/phantom/phantom.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project6::after {
@@ -1022,12 +1031,12 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-six:hover .motion-project6 {
-  background: url(../../images/motion/phantom/phantom.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/phantom/phantom.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 
 .motion-project7 {
-  background: url(../../images/motion/mandala/mandala.jpg) no-repeat 50% 50%;
+  background: url(../../projects/motion/mandala/mandala.jpg) no-repeat 50% 50%;
   background-size: 100%;
 }
 .motion-project7::after {
@@ -1047,7 +1056,7 @@ textarea:focus {
   cursor: pointer;
 }
 .motion-seven:hover .motion-project7 {
-  background: url(../../images/motion/mandala/mandala.gif) no-repeat 50% 50%;
+  background: url(../../projects/motion/mandala/mandala.gif) no-repeat 50% 50%;
   background-size: 100%;
 }
 

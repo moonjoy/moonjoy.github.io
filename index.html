@@ -8,7 +8,7 @@
 
       <title>Barsha Maharjan</title>
 
-      <link rel="icon" href="images/favicon.png" type="image" sizes="32x32">
+      <link rel="icon" href="projects/favicon.png" type="image" sizes="32x32">
 
       <!-- stylesheet -->
       <link rel="stylesheet" href="style/css/main.css">
@@ -22,6 +22,9 @@
 
       <!-- terminal effect -->
       <script src="js/t.min.js"></script>
+
+      <!-- icons -->
+      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 
       <!-- for on scroll animations -->
       <link rel="stylesheet" href="style/css/animate.css">
@@ -37,16 +40,11 @@
                         <a href="index.html">barsha</a>
                   </span>
                   <ul id="menu" class="main-menu">
-                        <li><a href="pages/web/web.html">ui/ux</a></li>
-                        <li><a href="pages/vr/vr.html">vr</a></li>
-                        <li><a href="pages/motion/motion.html">motion</a></li>
+                        <li><a href="#work">work</a></li>
+                        <li><a href="pages/projects/projects.html">misc</a></li>
 
                         <li class="main-menu-item">
-                              <a href="#"><img src="images/selfportrait.png" class="about-image"></a>
-                              <ul class="submenu">
-                                    <li class="submenu-item"><a href="pages/about/about.html">about me</a></li>
-                                    <li class="submenu-item"><a href="../../images/resume/resume.pdf" target="_blank">resume</a></li>
-                              </ul>
+                              <a href="pages/about/about.html"><img src="projects/selfportrait.png" class="about-image"></a>
 
                         </li>
                   </ul>
@@ -60,11 +58,9 @@
                   <div class="close-btn">close</div>
 
                   <ul id="menu">
-                        <li><a href="pages/web/web.html">ui/ux</a></li>
-                        <li><a href="pages/vr/vr.html">vr</a></li>
-                        <li><a href="pages/motion/motion.html">motion</a></li>
-                        <li><a href="pages/about/about.html">about me</a></li>
-                        <li><a href="../../images/resume/resume.pdf" target="_blank">resume</a></li>
+                        <li><a href="#work">work</a></li>
+                        <li><a href="pages/projects/projects.html">misc</a></li>
+                        <li><a href="pages/about/about.html">about</a></li>
                   </ul>
             </div>
             <!-- navbar end -->
@@ -81,49 +77,81 @@
             <div class="scroll-down"></div>
             <!-- end hero section -->
 
+
+            <div class="whitespace" id="work"></div>
             <!-- project section -->
-            <div class="container-fluid">
-                  <br><br><br>
+            <div class="container">
 
-                  <h6>Selected projects</h6>
 
-                  <div class="verticle"></div>
-                  <br>
+                  <div class="hero-content">
 
-                  <div class="whitespace"></div>
-                  <div class="whitespace"></div>
+                        <div class="row">
+                              <div class="col-md-10 offset-md-1">
 
-                  <div class="row project-sm-space project-one">
-                        <div class="col-lg-1 col-md-1"></div>
-                         <div class="col-lg-5 col-md-5 project project1 wow fadeInUp" onclick="location.href='pages/motion/chapubakha.html'"></div>
-                         <div class="col-lg-6 col-md-6 project-des1"></div>
-                  </div>
-                  <div class="whitespace"></div>
+                                    <!-- <h3 class="wow fadeInUp" data-wow-delay="1s">UI/UX</h3><br> -->
+                                    <p class="wow fadeInUp hero-para" data-wow-delay="0.3s">I have 6 years of working experience as a front-end developer. Working with clients from all over the world helped me gain insight on understanding their needs and giving them the best possible solution in building their website/product.</p>
+                              </div>
+                        </div>
 
-                  <div class="row project-sm-space project-two">
-                        <div class="col-lg-6 col-md-6 project-des2"></div>
-                        <div class="col-lg-6 col-md-6 project project2 wow fadeInUp" onclick="location.href='pages/vr/magikku.html'"></div>
-                  </div>
+                        <br><br>
 
-                  <div class="whitespace"></div>
+                        <h4 class="header-text wow fadeInUp" data-wow-delay="0.4s">Clients</h4>
+                        <div class="row client-images wow fadeInUp" data-wow-delay="0.8s">
+                              <div class="col-md-3 col-sm-6 col-6">
+                                    <a href="https://mybrainandme.org/welcome-survey/index.html" target="_blank"><img src="projects/web/clients/mbam.png" style="width:100%;"></a>
+                              </div>
 
-                  <div class="row project-sm-space project-three">
-                        <div class="col-lg-7 col-md-7 project project3 wow fadeInUp" onclick="location.href='pages/web/prism.html'"></div>
+                              <div class="col-md-3 col-sm-6 col-6">
+                                    <a href="https://www.earthangel.nyc/" target="_blank"><img src="projects/web/clients/earthangel.png" style="filter: brightness(0) invert(1);"></a>
+                              </div>
 
-                        <div class="col-lg-5 col-md-5 project-des3"></div>
+                              <div class="col-md-3 col-sm-6 col-6">
+                                    <a href="https://www.himalayanwildfibers.com/" target="_blank"><img src="projects/web/clients/hwf.png" style="width:100%;"></a>
+                              </div>
 
-                        <div class="whitespace"></div>
-                  </div>
+                              <div class="col-md-3 col-sm-6 col-6">
+                                    <a href="https://rapidmotionservices.com/" target="_blank"><img src="projects/web/clients/rms.png" style="width:100%;"></a>
+                              </div>
 
-                  <div class="row project-sm-space project-four">
-                        <div class="col-lg-7 col-md-7 project-des4"></div>
 
-                        <div class="col-lg-4 col-md-4 project project4 wow fadeInUp" onclick="location.href='pages/motion/micdrop.html'"></div>
-
-                        <div class="col-lg-1 col-md-1"></div>
+                        </div>
                   </div>
 
-                  <div class="whitespace"></div>
+                  <h4 class="header-text wow fadeInUp" data-wow-delay="0.5s">UI Development</h4>
+
+
+                  <!-- Project One -->
+                  <div class="row wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="col-md-12 col-sm-12 col-12 web-container">
+                              <div class="ui-project-video">
+                                    <video controls loop>
+                                      <source src="projects/web/mfadt/mfadt-prism.mp4" type="video/mp4">
+                                    </video>
+                              </div>
+                              <div class="ui-project-description">
+                                    <p class="ui-project-des-title"><a href="pages/web/prism.html">Prism</a></p>
+                                    <p class="ui-project-des-sub">MFA Design and Technology Thesis Website | Parsons School of Design</p>
+                              </div>
+                        </div>
+                  </div>
+
+
+
+                  <!-- Project Two -->
+                  <div class="row wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="col-md-12 col-sm-12 col-12 web-container">
+                              <div class="ui-project-video">
+                                    <video controls loop>
+                                      <source src="projects/web/cardin/charlotte.mp4" type="video/mp4">
+                                    </video>
+                              </div>
+                              <div class="ui-project-description">
+                                    <p class="ui-project-des-title"><a href="pages/web/cardin.html">Charlotte Cardin</a></p>
+                                    <p class="ui-project-des-sub">Music Artist Website Template</p>
+                              </div>
+                        </div>
+                  </div>
+
 
 
             </div>
@@ -153,8 +181,8 @@
                         <div class="info">
                               <div class="row">
                                     <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp">art posts</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="https://www.instagram.com/littic_arts/" target="_blank">ig @littic_arts</h4>
+                                          <p class="wow fadeInUp">contact</p>
+                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="pages/about/about.html" >about me</h4>
                                           <br><br>
                                     </div>
 
@@ -162,9 +190,11 @@
                                           <p class="wow fadeInUp" data-wow-delay="0s">follow</p>
 
                                           <ul>
-                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank">ln</a></li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.instagram.com/littic_arts/" target="_blank">ig</a></li>
-                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.youtube.com/barshamaharjan" target="_blank">yt</a></li>
+                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+
+                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.instagram.com/littic_arts/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+
+                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.youtube.com/barshamaharjan" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
                                           </ul>
 
                                           <br><br>
@@ -209,20 +239,6 @@
       });
 
       // navigation ends here
-
-      $("ul.main-menu li.main-menu-item").click(function(e){
-            e.preventDefault();
-            if($(this).siblings("li").find("ul.submenu:visible").length){
-                  $("ul.submenu").slideup("normal");
-            }
-            $(this).find("ul.submenu").slideToggle("normal");
-      });
-
-      // submenu-item
-      $('.submenu-item').click(function(e){
-            e.preventDefault();
-             location.href = $(this).find('a').attr('href');
-      })
 
 
 
