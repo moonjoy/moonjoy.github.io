@@ -902,9 +902,16 @@ textarea:focus {
         display: inline-block;
         width: 30%;
         font-size: 1.2rem;
+        a{
+          color: #dea845 !important;
+          &:hover {
+            color: #bd8f3c !important;
+          }
+        }
     }
 
     .ui-project-des-sub {
+        margin-top: 20px;
         color: #616161;
    
   }

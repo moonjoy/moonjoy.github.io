@@ -734,7 +734,14 @@ textarea:focus {
   width: 30%;
   font-size: 1.2rem;
 }
+.ui-project-description .ui-project-des-weblink a {
+  color: #dea845 !important;
+}
+.ui-project-description .ui-project-des-weblink a:hover {
+  color: #bd8f3c !important;
+}
 .ui-project-description .ui-project-des-sub {
+  margin-top: 20px;
   color: #616161;
 }
 .ui-project-description a span {
