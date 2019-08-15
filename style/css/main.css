@@ -725,9 +725,24 @@ textarea:focus {
 .ui-project-description .ui-project-des-title {
   margin: 2% 0 1% 0;
   font-size: 1.7rem;
+  display: inline-block;
+  width: 69%;
+}
+.ui-project-description .ui-project-des-weblink {
+  text-align: right;
+  display: inline-block;
+  width: 30%;
+  font-size: 1.2rem;
 }
 .ui-project-description .ui-project-des-sub {
   color: #616161;
+}
+.ui-project-description a span {
+  color: #dea845;
+  font-size: 1.2rem;
+}
+.ui-project-description a span:hover {
+  color: #bd8f3c;
 }
 
 .prev, .next p {
@@ -1071,6 +1086,13 @@ textarea:focus {
     font-size: 22px;
   }
 }
+.project-header {
+  min-height: 350px;
+}
+.project-header .rms-header {
+  background: url(images/my-image.png) no-repeat center center/cover;
+}
+
 /*---------------about page --------------- */
 .about {
   height: 500px;

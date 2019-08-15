@@ -893,10 +893,31 @@ textarea:focus {
     .ui-project-des-title {
         margin: 2% 0 1% 0;
         font-size: 1.7rem;
+        display: inline-block;
+        width: 69%;
       }
+
+    .ui-project-des-weblink {
+        text-align: right;
+        display: inline-block;
+        width: 30%;
+        font-size: 1.2rem;
+    }
+
     .ui-project-des-sub {
         color: #616161;
    
+  }
+
+  a {
+
+    span {
+      color: #dea845;
+      font-size: 1.2rem;
+      &:hover {
+        color: #bd8f3c;
+      }
+    }
   }
 }
 
