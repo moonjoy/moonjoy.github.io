@@ -329,11 +329,26 @@
 
 // headers css
 
-.project-header {
+.project-banner {
     min-height: 350px;
 
-    .rms-header {
-        background: url(images/my-image.png) no-repeat center center / cover;
+    h2 {
+        position: relative;
+        top: 60%;
+        left: 11%;
+        a {
+            &:hover {
+                color: #eaeaea !important;
+            }
+        }
+    }
+
+    &.rms-banner {
+        background: url(../../projects/motion/mandala/mandala.gif) no-repeat center center / cover;
+    }
+
+    &.cardin-banner {
+        background: url(../../projects/web/cardin/cardin-banner.jpg) no-repeat center center / cover;
     }
 }
 

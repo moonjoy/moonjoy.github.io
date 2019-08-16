@@ -243,6 +243,10 @@ nav #menu .submenu .submenu-item:hover {
     font-size: 26px;
   }
 }
+.sub-content {
+  color: #e4e4e4;
+}
+
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
   position: absolute;
@@ -466,7 +470,7 @@ h6 {
   color: #ccc;
 }
 .web-link span {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 100;
 }
 
@@ -1093,11 +1097,22 @@ textarea:focus {
     font-size: 22px;
   }
 }
-.project-header {
+.project-banner {
   min-height: 350px;
 }
-.project-header .rms-header {
-  background: url(images/my-image.png) no-repeat center center/cover;
+.project-banner h2 {
+  position: relative;
+  top: 60%;
+  left: 11%;
+}
+.project-banner h2 a:hover {
+  color: #eaeaea !important;
+}
+.project-banner.rms-banner {
+  background: url(../../projects/motion/mandala/mandala.gif) no-repeat center center/cover;
+}
+.project-banner.cardin-banner {
+  background: url(../../projects/web/cardin/cardin-banner.jpg) no-repeat center center/cover;
 }
 
 /*---------------about page --------------- */
