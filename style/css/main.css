@@ -246,6 +246,9 @@ nav #menu .submenu .submenu-item:hover {
 .sub-content {
   color: #e4e4e4;
 }
+.sub-content p {
+  margin-bottom: 7px;
+}
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
@@ -471,7 +474,7 @@ h6 {
 }
 .web-link span {
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
@@ -1113,6 +1116,13 @@ textarea:focus {
 }
 .project-banner.cardin-banner {
   background: url(../../projects/web/cardin/cardin-banner.jpg) no-repeat center center/cover;
+}
+
+.demo-link {
+  color: #dea845 !important;
+}
+.demo-link:hover {
+  color: #bd8f3c !important;
 }
 
 /*---------------about page --------------- */
