@@ -35,10 +35,12 @@
 }
 
 .project-des-blocks {
-  margin: 5% 0 8% 0;
-  .des-blocks-title {
+  margin: 6% 0 8% 0;
+}
+
+.des-blocks-title {
     margin-bottom: 15px;
-  }
+    color: #c7b08d;
 }
 
 @media(max-width: 768px) {

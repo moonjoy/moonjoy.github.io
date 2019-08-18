@@ -19,6 +19,11 @@ body {
       height: 100px;
 }
 
+.whitespace-sub {
+      width: 100%;
+      height: 50px;
+}
+
 a {
   color: #fff !important;
   &:hover {
@@ -36,7 +41,7 @@ a {
 
 .container .web-container {
   margin-bottom: 10%;
-  
+
 }
 
 /*--------------- typewriter effect --------------- */
@@ -322,6 +327,7 @@ nav {
 
   p {
     margin-bottom: 7px;
+    color: #c7b08d !important;
   }
 
   .content-description {
