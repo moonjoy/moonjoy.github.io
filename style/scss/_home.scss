@@ -6,7 +6,7 @@ html, body {
       width: 100%;
       height: 100%;
       font-family: "Roboto Mono" !important;
-      background: #0f0f0f !important;
+      background: #151515 !important;
       color: #fff !important;
 }
 
@@ -36,6 +36,7 @@ a {
 
 .container .web-container {
   margin-bottom: 10%;
+  
 }
 
 /*--------------- typewriter effect --------------- */
@@ -98,7 +99,7 @@ a {
 /*--------------- navigation --------------- */
 nav {
       width: 100%;
-      background: #0f0f0f;
+      background: #151515;
       height: 80px;
       position: fixed;
       z-index: 1;
@@ -318,8 +319,18 @@ nav {
 
 .sub-content {
   color: #e4e4e4;
+
   p {
     margin-bottom: 7px;
+  }
+
+  .content-description {
+    color: #bfbfbf;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 15px;
+    word-spacing: -2px;
+    letter-spacing: 0;
   }
 }
 

@@ -8,15 +8,20 @@
 .hero-content p {
     font-weight: 300;
     line-height: 26px;
-    color: #ababab;
+    color: #cecece;
     font-size: 14px;
-    letter-spacing: px;
-    word-spacing: -1.2px;
+    word-spacing: -0.5px;
+    letter-spacing: 0.5px;
 }
 
 .hero-content h6 {
-      text-align: left;
-      line-height: 1.5;
+    color: #bfbfbf;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 15px;
+    word-spacing: -2px;
+    letter-spacing: 0;
 }
 
 .hero-para {
@@ -27,6 +32,13 @@
 .des-bold {
   font-weight: 400;
   color: #fff;
+}
+
+.project-des-blocks {
+  margin: 5% 0 8% 0;
+  .des-blocks-title {
+    margin-bottom: 15px;
+  }
 }
 
 @media(max-width: 768px) {
