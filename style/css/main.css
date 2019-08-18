@@ -6,7 +6,7 @@ html, body {
   height: 100%;
   font-family: "Roboto Mono" !important;
   background: #151515 !important;
-  color: #fff !important;
+  color: #cecece !important;
 }
 
 body {
@@ -818,7 +818,7 @@ textarea:focus {
 
 .hero-para {
   text-align: center;
-  margin: 2rem 0;
+  margin: 1rem 0 4rem 0;
 }
 
 .des-bold {
