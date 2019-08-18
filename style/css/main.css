@@ -800,11 +800,17 @@ textarea:focus {
 
 .hero-content h6 {
   text-align: left;
+  line-height: 1.5;
 }
 
 .hero-para {
   text-align: center;
   margin: 2rem 0;
+}
+
+.des-bold {
+  font-weight: 400;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -1119,6 +1125,10 @@ textarea:focus {
 }
 .project-banner.prism-banner {
   background: url(../../projects/web/prism/prismbanner.png) no-repeat center center/cover;
+  background-position: 0 3%;
+}
+.project-banner.mbam-banner {
+  background: url(../../projects/web/mbam/mbam-banner.jpg) no-repeat center center/cover;
   background-position: 0 3%;
 }
 

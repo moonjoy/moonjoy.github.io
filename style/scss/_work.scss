@@ -16,11 +16,17 @@
 
 .hero-content h6 {
       text-align: left;
+      line-height: 1.5;
 }
 
 .hero-para {
   text-align: center;
   margin: 2rem 0;
+}
+
+.des-bold {
+  font-weight: 400;
+  color: #fff;
 }
 
 @media(max-width: 768px) {
