@@ -889,8 +889,10 @@ textarea:focus {
   margin-bottom: 15%;
   div {
       padding: 20px;
+      border-radius: 14px;
       img {
         width: 100%;
+        border-radius: 14px;
         &:hover {
           cursor: pointer;
         }

@@ -720,9 +720,11 @@ textarea:focus {
 }
 .client-images div {
   padding: 20px;
+  border-radius: 14px;
 }
 .client-images div img {
   width: 100%;
+  border-radius: 14px;
 }
 .client-images div img:hover {
   cursor: pointer;
