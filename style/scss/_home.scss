@@ -796,6 +796,17 @@ h6 {
     }
 }
 
+@media(max-width: 500px) {
+  .ui-project-des-title {
+    margin-bottom: 0.2rem;
+  }
+          .ui-project-des-weblink {
+          float: left !important;
+          width: 100% !important;
+          margin-bottom: 2rem;
+        }
+}
+
 
 /*---------------about page --------------- */
 
