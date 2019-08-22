@@ -45,8 +45,20 @@
 
 @media(max-width: 768px) {
       .hero-content {
-            padding-top: 50px;
-            width: 96%;
-            margin: 0 auto;
+          padding-top: 50px;
+          width: 96%;
+          margin: 0 auto;
+      }
+
+}
+
+@media(max-width: 991px) {
+      .sub-content {
+          p {
+            margin-top: 30px !important;
+          }
+
       }
 }
+
+

@@ -779,11 +779,11 @@ textarea:focus {
   color: #616161;
 }
 .ui-project-description a span {
-  color: #dea845;
+  color: #c7b08d;
   font-size: 1.2rem;
 }
 .ui-project-description a span:hover {
-  color: #bd8f3c;
+  color: #dea845;
 }
 
 .prev, .next p {
@@ -859,6 +859,11 @@ textarea:focus {
     padding-top: 50px;
     width: 96%;
     margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .sub-content p {
+    margin-top: 30px !important;
   }
 }
 .web-project1 {
