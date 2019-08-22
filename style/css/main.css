@@ -634,25 +634,39 @@ h6 {
   }
 }
 @media (max-width: 550px) {
-  .ui-project-des-title {
-    margin-bottom: 0.2rem;
-  }
-
   .ui-project-des-weblink {
     float: left !important;
     width: 100% !important;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 @media (max-width: 375px) {
+  .container .web-container {
+    margin-bottom: 15%;
+  }
+
+  .ui-project-description .ui-project-des-sub {
+    font-size: 14px;
+  }
+
+  .header-text {
+    margin: 30% 0 10% 0;
+  }
+
   .ui-project-des-title {
-    margin-bottom: 0.2rem;
+    margin-bottom: -1rem;
+  }
+  .ui-project-des-title span {
+    font-size: 12px !important;
   }
 
   .ui-project-des-weblink {
     float: left !important;
     width: 100% !important;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .ui-project-des-weblink a {
+    font-size: 12px !important;
   }
 }
 /*---------------about page --------------- */
