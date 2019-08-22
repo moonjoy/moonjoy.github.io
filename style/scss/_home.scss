@@ -807,6 +807,19 @@ h6 {
 }
 
 @media(max-width: 375px) {
+  .whitespace {
+    height: 0px;
+  }
+
+  .hero-content p {
+    font-size: 13px !important;
+    word-spacing: -1.8px !important;
+    letter-spacing: 0.6px !important;
+    line-height: 21px !important;
+    padding: 0 27px;
+    text-align: justify;
+  }
+
   .container .web-container {
     margin-bottom: 15%;
 }
@@ -816,7 +829,7 @@ h6 {
   }
 
   .header-text {
-      margin: 30% 0 10% 0;
+      margin: 50% 0 17% 0 !important;
   }
 
   .ui-project-des-title {
