@@ -68,9 +68,10 @@
             <!-- hero section -->
             <div class="hero">
                   <div class="header">
-                        <h1 class="line reveal-text-one">UI/UX</h1>
-                        <!-- <h1 class="line reveal-text-two">UX</h1> -->
-                        <h1 class="line reveal-text-three">Development</h1>
+                        <h1 class="line reveal-text-one">UI/UX Development</h1>
+                        <h1 class="line reveal-text-two">Conceptual Design</h1>
+                        <h1 class="line reveal-text-three">Rapid Prototyping</h1>
+                        <h1 class="line reveal-text-four">Usability Testing</h1>
                   </div>
             </div>
 
@@ -309,6 +310,15 @@
 
       textthree.start();
       textthree.reveal(2000)
+
+      const textfour = baffle (".reveal-text-four");
+      textfour.set({
+            characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
+            speed: 200
+      });
+
+      textfour.start();
+      textfour.reveal(2200)
 
       </script>
 </body>
