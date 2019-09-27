@@ -810,6 +810,7 @@ textarea:focus {
   display: inline-block;
   font-size: 1.2rem;
   float: right;
+  font-weight: 500;
 }
 .ui-project-description .ui-project-des-weblink a {
   color: #dea845 !important;
