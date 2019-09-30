@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
-
 html,body {
 	margin: 0;
 	padding: 0;
 	height: 100vh;
 	width: 100%;
 	overflow: hidden;
+	font-family: 'Source Sans Pro', sans-serif;
 	background: #000;
 }
 
@@ -35,23 +34,22 @@ html,body {
       position: absolute;
       z-index: 2;
       bottom: 8%;
-      left: 15%;
+      left: 14%;
       transform: translate(-50%, -50%);
       display: flex;
 }
 
-button {
-      color: #fff;
-      background: none;
-      padding: 24px;
-      border: 1px solid rgba(255, 255, 255, .3);
-      font-size: 16px;
-      border-radius: 50%;
-      margin: .4em;
-      display: inline-block;
+.slide-btn button {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin: 0.4em;
+    display: inline-block;
+    outline: 0;
 }
 
-button:focus {
+.slide-btn:focus {
       outline: none;
 }
 
@@ -64,20 +62,20 @@ button:focus {
 .block-1 {
       width: 5%;
       left: 0%;
-      background: #0f0f0f;
+      background: #0c0c0c;
 }
 
 .block-2 {
       width: 25%;
       left: 25%;
-      background: #0f0f0f;
+      background: #0c0c0c;
 }
 
 
 .block-3 {
       width: 5%;
       right: 0%;
-      background: #0f0f0f;
+      background: #0c0c0c;
 }
 
 .overlay {
@@ -91,23 +89,60 @@ button:focus {
       z-index: 2;
       position: absolute;
       width: 100%;
-      top: 45%;
-}
-
-.text-slider {
-      margin: 0%;
-      padding: 0%;
-      height: 100vh;
-}
-
-.text-slide h1 {
-      color: #fff;
-      font-size: 64px;
-      font-family: "Cinzel";
-      font-weight: lighter;
-      text-transform: uppercase;
+      top: 40%;
       padding-left: 10%;
+      color: #fff;
+	    .text-slider {
+	      margin: 0%;
+	      padding: 0%;
+	      height: 100vh;
+
+	      .head-slide {
+			a {
+				color: #ffffff6e;
+				text-decoration: none;
+				&:hover {
+					color: #ffffffb0;
+				}
+			}
+	      }
+
+	      h1 {
+		      	font-size: 38px;
+			    font-weight: 500;
+			    word-spacing: 5px;
+			    font-family: 'Source Serif Pro', serif;
+			    margin-top: 0;
+		  }
+
+		  .para-slide {
+		  	width: 38%;
+		  	font-size: 17px;
+		  	line-height: 25px;
+		  	a {
+		  		color: #ffffffbf;
+    			text-decoration: underline;
+    			&:hover {
+    				color: #fff;
+    			}
+		  	}
+		  }
+
+
+	}
 }
+
+
+ion-icon {
+	font-size: 50px !important;
+	cursor: pointer;
+    color: #ffffffb0;
+
+    &:hover {
+    	color: #fff;
+    }
+}
+
 
 @media(max-width: 990px) {
       .block-2, .overlay {
