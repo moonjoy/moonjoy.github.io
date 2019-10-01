@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>ss template</title>
+      <link rel="stylesheet" href="../../../style/css/ss.css">
+
+      <!-- Slick -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+
+      <!-- Font -->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro:400,600,700&display=swap" rel="stylesheet">
+
+      <!-- icons -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+
+      <!-- This is a draft template -->
+
+      <div class="text-slider-wrapper">
+            <div class="text-slider">
+
+                  <div class="text-slide">
+                        <p class="head-slide"><a href="https://slate.com/culture/brow-beat" target="_blank"> Brow Beat </a></p>
+                        <h1>Billie Eilish Recreated Fred Astaire’s <br>Best Trick on <i>Saturday Night Live</i></h1>
+                        <h2></h2>
+                        <p class="para-slide">It’s rare for the musical guests on Saturday Night Live to involve much in the way of special effects. Here she is <a href="https://slate.com/culture/2019/09/snl-billie-eilish-bad-guy-performance-astaire-royal-wedding-richie-ceiling.html" target="_blank">dancing on the ceiling. </a></p>
+                       
+                              
+                  </div>
+
+                  <div class="text-slide">
+                        <p class="head-slide"><a href="https://aminoapps.com/c/k-pop/page/blog/bts-jin-v-duet-for-hwarang-ost/akI0_uKNr6glmqJGZNDR3mrYm2Ld7j" target="_blank"> Aminoapps </a></p>
+                        <h1>BTS' Jin & V duet for Hwarang OST<br><i>Hwarang</i> premiering on December 19th</h1>
+                        <h2></h2>
+                        <p class="para-slide">It's been confirmed that BTS' V (who features in the drama) and Jin have recorded a duet for the drama's OST.</p>
+                       
+                              
+                  </div>
+
+                  <div class="text-slide">
+                        <p class="head-slide"><a href="https://www.lewiscapaldi.com/" target="_blank"> Lewis Capaldi </a></p>
+                        <h1>"Divinely Uninspired to a Hellish Extent"<br>Order Lewis Capaldi's <i>Debut Album</i> now</h1>
+                        <h2></h2>
+                        <p class="para-slide">"Divinely Uninspired to a Hellish Extent" features my big sexy sad bangers "<a href="https://www.youtube.com/watch?v=hVH37mbY26M" target="_blank">Bruises</a>" & "<a href="https://www.youtube.com/watch?v=zABLecsR5UE" target="_blank">Someone You Loved</a>" - Lewis</p>
+                       
+                              
+                  </div>
+                  
+                  <div class="text-slide">
+                        <p class="head-slide"><a href="https://www.edsheeran.com/news/ed-releases-new-remix-take-me-back-london-40896" target="_blank"> Ed Sheeran </a></p>
+                        <h1>Ed releases a new remix for<br><i>Take Me Back To London</i></h1>
+                        <h2></h2>
+                        <p class="para-slide">Ed releases a new remix for "<a href="https://youtu.be/XJQy_R9CYR4" target="_blank">Take Me Back To London</a>" with Stormzy, Aitch, Jaykae and Sir Spyro today.</a></p>
+                       
+                              
+                  </div>
+                  
+
+                  
+                  <div class="text-slide">
+                        <p class="head-slide"><a href="https://www.carnegiehall.org/Calendar/2019/09/28/Joe%20Hisaishi%20in%20Concert%200800PM" target="_blank"> Carnegie Hall</a></p>
+                        <h1>Japanese composer-conductor Joe Hisaishi<br>returns to <i>Carnegie Hall </i></h1>
+                        <h2></h2>
+                        <p class="para-slide">Joe Hisaishi returns to Carnegie Hall in a performance of three of his orchestral pieces.</p>
+                       
+                              
+                  </div>
+
+
+
+            </div>
+      </div>
+
+      <div class="slider-control">
+            <div class="slide-btn prev"><button type="button"><ion-icon name="arrow-back"></ion-icon></button></div>
+            <div class="slide-btn next"><button type="button"><ion-icon name="arrow-forward"></ion-icon></button></div>
+      </div>
+
+      <div class="blocks">
+            <div class="block block-1"></div>
+            <div class="block block-2"></div>
+            <div class="block block-3"></div>
+      </div>
+
+      <div class="block overlay"></div>
+
+      <div class="image-slider">
+            <div class="image-slide" id="one" style="background: url(images/pic1.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="two" style="background: url(images/pic2.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="three" style="background: url(images/pic3.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="four" style="background: url(images/pic4.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="five" style="background: url(images/pic5.jpg) no-repeat 50% 50%; background-size: cover;"></div>
+      </div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+      <script src="js/slick.js"></script>
+            <script>
+            var sickPrimary = {
+                  autoplay: true,
+                  autoplaySpeed: 2400,
+                  slidesToShow: 2,
+                  slidesToScroll: 1,
+                  speed: 1800,
+                  cssEase: 'cubic-bezier(.84, 0, .08, .99)',
+                  asNavFor: '.text-slider',
+                  centerMode: true,
+                  prevArrow: $('.prev'),
+                  nextArrow: $('.next')
+            }
+            var sickSecondary = {
+                  autoplay: true,
+                  autoplaySpeed: 2400,
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  speed: 1800,
+                  cssEase: 'cubic-bezier(.84, 0, .08, .99)',
+                  asNavFor: '.image-slider',
+                  prevArrow: $('.prev'),
+                  nextArrow: $('.next')
+            }
+            $('.image-slider').slick(sickPrimary);
+            $('.text-slider').slick(sickSecondary);
+            </script>
+</body>
+</html>
