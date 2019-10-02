@@ -64,6 +64,7 @@ nav {
       position: fixed;
       z-index: 1;
       background: #fff;
+
           #brand {
           float: left;
           display: block;
@@ -93,7 +94,7 @@ nav {
                   transition: all 0.3s ease-out;
                   span {
                       font-weight: 700;
-                }
+                  }
 
                 a {
                     color: #424242 !important;
@@ -139,8 +140,7 @@ nav {
               }
             }
         }
-}
-
+      }
 
 #toggle {
       position: absolute;
@@ -216,47 +216,6 @@ nav {
 }
 
 
-@media(max-width: 768px) {
-      #toggle {
-            visibility: visible;
-            opacity: 1;
-            margin-top: 6px;
-            margin-right: 4px;
-      }
-
-      nav {
-            #brand {
-                margin-left: 24px;
-            }
-
-            #menu {
-                display: none;
-            }
-        }
-
-      #menu a {
-            font-size: 20px;
-            font-weight: 300;
-      }
-
-      #resize li span {
-            font-weight: bolder;
-      }
-
-      #resize li:nth-child(1) {
-          margin-top: 70px !important;
-      }
-
-
-
-}
-
-@media(min-width: 768px) {
-      #resize {
-            visibility: hidden !important;
-      }
-}
-
 /*--------------- hero section --------------- */
 .hero {
       height: 100vh;
@@ -275,14 +234,6 @@ nav {
       font-size: 30px;
     }
 }
-
-
-@media(max-width: 768px) {
-      .header h1 {
-            font-size: 23px;
-      }
-}
-
 
 
 /*--------------- scroll down icon animation --------------- */
@@ -562,67 +513,6 @@ h6 {
 }
 
 
-@media(max-width: 768px) {
-      .project-sm-space {
-          padding-top: 8%;
-      }
-
-      .project {
-            width: 90% !important;
-            margin: 14px auto;
-
-            &.project1 {
-                &::after {
-                    top: -5%;
-                    left: 0%;
-                    font-size: 29px;
-                  }
-            }
-
-            &.project2 {
-                &::after {
-                    top: -7%;
-                    left: 1%;
-                    font-size: 29px;
-                  }
-            }
-
-            &.project3 {
-                &::after {
-                    top: 11%;
-                    left: 1%;
-                    font-size: 29px;
-                  }
-            }
-
-            &.project4 {
-                &::after {
-                    top: -5%;
-                    left: 1%;
-                    font-size: 29px;
-                  }
-            }
-      }
-
-      .vertical {
-            display: none;
-      }
-
-      .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
-        display: none !important;
-      }
-
-      // .project-one:hover, .project-one:focus {
-      //   .project-des1::after {
-      //     top: 26%;
-      //     left: 7%;
-      //     width: 87%;
-      //   }
-      // }
-
-}
-
-
 .project-nav {
     background: #f3f3f3;
     padding: 2% 0 2% 0;
@@ -637,7 +527,6 @@ h6 {
       text-align: right;
     }
 
-    
       .back-btn {
         padding-right: 10px;
       }
@@ -645,6 +534,163 @@ h6 {
         padding-left: 10px;
   
     }
+}
+
+
+
+
+
+// media queries
+
+@media(max-width: 768px) {
+      #toggle {
+            visibility: visible;
+            opacity: 1;
+            margin-top: 6px;
+            margin-right: 4px;
+      }
+
+      .header h1 {
+            font-size: 23px;
+      }
+
+      nav {
+            #brand {
+                margin-left: 24px;
+            }
+
+            #menu {
+                display: none;
+            }
+      }
+
+      #menu a {
+            font-size: 20px;
+            font-weight: 300;
+      }
+
+      #resize li span {
+            font-weight: bolder;
+      }
+
+      #resize li:nth-child(1) {
+          margin-top: 70px !important;
+      }
+      .project-sm-space {
+          padding-top: 8%;
+      }
+
+      .project {
+        width: 90% !important;
+        margin: 14px auto;
+
+          &.project1 {
+              &::after {
+                  top: -5%;
+                  left: 0%;
+                  font-size: 29px;
+                }
+          }
+
+          &.project2 {
+              &::after {
+                  top: -7%;
+                  left: 1%;
+                  font-size: 29px;
+                }
+          }
+
+          &.project3 {
+              &::after {
+                  top: 11%;
+                  left: 1%;
+                  font-size: 29px;
+                }
+          }
+
+          &.project4 {
+              &::after {
+                  top: -5%;
+                  left: 1%;
+                  font-size: 29px;
+                }
+          }
+
+          #contact-form {
+            margin: 5% -8%;
+            width: 98%;
+          }
+        }
+
+          .collab, #personal, #media, #address {
+                text-align: center;
+          }
+
+        .info ul {
+              margin: 0 0 0 -22px;
+              padding: 0;
+          }
+      
+
+        .vertical {
+              display: none;
+        }
+
+        .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
+          display: none !important;
+        }
+
+}
+
+
+
+@media(min-width: 768px) {
+      #resize {
+            visibility: hidden !important;
+      }
+
+}
+
+
+
+@media(max-width: 550px) {
+  .ui-project-des-title {
+    font-size: 0.9 !important;
+  }
+          .ui-project-des-weblink {
+          float: left !important;
+          width: 100% !important;
+          margin-bottom: 1.5rem;
+        }
+}
+
+@media(max-width: 375px) {
+  .whitespace {
+    height: 0px;
+  }
+
+  .hero-content p {
+    padding-top: 0 !important;
+    word-spacing: -1.8px !important;
+    letter-spacing: 0.6px !important;
+    line-height: 21px !important;
+    padding: 0 27px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .container .web-container {
+    margin-bottom: 15%;
+    padding-left: 4%;
+}
+
+  .ui-project-description .ui-project-des-sub {
+    font-size: 14px;
+  }
+
+  .header-text {
+      margin: 25% 0 10% 0 !important;
+  }
 }
 
 /*--------------- footer section --------------- */
@@ -723,91 +769,15 @@ h6 {
   font-weight: 300 !important;
   font-size: 12px;
   color: #7d7d7d !important;
+  text-align: center;
+  margin: 1% 0;
 }
 
 #media ul li {
       display: inline-block;
 }
 
-@media(max-width: 768px) {
-      .collab, #personal, #media, #address {
-            text-align: center;
-      }
 
-      .info ul {
-            margin: 0 0 0 -22px;
-            padding: 0;
-      }
-
-      .ui-project-description {
-        .ui-project-des-title {
-          a{
-            font-size: 1rem;
-            span {
-              font-size: 1rem;
-            }
-          }
-        }
-
-        .ui-project-des-weblink {
-          font-size: 1rem;
-        }
-    }
-}
-
-@media(max-width: 550px) {
-  .ui-project-des-title {
-  }
-          .ui-project-des-weblink {
-          float: left !important;
-          width: 100% !important;
-          margin-bottom: 1.5rem;
-        }
-}
-
-@media(max-width: 375px) {
-  .whitespace {
-    height: 0px;
-  }
-
-  .hero-content p {
-    padding-top: 0 !important;
-    word-spacing: -1.8px !important;
-    letter-spacing: 0.6px !important;
-    line-height: 21px !important;
-    padding: 0 27px;
-    text-align: left;
-    margin-bottom: 0;
-  }
-
-  .container .web-container {
-    margin-bottom: 15%;
-    padding-left: 4%;
-}
-
-  .ui-project-description .ui-project-des-sub {
-    font-size: 14px;
-  }
-
-  .header-text {
-      margin: 25% 0 10% 0 !important;
-  }
-
-  .ui-project-des-title {
-    margin-bottom: -1rem;
-    span {
-      font-size: 12px !important;
-    }
-  }
-          .ui-project-des-weblink {
-          float: left !important;
-          width: 100% !important;
-          margin-bottom: 1.5rem;
-          a{
-            font-size: 12px !important;
-          }
-        }
-}
 
 
 /*---------------about page --------------- */
@@ -817,9 +787,6 @@ h6 {
       margin-top: 120px;
 }
 
-// .image {
-//       background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
-// }
 
 /*--------------- contact form --------------- */
 
@@ -887,14 +854,6 @@ textarea:focus {
       color: #101010;
 }
 
-@media(max-width: 768px) {
-      #contact-form {
-            margin: 5% -8%;
-            width: 98%;
-      }
-
-}
-
 /*--------------- project page --------------- */
 
 .project-image {
@@ -944,7 +903,7 @@ textarea:focus {
 
 .ui-project-description {
     .ui-project-des-title {
-        font-size: 1.2rem;;
+        font-size: 1.2rem;
         display: inline-block;
       }
 
@@ -964,9 +923,7 @@ textarea:focus {
 
     .ui-project-des-sub {
         color: #616161;
-   
-  
-  }
+    }
 }
 
 .prev, .next p {
@@ -998,3 +955,7 @@ textarea:focus {
     border-radius: 3px;
     font-weight: 300;
 }
+
+
+
+
