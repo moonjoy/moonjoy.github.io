@@ -5,23 +5,72 @@
       margin-left: 0%;
 }
 
-.hero-content p {
-    font-weight: 300;
-    line-height: 26px;
-    color: #cecece;
-    font-size: 14px;
-    word-spacing: -0.5px;
-    letter-spacing: 0.5px;
+.hero-content {
+    p {
+      // font-weight: 400;
+      // color: #818181;
+      font-size: 14px;
+      word-spacing: -0.5px;
+      letter-spacing: 0.5px;
+      line-height: 21px;
+    }
+
+    .sub-content {
+
+      p {
+        margin-bottom: 7px;
+        color: #424242;
+        font-weight: 500;
+        font-size: 16px;
+      }
+
+      h6 {
+        color: #616161;
+        font-weight: 300;
+      }
+
+      .content-description {
+        color: #bfbfbf;
+        line-height: 1.5;
+        font-weight: 300;
+        font-size: 15px;
+        word-spacing: -2px;
+        letter-spacing: 0;
+      }
+    }
+
+
+    .s-content-title p{
+        font-size: 20px;
+        font-weight: 500;
+
+        .web-link {
+          font-size: 14px;
+        }
+    }
+
+    .s-content-role p {
+        font-size: 13px;
+        font-weight: 600;
+        color: #424242;
+        margin-bottom: 5px;
+    }
+
+    .s-content-des p{
+        font-size: 13px;
+        font-weight: 400;
+        color: #7b7b7b;
+        margin-bottom: 5px;
+    }
 }
 
 .hero-content h6 {
-    color: #bfbfbf;
-    text-align: left;
-    line-height: 1.5;
-    font-weight: 300;
+    padding-bottom: 7px;
+    font-weight: 500;
     font-size: 15px;
     word-spacing: -2px;
     letter-spacing: 0;
+    text-align: left;
 }
 
 .hero-para {
@@ -36,6 +85,10 @@
 
 .project-des-blocks {
   margin: 6% 0 8% 0;
+  p {
+      color: #4e4e4e;
+      font-size: 13.5px;
+  }
 }
 
 .des-blocks-title {

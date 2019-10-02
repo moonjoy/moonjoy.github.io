@@ -6,8 +6,8 @@ html, body {
       width: 100%;
       height: 100%;
       font-family: "Roboto Mono" !important;
-      background: #151515 !important;
-      color: #cecece !important;
+      color: #292929 !important;
+      font-size: 15px !important;
 }
 
 body {
@@ -25,22 +25,28 @@ body {
 }
 
 a {
-  color: #fff !important;
+  color: #424242 !important;
   &:hover {
-    color: #ccc !important;
+    color: #d6941c !important;
     text-decoration: none !important;
   }
 }
 
+ion-icon {
+  margin-bottom: -2px;
+}
+
 .link-ba {
-  color: grey !important;
+  color: #525252 !important;
+  font-size: 14px;
     &:hover {
       color: #fff;
     }
 }
 
 .container .web-container {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
+  padding: 0 8%;
 
 }
 
@@ -51,71 +57,20 @@ a {
 }
 
 
-/*--------------- typewriter effect --------------- */
-// .line {
-//       width: 24em;
-//       top: 50%;
-//       margin: auto;
-//       border-right: 2px solid rgba(255, 255, 255, 0.75);
-//       text-align: center;
-//       white-space: nowrap;
-//       overflow: hidden;
-//       transform: translateY(-50%);
-// }
-
-// .anim-typewriter {
-//       animation: typewriter 2.5s steps(40) 1s 1 normal both,
-//       blinkTextCussor 500ms steps(40) infinite normal;
-// }
-
-// @keyframes typewriter {
-//       from {
-//             width: 0;
-//       }
-//       to {
-//             width: 9em;
-//       }
-// }
-
-// @media(max-width: 768px) {
-//     .whitespace {
-//             display: none;
-//       }
-
-//       @keyframes typewriter {
-//             from {
-//                   width: 0;
-//             }
-//             to {
-//                   width: 9em;
-//             }
-//       }
-// }
-
-// @keyframes blinkTextCussor {
-//       from {
-//             border-right-color: rgba(255, 255, 255, 0.75);
-//       }
-//       to {
-//             border-right-color: transparent;
-//       }
-// }
-
 /*--------------- navigation --------------- */
 nav {
       width: 100%;
-      background: #151515;
       height: 80px;
       position: fixed;
       z-index: 1;
+      background: #fff;
           #brand {
           float: left;
           display: block;
           margin-left: 82px;
           line-height: 80px;
-          font-weight: bold;
+          font-weight: 600;
           a {
-                  color: #fff;
                   transition: all 0.3s ease-out;
                   &:hover {
                       text-decoration: none;
@@ -132,7 +87,7 @@ nav {
                   padding-left: 40px;
                   display: inline-block;
                   cursor: pointer;
-                  font-weight: 300;
+                  font-weight: 400;
                   line-height: 80px;
                   position: relative;
                   transition: all 0.3s ease-out;
@@ -141,10 +96,11 @@ nav {
                 }
 
                 a {
-                    color: #fff;
+                    color: #424242 !important;
+                    padding: 0 2px 1px 2px;
 
                       &:hover {
-                          text-decoration: none;
+                          border-bottom: 2px solid #fbe1b3 !important;
                     }
                 }
             }
@@ -310,10 +266,11 @@ nav {
 }
 
 .hero h1 {
-      font-weight: lighter;
+      font-weight: 500;
       text-align: center;
       letter-spacing: -2px;
-      line-height: 58px;
+      line-height: 45px;
+      font-size: 35px;
 }
 
 @media(max-width: 768px) {
@@ -322,23 +279,7 @@ nav {
       }
 }
 
-.sub-content {
-  color: #e4e4e4;
 
-  p {
-    margin-bottom: 7px;
-    color: #c7b08d !important;
-  }
-
-  .content-description {
-    color: #bfbfbf;
-    line-height: 1.5;
-    font-weight: 300;
-    font-size: 15px;
-    word-spacing: -2px;
-    letter-spacing: 0;
-  }
-}
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
@@ -351,10 +292,10 @@ nav {
       z-index: 0;
       text-decoration: none;
       text-shadow: 0;
-      width: 13px;
-      height: 13px;
-      border-bottom: 2px solid #fff;
-      border-right: 2px solid #fff;
+      width: 16px;
+      height: 16px;
+      border-bottom: 2px solid #292929;
+      border-right: 2px solid #292929;
       -webkit-transform: translate(-50%, 0) rotate(45deg);
       animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
@@ -398,10 +339,9 @@ h6 {
                   font-family: "Roboto Mono";
                   font-size: 36px;
                   position: relative;
-                  color: #fff;
                   display: block;
                   top: 10%;
-                  left: 88%;
+                  left: 111%;
                   right: 0;
                   bottom: 0;
             }
@@ -422,10 +362,9 @@ h6 {
                   font-family: "Roboto Mono";
                   font-size: 36px;
                   position: relative;
-                  color: #fff;
                   display: block;
                   top: 12%;
-                  left: 95%;
+                  left: 111%;
                   right: 0;
                   bottom: 0;
             }
@@ -446,7 +385,6 @@ h6 {
                   font-family: "Roboto Mono";
                   font-size: 36px;
                   position: relative;
-                  color: #fff;
                   display: block;
                   top: 72%;
                   left: 96%;
@@ -477,7 +415,6 @@ h6 {
                   font-family: "Roboto Mono";
                   font-size: 36px;
                   position: relative;
-                  color: #fff;
                   display: block;
                   top: 80%;
                   left: -26%;
@@ -528,13 +465,13 @@ h6 {
 
 // project Descriptions
 
-  .project-one:hover .project-des1 {
+  .project-des1 {
     &::after{
       content: "Official Selection for #WeAreHereFest Film Festival at the Abrons Art Center in NYC on Sept 5th to Sept 7th, 2019. \A \A Chagu Bakha is an animated short film about a Deity from an ancient folklore in the Newar culture in Nepal. I explore digital storytelling with the memories of my hometown, Kathmandu and my childhood within the Newari culture.";
       white-space: pre-wrap;
       font-size: 15px;
       position: relative;
-      color: grey;
+      color: #818181;
       display: block;
       top: 35%;
       left: 10%;
@@ -546,12 +483,12 @@ h6 {
   }
 
 
-.project-two:hover .project-des2 {
+.project-des2 {
     &::after{
       content: "Magikku is a VR game where the player is a guardian of an ancient temple threatened by Evil Dragons. The player has to protect the temple using magical hand gesture to cast magic and eliminate the Dragons.";
       font-size: 15px;
       position: relative;
-      color: grey;
+      color: #818181;
       display: block;
       top: 40%;
       left: 10%;
@@ -562,12 +499,12 @@ h6 {
     }
   }
 
-  .project-three:hover .project-des3 {
+.project-des3 {
     &::after{
       content: "UI design and development of a website themed Prism for the thesis show of MFA Design and Technology in 2019 at Parsons School of Design.";
       font-size: 15px;
       position: relative;
-      color: grey;
+      color: #818181;
       display: block;
       top: 35%;
       left: 10%;
@@ -578,12 +515,12 @@ h6 {
     }
   }
 
-  .project-four:hover .project-des4 {
+.project-des4 {
     &::after{
       content: "Motion captured dance of BTS's song Mic Drop. The motions are captured in the Motion Capture room surrounded by 16 OptiTrack Cameras and then imported in Cinema4D to put bubbles on the skeleton.";
       font-size: 15px;
       position: relative;
-      color: grey;
+      color: #818181;
       display: block;
       top: 40%;
       left: 25%;
@@ -679,11 +616,46 @@ h6 {
       //   }
       // }
 
+}
 
 
+.project-nav {
+    background: #f3f3f3;
+    padding: 2% 0 2% 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    .home {
+      text-align: center;
+    }
+
+    .next {
+      text-align: right;
+    }
+
+    
+      .back-btn {
+        padding-right: 10px;
+      }
+      .forward-btn {
+        padding-left: 10px;
+  
+    }
 }
 
 /*--------------- footer section --------------- */
+
+.footer {
+    background: #313131;
+    .container {
+        padding: 7% 1% 2% 1%;
+    }
+
+    .info {
+      padding-bottom: 15px;
+    }
+}
+
 .collab {
       text-align: right;
 }
@@ -694,76 +666,59 @@ h6 {
 }
 
 .hr {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(0, 0, 0, 0.2);
       height: 1px;
 }
 
 .info h4 {
-      font-size: 18px;
-      font-weight: lighter;
+      font-size: 14px;
+      font-weight: 300;
+      color: #c3c3c3;
+      a {
+        color: #c3c3c3 !important;
+
+        &:hover {
+          color: #d6941c !important;
+        }
+      }
 }
 
 .info p {
-      color: grey;
-      font-weight: lighter;
+      font-weight: 500;
+      color: #808080;
 }
 
 .info li {
       font-weight: lighter;
       color: #fff;
       font-size: 18px;
-      padding-left: 20px;
+      padding: 0 6px;
 }
 
-#fb::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #3b5998;
-}
+#media {
+  text-align: center;
+} 
 
-
-#ig::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #fcaf45;
-}
-
-
-#tw::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #55acee;
-}
-
-
-#yt::before {
-      display: inline-block;
-      content: '';
-      border-radius: 100%;
-      height: 4px;
-      width: 4px;
-      margin-right: 6px;
-      background: #c4302b;
-}
-
-#media, #address {
-      text-align: right;
+#address {
+  text-align: right;
 }
 
 #media ul {
       list-style: none;
+      padding-left: 0;
+
+      a{
+        color: #c3c3c3 !important;
+          &:hover {
+          color: #d6941c !important;
+        }
+      }
+}
+
+.copyright {
+  font-weight: 300 !important;
+  font-size: 12px;
+  color: #7d7d7d !important;
 }
 
 #media ul li {
@@ -823,6 +778,7 @@ h6 {
 
   .container .web-container {
     margin-bottom: 15%;
+    padding-left: 4%;
 }
 
   .ui-project-description .ui-project-des-sub {
@@ -941,19 +897,19 @@ textarea:focus {
   img {
     width: 100%;
     height: 100%;
+    padding: 0 5% 0 0;
   }
 }
 
 .header-text {
-  font-size: 1.1rem;
-  color: grey;
-  margin-bottom: 2.5rem;
-  text-align: center;
+    font-size: 1.2rem;
+    color: #9a9a9a;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    text-align: center;
 }
 
 .client-images {
-  border-top: 1px solid #191919;
-  border-bottom: 1px solid #191919;
   margin-bottom: 15%;
   div {
       padding: 20px;
@@ -961,12 +917,12 @@ textarea:focus {
       img {
         width: 100%;
         border-radius: 14px;
+        box-shadow: 0px 1px 4px #88888826;
+
         &:hover {
           cursor: pointer;
+          opacity: 0.75;
         }
-    }
-    &:hover{
-      background: #ffffff12;
     }
   }
 }
@@ -984,7 +940,7 @@ textarea:focus {
 
 .ui-project-description {
     .ui-project-des-title {
-        font-size: 1.7rem;
+        font-size: 1.2rem;;
         display: inline-block;
       }
 
@@ -992,35 +948,25 @@ textarea:focus {
         display: inline-block;
         font-size: 1.2rem;
         float: right;
-            font-weight: 500;
+        font-weight: 500;
+        margin-bottom: 0;
         a{
-          color: #dea845 !important;
+          color: #efa725 !important;
           &:hover {
-            color: #bd8f3c !important;
+            color: #d6941c !important;
           }
         }
     }
 
     .ui-project-des-sub {
-        margin-top: 20px;
         color: #616161;
    
-  }
-
-  a {
-
-    span {
-      color: #c7b08d;
-      font-size: 1.2rem;
-      &:hover {
-        color: #dea845;
-      }
-    }
+  
   }
 }
 
 .prev, .next p {
-      color: grey;
+      color: #818181;
       &:hover {
         color: #fff;
       }
@@ -1036,18 +982,14 @@ textarea:focus {
 
 
 .active-link {
-    background: #dddddd;
     padding: 3px 6px;
-    border-radius: 4px;
-    color: #000 !important;
+    border-bottom: 2px solid #fbe1b3;
     &:hover {
-      color: #000 !important;
+      color: #424242 !important;
     }
 }
 
 .hero-sub {
-    background: #ffffff;
-    color: #000;
     padding: 15px 30px;
     border-radius: 3px;
     font-weight: 300;
