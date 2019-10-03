@@ -62,7 +62,8 @@ nav {
   background: #fff;
 }
 nav.nav-home {
-  background: transparent;
+  background-color: transparent;
+  transition: background-color 500ms ease-in-out;
 }
 nav #brand {
   float: left;
@@ -208,14 +209,14 @@ nav #menu .submenu .submenu-item:hover {
   align-items: center;
   justify-content: center;
 }
-.hero .home-video-bg {
+.hero .bg-video {
   height: 100%;
   position: absolute;
   z-index: 0;
   right: 0;
   left: 0;
 }
-.hero .home-video-bg video {
+.hero .bg-video video {
   position: absolute;
   min-width: 100%;
   min-height: 100%;
@@ -767,7 +768,7 @@ textarea:focus {
   font-size: 1.2rem;
   color: #9a9a9a;
   font-weight: 400;
-  margin-bottom: 2.5rem;
+  margin-bottom: 4rem;
   text-align: center;
 }
 

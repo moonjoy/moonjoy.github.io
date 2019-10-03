@@ -66,7 +66,8 @@ nav {
       background: #fff;
 
           &.nav-home {
-            background: transparent;
+            background-color: transparent;
+            transition: background-color 500ms ease-in-out;
           }
 
           #brand {
@@ -232,7 +233,7 @@ nav {
       //   background: url(../../barshavid.mp4) no-repeat 31% 50%;
       //   background-size: cover;
       // }
-      .home-video-bg {
+      .bg-video {
           height: 100%;
           position: absolute;
           z-index: 0;
@@ -896,7 +897,7 @@ textarea:focus {
     font-size: 1.2rem;
     color: #9a9a9a;
     font-weight: 400;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
