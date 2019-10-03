@@ -61,6 +61,9 @@ nav {
   z-index: 1;
   background: #fff;
 }
+nav.nav-home {
+  background: transparent;
+}
 nav #brand {
   float: left;
   display: block;
@@ -205,16 +208,33 @@ nav #menu .submenu .submenu-item:hover {
   align-items: center;
   justify-content: center;
 }
+.hero .home-video-bg {
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  left: 0;
+}
+.hero .home-video-bg video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  left: -20%;
+  top: -20%;
+}
 
 .header {
   margin: -4% 10% 0 10%;
+  z-index: 1;
 }
 .header h1 {
   font-weight: 400;
-  text-align: center;
-  letter-spacing: -2px;
-  line-height: 45px;
-  font-size: 30px;
+  text-align: left;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: #4e4e4e;
+  font-size: 18px;
+  padding: 0;
 }
 
 /*--------------- scroll down icon animation --------------- */
@@ -459,6 +479,132 @@ h6 {
   padding-left: 10px;
 }
 
+@media (max-width: 768px) {
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+    margin-right: 4px;
+  }
+
+  .header h1 {
+    font-size: 23px;
+  }
+
+  nav #brand {
+    margin-left: 24px;
+  }
+  nav #menu {
+    display: none;
+  }
+
+  #menu a {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #resize li span {
+    font-weight: bolder;
+  }
+
+  #resize li:nth-child(1) {
+    margin-top: 70px !important;
+  }
+
+  .project-sm-space {
+    padding-top: 8%;
+  }
+
+  .project {
+    width: 90% !important;
+    margin: 14px auto;
+  }
+  .project.project1::after {
+    top: -5%;
+    left: 0%;
+    font-size: 29px;
+  }
+  .project.project2::after {
+    top: -7%;
+    left: 1%;
+    font-size: 29px;
+  }
+  .project.project3::after {
+    top: 11%;
+    left: 1%;
+    font-size: 29px;
+  }
+  .project.project4::after {
+    top: -5%;
+    left: 1%;
+    font-size: 29px;
+  }
+  .project #contact-form {
+    margin: 5% -8%;
+    width: 98%;
+  }
+
+  .collab, #personal, #media, #address {
+    text-align: center;
+  }
+
+  .info ul {
+    margin: 0 0 0 -22px;
+    padding: 0;
+  }
+
+  .vertical {
+    display: none;
+  }
+
+  .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  #resize {
+    visibility: hidden !important;
+  }
+}
+@media (max-width: 550px) {
+  .ui-project-des-title {
+    font-size: 0.9 !important;
+  }
+
+  .ui-project-des-weblink {
+    float: left !important;
+    width: 100% !important;
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 375px) {
+  .whitespace {
+    height: 0px;
+  }
+
+  .hero-content p {
+    padding-top: 0 !important;
+    word-spacing: -1.8px !important;
+    letter-spacing: 0.6px !important;
+    line-height: 21px !important;
+    padding: 0 27px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .container .web-container {
+    margin-bottom: 15%;
+    padding-left: 4%;
+  }
+
+  .ui-project-description .ui-project-des-sub {
+    font-size: 14px;
+  }
+
+  .header-text {
+    margin: 25% 0 10% 0 !important;
+  }
+}
 /*--------------- footer section --------------- */
 .footer {
   background: #313131;
@@ -531,6 +677,8 @@ h6 {
   font-weight: 300 !important;
   font-size: 12px;
   color: #7d7d7d !important;
+  text-align: center;
+  margin: 1% 0;
 }
 
 #media ul li {
@@ -699,148 +847,6 @@ textarea:focus {
   font-weight: 300;
 }
 
-@media (max-width: 768px) {
-  #toggle {
-    visibility: visible;
-    opacity: 1;
-    margin-top: 6px;
-    margin-right: 4px;
-  }
-
-  .header h1 {
-    font-size: 23px;
-  }
-
-  nav #brand {
-    margin-left: 24px;
-  }
-  nav #menu {
-    display: none;
-  }
-
-  #menu a {
-    font-size: 20px;
-    font-weight: 300;
-  }
-
-  #resize li span {
-    font-weight: bolder;
-  }
-
-  #resize li:nth-child(1) {
-    margin-top: 70px !important;
-  }
-
-  .project-sm-space {
-    padding-top: 8%;
-  }
-
-  .project {
-    width: 90% !important;
-    margin: 14px auto;
-  }
-  .project.project1::after {
-    top: -5%;
-    left: 0%;
-    font-size: 29px;
-  }
-  .project.project2::after {
-    top: -7%;
-    left: 1%;
-    font-size: 29px;
-  }
-  .project.project3::after {
-    top: 11%;
-    left: 1%;
-    font-size: 29px;
-  }
-  .project.project4::after {
-    top: -5%;
-    left: 1%;
-    font-size: 29px;
-  }
-  .project #contact-form {
-    margin: 5% -8%;
-    width: 98%;
-  }
-
-  .collab, #personal, #media, #address {
-    text-align: center;
-  }
-
-  .info ul {
-    margin: 0 0 0 -22px;
-    padding: 0;
-  }
-
-  .vertical {
-    display: none;
-  }
-
-  .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
-    display: none !important;
-  }
-}
-@media (min-width: 768px) {
-  #resize {
-    visibility: hidden !important;
-  }
-}
-@media (max-width: 550px) {
-  .ui-project-des-title {
-    font-size: 14px !important;
-  }
-
-  .ui-project-des-weblink {
-    float: left !important;
-    width: 100% !important;
-    margin-bottom: 1.5rem;
-  }
-}
-@media (max-width: 375px) {
-  .whitespace {
-    height: 0px;
-  }
-
-  .hero-content p {
-    padding-top: 0 !important;
-    word-spacing: -1.8px !important;
-    letter-spacing: 0.6px !important;
-    line-height: 21px !important;
-    padding: 0 27px;
-    text-align: left;
-    margin-bottom: 0;
-  }
-
-  .container .web-container {
-    margin-bottom: 15%;
-    padding-left: 4%;
-  }
-
-  .ui-project-description .ui-project-des-sub {
-    font-size: 14px;
-  }
-
-  .header-text {
-    margin: 25% 0 10% 0 !important;
-  }
-
-  .ui-project-des-title {
-    margin-bottom: -1rem;
-  }
-  .ui-project-des-title span {
-    font-size: 12px !important;
-  }
-
-  .ui-project-des-weblink {
-    float: left !important;
-    width: 100% !important;
-    margin-bottom: 1.5rem;
-  }
-  .ui-project-des-weblink a {
-    font-size: 12px !important;
-  }
-}
 /*--------------- work page --------------- */
 .hero-content {
   margin-left: 0%;

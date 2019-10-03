@@ -65,6 +65,10 @@ nav {
       z-index: 1;
       background: #fff;
 
+          &.nav-home {
+            background: transparent;
+          }
+
           #brand {
           float: left;
           display: block;
@@ -222,16 +226,40 @@ nav {
       display: flex;
       align-items: center;
       justify-content: center;
+      // background: url(../../barshavid.mp4) no-repeat 31% 50%;
+      // background-size: cover;
+      // &::after {
+      //   background: url(../../barshavid.mp4) no-repeat 31% 50%;
+      //   background-size: cover;
+      // }
+      .home-video-bg {
+          height: 100%;
+          position: absolute;
+          z-index: 0;
+          right: 0;
+          left: 0;
+
+          video {
+            position: absolute;
+            min-width: 100%;
+            min-height: 100%;
+            left: -20%;
+            top: -20%;
+        }
+      }
 }
 
 .header {
       margin: -4% 10% 0 10%;
+      z-index: 1;
   h1 {
       font-weight: 400;
-      text-align: center;
-      letter-spacing: -2px;
-      line-height: 45px;
-      font-size: 30px;
+      text-align: left;
+      letter-spacing: 0px;
+      line-height: 28px;
+      color: #4e4e4e;
+      font-size: 18px;
+      padding: 0;
     }
 }
 

@@ -45,7 +45,7 @@
 <body>
       <div class="wrapper">
             <!-- navbar start -->
-            <nav>
+            <nav class="nav-home">
                   <span id="brand">
                         <a href="index.html">barsha</a>
                   </span>
@@ -77,6 +77,11 @@
 
             <!-- hero section -->
             <div class="hero">
+                  <div class="home-video-bg">
+                        <video autoplay="" loop="" muted="">
+                            <source src="barshavid.mp4" type="video/mp4">
+                        </video>
+                  </div>
                   <div class="header">
                         <h1>I'm a Frontend Designer/Developer with a love for</h1>
                         <h1 class="line reveal-text-one hero-sub">Interactive User Interfaces</h1>
@@ -253,6 +258,18 @@
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script type="text/javascript">
+
+            $(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 900) {
+                    $(".nav-home").css('background', 'white');
+                } else {
+                    $(".nav-home").css('background', 'transparent');
+                }
+            });
+        });
 
       // navigation starts here
 
