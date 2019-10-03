@@ -224,7 +224,7 @@ nav #menu .submenu .submenu-item:hover {
 }
 
 .header {
-  margin: -4% 10% 0 10%;
+  margin: 0 auto 0 10%;
   z-index: 1;
 }
 .header h1 {
