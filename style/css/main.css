@@ -1244,8 +1244,8 @@ textarea:focus {
   background-position: 0 3%;
 }
 .project-banner.mbam-banner {
-  background: url(../../projects/web/mbam/mbam-banner.jpg) no-repeat center center/cover;
-  background-position: 0 3%;
+  background: url(../../projects/web/mbam/mbam.jpg) no-repeat center center/cover;
+  background-position: 0 23%;
 }
 
 .demo-link {
