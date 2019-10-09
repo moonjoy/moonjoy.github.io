@@ -547,7 +547,7 @@ h6 {
   }
 
   .collab, #personal, #media, #address {
-    text-align: center;
+    text-align: center !important;
   }
 
   .info ul {
