@@ -215,6 +215,7 @@ nav #menu .submenu .submenu-item:hover {
   z-index: 0;
   right: 0;
   left: 0;
+  overflow-x: hidden;
 }
 .hero .bg-video video {
   position: absolute;
