@@ -578,6 +578,13 @@ h6 {
     width: 100% !important;
     margin-bottom: 1.5rem;
   }
+
+  .bg-video {
+    background-color: #f2f0f4;
+  }
+  .bg-video video {
+    display: none;
+  }
 }
 @media (max-width: 375px) {
   .whitespace {
