@@ -581,7 +581,8 @@ h6 {
       }
 
       .header h1 {
-            font-size: 23px;
+            font-size: 17px;
+            text-align: center;
       }
 
       nav {
@@ -685,7 +686,7 @@ h6 {
 
 @media(max-width: 550px) {
   .ui-project-des-title {
-    font-size: 0.9 !important;
+    font-size: 0.9rem !important;
   }
           .ui-project-des-weblink {
           float: left !important;
@@ -699,6 +700,15 @@ h6 {
             display :none;
           }
         }
+
+        .hero-content p {
+            font-size: 12px !important;
+          }
+
+          .header-text {
+            font-size: 1rem !important;
+          }
+
 }
 
 @media(max-width: 375px) {
