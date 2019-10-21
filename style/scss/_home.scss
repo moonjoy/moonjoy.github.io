@@ -239,7 +239,7 @@ nav {
           z-index: 0;
           right: 0;
           left: 0;
-          
+          background: #f2f0f4;
 
           video {
             position: absolute;
@@ -704,7 +704,8 @@ h6 {
         .bg-video {
           background-color: #f2f0f4;
           video {
-            display :none;
+              left: -190% !important;
+              top: -23% !important;
           }
         }
 

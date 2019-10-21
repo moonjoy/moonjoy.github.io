@@ -215,6 +215,7 @@ nav #menu .submenu .submenu-item:hover {
   z-index: 0;
   right: 0;
   left: 0;
+  background: #f2f0f4;
 }
 .hero .bg-video video {
   position: absolute;
@@ -589,7 +590,8 @@ h6 {
     background-color: #f2f0f4;
   }
   .bg-video video {
-    display: none;
+    left: -190% !important;
+    top: -23% !important;
   }
 
   .hero-content p {
