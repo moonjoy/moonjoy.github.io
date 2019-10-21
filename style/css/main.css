@@ -480,6 +480,12 @@ h6 {
   padding-left: 10px;
 }
 
+@media (min-width: 1920px) {
+  video {
+    left: 0 !important;
+    top: 0 !important;
+  }
+}
 @media (max-width: 768px) {
   #toggle {
     visibility: visible;
