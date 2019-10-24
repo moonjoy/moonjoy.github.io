@@ -99,10 +99,14 @@
             <div class="container">
 
                   <div class="hero-content">
-
-
-                        <h4 class="header-text">Commercial Projects</h4>
-                        <div class="whitespace-sub"></div>
+                        <div class="whitespace"></div>
+                        <div class="whitespace"></div>
+                         <div class="row">
+                              <div class="col-md-12 col-sm-12 col-12">
+                                    <h4 class="header-text wow fadeInUp" data-wow-delay="0.2s">Commercial Projects</h4>
+                              </div>
+                        </div>
+                        
                         <div class="row client-images">
                               <div class="col-md-6 col-sm-12 col-12">
                                     <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
@@ -129,28 +133,31 @@
 
                          <div class="sub-whitespace"></div>
                         <!-- Project One -->
-                        <div class="row wow fadeInUp" data-wow-delay="0.2s">
-                              <div class="col-md-12 col-sm-12 col-12 web-container">
 
+
+                        <div class="row">
+                              <div class="col-md-12 col-sm-12 col-12 web-container">
                                     <h4 class="header-text wow fadeInUp" data-wow-delay="0.2s">Personal Projects</h4>
-                              
-                                   
                                     <div class="ui-project-video">
                                           <video controls loop>
-                                            <source src="pages/web/ss/images/ss.mp4" type="video/mp4">
+                                            <source src="projects/web/mfadt/mfadt-prism.mp4" type="video/mp4">
                                           </video>
                                     </div>
-                                    
+
                                     <br>
 
                                     <div class="ui-project-description">
-                                          <p class="ui-project-des-title"><a href="pages/web/ss/index.html" target="_blank">Music Web Concept</a></p>
+                                          <p class="ui-project-des-title"><a href="pages/web/prism.html">Prism <span>| Making Process</span></a></p>
 
-                                          <p class="ui-project-des-title ui-project-des-weblink"><a href="pages/web/ss/index.html" target="_blank">View Website <ion-icon name="open"></ion-icon></a></p>
+                                          <p class="ui-project-des-title ui-project-des-weblink"><a href="https://mfadt.parsons.edu/2019" target="_blank">View Website <ion-icon name="open"></ion-icon></a></p>
                                     </div>
 
+                                    <div class="ui-project-description">
+                                          <p class="ui-project-des-sub">MFA Design and Technology Thesis Website | Parsons School of Design</p>
+                                    </div>
                               </div>
                         </div>
+                        
 
 
                         <!-- Project Two -->
@@ -182,26 +189,23 @@
 
 
                         <!-- Project Three -->
-                        <div class="row">
-                              <div class="col-md-12 col-sm-12 col-12 web-container">
-
+                        <div class="row wow fadeInUp" data-wow-delay="0.2s">
+                              <div class="col-md-12 col-sm-12 col-12 web-container">   
+                                   
                                     <div class="ui-project-video">
                                           <video controls loop>
-                                            <source src="projects/web/mfadt/mfadt-prism.mp4" type="video/mp4">
+                                            <source src="pages/web/ss/images/ss.mp4" type="video/mp4">
                                           </video>
                                     </div>
-
+                                    
                                     <br>
 
                                     <div class="ui-project-description">
-                                          <p class="ui-project-des-title"><a href="pages/web/prism.html">Prism <span>| Making Process</span></a></p>
+                                          <p class="ui-project-des-title"><a href="pages/web/ss/index.html" target="_blank">Music Web Concept</a></p>
 
-                                          <p class="ui-project-des-title ui-project-des-weblink"><a href="https://mfadt.parsons.edu/2019" target="_blank">View Website <ion-icon name="open"></ion-icon></a></p>
+                                          <p class="ui-project-des-title ui-project-des-weblink"><a href="pages/web/ss/index.html" target="_blank">View Website <ion-icon name="open"></ion-icon></a></p>
                                     </div>
 
-                                    <div class="ui-project-description">
-                                          <p class="ui-project-des-sub">MFA Design and Technology Thesis Website | Parsons School of Design</p>
-                                    </div>
                               </div>
                         </div>
                   </div>
@@ -260,7 +264,7 @@
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
                 if(scroll_pos > 850) {
-                    $(".nav-home").css('background', 'white');
+                    $(".nav-home").css('background', '#fffffff2');
                     
                 } else {
                     $(".nav-home").css('background', 'transparent');
