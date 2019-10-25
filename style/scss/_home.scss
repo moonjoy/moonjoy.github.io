@@ -682,6 +682,27 @@ h6 {
 
 
 
+  ul {
+    &.process {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      background: #f1b030d1;
+      border-radius: 10px;
+      padding: 20px 30px;
+    li {
+          line-height: 35px;
+      span {
+        font-weight: 700;
+
+      }
+    }
+  }
+}
+
+
+
+
 @media(min-width: 768px) {
       #resize {
             visibility: hidden !important;

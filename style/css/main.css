@@ -570,6 +570,21 @@ h6 {
     display: none !important;
   }
 }
+ul.process {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #f1b030d1;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+ul.process li {
+  line-height: 35px;
+}
+ul.process li span {
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   #resize {
     visibility: hidden !important;
