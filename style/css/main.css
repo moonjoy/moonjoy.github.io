@@ -31,6 +31,11 @@ a:hover {
   text-decoration: none !important;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 ion-icon {
   margin-bottom: -2px;
 }
@@ -481,6 +486,36 @@ h6 {
   padding-left: 10px;
 }
 
+.skillset {
+  position: relative;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  background: #ffffff;
+  border-radius: 8px;
+  margin: 0 60px;
+  font-size: 13.5px;
+}
+.skillset .inner-skill:first-child {
+  border-right: 0.5px solid #efefef;
+}
+.skillset .inner-skill {
+  padding: 40px 70px;
+}
+.skillset .inner-skill .skill-head h4 {
+  color: #404040;
+  line-height: 50px;
+}
+.skillset .inner-skill .skill-sub {
+  margin-top: 40px;
+}
+.skillset .inner-skill .skill-sub p:first-child {
+  font-size: 16px;
+  color: #e29a18;
+}
+.skillset .inner-skill .skill-sub ul {
+  line-height: 30px;
+}
+
 @media (min-width: 1920px) {
   video {
     left: 0 !important;
@@ -568,6 +603,14 @@ h6 {
 
   .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
     display: none !important;
+  }
+
+  .skillset {
+    margin: 0;
+  }
+
+  .inner-skill:first-child {
+    border-right: none !important;
   }
 }
 ul.process {

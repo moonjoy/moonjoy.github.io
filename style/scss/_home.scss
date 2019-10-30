@@ -32,6 +32,11 @@ a {
   }
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 ion-icon {
   margin-bottom: -2px;
 }
@@ -567,6 +572,45 @@ h6 {
 }
 
 
+// Skillset
+
+.skillset {
+    position: relative;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 0 60px;
+    font-size: 13.5px;
+
+    .inner-skill:first-child {
+      border-right: 0.5px solid #efefef;
+    }
+
+    .inner-skill {
+      padding: 40px 70px;
+
+      .skill-head {
+        h4 {
+          color: #404040;
+          line-height: 50px;
+        }
+      }
+      .skill-sub {
+        margin-top: 40px;
+        p:first-child {
+          font-size: 16px;
+          color: #e29a18;
+        }
+
+        ul {
+          line-height: 30px;
+        }
+      }
+    }
+
+    
+}
 
 
 
@@ -676,6 +720,14 @@ h6 {
 
         .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
           display: none !important;
+        }
+
+        .skillset {
+          margin: 0;
+        }
+
+        .inner-skill:first-child {
+              border-right: none !important;
         }
 
 }
@@ -1031,6 +1083,11 @@ textarea:focus {
     border-radius: 3px;
     font-weight: 300;
 }
+
+
+
+
+
 
 
 
