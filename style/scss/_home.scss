@@ -268,6 +268,17 @@ nav {
       font-size: 18px;
       padding: 0;
     }
+    p{
+      padding: 10px 0 0 0;
+      color: #8c8c8c;
+        a {
+          color: #8c8c8c !important;
+          &:hover {
+            border-bottom: 2px solid #fbe1b3;
+            cursor: pointer;
+          }
+        }
+    }
 }
 
 

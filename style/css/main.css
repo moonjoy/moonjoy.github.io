@@ -243,6 +243,17 @@ nav #menu .submenu .submenu-item:hover {
   font-size: 18px;
   padding: 0;
 }
+.header p {
+  padding: 10px 0 0 0;
+  color: #8c8c8c;
+}
+.header p a {
+  color: #8c8c8c !important;
+}
+.header p a:hover {
+  border-bottom: 2px solid #fbe1b3;
+  cursor: pointer;
+}
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
