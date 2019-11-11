@@ -1352,6 +1352,10 @@ textarea:focus {
   color: #bd8f3c !important;
 }
 
+.p-eattendance img {
+  margin-bottom: 6%;
+}
+
 /*---------------about page --------------- */
 .about {
   height: 500px;
