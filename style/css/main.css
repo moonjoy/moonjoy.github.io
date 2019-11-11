@@ -875,7 +875,7 @@ textarea:focus {
 .client-images div img {
   width: 100%;
   border-radius: 14px;
-  box-shadow: 0px 1px 4px #88888826;
+  box-shadow: 0px 1px 4px #88888896;
 }
 .client-images div img:hover {
   cursor: pointer;
@@ -1339,6 +1339,10 @@ textarea:focus {
 .project-banner.mbam-banner {
   background: url(../../projects/web/mbam/mbam.jpg) no-repeat center center/cover;
   background-position: 0 23%;
+}
+.project-banner.eattendance-banner {
+  background: url(../../projects/web/eattendance/head-image.png) no-repeat center center/cover;
+  background-position: -20px 8px;
 }
 
 .demo-link {
