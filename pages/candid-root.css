@@ -714,7 +714,7 @@ input[type=radio]:checked + label:before {
 	display:  none;
 }
 
-/* IE Compatibility for material icons */
+/* IE10 and IE11 checkbox and radio buttons  */
 @media all and (-ms-high-contrast:none), (-ms-high-contrast: active){
 	input[type=checkbox], input[type=radio] {
 		display: block !important;
@@ -728,36 +728,17 @@ input[type=radio]:checked + label:before {
 		margin: 0;
 	}
 
-    input[type=checkbox] + label:before,
-	input[type=radio] + label:before { /* IE10 */
-	 	display: none;
-	}
-
 	*::-ms-backdrop, 
 	input[type=checkbox] + label:before,
 	input[type=radio] + label:before { /* IE11 */
 		display: none;
 	}
-
 }
 
 /* IE6, IE7 and IE8 checkbox and radio buttons  */
 @media \0screen\,screen\9 {
 	input[type=checkbox], input[type=radio] {
 		display: block !important;
-	}
-
-	.checkbox li, .radio li {
-		display: flex;
-	}
-
-	.checkbox label, .radio label {
-		margin: 0;
-	}
-
-	input[type=checkbox] + label:before,
-	input[type=radio] + label:before {
-		display:  none !important;
 	}
 
 	input[type=checkbox] + label:before { 
@@ -776,7 +757,6 @@ input[type=radio]:checked + label:before {
 		display: none;
 	}
 }
-
 
 
 /* custom slider */
