@@ -757,7 +757,7 @@ input[type=radio]:checked + label:before {
 
 	input[type=checkbox] + label:before,
 	input[type=radio] + label:before {
-		display:  none;
+		display:  none !important;
 	}
 
 }
