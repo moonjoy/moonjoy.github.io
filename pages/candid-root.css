@@ -755,11 +755,11 @@ input[type=radio]:checked + label:before {
 		margin: 0;
 	}
 
-	*::-ms-backdrop, 
 	input[type=checkbox] + label:before,
-	input[type=radio] + label:before { /* IE11 */
-		display: none;
+	input[type=radio] + label:before {
+		display:  none;
 	}
+
 }
 
 
