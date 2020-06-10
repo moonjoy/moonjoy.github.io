@@ -733,6 +733,10 @@ input[type=radio]:checked + label:before {
 	input[type=radio] + label:before { /* IE11 */
 		display: none;
 	}
+
+	form input[type=checkbox], form input[type=color], form input[type=radio] {
+		border:  none;
+	}
 }
 
 /* IE6, IE7 and IE8 checkbox and radio buttons  */
@@ -755,6 +759,10 @@ input[type=radio]:checked + label:before {
 
 	input[type=radio]:checked + label:before { 
 		display: none;
+	}
+
+	form input[type=checkbox], form input[type=color], form input[type=radio] {
+		border:  none;
 	}
 }
 
