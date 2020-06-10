@@ -743,7 +743,7 @@ input[type=radio]:checked + label:before {
 
 /* IE6, IE7 and IE8 checkbox and radio buttons  */
 @media \0screen\,screen\9 {
-	/* input[type=checkbox], input[type=radio] {
+	input[type=checkbox], input[type=radio] {
 		display: block !important;
 	}
 
@@ -758,7 +758,7 @@ input[type=radio]:checked + label:before {
 	input[type=checkbox] + label:before,
 	input[type=radio] + label:before {
 		display:  none !important;
-	} */
+	}
 
 	input[type=checkbox] + label:before { 
 		display: none; /* unchecked icon */
