@@ -4,7 +4,6 @@
 
 /* ==========================================================================
 For any brand identity questions, refer to: 
-
 https://how.candid.works/ (only available internally)
 ========================================================================== */
 
@@ -12,24 +11,19 @@ https://how.candid.works/ (only available internally)
 
 /* ==========================================================================
 Color Variables
-
 Core:
 $black: #000000; //use for backgrounds only
 $white: #ffffff;
 $black-text: #1a1a1a; //use for text only
 $gold: #febe10;
 $orange: #faa21b; //use on lines only
-
 Data viz:
 TO DO
-
-
 ========================================================================== */
 
 
 /* ==========================================================================
 Table of Contents:
-
 1. EXTERNAL RESOURCES
 2. RESET STYLES
 3. BASE STYLES
@@ -56,13 +50,10 @@ Table of Contents:
 
 /*
 Font variables
-
 $regular: "Algebra Web","Georgia", serif;
 $secondary: "LL Akkurat Regular Web","Open Sans","Calibri","Arial",sans-serif;
 $icon-sharp: "Material Icons Sharp";
 $icon-outlined: "Material Icons Outlined";
-
-
 */
 
 
@@ -715,39 +706,7 @@ input[type=radio]:checked + label:before {
 	display:  none;
 }
 
-
-/*IE checkbox and radio buttons*/
-/* IE10 and IE11  */
-@media all and (-ms-high-contrast:none){
-	input[type=checkbox], input[type=radio] {
-		display: inline-block !important;
-	}
-
-	.checkbox li, .radio li {
-		display: flex;
-	}
-
-	.checkbox label, .radio label {
-		margin: 0;
-	}
-
-	input[type=checkbox] + label:before,
-	input[type=radio] + label:before { /* Imp for IE10 */
-		display: none;
-	}
-
-	*::-ms-backdrop, 
-	input[type=checkbox] + label:before,
-	input[type=radio] + label:before { /* IE11 */
-		display: none;
-	}
-
-	form input[type=checkbox], form input[type=color], form input[type=radio] {
-		border:  none;
-	}
-}
-
-/* IE9 */
+/* IE9 checkbox and radio buttons*/
 @media screen and (min-width:0\0) and (min-resolution: .001dpcm) {
 	input[type=checkbox], input[type=radio] {
 		display: inline-block !important;
@@ -763,7 +722,7 @@ input[type=radio]:checked + label:before {
 	}
 }
 
-/* IE6, IE7 and IE8  */
+/* IE6, IE7 and IE8  checkbox and radio buttons*/
 @media \0screen\,screen\9 {
 	input[type=checkbox], input[type=radio] {
 		display: inline-block !important;
@@ -1106,7 +1065,6 @@ hr.block-divider {
 /* ==========================================================================
  MATERIAL ICON USAGE EXAMPLE                                        
 ========================================================================== 
-
 .info::after {
 	font-family: "Material Icons";
 	font-feature-settings: 'liga';
@@ -1114,11 +1072,4 @@ hr.block-divider {
 	content: "info_outline";
 	vertical-align: bottom;
 }
-
 */
-
-
-
-
-
-
