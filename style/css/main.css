@@ -180,7 +180,7 @@ nav {
   .header a.projects_nav {
     display: block;
     text-decoration: underline !important;
-    margin: 2rem 0 3rem 0; }
+    margin: 2rem 0 5rem 0; }
 
 /*--------------- hero section --------------- */
 .hero {
@@ -461,8 +461,7 @@ h6 {
     margin-right: 4px; }
 
   .header h1 {
-    font-size: 17px;
-    text-align: center; }
+    font-size: 17px; }
 
   nav #brand {
     margin-left: 24px; }
