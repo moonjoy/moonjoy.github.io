@@ -112,16 +112,24 @@ ion-icon {
 @media (max-width: 990px) {
   .block-2, .overlay {
     display: none; }
+
   .block-1 {
     width: 50%; }
+
   .block-3 {
     width: 12%; }
+
   .slide-slick {
     display: none !important; }
+
   .text-slide h1 {
     font-size: 30px !important; }
+
   .text-slider-wrapper {
     position: absolute;
     top: 60% !important; }
+
   .slider-control {
     left: 22.5%; } }
+
+/*# sourceMappingURL=ss.css.map */

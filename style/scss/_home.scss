@@ -225,6 +225,20 @@ nav {
       margin-top: 140px;
 }
 
+.header a {
+  text-decoration: underline;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.projects_nav {
+    display: block;
+    text-decoration: underline !important;
+    margin: 2rem 0 3rem 0;
+    
+  }
+}
+
 
 /*--------------- hero section --------------- */
 .hero {

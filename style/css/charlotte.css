@@ -208,17 +208,18 @@ a:hover {
   100% {
     left: 100%;
     width: 0%; } }
-
 @keyframes appear-text {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 @media (max-width: 900px) {
   .left-col {
     width: 100%; }
+
   .right-col {
     top: 100%;
     left: 0;
     width: 100%; } }
+
+/*# sourceMappingURL=charlotte.css.map */

@@ -155,7 +155,6 @@ a {
       .right-col .upper .about .media ul li {
         display: inline-block;
         padding-right: 10px; }
-
 .right-col .bottom {
   width: 150%;
   background: url(../../pages/web/cardin/cardin.jpg) no-repeat 50% 64%;
@@ -226,35 +225,43 @@ a {
   100% {
     left: 100%;
     width: 0%; } }
-
 @keyframes appear-text {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
 @media (max-width: 900px) {
   html, body {
     overflow-y: scroll !important; }
+
   .left-cover {
     width: 110%; }
+
   .cover-container {
     padding-top: 15% !important; }
+
   .left-top {
     padding: 1% 4% !important; }
+
   .cover {
     width: 350px !important;
     height: 470px !important; }
+
   .album {
     top: 30% !important;
     left: 9% !important; }
+
   .more {
     margin: 6% 4% 1% 3% !important; }
+
   .left-col {
     animation-delay: 1s; }
+
   .block-cover {
     top: 18.37%;
     left: 17%;
     transform: translate -50%, -50%;
     width: 66%;
     height: 65.5%; } }
+
+/*# sourceMappingURL=cardin.css.map */
