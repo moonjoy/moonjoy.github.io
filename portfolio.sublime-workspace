@@ -1,0 +1,396 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"flex",
+				"flex-basis\tproperty"
+			],
+			[
+				"font-",
+				"font-style\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS - Compressed.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 337.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io"
+	],
+	"file_history":
+	[
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-brand.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_global.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-modal.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_responsive.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-modal.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_exception.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_exception.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/special-collection/listing.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-suggest-report.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-suggest-report.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_exception.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-modal.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_responsive.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_responsive.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-suggest-report.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/main.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_utility-flow.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/kc-templates/bma/pages/about-this-collection.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/listing.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/main.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-list-pair.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_utility-list-pair.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/listing.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_reset.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_tokens.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/index.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/resource.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-wrapper.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/base.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-divider.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-footer.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/public/widget/js/issuelab-widget.js",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-side-bar.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/author.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-result-article.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_tokens.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-region.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/main.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-tile.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/service-template-dynamic-pages/ppv/creative_commons.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-flow.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/dynamic_page.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/dynamic_page.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-tiles.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/base.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/resource.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-tile.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_comp-tiles.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-field.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/dropdown-explore-menu.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/special-collection/index.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_utility-list-pair.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-dropdown.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_utility-split-pair.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_comp-footer.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_utility-split-wrap.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-brand.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-field.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-field.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_tokens.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search/internal_search_fields.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-tile-view.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_utility-tile-view.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/public/js/search-kc.js",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/search-parts/search-result-article-no.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_reset.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_utility-split-wrap.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-split-wrap.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-dropdown.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/search/filter-legacy-collection.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/resource-category-tags.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/heading.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/public/js/bundle.js",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_global.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_comp-intro.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/special-collection/resource.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/special-collection/base.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-icon.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-dropdown.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_comp-side-bar.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_reset.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_utility-flow.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-tab.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-tags.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-pagination.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/special-collection/_block-brand.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-tags.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-tab.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-tab.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_comp-tiles.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_comp-footer.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-tile.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-split-pair.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_utility-split-pair.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-tags.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_utility-split-custom.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_comp-intro.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_global.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/keywords.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/classy newsletter/classy-backup.html",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/classy newsletter/fallback.html",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search/external_search_field.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/classy newsletter/classy.html",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-divider.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-slide-top.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_comp-side-bar.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/dynamic-pages/bma/about-this-collection.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/storage/framework/views/27a78d4b345976d78226ec1d33c5b74d",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-button.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/404.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/index.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/pubdate.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/geography.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/copyright.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/categories.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/search/add_to_kc.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-button.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-icon-hover.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/knowledge-centers/ajax-result.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-tooltip.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-intro.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-bullet-list.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-pagination.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_utility-wrapper.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/search_form.blade.php",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-nav-top.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-progress.scss",
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-progress.scss"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 560.0
+	},
+	"pinned_build_system": "",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 532.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
