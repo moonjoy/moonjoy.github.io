@@ -599,11 +599,11 @@ ul.process {
   height: 1px; }
 
 .info h4 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
-  color: #c3c3c3; }
+  color: #ffffff; }
   .info h4 a {
-    color: #c3c3c3 !important; }
+    color: #ffffff !important; }
     .info h4 a:hover {
       color: #d6941c !important; }
 
@@ -613,8 +613,8 @@ ul.process {
 
 .info li {
   font-weight: lighter;
-  color: #fff;
-  font-size: 18px;
+  color: #ffffff;
+  font-size: 25px;
   padding: 0 6px; }
 
 #media {
@@ -627,14 +627,14 @@ ul.process {
   list-style: none;
   padding-left: 0; }
   #media ul a {
-    color: #c3c3c3 !important; }
+    color: #ffffff !important; }
     #media ul a:hover {
       color: #d6941c !important; }
 
 .copyright {
   font-weight: 300 !important;
   font-size: 12px;
-  color: #7d7d7d !important;
+  color: #c5c5c5 !important;
   text-align: center;
   margin: 1% 0; }
 

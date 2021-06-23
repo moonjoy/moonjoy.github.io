@@ -35,6 +35,96 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 17326,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/coreweave.html",
+			"settings":
+			{
+				"buffer_size": 13739,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/eattendance.html",
+			"settings":
+			{
+				"buffer_size": 13532,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/fi2w.html",
+			"settings":
+			{
+				"buffer_size": 12399,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/himalayanwildfibers.html",
+			"settings":
+			{
+				"buffer_size": 12148,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/mybrainandme.html",
+			"settings":
+			{
+				"buffer_size": 14641,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/prism.html",
+			"settings":
+			{
+				"buffer_size": 12555,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/rapiddetectionsystems.html",
+			"settings":
+			{
+				"buffer_size": 10855,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/web/rapidmotionservices.html",
+			"settings":
+			{
+				"buffer_size": 11662,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style/scss/_home.scss",
+			"settings":
+			{
+				"buffer_size": 22080,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -128,10 +218,31 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io"
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/about",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/web",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/web/cardin",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/style",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/style/scss"
 	],
 	"file_history":
 	[
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/asthamangala.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/chagubakha.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/childcare.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/divergent.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/free.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/magikku.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/micdrop.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/mythicalland.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/phantom.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/projects/projects.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/web/coreweave.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/web/cardin.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/pages/about/about.html",
+		"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/style/scss/_home.scss",
 		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-brand.scss",
 		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_global.scss",
 		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-modal.scss",
@@ -245,21 +356,7 @@
 		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/legacy-collection/index.blade.php",
 		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/pubdate.blade.php",
 		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/geography.blade.php",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/copyright.blade.php",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/categories.blade.php",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/search/add_to_kc.blade.php",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-button.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-icon-hover.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/knowledge-centers/ajax-result.blade.php",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-tooltip.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-intro.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-bullet-list.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-pagination.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_utility-wrapper.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/kc2/search_form.blade.php",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_comp-nav-top.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/kc2/_block-progress.scss",
-		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/scss/legacy-collection/_block-progress.scss"
+		"/Users/barsha.maharjan/Documents/candid_projects_collection/issuelab/issuelab/resources/views/shared/new-services/search-fields/copyright.blade.php"
 	],
 	"find":
 	{
@@ -270,6 +367,7 @@
 		"height": 134.0,
 		"where_history":
 		[
+			"/Users/barsha.maharjan/Documents/Learning/my_website/moonjoy.github.io/style/scss"
 		]
 	},
 	"find_state":
@@ -277,6 +375,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"center",
+			"active",
+			"id=\"projects\"",
+			"projects",
+			"#work",
+			"work"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -294,8 +398,339 @@
 	"groups":
 	[
 		{
+			"selected": 9,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7914,
+								7914
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1559.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pages/web/coreweave.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2626,
+								3034
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/web/eattendance.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1798,
+								2364
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1489.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "pages/web/fi2w.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2363,
+								2363
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1491.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "pages/web/himalayanwildfibers.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1798,
+								2364
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1463.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "pages/web/mybrainandme.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2626,
+								3035
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2087.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages/web/prism.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1740,
+								2387
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1567.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "pages/web/rapiddetectionsystems.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10855,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2625,
+								3034
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2042.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "pages/web/rapidmotionservices.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2720,
+								2720
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2018.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "style/scss/_home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5256,
+								5256
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6331.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
