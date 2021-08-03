@@ -524,7 +524,7 @@ h6 {
   text-align: center;
   border: 1px solid #e6e6e6;
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 4px;
   margin: 0 60px;
   font-size: 13.5px; }
   .skillset .inner-skill:first-child {
@@ -820,8 +820,8 @@ textarea:focus {
     border-radius: 14px; }
     .client-images div img {
       width: 100%;
-      border-radius: 14px;
-      box-shadow: 0px 1px 4px #88888896; }
+      border-radius: 4px;
+      box-shadow: 0px 1px 4px #88888869; }
       .client-images div img:hover {
         cursor: pointer;
         opacity: 0.75; }
