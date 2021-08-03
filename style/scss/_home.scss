@@ -126,6 +126,14 @@ a[role="button"] {
   justify-content: flex-end;
 }
 // Splits elements towards horizontal corners
+
+.split-pair {
+  @include breakpoint-up(medium) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .split-pair-section {
   gap: 10rem;
   @include breakpoint-up(medium) {
@@ -155,8 +163,55 @@ a[role="button"] {
 }
 
 /*--------------- Padding --------------- */
+.p-top-1 {
+  padding-top: 1rem;
+}
+.p-top-2 {
+  padding-top: 2rem;
+}
+
 .p-top-3 {
   padding-top: 3rem;
+}
+
+.p-top-8 {
+  padding-top: 8rem;
+}
+
+/*--------------- Margin --------------- */
+.m-top-1 {
+  margin-top: 1rem;
+}
+.m-top-2 {
+  margin-top: 2rem;
+}
+
+.m-top-3 {
+  margin-top: 3rem;
+}
+
+.m-top-4 {
+  margin-top: 4rem;
+}
+
+.m-top-5 {
+  margin-top: 5rem;
+}
+
+.m-top-6 {
+  margin-top: 6rem;
+}
+
+.m-top-7 {
+  margin-top: 7rem;
+}
+
+.m-top-8 {
+  margin-top: 8rem;
+}
+
+.m-top-10 {
+  margin-top: 10rem;
 }
 
 /*--------------- navigation --------------- */
@@ -564,7 +619,7 @@ h6 {
 
 .project-des1 {
   &::after {
-    content: "Official Selection for #WeAreHereFest Film Festival at the Abrons Art Center in NYC on Sept 5th to Sept 7th, 2019. \A \A Chagu Bakha is an animated short film about a Deity from an ancient folklore in the Newar culture in Nepal. I explore digital storytelling with the memories of my hometown, Kathmandu and my childhood within the Newari culture.";
+    content: "Official Selection for #WeAreHereFest Film Festival at the Abrons Art Center in NYC on display from Sept 5th to Sept 7th, 2019. \A \A Chagu Bakha is an animated short film about a Deity from an ancient folklore in the Newar culture in Nepal. I explore digital storytelling with the memories of my hometown, Kathmandu and my childhood within the Newari culture.";
     white-space: pre-wrap;
     font-size: 15px;
     position: relative;
@@ -917,7 +972,7 @@ ul {
 .footer {
   background: #313131;
   .container {
-    padding: 7% 1% 2% 1%;
+    padding: 3% 1% 2% 1%;
   }
 
   .info {
@@ -1119,7 +1174,8 @@ textarea:focus {
 
 .ui-project-description {
   .ui-project-des-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-top: 0.7rem;
     display: inline-block;
   }
 
@@ -1188,4 +1244,79 @@ textarea:focus {
   @include breakpoint-down(small) {
     background-image: url(../../image_avatar.png);
   }
+}
+
+//Projects
+
+.project-webs {
+  height: 280px;
+  width: 540px;
+}
+
+// web projects
+.web-one {
+  &:hover {
+    cursor: pointer;
+    .web-project01 {
+      cursor: pointer;
+      background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+    .ui-project-des-title {
+      color: #d6941c !important;
+    }
+  }
+}
+.web-project01 {
+  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+  background-size: 100%;
+}
+
+.web-two {
+  &:hover {
+    cursor: pointer;
+    .web-project02 {
+      cursor: pointer;
+      background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+    .ui-project-des-title {
+      color: #d6941c !important;
+    }
+  }
+}
+.web-project02 {
+  background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
+  background-size: 100%;
+}
+
+.web-three {
+  &:hover {
+    cursor: pointer;
+    .web-project03 {
+      cursor: pointer;
+      background: url(../../projects/web/ss/ss.gif) no-repeat 50% 50%;
+      background-size: 100%;
+    }
+    .ui-project-des-title {
+      color: #d6941c !important;
+    }
+  }
+}
+.web-project03 {
+  background: url(../../projects/web/ss/ss.png) no-repeat 50% 50%;
+  background-size: 100%;
+}
+
+#media-contact ion-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.bit-image {
+  width: 7%;
+  margin-top: -1rem;
+}
+
+.bit-desc {
 }

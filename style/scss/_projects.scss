@@ -1,423 +1,377 @@
+// // web projects
+// .web-project1 {
+//     background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+//     background-size: 100%;
 
-// web projects
-.web-project1 {
-    background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+//     &::after {
+//         content: "prism";
+//         font-family: "Roboto Mono";
+//         font-size: 36px;
+//         position: relative;
+//         display: block;
+//         top: 72%;
+//         left: 96%;
+//         right: 0;
+//         bottom: 0;
+//   }
+// }
 
-    &::after {
-        content: "prism";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 72%;
-        left: 96%;
-        right: 0;
-        bottom: 0;
-  }
-}
+// .web-one:hover {
+//     cursor: pointer;
+//     .web-project1{
+//       background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
+//       background-size: 100%;
+//     }
+// }
 
-.web-one:hover {
-    cursor: pointer;
-    .web-project1{
-      background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
-}
+// .web-project2 {
+//     background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
+//     background-size: 100%;
 
+//     &::after {
+//         content: "album template";
+//         font-family: "Roboto Mono";
+//         font-size: 36px;
+//         position: relative;
+//         display: block;
+//         top: 48%;
+//         left: -27%;
+//         right: 0;
+//         bottom: 0;
+//   }
+// }
 
-
-.web-project2 {
-    background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
-    background-size: 100%;
-
-    &::after {
-        content: "album template";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 48%;
-        left: -27%;
-        right: 0;
-        bottom: 0;
-  }
-}
-
-.web-two:hover {
-    cursor: pointer;
-    .web-project2{
-      background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
-}
+// .web-two:hover {
+//     cursor: pointer;
+//     .web-project2{
+//       background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
+//       background-size: 100%;
+//     }
+// }
 
 // VR projects
 
 .vr-project1 {
-    background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
+  background-size: 100%;
 
-    &::after {
-        content: "magikku";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 72%;
-        left: 96%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "magikku";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 72%;
+    left: 96%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .vr-one:hover {
-    cursor: pointer;
-    .vr-project1{
-      background: url(../../projects/vr/magikku/magikku.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .vr-project1 {
+    background: url(../../projects/vr/magikku/magikku.gif) no-repeat 50% 50%;
+    background-size: 100%;
+  }
 }
 
-
 .vr-project2 {
-    background: url(../../projects/vr/mythicalland/mythicalland.png) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/vr/mythicalland/mythicalland.png) no-repeat 50%
+    50%;
+  background-size: 100%;
 
-    &::after {
-        content: "mythical land";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 48%;
-        left: -27%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "mythical land";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 48%;
+    left: -27%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .vr-two:hover {
-    cursor: pointer;
-    .vr-project2{
-      background: url(../../projects/vr/mythicalland/mythicalland.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .vr-project2 {
+    background: url(../../projects/vr/mythicalland/mythicalland.gif) no-repeat
+      50% 50%;
+    background-size: 100%;
+  }
 }
-
-
 
 // motion project
 
 .motion-project1 {
-    background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 50%
+    50%;
+  background-size: 100%;
 
-    &::after {
-        content: "chagu bakha";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 72%;
-        left: 96%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "chagu bakha";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 72%;
+    left: 96%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-one:hover {
-    cursor: pointer;
-    .motion-project1{
-      background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project1 {
+    background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat
+      50% 50%;
+    background-size: 100%;
+  }
 }
 
-
 .motion-project2 {
-    background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
+  background-size: 100%;
 
-    &::after {
-        content: "mic drop";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 48%;
-        left: -13%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "mic drop";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 48%;
+    left: -13%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-two:hover {
-    cursor: pointer;
-    .motion-project2{
-      background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project2 {
+    background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50%
+      50%;
+    background-size: 100%;
+  }
 }
 
-
 .motion-project3 {
-    background: url(../../projects/motion/divergent/divergent.png) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/divergent/divergent.png) no-repeat 50%
+    50%;
+  background-size: 100%;
 
-    &::after {
-        content: "divergent";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 72%;
-        left: 96%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "divergent";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 72%;
+    left: 96%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-three:hover {
-    cursor: pointer;
-    .motion-project3{
-      background: url(../../projects/motion/divergent/divergent.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project3 {
+    background: url(../../projects/motion/divergent/divergent.gif) no-repeat 50%
+      50%;
+    background-size: 100%;
+  }
 }
 
-
-
 .motion-project4 {
-    background: url(../../projects/motion/free/free.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/free/free.jpg) no-repeat 50% 50%;
+  background-size: 100%;
 
-    &::after {
-        content: "be free";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 78%;
-        left: -13%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "be free";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 78%;
+    left: -13%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-four:hover {
-    cursor: pointer;
-    .motion-project4{
-      background: url(../../projects/motion/free/free.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project4 {
+    background: url(../../projects/motion/free/free.gif) no-repeat 50% 50%;
+    background-size: 100%;
+  }
 }
 
-
-
-
 .motion-project5 {
-    background: url(../../projects/motion/childcare/childcare.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/childcare/childcare.jpg) no-repeat 50%
+    50%;
+  background-size: 100%;
 
-    &::after {
-        content: "childcare";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 30%;
-        left: 95%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "childcare";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 30%;
+    left: 95%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-five:hover {
-    cursor: pointer;
-    .motion-project5{
-      background: url(../../projects/motion/childcare/childcare.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project5 {
+    background: url(../../projects/motion/childcare/childcare.gif) no-repeat 50%
+      50%;
+    background-size: 100%;
+  }
 }
 
-
-
-
 .motion-project6 {
-    background: url(../../projects/motion/phantom/phantom.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/phantom/phantom.jpg) no-repeat 50% 50%;
+  background-size: 100%;
 
-    &::after {
-        content: "phantom";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 78%;
-        left: -13%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "phantom";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 78%;
+    left: -13%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-six:hover {
-    cursor: pointer;
-    .motion-project6{
-      background: url(../../projects/motion/phantom/phantom.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project6 {
+    background: url(../../projects/motion/phantom/phantom.gif) no-repeat 50% 50%;
+    background-size: 100%;
+  }
 }
 
-
-
-
-
 .motion-project7 {
-    background: url(../../projects/motion/mandala/mandala.jpg) no-repeat 50% 50%;
-    background-size: 100%;
+  background: url(../../projects/motion/mandala/mandala.jpg) no-repeat 50% 50%;
+  background-size: 100%;
 
-    &::after {
-        content: "asthamangala";
-        font-family: "Roboto Mono";
-        font-size: 36px;
-        position: relative;
-        display: block;
-        top: 72%;
-        left: 106%;
-        right: 0;
-        bottom: 0;
+  &::after {
+    content: "asthamangala";
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    position: relative;
+    display: block;
+    top: 72%;
+    left: 106%;
+    right: 0;
+    bottom: 0;
   }
 }
 
 .motion-seven:hover {
-    cursor: pointer;
-    .motion-project7{
-      background: url(../../projects/motion/mandala/mandala.gif) no-repeat 50% 50%;
-      background-size: 100%;
-    }
+  cursor: pointer;
+  .motion-project7 {
+    background: url(../../projects/motion/mandala/mandala.gif) no-repeat 50% 50%;
+    background-size: 100%;
+  }
 }
 
+@media (max-width: 768px) {
+  .project {
+    height: 350px;
+  }
 
-
-@media(max-width: 768px) {
-    .project {
-        height: 350px;
-    }
-
-    .web-project1::after, .web-project2::after, .vr-project1::after, .vr-project2::after, .motion-project1::after, .motion-project2::after  {
-        top: 6%;
-        left: 0%;
-        font-size: 22px;
-    }
+  .web-project1::after,
+  .web-project2::after,
+  .vr-project1::after,
+  .vr-project2::after,
+  .motion-project1::after,
+  .motion-project2::after {
+    top: 6%;
+    left: 0%;
+    font-size: 22px;
+  }
 }
-
-
-
-
 
 // headers css
 
 .project-banner {
-    min-height: 350px;
+  min-height: 350px;
 
-    h2 {
-        position: relative;
-        top: 60%;
-        left: 11%;
-        a {
-            &:hover {
-                color: #eaeaea !important;
-            }
-        }
+  h2 {
+    position: relative;
+    top: 60%;
+    left: 11%;
+    a {
+      &:hover {
+        color: #eaeaea !important;
+      }
     }
+  }
 
-    &.rms-banner {
-        background: url(../../projects/web/rms/rms-banner.png) no-repeat center center / cover;
-    }
+  &.rms-banner {
+    background: url(../../projects/web/rms/rms-banner.png) no-repeat center
+      center / cover;
+  }
 
-    &.rds-banner {
-        background-color: #f4ac33;
-    }
+  &.rds-banner {
+    background-color: #f4ac33;
+  }
 
-    &.cardin-banner {
-        background: url(../../projects/web/cardin/cardin-banner.jpg) no-repeat center center / cover;
-    }
+  &.cardin-banner {
+    background: url(../../projects/web/cardin/cardin-banner.jpg) no-repeat
+      center center / cover;
+  }
 
-    &.hwf-banner {
-        background: url(../../projects/web/himalayan/hwf-banner.png) no-repeat center center / cover;
-    }
+  &.hwf-banner {
+    background: url(../../projects/web/himalayan/hwf-banner.png) no-repeat
+      center center / cover;
+  }
 
-    &.prism-banner {
-        background: url(../../projects/web/prism/prismbanner.png) no-repeat center center / cover;
-        background-position: 0 3%;
-    }
+  &.prism-banner {
+    background: url(../../projects/web/prism/prismbanner.png) no-repeat center
+      center / cover;
+    background-position: 0 3%;
+  }
 
-    &.mbam-banner {
-        background: url(../../projects/web/mbam/mbam.jpg) no-repeat center center / cover;
-        background-position: 0 23%;
-    }
+  &.mbam-banner {
+    background: url(../../projects/web/mbam/mbam.jpg) no-repeat center center /
+      cover;
+    background-position: 0 23%;
+  }
 
-    &.eattendance-banner {
-        background: url(../../projects/web/eattendance/head-image.png) no-repeat center center / cover;
-        background-position: -20px 8px;
-    }
-    &.coreweave-banner {
-        background: url(../../projects/web/coreweave/head-image.png) no-repeat center center / cover;
-        background-position: -70px 8px;
-    }
+  &.eattendance-banner {
+    background: url(../../projects/web/eattendance/head-image.png) no-repeat
+      center center / cover;
+    background-position: -20px 8px;
+  }
+  &.coreweave-banner {
+    background: url(../../projects/web/coreweave/head-image.png) no-repeat
+      center center / cover;
+    background-position: -70px 8px;
+  }
 }
 
-
 .demo-link {
-    color: #dea845 !important;
-    &:hover {
-        color: #bd8f3c !important;
-    }
+  color: #dea845 !important;
+  &:hover {
+    color: #bd8f3c !important;
+  }
 }
 
 .p-eattendance {
-    img {
+  img {
     margin-bottom: 6%;
+  }
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

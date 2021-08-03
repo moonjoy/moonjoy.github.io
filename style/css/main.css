@@ -76,6 +76,11 @@ a[role="button"] {
 .flex-end {
   justify-content: flex-end; }
 
+@media (min-width: 40em) {
+  .split-pair {
+    display: flex;
+    justify-content: space-between; } }
+
 .split-pair-section {
   gap: 10rem; }
   @media (min-width: 40em) {
@@ -98,8 +103,45 @@ a[role="button"] {
   padding: 3rem 0; }
 
 /*--------------- Padding --------------- */
+.p-top-1 {
+  padding-top: 1rem; }
+
+.p-top-2 {
+  padding-top: 2rem; }
+
 .p-top-3 {
   padding-top: 3rem; }
+
+.p-top-8 {
+  padding-top: 8rem; }
+
+/*--------------- Margin --------------- */
+.m-top-1 {
+  margin-top: 1rem; }
+
+.m-top-2 {
+  margin-top: 2rem; }
+
+.m-top-3 {
+  margin-top: 3rem; }
+
+.m-top-4 {
+  margin-top: 4rem; }
+
+.m-top-5 {
+  margin-top: 5rem; }
+
+.m-top-6 {
+  margin-top: 6rem; }
+
+.m-top-7 {
+  margin-top: 7rem; }
+
+.m-top-8 {
+  margin-top: 8rem; }
+
+.m-top-10 {
+  margin-top: 10rem; }
 
 /*--------------- navigation --------------- */
 nav {
@@ -393,7 +435,7 @@ h6 {
     background-size: cover; }
 
 .project-des1::after {
-  content: "Official Selection for #WeAreHereFest Film Festival at the Abrons Art Center in NYC on Sept 5th to Sept 7th, 2019. \A \A Chagu Bakha is an animated short film about a Deity from an ancient folklore in the Newar culture in Nepal. I explore digital storytelling with the memories of my hometown, Kathmandu and my childhood within the Newari culture.";
+  content: "Official Selection for #WeAreHereFest Film Festival at the Abrons Art Center in NYC on display from Sept 5th to Sept 7th, 2019. \A \A Chagu Bakha is an animated short film about a Deity from an ancient folklore in the Newar culture in Nepal. I explore digital storytelling with the memories of my hometown, Kathmandu and my childhood within the Newari culture.";
   white-space: pre-wrap;
   font-size: 15px;
   position: relative;
@@ -640,7 +682,7 @@ ul.process {
 .footer {
   background: #313131; }
   .footer .container {
-    padding: 7% 1% 2% 1%; }
+    padding: 3% 1% 2% 1%; }
   .footer .info {
     padding-bottom: 15px; }
 
@@ -792,7 +834,8 @@ textarea:focus {
   outline: none !important; }
 
 .ui-project-description .ui-project-des-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-top: 0.7rem;
   display: inline-block; }
 .ui-project-description .ui-project-des-weblink {
   display: inline-block;
@@ -842,6 +885,57 @@ textarea:focus {
 @media (max-width: 39.9375em) {
   .bg-image {
     background-image: url(../../image_avatar.png); } }
+
+.project-webs {
+  height: 280px;
+  width: 540px; }
+
+.web-one:hover {
+  cursor: pointer; }
+  .web-one:hover .web-project01 {
+    cursor: pointer;
+    background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+  .web-one:hover .ui-project-des-title {
+    color: #d6941c !important; }
+
+.web-project01 {
+  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.web-two:hover {
+  cursor: pointer; }
+  .web-two:hover .web-project02 {
+    cursor: pointer;
+    background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+  .web-two:hover .ui-project-des-title {
+    color: #d6941c !important; }
+
+.web-project02 {
+  background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.web-three:hover {
+  cursor: pointer; }
+  .web-three:hover .web-project03 {
+    cursor: pointer;
+    background: url(../../projects/web/ss/ss.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+  .web-three:hover .ui-project-des-title {
+    color: #d6941c !important; }
+
+.web-project03 {
+  background: url(../../projects/web/ss/ss.png) no-repeat 50% 50%;
+  background-size: 100%; }
+
+#media-contact ion-icon {
+  width: 1.5rem;
+  height: 1.5rem; }
+
+.bit-image {
+  width: 7%;
+  margin-top: -1rem; }
 
 /*--------------- work page --------------- */
 .hero-content {
@@ -932,46 +1026,6 @@ textarea:focus {
 @media (max-width: 991px) {
   .sub-content p {
     margin-top: 30px !important; } }
-.web-project1 {
-  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
-  background-size: 100%; }
-  .web-project1::after {
-    content: "prism";
-    font-family: "Roboto Mono";
-    font-size: 36px;
-    position: relative;
-    display: block;
-    top: 72%;
-    left: 96%;
-    right: 0;
-    bottom: 0; }
-
-.web-one:hover {
-  cursor: pointer; }
-  .web-one:hover .web-project1 {
-    background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
-    background-size: 100%; }
-
-.web-project2 {
-  background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
-  background-size: 100%; }
-  .web-project2::after {
-    content: "album template";
-    font-family: "Roboto Mono";
-    font-size: 36px;
-    position: relative;
-    display: block;
-    top: 48%;
-    left: -27%;
-    right: 0;
-    bottom: 0; }
-
-.web-two:hover {
-  cursor: pointer; }
-  .web-two:hover .web-project2 {
-    background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
-    background-size: 100%; }
-
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
   background-size: 100%; }
@@ -1156,7 +1210,12 @@ textarea:focus {
   .project {
     height: 350px; }
 
-  .web-project1::after, .web-project2::after, .vr-project1::after, .vr-project2::after, .motion-project1::after, .motion-project2::after {
+  .web-project1::after,
+  .web-project2::after,
+  .vr-project1::after,
+  .vr-project2::after,
+  .motion-project1::after,
+  .motion-project2::after {
     top: 6%;
     left: 0%;
     font-size: 22px; } }
