@@ -1,15 +1,13 @@
 /*--------------- basic styling --------------- */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
   font-family: "Roboto Mono" !important;
   color: #292929 !important;
-  font-size: 15px !important; }
-
-body {
-  overflow-x: hidden !important; }
+  font-size: 15px !important;
+  overflow-x: hidden; }
 
 .whitespace {
   width: 100%;
@@ -46,6 +44,63 @@ ion-icon {
 .reveal-text {
   margin-bottom: 15px; }
 
+/*--------------- Buttons --------------- */
+a[role="button"] {
+  border-radius: 2px;
+  font-size: 1.5rem;
+  padding: 6px 18px 8px 18px; }
+
+.button-dark {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  background: #353535; }
+  .button-dark:hover {
+    background-color: #00000094;
+    color: #ffffff !important; }
+
+.button-light-outline {
+  color: #353535 !important;
+  text-decoration: none !important;
+  outline: 1px solid #353535; }
+  .button-light-outline:hover {
+    background-color: #0000000d;
+    color: #353535 !important; }
+
+/*--------------- Flex --------------- */
+.split-wrap {
+  display: flex;
+  flex-wrap: wrap; }
+  .split-wrap > *:not(:last-child) {
+    margin-right: 1rem; }
+
+.flex-end {
+  justify-content: flex-end; }
+
+.split-pair-section {
+  gap: 10rem; }
+  @media (min-width: 40em) {
+    .split-pair-section {
+      display: flex;
+      justify-content: space-between; } }
+  @media (max-width: 63.9375em) {
+    .split-pair-section > * + * {
+      padding-top: 1.5rem; } }
+
+/*--------------- Section --------------- */
+.section-title {
+  font-size: 2rem; }
+
+/*--------------- Region --------------- */
+.region-md {
+  padding: 2rem 0; }
+
+.region-lg {
+  padding: 3rem 0; }
+
+/*--------------- Padding --------------- */
+.p-top-3 {
+  padding-top: 3rem; }
+
 /*--------------- navigation --------------- */
 nav {
   width: 100%;
@@ -54,7 +109,8 @@ nav {
   z-index: 1;
   background: #fff; }
   nav.nav-home {
-    background-color: transparent;
+    background-color: #f2f1f48f;
+    z-index: 9;
     transition: background-color 500ms ease-in-out; }
   nav #brand {
     float: left;
@@ -101,7 +157,7 @@ nav {
       text-align: left;
       list-style: none;
       background-clip: padding-box;
-      border-radius: .25rem; }
+      border-radius: 0.25rem; }
       nav #menu .submenu .submenu-item {
         display: block;
         width: 100%;
@@ -210,14 +266,14 @@ nav {
     text-align: left;
     letter-spacing: 0px;
     line-height: 28px;
-    color: #4e4e4e;
+    color: #353535;
     font-size: 18px;
     padding: 0; }
   .header p {
     padding: 10px 0 0 0;
-    color: #8c8c8c; }
+    color: #777777; }
     .header p a {
-      color: #8c8c8c !important; }
+      color: #777777 !important; }
       .header p a:hover {
         border-bottom: 2px solid #fbe1b3;
         cursor: pointer; }
@@ -227,14 +283,9 @@ nav {
   position: absolute;
   left: 50%;
   bottom: 100px;
-  display: block;
-  text-align: center;
-  font-size: 20px;
-  z-index: 0;
-  text-decoration: none;
   text-shadow: 0;
-  width: 16px;
-  height: 16px;
+  width: 1.2rem;
+  height: 1.2rem;
   border-bottom: 2px solid #292929;
   border-right: 2px solid #292929;
   -webkit-transform: translate(-50%, 0) rotate(45deg);
@@ -504,7 +555,10 @@ h6 {
       margin: 5% -8%;
       width: 98%; }
 
-  .collab, #personal, #media, #address {
+  .collab,
+  #personal,
+  #media,
+  #address {
     text-align: center !important; }
 
   .info ul {
@@ -514,7 +568,10 @@ h6 {
   .vertical {
     display: none; }
 
-  .project-des1::after, .project-des2::after, .project-des3::after, .project-des4::after {
+  .project-des1::after,
+  .project-des2::after,
+  .project-des3::after,
+  .project-des4::after {
     display: none !important; }
 
   .skillset {
@@ -663,11 +720,12 @@ ul.process {
 
 #contact-form label {
   display: block;
-  font-size: .8em;
+  font-size: 0.8em;
   color: #999;
   padding-left: 5px; }
 
-#contact-form input, #contact-form textarea {
+#contact-form input,
+#contact-form textarea {
   width: 100%;
   padding: 5px;
   border: none;
@@ -708,7 +766,7 @@ textarea:focus {
 
 .header-text {
   font-size: 1.2rem;
-  color: #9a9a9a;
+  color: #353535;
   font-weight: 400;
   margin-bottom: 4rem;
   text-align: center; }
@@ -749,9 +807,11 @@ textarea:focus {
 .ui-project-description .ui-project-des-sub {
   color: #616161; }
 
-.prev, .next p {
+.prev,
+.next p {
   color: #818181; }
-  .prev:hover, .next p:hover {
+  .prev:hover,
+  .next p:hover {
     color: #fff; }
 
 .prev p {
@@ -771,12 +831,24 @@ textarea:focus {
   border-radius: 3px;
   font-weight: 300; }
 
+@media (max-width: 39.9375em) {
+  .hide-for-mobile {
+    display: none; } }
+
+@media (min-width: 40em) {
+  .hide-for-desktop {
+    display: none; } }
+
+@media (max-width: 39.9375em) {
+  .bg-image {
+    background-image: url(../../image_avatar.png); } }
+
 /*--------------- work page --------------- */
 .hero-content {
   margin-left: 0%; }
 
 .hero-content p {
-  font-size: 14px;
+  font-size: 0.938rem;
   word-spacing: -0.5px;
   letter-spacing: 0.5px;
   line-height: 21px; }
@@ -796,20 +868,30 @@ textarea:focus {
   word-spacing: -2px;
   letter-spacing: 0; }
 .hero-content .s-content-title p {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500; }
-  .hero-content .s-content-title p .web-link {
-    font-size: 14px; }
+.hero-content .web-link {
+  font-size: 0.938rem;
+  background: #eeeeee;
+  height: 23px;
+  border-radius: 2px;
+  margin-top: 2px; }
+  .hero-content .web-link a {
+    padding: 1px 6px 10px 10px;
+    color: #686868 !important; }
+.hero-content .divider {
+  padding: 2rem 0;
+  border-top: 1px dotted #686868; }
 .hero-content .s-content-role p {
-  font-size: 13px;
+  font-size: 0.875rem;
   font-weight: 600;
   color: #424242;
-  margin-bottom: 5px; }
+  margin-bottom: 6px; }
 .hero-content .s-content-des p {
-  font-size: 13px;
+  font-size: 0.938rem;
   font-weight: 400;
-  color: #7b7b7b;
-  margin-bottom: 5px; }
+  color: #686868;
+  margin-bottom: 6px; }
 
 .hero-content h6 {
   padding-bottom: 7px;
@@ -831,7 +913,12 @@ textarea:focus {
   margin: 6% 0 8% 0; }
   .project-des-blocks p {
     color: #4e4e4e;
-    font-size: 13.5px; }
+    font-size: 0.938rem; }
+
+.project-des-blocks .section-description {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  color: #686868; }
 
 .des-blocks-title {
   margin-bottom: 15px;
