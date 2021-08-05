@@ -1037,6 +1037,9 @@ textarea:focus {
   .tile-and-description > * + * li {
     padding-bottom: 1.2rem; }
 
+.hobby {
+  color: #ccc; }
+
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
   background-size: 100%; }
