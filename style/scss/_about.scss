@@ -1,27 +1,63 @@
 /*---------------about page --------------- */
 
 .about {
-      height: 500px;
-      margin-top: 120px;
+  height: 500px;
+  margin-top: 120px;
 }
 
 .image {
-      background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80) no-repeat 50% 70%;
+  background: url(https://images.unsplash.com/photo-1540885762261-a2ca01f290f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80)
+    no-repeat 50% 70%;
 }
 
 .s-portrait {
-    width: 90%;
-    border-radius: 100%;
+  width: 90%;
+  border-radius: 100%;
 }
 
 .d-portrait {
-    padding: 4% 0;
+  padding: 4% 0;
 }
 
+.re-title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
 
-@media(max-width: 768px) {
-    .s-portrait {
-        width: 50% !important;
-        margin: 10% 0;
+.re-des {
+  &_des {
+    margin-bottom: 0.2rem;
+    p {
+      margin-bottom: 0;
     }
+  }
+  &_title {
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}
+
+.grants p {
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .s-portrait {
+    width: 50% !important;
+    margin: 10% 0;
+  }
+}
+
+.resume-pdf {
+  position: fixed;
+  border: 1.5px solid $text-color;
+  padding: 0.5rem 1rem;
+  right: 0;
+  bottom: 15%;
+  background-color: #fff;
+  &:hover {
+    background-color: $text-color;
+    color: #fff;
+  }
 }

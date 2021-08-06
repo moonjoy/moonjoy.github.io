@@ -146,3 +146,11 @@
 .hobby {
   color: #ccc;
 }
+
+.flow-md > * + * {
+  margin-bottom: 1.5rem;
+}
+
+.c-space {
+  margin-top: 2.3rem;
+}

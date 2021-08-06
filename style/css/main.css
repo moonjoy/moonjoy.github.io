@@ -196,7 +196,8 @@ nav {
         nav #menu li a:hover {
           border-bottom: 2px solid #f6b030 !important; }
     nav #menu .about-image {
-      width: 30px; }
+      width: 30px;
+      margin-right: 0.2rem; }
     nav #menu .submenu {
       display: none;
       background: #222222e6;
@@ -939,6 +940,8 @@ textarea:focus {
 #media-contact ion-icon {
   width: 1.5rem;
   height: 1.5rem; }
+#media-contact p {
+  margin-bottom: 0.3rem; }
 
 .bit-image {
   width: 7%;
@@ -1039,6 +1042,12 @@ textarea:focus {
 
 .hobby {
   color: #ccc; }
+
+.flow-md > * + * {
+  margin-bottom: 1.5rem; }
+
+.c-space {
+  margin-top: 2.3rem; }
 
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
@@ -1285,9 +1294,35 @@ textarea:focus {
 .d-portrait {
   padding: 4% 0; }
 
+.re-title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 300; }
+
+.re-des_des {
+  margin-bottom: 0.2rem; }
+  .re-des_des p {
+    margin-bottom: 0; }
+.re-des_title {
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.grants p {
+  margin-bottom: 0.2rem; }
+
 @media (max-width: 768px) {
   .s-portrait {
     width: 50% !important;
     margin: 10% 0; } }
+.resume-pdf {
+  position: fixed;
+  border: 1.5px solid #212529;
+  padding: 0.5rem 1rem;
+  right: 0;
+  bottom: 15%;
+  background-color: #fff; }
+  .resume-pdf:hover {
+    background-color: #212529;
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

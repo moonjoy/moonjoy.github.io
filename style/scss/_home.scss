@@ -284,6 +284,7 @@ nav {
 
     .about-image {
       width: 30px;
+      margin-right: 0.2rem;
     }
 
     .submenu {
@@ -1316,9 +1317,14 @@ textarea:focus {
   background-size: 100%;
 }
 
-#media-contact ion-icon {
-  width: 1.5rem;
-  height: 1.5rem;
+#media-contact {
+  ion-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  p {
+    margin-bottom: 0.3rem;
+  }
 }
 
 .bit-image {
