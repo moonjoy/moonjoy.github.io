@@ -155,6 +155,11 @@ a[role="button"] {
   margin-top: 10rem; }
 
 /*--------------- navigation --------------- */
+.about-image {
+  width: 30px;
+  margin-right: 0.5rem;
+  margin-top: -4px; }
+
 nav {
   width: 100%;
   height: 80px;
@@ -162,7 +167,7 @@ nav {
   z-index: 1;
   background: #fff; }
   nav.nav-home {
-    background-color: #f2f1f48f;
+    background-color: transparent;
     z-index: 9;
     transition: background-color 500ms ease-in-out; }
   nav #brand {
@@ -195,9 +200,6 @@ nav {
         font-size: 0.875rem; }
         nav #menu li a:hover {
           border-bottom: 2px solid #f6b030 !important; }
-    nav #menu .about-image {
-      width: 30px;
-      margin-right: 0.2rem; }
     nav #menu .submenu {
       display: none;
       background: #222222e6;
@@ -554,6 +556,10 @@ h6 {
         color: #e29a18; }
       .skillset .inner-skill .skill-sub ul {
         line-height: 30px; }
+
+#skillset {
+  position: absolute;
+  top: -80px; }
 
 @media (min-width: 1920px) {
   video {
