@@ -167,6 +167,9 @@ a[role="button"] {
 }
 
 /*--------------- Region --------------- */
+.region-tn {
+  padding: 1rem 0;
+}
 .region-md {
   padding: 2rem 0;
 }
@@ -225,6 +228,18 @@ a[role="button"] {
 
 .m-top-10 {
   margin-top: 10rem;
+}
+
+.m-bottom-3 {
+  margin-bottom: 3rem;
+}
+
+.m-bottom-4 {
+  margin-bottom: 4rem;
+}
+
+.m-bottom-5 {
+  margin-bottom: 5rem;
 }
 
 /*--------------- navigation --------------- */
@@ -725,7 +740,7 @@ h6 {
 
 .project-nav {
   background: #f3f3f3;
-  padding: 2% 0 2% 0;
+  padding: 3% 0 5% 0;
   letter-spacing: 1px;
   text-transform: uppercase;
 

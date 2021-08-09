@@ -107,6 +107,9 @@ a[role="button"] {
   font-size: 2rem; }
 
 /*--------------- Region --------------- */
+.region-tn {
+  padding: 1rem 0; }
+
 .region-md {
   padding: 2rem 0; }
 
@@ -153,6 +156,15 @@ a[role="button"] {
 
 .m-top-10 {
   margin-top: 10rem; }
+
+.m-bottom-3 {
+  margin-bottom: 3rem; }
+
+.m-bottom-4 {
+  margin-bottom: 4rem; }
+
+.m-bottom-5 {
+  margin-bottom: 5rem; }
 
 /*--------------- navigation --------------- */
 .about-image {
@@ -522,7 +534,7 @@ h6 {
 
 .project-nav {
   background: #f3f3f3;
-  padding: 2% 0 2% 0;
+  padding: 3% 0 5% 0;
   letter-spacing: 1px;
   text-transform: uppercase; }
   .project-nav .home {
@@ -1039,21 +1051,46 @@ textarea:focus {
 @media (max-width: 991px) {
   .sub-content p {
     margin-top: 30px !important; } }
-.tile-and-description h4 {
-  line-height: 1.5; }
-.tile-and-description > * + * {
-  width: 70%; }
+.tile-and-description {
+  margin-top: 2rem; }
+  .tile-and-description h4 {
+    line-height: 1.5; }
+    .tile-and-description h4 span {
+      font-weight: 300;
+      font-size: 0.875rem; }
   .tile-and-description > * + * li {
-    padding-bottom: 1.2rem; }
+    padding-bottom: 0.5rem; }
+  .tile-and-description > *:first-child {
+    width: 30%; }
+  .tile-and-description > *:last-child {
+    width: 68%; }
+  .tile-and-description ul {
+    padding-left: 1rem; }
+  .tile-and-description ul li {
+    list-style-type: circle;
+    font-size: 1rem;
+    font-weight: 300; }
+  .tile-and-description .ex-info {
+    font-weight: 300;
+    color: #909090; }
 
 .hobby {
-  color: #ccc; }
+  color: #909090; }
 
 .flow-md > * + * {
   margin-bottom: 1.5rem; }
 
 .c-space {
   margin-top: 2.3rem; }
+
+.a-underline {
+  text-decoration: underline; }
+  .a-underline:hover {
+    text-decoration: none;
+    color: #f6b030 !important; }
+
+.contain-img {
+  width: 100%; }
 
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;

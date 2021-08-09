@@ -132,19 +132,45 @@
 }
 
 .tile-and-description {
+  margin-top: 2rem;
   h4 {
     line-height: 1.5;
+    span {
+      font-weight: 300;
+      font-size: 0.875rem;
+    }
   }
   > * + * {
-    width: 70%;
     li {
-      padding-bottom: 1.2rem;
+      padding-bottom: 0.5rem;
     }
+  }
+  > *:first-child {
+    width: 30%;
+  }
+  > *:last-child {
+    width: 68%;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+  ul li {
+    list-style-type: circle;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  // ol {
+  //   padding: 3px;
+  // }
+
+  .ex-info {
+    font-weight: 300;
+    color: $text-grey;
   }
 }
 
 .hobby {
-  color: #ccc;
+  color: $text-grey;
 }
 
 .flow-md > * + * {
@@ -153,4 +179,16 @@
 
 .c-space {
   margin-top: 2.3rem;
+}
+
+.a-underline {
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+    color: $dark-yellow !important;
+  }
+}
+
+.contain-img {
+  width: 100%;
 }
