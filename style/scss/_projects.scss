@@ -320,6 +320,11 @@
     }
   }
 
+  &.pnd-banner {
+    background: url(../../projects/web/pnd/pnd-banner.svg) no-repeat center
+      center / cover;
+  }
+
   &.rms-banner {
     background: url(../../projects/web/rms/rms-banner.png) no-repeat center
       center / cover;

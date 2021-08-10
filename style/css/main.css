@@ -1294,6 +1294,8 @@ textarea:focus {
     left: 11%; }
     .project-banner h2 a:hover {
       color: #eaeaea !important; }
+  .project-banner.pnd-banner {
+    background: url(../../projects/web/pnd/pnd-banner.svg) no-repeat center center/cover; }
   .project-banner.rms-banner {
     background: url(../../projects/web/rms/rms-banner.png) no-repeat center center/cover; }
   .project-banner.rds-banner {
