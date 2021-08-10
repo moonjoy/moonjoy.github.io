@@ -1070,9 +1070,10 @@ textarea:focus {
     list-style-type: circle;
     font-size: 1rem;
     font-weight: 300; }
-  .tile-and-description .ex-info {
-    font-weight: 300;
-    color: #909090; }
+
+.ex-info {
+  font-weight: 300;
+  color: #909090; }
 
 .hobby {
   color: #909090; }
