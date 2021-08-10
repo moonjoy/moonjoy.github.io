@@ -1093,6 +1093,9 @@ textarea:focus {
 .contain-img {
   width: 100%; }
 
+b {
+  font-weight: 600 !important; }
+
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
   background-size: 100%; }
