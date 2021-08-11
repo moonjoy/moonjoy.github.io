@@ -43,7 +43,8 @@ ion-icon {
 
 .link-ba {
   color: #525252 !important;
-  font-size: 14px; }
+  font-size: 1.2rem;
+  text-transform: capitalize; }
   .link-ba:hover {
     color: #fff; }
 
@@ -156,6 +157,12 @@ a[role="button"] {
 
 .m-top-10 {
   margin-top: 10rem; }
+
+.m-bottom-1 {
+  margin-bottom: 1rem; }
+
+.m-bottom-2 {
+  margin-bottom: 2rem; }
 
 .m-bottom-3 {
   margin-bottom: 3rem; }
@@ -1001,7 +1008,7 @@ textarea:focus {
     .hero-content .web-link a:hover {
       color: #212529 !important; }
   .hero-content .web-link:hover {
-    background: #facb75; }
+    background: #fdc04f; }
 .hero-content .divider {
   padding: 2rem 0;
   border-top: 1px dotted #686868; }
@@ -1093,8 +1100,41 @@ textarea:focus {
 .contain-img {
   width: 100%; }
 
+.contain-img-7 {
+  width: 70%; }
+
+.contain-img-8 {
+  width: 80%; }
+
 b {
   font-weight: 600 !important; }
+
+.flex-reverse {
+  flex-direction: column-reverse; }
+
+.space-between {
+  justify-content: space-between; }
+
+.picture-desc > *:last-child {
+  width: 50%; }
+
+.icons-desc i,
+.icons-desc b {
+  margin-right: 0.5rem; }
+
+.red-icon {
+  color: #ff6363; }
+
+.black-icon {
+  color: #212529; }
+
+.yellow-bg {
+  background-color: #fdc04f;
+  font-size: 2rem; }
+
+.grey-bg {
+  background-color: #f2f2f2;
+  font-size: 2rem; }
 
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;

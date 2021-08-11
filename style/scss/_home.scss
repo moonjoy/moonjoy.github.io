@@ -52,7 +52,8 @@ ion-icon {
 
 .link-ba {
   color: #525252 !important;
-  font-size: 14px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
   &:hover {
     color: #fff;
   }
@@ -228,6 +229,14 @@ a[role="button"] {
 
 .m-top-10 {
   margin-top: 10rem;
+}
+
+.m-bottom-1 {
+  margin-bottom: 1rem;
+}
+
+.m-bottom-2 {
+  margin-bottom: 2rem;
 }
 
 .m-bottom-3 {

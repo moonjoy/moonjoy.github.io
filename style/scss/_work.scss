@@ -193,6 +193,52 @@
   width: 100%;
 }
 
+.contain-img-7 {
+  width: 70%;
+}
+
+.contain-img-8 {
+  width: 80%;
+}
+
 b {
   font-weight: 600 !important;
+}
+
+.flex-reverse {
+  flex-direction: column-reverse;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.picture-desc {
+  > *:last-child {
+    width: 50%;
+  }
+}
+
+.icons-desc {
+  i,
+  b {
+    margin-right: 0.5rem;
+  }
+}
+
+.red-icon {
+  color: $red;
+}
+.black-icon {
+  color: $text-color;
+}
+
+.yellow-bg {
+  background-color: $yellow;
+  font-size: 2rem;
+}
+
+.grey-bg {
+  background-color: #f2f2f2;
+  font-size: 2rem;
 }

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2065.79" height="799.448" viewBox="0 0 2065.79 799.448">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="110.467" cy="110.467" r="110.467" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="168.197" cy="168.197" r="168.197" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="114.715" cy="114.715" r="114.715" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_49" data-name="Group 49" transform="translate(-87.951 -963)">
+    <g id="Group_40" data-name="Group 40" transform="translate(1073.137 1007.346)">
+      <g id="Group_39" data-name="Group 39" transform="translate(103.088)">
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="110.467" cy="110.467" r="110.467" fill="#fff"/>
+        <g id="Group_38" data-name="Group 38" clip-path="url(#clip-path)">
+          <path id="Path_6" data-name="Path 6" d="M2042.532,86.618l-44.5,109.911,107.02-23.185,33.175,95.28-103.294,83.209-193.964-13.2-1.031-94.617L1910.959,63.9Z" transform="translate(-1885.954 -83.031)" fill="#fb8e09" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_7" data-name="Path 7" d="M2238.806,99.17l-43.355,109.164,131.016-29.3-66.08-92.391Z" transform="translate(-2082.229 -95.582)" fill="#9cca7d" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <text id="_77_" data-name="77%" transform="translate(189.225 174.093)" fill="#fff" font-size="29" font-family="Helvetica"><tspan x="0" y="0">77%</tspan></text>
+      <text id="_23_" data-name="23%" transform="translate(242.216 77.211)" fill="#fff" font-size="29" font-family="Helvetica"><tspan x="0" y="0">23%</tspan></text>
+      <text id="Mobile" transform="translate(0 26.783)" fill="#393939" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Mobile</tspan></text>
+      <text id="Laptop" transform="translate(362.291 26.177)" fill="#393939" font-size="19" font-family="Helvetica"><tspan x="0" y="0">Laptop</tspan></text>
+      <path id="Path_8" data-name="Path 8" d="M2377.507,174.873l12.874-15.392h44.427" transform="translate(-2079.65 -135.797)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_9" data-name="Path 9" d="M1930.06,168.334l-19.215-13.574H1866.1" transform="translate(-1797.308 -133.191)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(87.951 974)">
+      <g id="Group_42" data-name="Group 42" transform="translate(231.811 0.57)">
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="168.197" cy="168.197" r="168.197" fill="#fff"/>
+        <g id="Group_41" data-name="Group 41" clip-path="url(#clip-path-2)">
+          <path id="Path_10" data-name="Path 10" d="M-1272.905-671.148l166.766-54.708,162.948-35.3,50.512,145.073L-1049.955-489.39l-295.329-20.1Z" transform="translate(1276.791 898.67)" fill="#fb8e09" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_11" data-name="Path 11" d="M-934.351-943.886l-160.9,112.155-215.824,68.5,120.06-327.208Z" transform="translate(1265.913 1003.383)" fill="#7ba0bd" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_12" data-name="Path 12" d="M-839.518-900.664l-152.555,103.2,199.485-44.617L-893.2-982.757Z" transform="translate(1164.467 969.14)" fill="#9cca7d" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <text id="_46_" data-name="46%" transform="translate(362.962 267.147)" fill="#fff" font-size="46" font-family="Helvetica"><tspan x="0" y="0">46%</tspan></text>
+      <text id="_46_2" data-name="46%" transform="translate(313.248 104.148)" fill="#fff" font-size="46" font-family="Helvetica"><tspan x="0" y="0">46%</tspan></text>
+      <text id="_8_" data-name="8%" transform="translate(490.469 137.47)" fill="#fff" font-size="45" font-family="Helvetica"><tspan x="0" y="0">8%</tspan></text>
+      <text id="A_condensed_list_of_most_recent_post" data-name="A condensed list of most 
+recent post" transform="translate(630.437 290.114)" fill="#393939" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">A condensed list of most </tspan><tspan x="0" y="27">recent post</tspan></text>
+      <text id="A_combination:_condensed_with_a_bit_of_descriptive_text_for_each_post" data-name="A combination:
+condensed with a bit of 
+descriptive text for each post" transform="translate(0 8)" fill="#393939" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">A combination:</tspan><tspan x="0" y="27">condensed with a bit of </tspan><tspan x="0" y="54">descriptive text for each post</tspan></text>
+      <text id="Depends:_Small_screen_condensed_large_screen_full_story" data-name="Depends: Small screen
+condensed, large screen
+full story" transform="translate(650.419 77.292)" fill="#393939" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Depends: Small screen</tspan><tspan x="0" y="27">condensed, large screen</tspan><tspan x="0" y="54">full story</tspan></text>
+      <path id="Path_13" data-name="Path 13" d="M-794.386-577.3l15.17,33.141h59.434" transform="translate(1333.411 840.77)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_14" data-name="Path 14" d="M-770.787-826.961l15.764-23.436h54.4" transform="translate(1325.906 927.618)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_15" data-name="Path 15" d="M-1257.206-893.969l-19.293-20.668h-44.928" transform="translate(1534.182 948.047)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Group_46" data-name="Group 46" transform="translate(1622.107 1007.346)">
+      <g id="Group_45" data-name="Group 45" transform="translate(147.35)">
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="114.715" cy="114.715" r="114.715" fill="#fff"/>
+        <g id="Group_44" data-name="Group 44" clip-path="url(#clip-path-3)">
+          <path id="Path_16" data-name="Path 16" d="M336.059-753.39l116.389,16.308,111.135-24.076,34.451,98.944L490.767-575.8,289.345-589.511Z" transform="translate(-336.059 854.945)" fill="#fb8e09" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_17" data-name="Path 17" d="M507.512-971.613,462.046-857.769,307.281-879.841l71.511-105.479Z" transform="translate(-345.652 974.84)" fill="#7ba0bd" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+          <path id="Path_18" data-name="Path 18" d="M687.577-969.745,642.555-856.383l136.055-30.43-68.622-95.944Z" transform="translate(-524.978 973.47)" fill="#9cca7d" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <text id="_53_" data-name="53%" transform="translate(236.799 180.942)" fill="#fff" font-size="30" font-family="Helvetica"><tspan x="0" y="0">53%</tspan></text>
+      <text id="_31_" data-name="31%" transform="translate(202.892 69.773)" fill="#fff" font-size="30" font-family="Helvetica"><tspan x="0" y="0">31%</tspan></text>
+      <text id="_16_" data-name="16%" transform="translate(291.828 80.334)" fill="#fff" font-size="30" font-family="Helvetica"><tspan x="0" y="0">16%</tspan></text>
+      <text id="_20s_and_30s" data-name="20s and 30s" transform="translate(422.635 206.702)" fill="#393939" font-size="20" font-family="Helvetica"><tspan x="0" y="0">20s and 30s</tspan></text>
+      <text id="_40s_and_50s" data-name="40s and 50s" transform="translate(0 27.236)" fill="#393939" font-size="20" font-family="Helvetica"><tspan x="0" y="0">40s and 50s</tspan></text>
+      <text id="_60s_" data-name="60s +" transform="translate(416.52 26.607)" fill="#393939" font-size="20" font-family="Helvetica"><tspan x="0" y="0">60s +</tspan></text>
+      <path id="Path_19" data-name="Path 19" d="M840.242-577.3l12.768,22.6h50.026" transform="translate(-483.363 756.605)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_20" data-name="Path 20" d="M824.61-893.931l13.369-15.984h46.136" transform="translate(-475.002 934.51)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_21" data-name="Path 21" d="M379.623-900.54l-19.954-14.1H313.2" transform="translate(-201.469 937.035)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g id="Group_47" data-name="Group 47" transform="translate(1073.137 1440.159)">
+      <line id="Line_3" data-name="Line 3" y2="270.291" transform="translate(200.427)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="246.298" height="26.707" transform="translate(201.147 9.563)" fill="#fb8e09"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="246.298" height="26.707" transform="translate(201.147 82.287)" fill="#fb8e09"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="480.979" height="26.707" transform="translate(201.147 155.01)" fill="#fb8e09"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="358.403" height="26.707" transform="translate(201.147 227.733)" fill="#fb8e09"/>
+      <text id="Go_to_the_site_myself" data-name="Go to the site myself" transform="translate(0 26.138)" fill="#393939" font-size="17" font-family="Helvetica"><tspan x="0" y="0">Go to the site myself</tspan></text>
+      <text id="_21_" data-name="21%" transform="translate(453.487 24.38)" fill="#393939" font-size="22" font-family="Helvetica"><tspan x="0" y="0">21%</tspan></text>
+      <text id="_21_2" data-name="21%" transform="translate(456.819 98.116)" fill="#393939" font-size="22" font-family="Helvetica"><tspan x="0" y="0">21%</tspan></text>
+      <text id="_32_" data-name="32%" transform="translate(691.951 171.853)" fill="#393939" font-size="22" font-family="Helvetica"><tspan x="0" y="0">32%</tspan></text>
+      <text id="_26_" data-name="26%" transform="translate(570.04 244.021)" fill="#393939" font-size="22" font-family="Helvetica"><tspan x="0" y="0">26%</tspan></text>
+      <text id="Recommendation" transform="translate(22.587 99.875)" fill="#393939" font-size="17" font-family="Helvetica"><tspan x="0" y="0">Recommendation</tspan></text>
+      <text id="Social_media" data-name="Social media" transform="translate(69.966 173.612)" fill="#393939" font-size="17" font-family="Helvetica"><tspan x="0" y="0">Social media</tspan></text>
+      <text id="Newsletters" transform="translate(78.021 245.78)" fill="#393939" font-size="17" font-family="Helvetica"><tspan x="0" y="0">Newsletters</tspan></text>
+    </g>
+    <g id="Group_48" data-name="Group 48" transform="translate(142 1430.159)">
+      <line id="Line_4" data-name="Line 4" y2="302.15" transform="translate(204.514 0)" fill="#fff" stroke="#393939" stroke-miterlimit="10" stroke-width="1.805"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="219.407" height="23.791" transform="translate(205.155 8.519)" fill="#fb8e09"/>
+      <rect id="Rectangle_16" data-name="Rectangle 16" width="353.557" height="23.791" transform="translate(205.155 73.302)" fill="#fb8e09"/>
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="461.266" height="23.791" transform="translate(205.155 138.086)" fill="#fb8e09"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="461.266" height="23.791" transform="translate(205.155 202.869)" fill="#fb8e09"/>
+      <rect id="Rectangle_19" data-name="Rectangle 19" width="354.199" height="23.791" transform="translate(205.155 267.652)" fill="#fb8e09"/>
+      <text id="Before_getting_out_of_bed" data-name="Before getting out of bed" transform="translate(0 23.964)" fill="#393939" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Before getting out of bed</tspan></text>
+      <text id="_14_" data-name="14%" transform="translate(429.945 22.563)" fill="#393939" font-size="21" font-family="Helvetica"><tspan x="0" y="0">14%</tspan></text>
+      <text id="_19_" data-name="19%" transform="translate(569.176 89.248)" fill="#393939" font-size="22" font-family="Helvetica"><tspan x="0" y="0">19%</tspan></text>
+      <text id="_24_" data-name="24%" transform="translate(674.865 153.935)" fill="#393939" font-size="21" font-family="Helvetica"><tspan x="0" y="0">24%</tspan></text>
+      <text id="_19_2" data-name="19%" transform="translate(567.893 284.21)" fill="#393939" font-size="22" font-family="Helvetica"><tspan x="0" y="0">19%</tspan></text>
+      <text id="_24_2" data-name="24%" transform="translate(675.277 218.223)" fill="#393939" font-size="21" font-family="Helvetica"><tspan x="0" y="0">24%</tspan></text>
+      <text id="During_commute" data-name="During commute" transform="translate(60.33 89.65)" fill="#393939" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">During commute</tspan></text>
+      <text id="While_eating" data-name="While eating" transform="translate(92.324 157.165)" fill="#393939" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">While eating</tspan></text>
+      <text id="Evening" transform="translate(124.317 221.453)" fill="#393939" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Evening</tspan></text>
+      <text id="Before_going_to_sleep" data-name="Before going to sleep" transform="translate(26.509 284.613)" fill="#393939" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Before going to sleep</tspan></text>
+    </g>
+  </g>
+</svg>
