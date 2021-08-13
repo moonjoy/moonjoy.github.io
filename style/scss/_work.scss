@@ -132,7 +132,7 @@
 }
 
 .tile-and-description {
-  margin-top: 2rem;
+  margin: 2rem 0 4rem 0;
   h4 {
     line-height: 1.5;
     span {
@@ -236,9 +236,15 @@ b {
 .yellow-bg {
   background-color: $yellow;
   font-size: 2rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.5rem;
+  color: $text-color;
 }
 
 .grey-bg {
   background-color: #f2f2f2;
   font-size: 2rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.5rem;
+  color: $text-color;
 }

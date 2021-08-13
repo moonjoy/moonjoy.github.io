@@ -112,7 +112,7 @@ a[role="button"] {
   padding: 1rem 0; }
 
 .region-md {
-  padding: 2rem 0; }
+  padding: 4rem 0; }
 
 .region-lg {
   padding: 3rem 0; }
@@ -852,7 +852,7 @@ textarea:focus {
   text-align: center; }
 
 .client-images {
-  margin-bottom: 15%; }
+  margin-bottom: 8%; }
   .client-images div {
     padding: 20px;
     border-radius: 14px; }
@@ -1008,7 +1008,7 @@ textarea:focus {
     .hero-content .web-link a:hover {
       color: #212529 !important; }
   .hero-content .web-link:hover {
-    background: #fdc04f; }
+    background: #ffb23f; }
 .hero-content .divider {
   padding: 2rem 0;
   border-top: 1px dotted #686868; }
@@ -1059,7 +1059,7 @@ textarea:focus {
   .sub-content p {
     margin-top: 30px !important; } }
 .tile-and-description {
-  margin-top: 2rem; }
+  margin: 2rem 0 4rem 0; }
   .tile-and-description h4 {
     line-height: 1.5; }
     .tile-and-description h4 span {
@@ -1129,12 +1129,18 @@ b {
   color: #212529; }
 
 .yellow-bg {
-  background-color: #fdc04f;
-  font-size: 2rem; }
+  background-color: #ffb23f;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.5rem;
+  color: #212529; }
 
 .grey-bg {
   background-color: #f2f2f2;
-  font-size: 2rem; }
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 0.5rem;
+  color: #212529; }
 
 .vr-project1 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
