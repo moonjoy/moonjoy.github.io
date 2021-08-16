@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3745.5" height="1021" viewBox="0 0 3745.5 1021">
+  <g id="Group_101" data-name="Group 101" transform="translate(-1858 -8744)">
+    <g id="Group_100" data-name="Group 100">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="510.5" cy="510.5" r="510.5" transform="translate(3220 8744)" fill="#f5f5f5"/>
+      <text id="DESIGN_SYSTEM" data-name="DESIGN SYSTEM" transform="translate(3374 9270)" fill="#1e1e1e" font-size="100" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">DESIGN SYSTEM</tspan></text>
+      <text id="Design_managers" data-name="Design managers" transform="translate(2064 9046)" fill="#1e1e1e" font-size="60" font-family="Roboto-Regular, Roboto" letter-spacing="0.015em"><tspan x="0" y="0">Design managers</tspan></text>
+      <text id="Project_managers" data-name="Project managers" transform="translate(4937.5 9009.5)" fill="#1e1e1e" font-size="60" font-family="Roboto-Regular, Roboto" letter-spacing="0.015em"><tspan x="0" y="0">Project managers</tspan></text>
+      <text id="Designers" transform="translate(2262 9321)" fill="#1e1e1e" font-size="60" font-family="Roboto-Regular, Roboto" letter-spacing="0.015em"><tspan x="0" y="0">Designers</tspan></text>
+      <text id="Developers" transform="translate(4937.5 9284.5)" fill="#1e1e1e" font-size="60" font-family="Roboto-Regular, Roboto" letter-spacing="0.015em"><tspan x="0" y="0">Developers</tspan></text>
+      <text id="Designer_consultants_outside_the_organization" data-name="Designer consultants
+outside the organization" transform="translate(2524 9596)" fill="#1e1e1e" font-size="60" font-family="Roboto-Regular, Roboto" letter-spacing="0.015em"><tspan x="-580.625" y="0">Designer consultants</tspan><tspan x="-665.202" y="80">outside the organization</tspan></text>
+      <text id="Developer_consultants_outside_the_organization" data-name="Developer consultants 
+outside the organization" transform="translate(4937.5 9559.5)" fill="#1e1e1e" font-size="60" font-family="Roboto-Regular, Roboto" letter-spacing="0.015em"><tspan x="0" y="0">Developer consultants </tspan><tspan x="0" y="80">outside the organization</tspan></text>
+      <line id="Line_21" data-name="Line 21" x1="659" y1="226" transform="translate(2561.5 9039.5)" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+      <line id="Line_22" data-name="Line 22" y1="32" x2="659" transform="translate(2561.5 9265.5)" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+      <line id="Line_23" data-name="Line 23" y1="310" x2="659" transform="translate(2561.5 9265.5)" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+      <g id="Group_99" data-name="Group 99" transform="translate(4241 8997.5)">
+        <line id="Line_24" data-name="Line 24" y1="226" x2="659" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+        <line id="Line_25" data-name="Line 25" x1="659" y1="32" transform="translate(0 226)" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+        <line id="Line_26" data-name="Line 26" x1="659" y1="310" transform="translate(0 226)" fill="none" stroke="#1e1e1e" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
