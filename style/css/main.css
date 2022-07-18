@@ -19,10 +19,12 @@ p {
 
 .sub-p {
   font-size: 0.875rem; }
+  .sub-p.pseudo-info, .sub-p.pseudo-info a {
+    color: #777777 !important; }
 
 .whitespace {
   width: 100%;
-  height: 100px; }
+  height: 80px; }
 
 .whitespace-sub {
   width: 100%;
@@ -319,7 +321,7 @@ nav {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  margin: 0 auto 0 10%; }
   .hero .bg-video {
     height: 100%;
     position: absolute;
@@ -335,24 +337,31 @@ nav {
       top: -5%; }
 
 .header {
-  margin: 0 auto 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 50vh;
   z-index: 1; }
   .header h1 {
-    font-size: 24px;
+    font-size: 2.2rem;
     padding: 0;
     font-weight: 300;
     letter-spacing: 0.04em;
     word-spacing: 0.04em;
     line-height: 1.333; }
+  .header .resume-link a {
+    text-decoration: none;
+    color: #212529; }
+    .header .resume-link a:hover {
+      color: #212529 !important; }
   .header p {
     padding: 10px 0 0 0;
     color: #777777;
     font-weight: 300; }
-    .header p a {
-      color: #777777 !important; }
-      .header p a:hover {
-        border-bottom: 2px solid #f6b030;
-        cursor: pointer; }
+    .header p a:hover {
+      border-bottom: 2px solid #f6b030;
+      cursor: pointer; }
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
@@ -555,24 +564,22 @@ h6 {
 
 .skillset {
   position: relative;
-  text-align: center;
   border: 1px solid #e6e6e6;
   background: #ffffff;
   border-radius: 4px;
-  margin: 0 60px;
+  margin-top: -2rem;
   font-size: 16px; }
   .skillset .inner-skill:first-child {
     border-right: 0.5px solid #efefef; }
   .skillset .inner-skill {
-    padding: 40px 70px; }
+    padding: 40px 40px 40px 70px; }
     .skillset .inner-skill .skill-head h4 {
       color: #404040;
       line-height: 50px; }
     .skillset .inner-skill .skill-sub {
       margin-top: 40px; }
-      .skillset .inner-skill .skill-sub p:first-child {
-        font-size: 16px;
-        color: #e29a18; }
+      .skillset .inner-skill .skill-sub p {
+        font-size: 16px; }
       .skillset .inner-skill .skill-sub ul {
         line-height: 30px; }
 
@@ -592,7 +599,38 @@ h6 {
     margin-right: 4px; }
 
   .header h1 {
-    font-size: 17px; }
+    font-size: 27px; }
+
+  .skillset .inner-skill {
+    padding: 40px; }
+
+  .whitespace {
+    height: 30px; }
+
+  .hero {
+    margin: 0;
+    padding: 0 10%;
+    background-color: #f1f0f3; }
+
+  .web-fun {
+    display: contents; }
+
+  a[role="button"] {
+    font-size: 1.2rem; }
+
+  .misc-content .sub-whitespace {
+    display: none; }
+  .misc-content .m-top-4 {
+    margin-top: 2rem; }
+  .misc-content .ui-project-description .ui-project-des-title {
+    font-size: 1rem !important; }
+  .misc-content .project-webs {
+    height: 255px; }
+  .misc-content .project-sm-space {
+    padding-top: 0; }
+
+  .button-dark {
+    margin-bottom: 1rem; }
 
   nav #brand {
     margin-left: 24px; }
@@ -927,38 +965,77 @@ textarea:focus {
   cursor: pointer; }
   .web-one:hover .web-project01 {
     cursor: pointer;
-    background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
+    background: url(../../projects/vr/magikku/magikku.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-one:hover .ui-project-des-title {
     color: #f6b030 !important; }
 
 .web-project01 {
-  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+  background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
   background-size: 100%; }
 
 .web-two:hover {
   cursor: pointer; }
   .web-two:hover .web-project02 {
     cursor: pointer;
-    background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
+    background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-two:hover .ui-project-des-title {
     color: #f6b030 !important; }
 
 .web-project02 {
-  background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
+  background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
   background-size: 100%; }
 
 .web-three:hover {
   cursor: pointer; }
   .web-three:hover .web-project03 {
     cursor: pointer;
-    background: url(../../projects/web/ss/ss.gif) no-repeat 50% 50%;
+    background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-three:hover .ui-project-des-title {
     color: #f6b030 !important; }
 
 .web-project03 {
+  background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.web-five:hover {
+  cursor: pointer; }
+  .web-five:hover .web-project05 {
+    cursor: pointer;
+    background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+  .web-five:hover .ui-project-des-title {
+    color: #f6b030 !important; }
+
+.web-project05 {
+  background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.web-six:hover {
+  cursor: pointer; }
+  .web-six:hover .web-project06 {
+    cursor: pointer;
+    background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+  .web-six:hover .ui-project-des-title {
+    color: #f6b030 !important; }
+
+.web-project06 {
+  background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
+  background-size: 100%; }
+
+.web-seven:hover {
+  cursor: pointer; }
+  .web-seven:hover .web-project07 {
+    cursor: pointer;
+    background: url(../../projects/web/ss/ss.gif) no-repeat 50% 50%;
+    background-size: 100%; }
+  .web-seven:hover .ui-project-des-title {
+    color: #f6b030 !important; }
+
+.web-project07 {
   background: url(../../projects/web/ss/ss.png) no-repeat 50% 50%;
   background-size: 100%; }
 
