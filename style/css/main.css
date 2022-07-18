@@ -368,13 +368,15 @@ nav {
   position: absolute;
   left: 50%;
   bottom: 100px;
-  text-shadow: 0;
-  width: 1.2rem;
-  height: 1.2rem;
-  border-bottom: 2px solid #292929;
-  border-right: 2px solid #292929;
-  -webkit-transform: translate(-50%, 0) rotate(45deg);
-  animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite; }
+  padding: 2rem 2.5rem; }
+  .scroll-down .scroll-down-icon {
+    text-shadow: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-bottom: 2px solid #292929;
+    border-right: 2px solid #292929;
+    -webkit-transform: translate(-50%, 0) rotate(45deg);
+    animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite; }
 
 @keyframes fade_move_down {
   0% {
