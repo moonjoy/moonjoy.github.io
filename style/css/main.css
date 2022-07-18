@@ -1070,6 +1070,11 @@ textarea:focus {
 .hero-content {
   margin-left: 0%; }
 
+.text-link {
+  text-decoration: underline; }
+  .text-link:hover {
+    color: #212529; }
+
 .hero-content .sub-content p {
   margin-bottom: 7px;
   color: #212529;

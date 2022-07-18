@@ -4,6 +4,13 @@
   margin-left: 0%;
 }
 
+.text-link {
+  text-decoration: underline;
+  &:hover {
+    color: $text-color;
+  }
+}
+
 .hero-content {
   .sub-content {
     p {
