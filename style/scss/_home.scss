@@ -461,6 +461,13 @@ nav {
   }
 }
 
+.header p.hero-sub-font {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 51ch;
+  color: $text-color;
+}
+
 .header {
   // margin: 0 auto 0 10%;
   display: flex;
@@ -477,7 +484,7 @@ nav {
     word-spacing: 0.04em;
     line-height: 1.333;
   }
-  .resume-link a{
+  .subtle-link a{
     text-decoration: none;
     color:#212529; 
     &:hover {
@@ -867,6 +874,10 @@ h6 {
     background-color: #f1f0f3;
   }
 
+  .header p.hero-sub-font { 
+    font-size: 1rem;
+  }
+
   .web-fun {
     display: contents;
   }
@@ -991,8 +1002,16 @@ h6 {
     display: none !important;
   }
 
+  .header {
+    height: 60vh;
+  }
+
   .skillset {
-    margin: 0;
+    margin-top: -3rem;
+  }
+
+  .scroll-down {
+    left: 37%;
   }
 
   .inner-skill:first-child {

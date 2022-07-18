@@ -33,7 +33,7 @@ p {
 a {
   color: #212529 !important; }
   a:hover {
-    color: #f6b030 !important;
+    color: #e3a128 !important;
     text-decoration: none !important; }
 
 ul {
@@ -220,7 +220,7 @@ nav {
         padding: 0 2px 1px 2px;
         font-size: 0.875rem; }
         nav #menu li a:hover {
-          border-bottom: 2px solid #f6b030 !important; }
+          border-bottom: 2px solid #e3a128 !important; }
     nav #menu .submenu {
       display: none;
       background: #222222e6;
@@ -299,7 +299,7 @@ nav {
       transition: all 0.3s ease-out; }
       #resize #menu li a:hover {
         color: #212529 !important;
-        border-bottom: 2px solid #f6b030 !important; }
+        border-bottom: 2px solid #e3a128 !important; }
   #resize.active {
     visibility: visible;
     opacity: 1; }
@@ -336,6 +336,12 @@ nav {
       left: -5%;
       top: -5%; }
 
+.header p.hero-sub-font {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 51ch;
+  color: #212529; }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -350,17 +356,17 @@ nav {
     letter-spacing: 0.04em;
     word-spacing: 0.04em;
     line-height: 1.333; }
-  .header .resume-link a {
+  .header .subtle-link a {
     text-decoration: none;
     color: #212529; }
-    .header .resume-link a:hover {
+    .header .subtle-link a:hover {
       color: #212529 !important; }
   .header p {
     padding: 10px 0 0 0;
     color: #777777;
     font-weight: 300; }
     .header p a:hover {
-      border-bottom: 2px solid #f6b030;
+      border-bottom: 2px solid #e3a128;
       cursor: pointer; }
 
 /*--------------- scroll down icon animation --------------- */
@@ -614,6 +620,9 @@ h6 {
     padding: 0 10%;
     background-color: #f1f0f3; }
 
+  .header p.hero-sub-font {
+    font-size: 1rem; }
+
   .web-fun {
     display: contents; }
 
@@ -694,8 +703,14 @@ h6 {
   .project-des4::after {
     display: none !important; }
 
+  .header {
+    height: 60vh; }
+
   .skillset {
-    margin: 0; }
+    margin-top: -3rem; }
+
+  .scroll-down {
+    left: 37%; }
 
   .inner-skill:first-child {
     border-right: none !important; } }
@@ -782,7 +797,7 @@ ul.process {
   .info h4 a {
     color: #ffffff !important; }
     .info h4 a:hover {
-      color: #f6b030 !important; }
+      color: #e3a128 !important; }
 
 .info p {
   font-weight: 500;
@@ -806,7 +821,7 @@ ul.process {
   #media ul a {
     color: #ffffff !important; }
     #media ul a:hover {
-      color: #f6b030 !important; }
+      color: #e3a128 !important; }
 
 .copyright {
   font-weight: 300 !important;
@@ -924,7 +939,7 @@ textarea:focus {
   .ui-project-description .ui-project-des-weblink a {
     color: #efa725 !important; }
     .ui-project-description .ui-project-des-weblink a:hover {
-      color: #f6b030 !important; }
+      color: #e3a128 !important; }
 .ui-project-description .ui-project-des-sub {
   color: #616161; }
 
@@ -943,7 +958,7 @@ textarea:focus {
 
 .active-link {
   padding: 3px 6px;
-  border-bottom: 2px solid #f6b030; }
+  border-bottom: 2px solid #e3a128; }
   .active-link:hover {
     color: #212529 !important; }
 
@@ -970,7 +985,7 @@ textarea:focus {
     background: url(../../projects/vr/magikku/magikku.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-one:hover .ui-project-des-title {
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .web-project01 {
   background: url(../../projects/vr/magikku/magikku.jpg) no-repeat 50% 50%;
@@ -983,7 +998,7 @@ textarea:focus {
     background: url(../../projects/motion/micdrop/micdrop2.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-two:hover .ui-project-des-title {
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .web-project02 {
   background: url(../../projects/motion/micdrop/micdrop.png) no-repeat 50% 50%;
@@ -996,7 +1011,7 @@ textarea:focus {
     background: url(../../projects/motion/chapubakha/chapubakha.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-three:hover .ui-project-des-title {
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .web-project03 {
   background: url(../../projects/motion/chapubakha/chapubakha.jpg) no-repeat 50% 50%;
@@ -1009,7 +1024,7 @@ textarea:focus {
     background: url(../../projects/web/mfadt/prism.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-five:hover .ui-project-des-title {
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .web-project05 {
   background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
@@ -1022,7 +1037,7 @@ textarea:focus {
     background: url(../../projects/web/cardin/cardin.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-six:hover .ui-project-des-title {
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .web-project06 {
   background: url(../../projects/web/cardin/cardin.png) no-repeat 50% 50%;
@@ -1035,7 +1050,7 @@ textarea:focus {
     background: url(../../projects/web/ss/ss.gif) no-repeat 50% 50%;
     background-size: 100%; }
   .web-seven:hover .ui-project-des-title {
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .web-project07 {
   background: url(../../projects/web/ss/ss.png) no-repeat 50% 50%;
@@ -1174,7 +1189,7 @@ textarea:focus {
   text-decoration: underline; }
   .a-underline:hover {
     text-decoration: none;
-    color: #f6b030 !important; }
+    color: #e3a128 !important; }
 
 .contain-img {
   width: 100%; }
