@@ -372,7 +372,7 @@ nav {
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
   position: absolute;
-  left: 50%;
+  left: 47%;
   bottom: 100px;
   padding: 2rem 2.5rem; }
   .scroll-down .scroll-down-icon {
