@@ -1,475 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="barsha">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="barsha" />
 
-      <title>Barsha Maharjan</title>
+    <title>Barsha Maharjan</title>
 
-      <link rel="icon" href="../../projects/favicon.png" type="image" sizes="32x32">
+    <link
+      rel="icon"
+      href="../../projects/favicon.png"
+      type="image"
+      sizes="32x32"
+    />
 
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="../../style/css/main.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../../style/css/main.css" />
 
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
 
-      <!-- ionicons cdn -->
-      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-      <script src="../../js/index.js"></script>
+    <!-- ionicons cdn -->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="../../js/index.js"></script>
 
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="../../style/css/animate.css" />
+    <script src="../../js/wow.min.js"></script>
 
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="../../style/css/animate.css">
-      <script src="../../js/wow.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      gtag("config", "G-W8Y44SMWZR");
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- navbar starts here -->
+      <nav>
+        <span id="brand">
+          <a href="../../index.html">Barsha</a>
+        </span>
+        <ul id="menu" class="main-menu">
+          <li>
+            <a href="../../index.html#projects" class="active-link"
+              >Web projects</a
+            >
+          </li>
+          <li>
+            <a href="../../pages/projects/projects.html">VR and animations</a>
+          </li>
+          <li>
+            <a
+              href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li class="main-menu-item">
+            <a href="../../pages/about/about.html"
+              >About
+              <img src="../../projects/selfportrait.png" class="about-image"
+            /></a>
+          </li>
+        </ul>
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
 
-        gtag('config', 'G-W8Y44SMWZR');
-      </script>
+      <div id="resize">
+        <div class="close-btn">close</div>
 
-</head>
-<body>
-      <div class="wrapper">
-
-            <!-- navbar starts here -->
-            <nav>
-                  <span id="brand">
-                        <a href="../../index.html">Barsha</a>
-                  </span>
-                  <ul id="menu" class="main-menu">
-                        <li><a href="../../index.html#projects" class="active-link">Web projects</a></li>
-                        <li><a href="../../pages/projects/projects.html"  >VR and animations</a></li>
-                        <li><a href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf" target="_blank">Resume</a></li>
-                        <li class="main-menu-item"><a href="../../pages/about/about.html">About <img src="../../projects/selfportrait.png" class="about-image"></a></li>
-                     
-                  </ul>
-                  <div id="toggle">
-                        <div class="span">menu</div>
-                  </div>
-            </nav>
-
-            <div id="resize">
-                  <div class="close-btn">close</div>
-
-                  <ul id="menu">
-                        <li><a href="../../index.html#projects" class="active-link">Web projects</a></li>
-                        <li><a href="../../pages/projects/projects.html" >VR and animations</a></li>
-                        <li><a href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf" target="_blank">Resume</a></li>
-                        <li><a href="../../pages/about/about.html">About me</a></li>
-                  </ul>
-            </div>
-
-            <!-- navbar ends here -->
-
-            <div class="whitespace-sub"></div>
-
-
-            <!-- Project Banner -->
-
-            <div class="row">
-                  <div class="col-lg-12 project-banner fd-banner wow fadeInUp" data-wow-delay="1s">
-                  </div>
-            </div>
-
-            <!-- Section one-->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12">
-                                          
-                                          <div class="row wow fadeInUp" data-wow-delay="1s">
-
-                                          <div class="col-lg-8 col-sm-7 col-12 s-content-title">
-                                                <div class="split-wrap align-items-center">
-                                                      <p><a href="https://fconline.foundationcenter.org/" target="_blank">Foundation Directory</a></p>
-                                                      <div class="web-link"><a href="https://fconline.foundationcenter.org/" target="_blank">website <ion-icon name="open"></ion-icon></a></div>
-                                                </div>
-                                                <span>Database site</span>
-                                                
-                                          </div>
-
-                                          <div class="col-lg-4 col-sm-5 col-12 m-top-1">
-                                                <div class="row flex-end">
-                                                      <div class="col-md-2 col-sm-4 col-3 s-content-role">
-                                                            <p>Role</p>
-                                                            <p>Team</p>
-                                                            <p>Task</p>
-                                                            <p>Year</p>
-                                                            
-                                                      </div>
-
-                                                      <div class="s-content-des">
-                                                            <p>Lead Designer</p>
-                                                            <p>2 designers, 4 back-end developers</p>
-                                                            <p>UX/UI design and development</p>
-                                                            <p>2021 (in progress)</p>
-                                                            
-                                                      </div>
-                                                </div>
-
-                                          </div>
-                                    </div>
-
-
-
-                                    <div class="row project-des-blocks wow fadeInUp" data-wow-delay="1.2s">
-                                           <div class="col-md-12">
-                                                <div class="split-pair-section">
-                                                      <p>Foundation Directory is a comprehensive database consisting of information of over 239,000 U.S. Foundations. It has a powerful search tool which equips their users with all the tools and strategies for a fastest way to win more funding. There are <b>9000+ paying subscribers averaging 16M in yearly revenue</b>. Foundation Directory has a collection of paid and free subscription plans. I was responsible for enhancing the user onboarding process for its free plan, Quick Start, so that we can leverage the signed up users from there to paid plans.<br><br>
-                                                
-                                                      </p>
-                                                </div>
-
-                                                <div class="tile-and-description split-wrap">
-                                                    <h4>My role<span class="ex-info"></span></h4>
-                                                    <ul>
-                                                    <li>Rebrand <b>Quick Start</b>, a minified free version of Foundation Directory Professional plan</li>   
-                                                    <li>Research and ideate ways to improve the user experience</li> 
-                                                    <li>Create prototypes based on user research</li>  
-                                                    <li>Style the site in <a href="https://reactjs.org/" target="_blank">React</a></li>   
-                                                    </ul>
-                                              </div>
-
-                                                <div class="tile-and-description split-wrap">
-                                                    <h4>Stakeholder interview<span class="ex-info"></span></h4>
-                                                    <div>
-                                                        <p>The outcome of the interviews informed our understanding of the stakeholders' strategies and the current performance of the site.</p>
-                                                        <p><b>Goal briefs:</b></p>
-                                                        <ul>
-                                                            <li>Improve user onboarding process of Quick Start</li>
-                                                            <li>Demonstrate the value of a paid subscription from Quick Start</li>   
-                                                            <li>Increase signup ratio in Quick Start for the purpose of user conversion from free to paid plans​​</li>     
-                                                            <li>Create a more visually appealing representation of the information​</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-
-                                                <div class="tile-and-description split-wrap m-bottom-5">
-                                                      <h4>Challenge <span class="ex-info"></span></h4>
-                                                      <div>
-                                                            <p>The rebranded site needed to show a sneak peek of <b>what the users could be getting</b> from a paid plan but we <b>shouldn't show any / bare minimum content</b> from the paid plans.</p>   
-                                                            <p class="icons-desc"><i class="bi bi-exclamation-triangle-fill  red-icon"></i><b>Restrictions:</b>
-                                                                <ol>
-                                                                    <li>Instructions were given to not make designs that might need significant dev work on the backend. The amount of dev work needed should be really low.</li>
-                                                                    <li>Do not add any design elements that is visually different from the rest of the content of the page.</li>
-                                                                </ol>
-                                                            <p>I had to find a solution that was easy to implement on the backend + satisfy strategies of demonstrating the value of paid subscription + increase the conversion ratio.</p>
-                                                      </div>
-                                                </div>
-
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                        </div>
-                        </div>
-                        <!-- Section One end -->
-
-            <div class="row">
-                  <div class="col-lg-12 yellow-bg text-center region-md" >
-                        THE PROCESS
-                  </div>
-            </div>
-
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12">
-
-                                    <div class="tile-and-description split-wrap space-between picture-desc m-top-1">
-                                          <div ><img src="../../projects/web/fd/image_one.svg"></div>
-                                          <div class="p-top-7">
-                                                <h4>Competitive analysis</h4>
-                                                <p>I studied how other sites were implementing their user onboarding experiences. There was a common pattern of introducing a signup form after interacting with an element in the page.</p>    
-                                          </div>
-                                          
-                                    </div>
-
-                                    <div class=" region-md m-bottom-5">
-                                          <h4 class="m-bottom-3">Studying the live site</h4>
-                                         
-                                          <img src="../../projects/web/fd/image_four.svg" class="contain-img">
-                                    </div>
-                                    
-
-                               <div class="m-bottom-5">
-                                        <h4 class="m-bottom-2">User persona</h4>
-                                        <img src="../../projects/web/fd/image_two.svg" class="contain-img">
-                                  </div>
-
-                                  <div class="m-bottom-5">
-                                    <h4 class="m-bottom-1">Userflow (Onboarding)</h4>
-                                    <p class="m-bottom-1">Introducing various action areas where we can ask the users to register and upgrade.</p>
-                                    <img src="../../projects/web/fd/image_three.svg" class="contain-img">
-                              </div>
-
-                                                                              
-                              </div>
-                        </div>
-                  </div>
-
-</div>
-<!-- Section Two end -->
-
-            <!-- DESIGN SYSTEM -->
-            <div class="row">
-                  <div class="col-lg-12 yellow-bg text-center region-md" >
-                        DESIGN SYSTEM
-                  </div>
-            </div>
-
-            <!-- Section Three-->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12 region-tn">
-                                    <img src="../../projects/web/fd/designsystem.png" class="contain-img">
-                              </div>
-
-                              <div class="col-lg-12 region-lg m-bottom-3">
-                                    <div>
-                                    <p class="m-bottom-1">My designer colleague and I created an org-wide design system. Design system is the focal point that designers, developers, managers and consultants refer to throughout the project cycle to maintain consistency in design.</p>
-                                    <p>A design system:</p>
-                                    <ol> 
-                                          
-                                          <li>Reduces design misunderstandings</li>
-                                          <li>Enhances design consistency</li>
-                                          <li>Easily accessible to everyone in the organization</li>
-                                          <li>Helps with quick prototyping</li>
-                                          </ol>
-                              </div>
-                                    <div class="region-md"><img src="../../projects/web/fd/whydesignsystem.svg" class="contain-img"></div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!-- Section Three end -->
-
-
-<!-- UI  DESIGN -->
-
-<div class="row">
-      <div class="col-lg-12 yellow-bg text-center region-md" >
-            UI Design
-      </div>
-</div>
-
-<div class="container">
-      <div class="hero-content">
-            <div class="whitespace-sub"></div>
-            <div class="row">
-                  <div class="col-lg-12">
-
-                        <div class=" region-md m-bottom-5">
-                              <h4 class="m-bottom-3">Prototype <span class="ex-info">profile page</span></h4>
-                              <img src="../../projects/web/fd/image_five.svg" class="contain-img">
-                        </div>
-                        
-
-                   <div class="m-bottom-5">
-                            <h4>Prototype <span class="ex-info">user onboarding</span></h4>
-                            <p class="m-bottom-3">Improved the user onboarding experience</p>
-                            <video width="1000" controls>
-                              <source src="../../projects/web/fd/quick-start-onboarding.mp4" type="video/mp4">
-                             
-                              Your browser does not support HTML video.
-                            </video>
-                      </div>
-
-
-                      <div class="m-bottom-5">
-                        <h4 class="m-bottom-3">Prototype <span class="ex-info">upgrade messages</span></h4>
-                        <video width="1000" controls>
-                          <source src="../../projects/web/fd/quick-start-upgrade-1.mp4" type="video/mp4">
-                         
-                          Your browser does not support HTML video.
-                        </video>
-                  </div>
-                      <div class="m-bottom-5">
-                        <h4 class="m-bottom-3">Prototype <span class="ex-info">upgrade messages</span></h4>
-                        <video width="1000" controls>
-                          <source src="../../projects/web/fd/quick-start-upgrade-2.mp4" type="video/mp4">
-                         
-                          Your browser does not support HTML video.
-                        </video>
-                  </div>
-
-                  <div class=" region-md m-bottom-3">
-                        <h4 class="m-bottom-3">Prototype <span class="ex-info">Enterprise page</span></h4>
-                        <img src="../../projects/web/fd/image_six.svg" class="contain-img-8">
-                  </div>
-
-                  <p class=" region-md m-bottom-5">Adobe XD was used to make prototypes and iterated according to stakeholders' feedbacks from invision and meetings.</p>                                            
-
-                  </div>
-            </div>
+        <ul id="menu">
+          <li>
+            <a href="../../index.html#projects" class="active-link"
+              >Web projects</a
+            >
+          </li>
+          <li>
+            <a href="../../pages/projects/projects.html">VR and animations</a>
+          </li>
+          <li>
+            <a
+              href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a href="../../pages/about/about.html">About me</a></li>
+        </ul>
       </div>
 
-</div>
-<!-- Section Two end -->
+      <!-- navbar ends here -->
 
-           
-<div class="row">
-      <div class="col-lg-12 yellow-bg text-center region-md" >
-           UI Development
-      </div>
-</div>
+      <div class="whitespace-sub"></div>
 
-            <!-- Section Two-->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12">
+      <!-- Project Banner -->
 
-                                    <div class="m-top-1">
-                                          <h4 class="m-bottom-1">React + Material UI + Storybook</h4>
-                                    </div>
-
-
-                                    <div class="tile-and-description split-wrap space-between picture-desc m-bottom-5">
-                                          <div class="region-lg"><img src="../../projects/web/fd/storybook.svg"></div>
-                                          <div class="region-lg p-top-7">
-                                                <p>I was responsible for styling the pages in react as well as reviewing styling code from the developers after it was added storybook.</p>    
-                                                <p>I also worte css code following the <a href="https://piccalil.li/blog/cube-css/" target="_blank"><b>CUBE CSS Design System</b></a> principle, targeting styling code from higher level elements with the purpose reusing them multiple times thus reducing the lines of codes needed.</p>
-                                          </div>
-                                          
-                                    </div>
-
-                                   
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!-- Section Two end -->
-
-
-          
-                          <!-- Section Four-->
-                          <div class="container m-bottom-5">
-                              <div class="hero-content">
-                                    <div class="whitespace-sub"></div>
-                                    <div class="row">
-                                          <div class="col-lg-12">
-                                                <div class="tile-and-description split-wrap">
-                                                      <h4 >Key takeaways</h4>
-                                                      
-                                                             <ul>
-                                                             <li>Communicate with the stakeholders frequently to get their feedback on the design.</li>
-                                                             <li>Get the developers involved in the design meetings so that they are on the loop about any layout changes being made.</li>
-                                                             <li>Create tickets to keep track of process, files and decisions.</li>  
-                                                             <li>Iterate considering the point of views of stakeholders and users.</li>
-                                                             <li>Developers need design support so be on the lookout for anything they might need.</li>
-                                                             <li>Have daily standups with the team to know about any problems and progress made</li>
-                                                       </ul>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- Section Four end -->
-
-
-            <div class="whitespace"></div>
-            <!-- more description section ends here -->
-
-
-<!-- project nav starts here -->
-
-            <div class="project-nav">
-                  <div class="container">
-                        <div class="row">
-                              <div class="col-md-4 col-sm-4 col-4 home">
-                                    
-                              </div>
-
-                              <div class="col-md-4 col-sm-4 col-4 home">
-                                    <a href="../../index.html" class="link-ba">home</a>
-                              </div>
-                              <div class="col-md-4 col-sm-4 col-4 next">
-                                    <a href="philanthropynewsdigest.html" class="link-ba">philanthropy News Digest<ion-icon name="arrow-forward" class="forward-btn"></ion-icon></a>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-
-            <!-- project nav starts here -->
-
-                        <!-- footer starts here -->
-                        <div class="footer">
-                              <div class="container">
-            
-                                    <div class="info">
-                                          <div class="row">
-                                                 <div class="col-lg-4" id="personal">
-                                                      <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="../../pages/about/about.html">about me</a></h4>
-                                                    
-                                                </div>
-            
-                                                <div class="col-lg-4" id="media">
-            
-                                                      <ul>
-                                                            <li id="em" class="wow fadeInUp" data-wow-delay="0.4s"><a href="mailto:barsha.mhr@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a></li>
-                                                            <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-            
-                                                            <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.instagram.com/bamtechart/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            
-                                                            <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.youtube.com/barshamaharjan" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                                                      </ul>
-                                                </div>
-            
-                                                <div class="col-lg-4" id="address">
-                                                      <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank">barsha.mhr@gmail.com</a></h4>
-                                                      
-                                                </div>
-                                          </div>
-            
-                                    </div>
-            
-                                    <p class="copyright wow fadeInUp" data-wow-delay="0.4s">© 2021 Barsha Maharjan</p>
-                              </div>
-                        </div>
-
-            <!-- footer ends here -->
-
+      <div class="row">
+        <div
+          class="col-lg-12 project-banner fd-banner wow fadeInUp"
+          data-wow-delay="1s"
+        ></div>
       </div>
 
-      <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      <!-- Section one-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row wow fadeInUp" data-wow-delay="1s">
+                <div class="col-lg-8 col-sm-7 col-12 s-content-title">
+                  <div class="split-wrap align-items-center">
+                    <p>
+                      <a
+                        href="https://fconline.foundationcenter.org/"
+                        target="_blank"
+                        >Foundation Directory</a
+                      >
+                    </p>
+                    <div class="web-link">
+                      <a
+                        href="https://fconline.foundationcenter.org/"
+                        target="_blank"
+                        >website <ion-icon name="open"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                  <span>Database site</span>
+                </div>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
+                <div class="col-lg-4 col-sm-5 col-12 m-top-1">
+                  <div class="row flex-end">
+                    <div class="col-md-2 col-sm-4 col-3 s-content-role">
+                      <p>Role</p>
+                      <p>Team</p>
+                      <p>Task</p>
+                      <p>Year</p>
+                    </div>
 
+                    <div class="s-content-des">
+                      <p>Lead Designer</p>
+                      <p>2 designers, 4 back-end developers</p>
+                      <p>UX/UI design and development</p>
+                      <p>2021 (in progress)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="row project-des-blocks wow fadeInUp"
+                data-wow-delay="1.2s"
+              >
+                <div class="col-md-12">
+                  <div class="split-pair-section">
+                    <p>
+                      Foundation Directory is a comprehensive database that
+                      contains information on over 239,000 foundations in the
+                      United States. It has a powerful search tool which equips
+                      their users with all the tools and strategies for a
+                      fastest way to win more funding. There are over
+                      <b>9000 paying subscribers</b>, with an annual revenue of
+                      over <b>16 million</b>. Foundation Directory offers both
+                      premium and free subscription packages. I was in charge of
+                      improving the user onboarding process for its free plan,
+                      Quick Start, so that we could convert signups from there
+                      to paying subscriptions.<br /><br />
+                    </p>
+                  </div>
+
+                  <div class="tile-and-description split-wrap">
+                    <h4>My role<span class="ex-info"></span></h4>
+                    <ul>
+                      <li>
+                        Rebrand <b>Quick Start</b>, a minified free version of
+                        Foundation Directory Professional plan
+                      </li>
+                      <li>
+                        Research and ideate ways to improve the user experience
+                      </li>
+                      <li>Create prototypes based on user research</li>
+                      <li>
+                        Develop and support developers for coding styles in
+                        <a href="https://reactjs.org/" target="_blank">React</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tile-and-description split-wrap">
+                    <h4>Stakeholder interview<span class="ex-info"></span></h4>
+                    <div>
+                      <p>
+                        The outcome of the interviews informed our understanding
+                        of the stakeholders' strategies and the current
+                        performance of the site.
+                      </p>
+                      <p><b>Goal briefs:</b></p>
+                      <ul>
+                        <li>Improve user onboarding process of Quick Start</li>
+                        <li>
+                          Demonstrate the value of a paid subscription from
+                          Quick Start
+                        </li>
+                        <li>
+                          Increase signup ratio in Quick Start for the purpose
+                          of user conversion from free to paid plans​​
+                        </li>
+                        <li>
+                          Create a more visually appealing representation of the
+                          information​
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="tile-and-description split-wrap m-bottom-5">
+                    <h4>Challenge <span class="ex-info"></span></h4>
+                    <div>
+                      <p>
+                        The relaunched site needed to present a sneak preview of
+                        <b>what consumers could get from a paying plan</b>, but
+                        we shouldn't
+                        <b>show any or absolutely minimum content</b> from the
+                        paid plans.
+                      </p>
+                      <p class="icons-desc">
+                        <i class="bi bi-exclamation-triangle-fill red-icon"></i
+                        ><b>Restrictions:</b>
+                      </p>
+                      <ol>
+                        <li>
+                          It was instructed not to create designs that would
+                          necessitate extensive backend development work. The
+                          quantity of development work required should be
+                          minimal.
+                        </li>
+                        <li>
+                          Do not include any design elements that are visually
+                          different from the rest of the page's content.
+                        </li>
+                      </ol>
+                      <p>
+                        I needed to find a solution that was simple to implement
+                        on the backend while also meeting guidelines for
+                        demonstrating the value of paid subscriptions and
+                        increasing the conversion ratio.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section One end -->
+
+      <div class="row">
+        <div class="col-lg-12 yellow-bg text-center region-md">THE PROCESS</div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="tile-and-description split-wrap space-between picture-desc m-top-1"
+              >
+                <div><img src="../../projects/web/fd/image_one.svg" /></div>
+                <div class="p-top-7">
+                  <h4>Competitive analysis</h4>
+                  <p>
+                    I researched how other websites implemented their user
+                    onboarding experiences. There was a clear trend of
+                    introducing a signup form after interacting with a page
+                    element.
+                  </p>
+                </div>
+              </div>
+
+              <div class="region-md m-bottom-5">
+                <h4 class="m-bottom-3">Studying the live site</h4>
+
+                <img
+                  src="../../projects/web/fd/image_four.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="m-bottom-5">
+                <h4 class="m-bottom-2">User persona</h4>
+                <img
+                  src="../../projects/web/fd/image_two.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="m-bottom-5">
+                <h4 class="m-bottom-1">Userflow (Onboarding)</h4>
+                <p class="m-bottom-1">
+                  Introducing multiple action places where people can register
+                  and upgrade.
+                </p>
+                <img
+                  src="../../projects/web/fd/image_three.svg"
+                  class="contain-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Two end -->
+
+      <!-- DESIGN SYSTEM -->
+      <div class="row">
+        <div class="col-lg-12 yellow-bg text-center region-md">
+          DESIGN SYSTEM
+        </div>
+      </div>
+
+      <!-- Section Three-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12 region-tn">
+              <img
+                src="../../projects/web/fd/designsystem.png"
+                class="contain-img"
+              />
+            </div>
+
+            <div class="col-lg-12 region-lg m-bottom-3">
+              <div>
+                <p class="m-bottom-1">
+                  My designer colleague and I developed an organization-wide
+                  design framework. To maintain design consistency, designers,
+                  developers, managers, and consultants refer to the design
+                  system throughout the project cycle.
+                </p>
+                <p>A design system:</p>
+                <ol>
+                  <li>Reduces design misunderstandings</li>
+                  <li>Enhances design consistency</li>
+                  <li>Easily accessible to everyone in the organization</li>
+                  <li>Helps with quick prototyping</li>
+                </ol>
+              </div>
+              <div class="region-md">
+                <img
+                  src="../../projects/web/fd/whydesignsystem.svg"
+                  class="contain-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Three end -->
+
+      <!-- UI  DESIGN -->
+
+      <div class="row">
+        <div class="col-lg-12 yellow-bg text-center region-md">UI Design</div>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="region-md m-bottom-5">
+                <h4 class="m-bottom-3">
+                  Prototype <span class="ex-info">profile page</span>
+                </h4>
+                <img
+                  src="../../projects/web/fd/image_five.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="m-bottom-5">
+                <h4>Prototype <span class="ex-info">user onboarding</span></h4>
+                <p class="m-bottom-3">
+                  Improved the user onboarding experience.
+                </p>
+                <p>
+                  <b>Assumption:</b> The users will want to look at another nonprofit’s
+                  profile after, thus that would be the ideal opportunity to
+                  encourage them to register.</p>
+                  <video width="1000" controls>
+                    <source
+                      src="../../projects/web/fd/quick-start-onboarding.mp4"
+                      type="video/mp4"
+                    />
+
+                    Your browser does not support HTML video.
+                  </video>
+                </p>
+              </div>
+
+              <div class="m-bottom-5">
+                <h4 class="m-bottom-3">
+                  Prototype <span class="ex-info">upgrade messages</span>
+                </h4>
+                <p>Introduce different variations of upgrade messages on locked contents</p>
+                <video width="1000" controls>
+                  <source
+                    src="../../projects/web/fd/quick-start-upgrade-1.mp4"
+                    type="video/mp4"
+                  />
+
+                  Your browser does not support HTML video.
+                </video>
+              </div>
+              <div class="m-bottom-5">
+                <h4 class="m-bottom-3">
+                  Prototype <span class="ex-info">upgrade messages</span>
+                </h4>
+                <video width="1000" controls>
+                  <source
+                    src="../../projects/web/fd/quick-start-upgrade-2.mp4"
+                    type="video/mp4"
+                  />
+
+                  Your browser does not support HTML video.
+                </video>
+              </div>
+
+              <div class="region-md m-bottom-3">
+                <h4 class="m-bottom-3">
+                  Prototype <span class="ex-info">Enterprise page</span>
+                </h4>
+                <img
+                  src="../../projects/web/fd/image_six.svg"
+                  class="contain-img-8"
+                />
+              </div>
+
+              <p class="region-md m-bottom-5">
+                Adobe XD was used to make prototypes and iterated according to
+                stakeholders' feedbacks from invision and meetings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Two end -->
+
+      <div class="row">
+        <div class="col-lg-12 yellow-bg text-center region-md">
+          UI Development
+        </div>
+      </div>
+
+      <!-- Section Two-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="m-top-1">
+                <h4 class="m-bottom-1">React + Material UI + Storybook</h4>
+              </div>
+
+              <div
+                class="tile-and-description split-wrap space-between picture-desc m-bottom-5"
+              >
+                <div class="region-lg">
+                  <img src="../../projects/web/fd/storybook.svg" />
+                </div>
+                <div class="region-lg p-top-7">
+                  <p>
+                    I was in charge of styling the pages in react and reviewing styling code from developers when it was included to the storybook.
+                  </p>
+                  <p>
+                    I also wrote CSS code using the <a href="https://piccalil.li/blog/cube-css/" target="_blank"
+                    ><b>CUBE CSS Design System</b></a> principle, reusing style code from higher level components multiple times to reduce the number of lines of code required.
+                   
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Two end -->
+
+      <!-- Section Four-->
+      <div class="container m-bottom-5">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tile-and-description split-wrap">
+                <h4>Key takeaways</h4>
+
+                <ul>
+                  <li>
+                    Communicate often with stakeholders to obtain feedback on the design.
+                  </li>
+                  <li>
+                    Include the developers in the design sessions so that they are kept up to date on any layout modifications.
+                  </li>
+                  <li>
+                    Make tickets to track processes, files, and decisions.
+                  </li>
+                  <li>
+                    Iterate while keeping stakeholders' and users' perspectives in mind.
+                  </li>
+                  <li>
+                    Developers require design assistance, so keep an eye out for anything they may require.
+                  </li>
+                  <li>
+                    Hold daily standups with the team to discuss any issues and progress.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Four end -->
+
+      <div class="whitespace"></div>
+      <!-- more description section ends here -->
+
+      <!-- project nav starts here -->
+
+      <div class="project-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-4 home"></div>
+
+            <div class="col-md-4 col-sm-4 col-4 home">
+              <a href="../../index.html" class="link-ba">home</a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 next">
+              <a href="philanthropynewsdigest.html" class="link-ba"
+                >philanthropy News Digest<ion-icon
+                  name="arrow-forward"
+                  class="forward-btn"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project nav starts here -->
+
+      <!-- footer starts here -->
+      <div class="footer">
+        <div class="container">
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="../../pages/about/about.html">about me</a>
+                </h4>
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <ul>
+                  <li id="em" class="wow fadeInUp" data-wow-delay="0.4s">
+                    <a href="mailto:barsha.mhr@gmail.com" target="_blank"
+                      ><ion-icon name="mail"></ion-icon
+                    ></a>
+                  </li>
+                  <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s">
+                    <a
+                      href="https://www.linkedin.com/in/maharjanbarsha/"
+                      target="_blank"
+                      ><ion-icon name="logo-linkedin"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s">
+                    <a
+                      href="https://www.instagram.com/bamtechart/"
+                      target="_blank"
+                      ><ion-icon name="logo-instagram"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li id="yt" class="wow fadeInUp" data-wow-delay="1s">
+                    <a
+                      href="https://www.youtube.com/barshamaharjan"
+                      target="_blank"
+                      ><ion-icon name="logo-youtube"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailto:barsha.mhr@gmail.com" target="_blank"
+                    >barsha.mhr@gmail.com</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <p class="copyright wow fadeInUp" data-wow-delay="0.4s">
+            © 2021 Barsha Maharjan
+          </p>
+        </div>
+      </div>
+
+      <!-- footer ends here -->
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
       // navigation starts here
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
       // navigation ends here
@@ -477,25 +668,26 @@
       // nav animation
 
       TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
 
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
 
       // navigation ends here
 
-
-
       new WOW().init();
-
-
-      </script>
-</body>
+    </script>
+  </body>
 </html>
