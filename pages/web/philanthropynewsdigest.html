@@ -1,424 +1,627 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="barsha">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="barsha" />
 
-      <title>Barsha Maharjan</title>
+    <title>Barsha Maharjan</title>
 
-      <link rel="icon" href="../../projects/favicon.png" type="image" sizes="32x32">
+    <link
+      rel="icon"
+      href="../../projects/favicon.png"
+      type="image"
+      sizes="32x32"
+    />
 
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="../../style/css/main.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../../style/css/main.css" />
 
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
 
-      <!-- ionicons cdn -->
-      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-      <script src="../../js/index.js"></script>
+    <!-- ionicons cdn -->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="../../js/index.js"></script>
 
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="../../style/css/animate.css" />
+    <script src="../../js/wow.min.js"></script>
 
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="../../style/css/animate.css">
-      <script src="../../js/wow.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      gtag("config", "G-W8Y44SMWZR");
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- navbar starts here -->
+      <nav>
+        <span id="brand">
+          <a href="../../index.html">Barsha</a>
+        </span>
+        <ul id="menu" class="main-menu">
+          <li>
+            <a href="../../index.html#projects" class="active-link"
+              >Web projects</a
+            >
+          </li>
+          <li>
+            <a href="../../pages/projects/projects.html">VR and animations</a>
+          </li>
+          <li>
+            <a
+              href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li class="main-menu-item">
+            <a href="../../pages/about/about.html"
+              >About
+              <img src="../../projects/selfportrait.png" class="about-image"
+            /></a>
+          </li>
+        </ul>
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
 
-        gtag('config', 'G-W8Y44SMWZR');
-      </script>
+      <div id="resize">
+        <div class="close-btn">close</div>
 
-</head>
-<body>
-      <div class="wrapper">
-
-            <!-- navbar starts here -->
-            <nav>
-                  <span id="brand">
-                        <a href="../../index.html">Barsha</a>
-                  </span>
-                  <ul id="menu" class="main-menu">
-                        <li><a href="../../index.html#projects" class="active-link">Web projects</a></li>
-                        <li><a href="../../pages/projects/projects.html"  >VR and animations</a></li>
-                        <li><a href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf" target="_blank">Resume</a></li>
-                        <li class="main-menu-item"><a href="../../pages/about/about.html">About <img src="../../projects/selfportrait.png" class="about-image"></a></li>
-                     
-                  </ul>
-                  <div id="toggle">
-                        <div class="span">menu</div>
-                  </div>
-            </nav>
-
-            <div id="resize">
-                  <div class="close-btn">close</div>
-
-                  <ul id="menu">
-                        <li><a href="../../index.html#projects" class="active-link">Web projects</a></li>
-                        <li><a href="../../pages/projects/projects.html" >VR and animations</a></li>
-                        <li><a href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf" target="_blank">Resume</a></li>
-                        <li><a href="../../pages/about/about.html">About me</a></li>
-                  </ul>
-            </div>
-
-            <!-- navbar ends here -->
-
-            <div class="whitespace-sub"></div>
-
-
-            <!-- Project Banner -->
-
-            <div class="row">
-                  <div class="col-lg-12 project-banner pnd-banner wow fadeInUp" data-wow-delay="1s">
-                  </div>
-            </div>
-
-            <!-- Section one-->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12">
-                                          
-                                          <div class="row wow fadeInUp" data-wow-delay="1s">
-
-                                          <div class="col-lg-8 col-sm-7 col-12 s-content-title">
-                                                <div class="split-wrap align-items-center">
-                                                      <p><a href="https://philanthropynewsdigest.org/" target="_blank">Philanthropy News Digest</a></p>
-                                                      <div class="web-link"><a href="https://philanthropynewsdigest.org/" target="_blank">website <ion-icon name="open"></ion-icon></a></div>
-                                                </div>
-                                                <span>News site</span>
-                                                
-                                          </div>
-
-                                          <div class="col-lg-4 col-sm-5 col-12 m-top-1">
-                                                <div class="row flex-end">
-                                                      <div class="col-md-2 col-sm-4 col-3 s-content-role">
-                                                            <p>Role</p>
-                                                            <p>Team</p>
-                                                            <p>Task</p>
-                                                            <p>Year</p>
-                                                            
-                                                      </div>
-
-                                                      <div class="s-content-des">
-                                                            <p>Lead Designer</p>
-                                                            <p>1 designer, 1 back-end developer</p>
-                                                            <p>UX/UI design and development</p>
-                                                            <p>2020 (3 months)</p>
-                                                            
-                                                      </div>
-                                                </div>
-
-                                          </div>
-                                    </div>
-
-
-
-                                    <div class="row project-des-blocks wow fadeInUp" data-wow-delay="1.2s"> 
-                                           <div class="col-md-12">
-                                                <div class="split-pair-section">
-                                                      <p>Philanthropy News Digest is a product of Candid where people can read about philanthropy news, nonprofit job opportunities, and RFPs. The site garners around <b>450,000 page views</b> per month. Candid had recently formed after the merging of two big organizations, Foundation Directory Online and Guidestar so all the products that were now under Candid needed to be rebranded.<br><br>
-                                                
-                                                      </p>
-                                                </div>
-
-                                                <div class="tile-and-description split-wrap">
-                                                      <h4>My role<span class="ex-info"></span></h4>
-                                                      
-                                                      <p>This project was immediately handed to me after joining <a class="text-link" href="https://candid.org/">Candid</a>.
-                                                      I was responsible for leading the design and development of rebranding Philanthropy News Digest where I did user research and interface design with a new visual standard.
-                                                      </p>   
-                                                </div>
-
-
-                                                <div class="tile-and-description split-wrap">
-                                                      <h4>Challenge <span class="ex-info"></span></h4>
-                                                      <div>
-                                                            <p>The rebranded site aimed at making the site informative, visually consistent and improvements were needed in user experience for certain sections.</p>   
-                                                            <p class="icons-desc"><i class="bi bi-exclamation-triangle-fill  red-icon"></i><b>Restrictions:</b>Limited flexibility to modify html code. The entire site needed to be rebranded mostly with just css, so the design decisions had to revolve around the layout of the current site.</p>
-                                                      </div>
-                                                </div>
-
-                                                <div class="tile-and-description split-wrap space-between picture-desc">
-                                                      <div ><img src="../../projects/web/pnd/old_site.svg"></div>
-                                                      <div class="p-top-7">
-                                                            <h4>Previous website</h4>
-                                                            <p>The old version of the site was functional. However, it had parts that were no longer used/needed. It also had visual effects that didn't exist in the new branding guideline.</p>    
-                                                      </div>
-                                                      
-                                                </div>
-                                                                                                
-
-                                          </div>
-                                    </div>
-
-
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!-- Section One end -->
-
-            <div class="row">
-                  <div class="col-lg-12 grey-bg text-center region-md" >
-                        THE PROCESS
-                  </div>
-            </div>
-
-            <!-- Section Two-->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12">
-                                    <div class="tile-and-description split-wrap">
-                                          <h4>Research and Interviews<span class="ex-info"></span></h4>
-                                          <div>
-                                          <p>A series of interviews and meetings were done with the stakeholders and the managers to understand the workflow and strategies for the site. One of the main goals was to simplify the ease of users reading the list of articles.</p>  
-                                          <p class="icons-desc"><i class="bi bi-ui-checks black-icon"></i><b>Survey:</b>I prepared a set of questionnaires asking the users about their behaviour when they read any news site. The survey was taken in person with immediate users (people who visited the library at the org) and also took an online survey from work colleagues.</p> 
-                                          </div>
-                                    </div>
-                                    <div class="region-lg"><img src="../../projects/web/pnd/findings_survey.svg" class="contain-img"></div>
-
-                                    <div class="tile-and-description split-wrap">
-                                          <h4></h4>
-                                          <div>
-                                                <p><b>Findings</b></p>  
-                                                <ul><li>Most users use mobile to read the news.</li>
-                                                    <li>Validated the user's preference of condensed posts to long descriptive ones (the stakeholder had suggested full article in the blog list so this helped us come to a mutual agreement beneficial for the users).</li>
-                                                    <li>The majority of users visited a single news post from social media and newsletters. We needed to make sure to include a list of related posts for easy access from individual posts.</li>
-                                                    
-                                                </ul>  
-                                          </div>
-                                    </div>
-
-                                    <div class="tile-and-description split-wrap space-between picture-desc m-bottom-5">
-                                          <div class="region-lg"><img src="../../projects/web/pnd/competitive_analysis.svg"></div>
-                                          <div class="region-lg p-top-7">
-                                                <h4>Competitive Analysis</h4>
-                                                <p>I analyzed other news sites to know how the elements were arranged in their interface. I presented the common pattern seen in those sites to the stakeholders, this helped us make some of our design decision of moving forward with common practices.</p>    
-                                          </div>
-                                          
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!-- Section Two end -->
-
-            <div class="row">
-                  <div class="col-lg-12 grey-bg text-center region-md" >
-                        UI DESIGN
-                  </div>
-            </div>
-
-            <div class="row">
-                  <div class="col-lg-12 text-center region-lg">
-                        <div><img src="../../projects/web/pnd/design_img1.svg" class="contain-img-8"></div>
-                  </div>
-            </div>
-
-            <div class="row">
-                  <div class="col-lg-12 text-center">
-                        <div><img src="../../projects/web/pnd/design_img5.svg" class="contain-img-8"></div>
-                  </div>
-            </div>
-
-            <!-- Section Three-->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-                              <div class="col-lg-12">
-                                    <div class="tile-and-description split-wrap">
-                                          <h4>Design Iterations</h4>
-                                          <ul>
-                                                <li>We had regular meetings with the stakeholders and manager for updates on progress and edits needed on the mockups. </li>
-                                                <li>I initially make 3 versions of any page that had major edits and then iterate on decisions made on those versions. This saved us decision making time and also the time that would have been spent making iterations.</li>
-                                          </ul>
-                                    </div>
-
-                                    <div class="region-tn">
-                                          <h4>Header</h4>
-                                          <div>
-                                          <p>The search icon was moved to the top for better visibility and use. The survey showed that the social media icons were rarely used and Twitter was the only link related to the site so we moved it to the footer.</p> 
-                                          </div>
-                                    </div>
-                                    <div class="m-bottom-4"><img src="../../projects/web/pnd/header_img_heatmap.svg" class="contain-img"></div>
-                                   
-
-                                    <div class="region-tn">
-                                          <h4>Jobs and RFPs</h4>
-                                          <div>
-                                          <p class="m-bottom-2">These sections had a lot of traffic. We added illustrations to make them stand out more.</p> 
-                                         
-                                          </div>
-                                    </div>
-                                    <div class="m-bottom-4"><img src="../../projects/web/pnd/design_img2.svg" class="contain-img"></div>
-
-                                    <div class="region-tn">
-                                          <h4>Footer</h4>
-                                          <div>
-                                          <p>The subscribe form had to be visible but not too prominent that it overshadows the footer, so we moved it to the right corner of the footer.</p> 
-                                          </div>
-                                    </div>
-                                    <div class="region-tn m-bottom-4"><img src="../../projects/web/pnd/design_img3.svg" class="contain-img"></div>
-
-                                    <div class="region-tn">
-                                          <h4>Blog</h4>
-                                          <div>
-                                                <p>The long list of blog posts was replaced by condensed versions for users to easily scroll through other posts.</p> 
-                                                <div class="region-tn"><img src="../../projects/web/pnd/design_img4.svg" class="contain-img"></div>
-                                          </div>
-                                    </div>
-                                   
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <!-- Section Three end -->
-
-
-
-
-
-                        <!-- Section Five-->
-                        <div class="container">
-                              <div class="hero-content">
-                                    <div class="whitespace-sub"></div>
-                                    <div class="row">
-                                          <div class="col-lg-12">
-
-                                                <div class="tile-and-description split-wrap region-tn">
-                                                      <h4 >Launch</h4>
-                                                      <div>
-                                                      <p>The launch of the rebranded site was a huge success. We received positive feedback from our users. The user traction to the site increased as well.</p>
-                                                      
-                                                      </div>
-                                                </div>
-                                                <div class="tile-and-description split-wrap region-tn">
-                                                      <h4 >Maintenance</h4>
-                                                      <div>
-                                                      <p>Heatmaps of the site after launch was thoroughly analyzed and maintained for any bugs or issues.</p>
-                                                      
-                                                      </div>
-                                                </div>
-
-                                                <div class="tile-and-description split-wrap">
-                                                      <h4 >Key takeaways</h4>
-                                                      
-                                                             <ul>
-                                                             <li>User data is a powerful tool for validating several design decisions. It also helps the designer and the stakeholder remain grounded to the user's needs.</li>
-                                                             <li>Make multiple versions of the same screen for any major design edits to save reviewing and decision making time.</li>
-                                                             <li>Conduct regular check-ins with the stakeholder and the manager to get them involved in the process. They might have ideas and suggestions, so it is important to keep them in the loop.</li>  
-                                                             <li>Know all the technical restrictions before the design process.</li>
-                                                             <li>Create tickets for all design and development tasks for better tracking and setting realistic deadlines every sprint.</li>
-                                                             <li>QA the site in parallel for any browser-related issues.</li>
-                                                       </ul>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                        <!-- Section Five end -->
-
-
-            <div class="whitespace"></div>
-            <!-- more description section ends here -->
-
-
-<!-- project nav starts here -->
-
-            <div class="project-nav">
-                  <div class="container">
-                        <div class="row">
-                              <div class="col-md-4 col-sm-4 col-4 home">
-                                    
-                              </div>
-
-                              <div class="col-md-4 col-sm-4 col-4 home">
-                                    <a href="../../index.html" class="link-ba">home</a>
-                              </div>
-                              <div class="col-md-4 col-sm-4 col-4 next">
-                                    <a href="mybrainandme.html" class="link-ba">My Brain and Me Website<ion-icon name="arrow-forward" class="forward-btn"></ion-icon></a>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-
-            <!-- project nav starts here -->
-
-                        <!-- footer starts here -->
-                        <div class="footer">
-                              <div class="container">
-            
-                                    <div class="info">
-                                          <div class="row">
-                                                 <div class="col-lg-4" id="personal">
-                                                      <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="../../pages/about/about.html">about me</a></h4>
-                                                    
-                                                </div>
-            
-                                                <div class="col-lg-4" id="media">
-            
-                                                      <ul>
-                                                            <li id="em" class="wow fadeInUp" data-wow-delay="0.4s"><a href="mailto:barsha.mhr@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a></li>
-                                                            <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-            
-                                                            <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.instagram.com/bamtechart/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            
-                                                            <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.youtube.com/barshamaharjan" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                                                      </ul>
-                                                </div>
-            
-                                                <div class="col-lg-4" id="address">
-                                                      <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank">barsha.mhr@gmail.com</a></h4>
-                                                      
-                                                </div>
-                                          </div>
-            
-                                    </div>
-            
-                                    <p class="copyright wow fadeInUp" data-wow-delay="0.4s">© 2021 Barsha Maharjan</p>
-                              </div>
-                        </div>
-
-            <!-- footer ends here -->
-
+        <ul id="menu">
+          <li>
+            <a href="../../index.html#projects" class="active-link"
+              >Web projects</a
+            >
+          </li>
+          <li>
+            <a href="../../pages/projects/projects.html">VR and animations</a>
+          </li>
+          <li>
+            <a
+              href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a href="../../pages/about/about.html">About me</a></li>
+        </ul>
       </div>
 
-      <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      <!-- navbar ends here -->
 
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
+      <div class="whitespace-sub"></div>
 
+      <!-- Project Banner -->
+
+      <div class="row">
+        <div
+          class="col-lg-12 project-banner pnd-banner wow fadeInUp"
+          data-wow-delay="1s"
+        ></div>
+      </div>
+
+      <!-- Section one-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row wow fadeInUp" data-wow-delay="1s">
+                <div class="col-lg-8 col-sm-7 col-12 s-content-title">
+                  <div class="split-wrap align-items-center">
+                    <p>
+                      <a
+                        href="https://philanthropynewsdigest.org/"
+                        target="_blank"
+                        >Philanthropy News Digest</a
+                      >
+                    </p>
+                    <div class="web-link">
+                      <a
+                        href="https://philanthropynewsdigest.org/"
+                        target="_blank"
+                        >website <ion-icon name="open"></ion-icon
+                      ></a>
+                    </div>
+                  </div>
+                  <span>News site</span>
+                </div>
+
+                <div class="col-lg-4 col-sm-5 col-12 m-top-1">
+                  <div class="row flex-end">
+                    <div class="col-md-2 col-sm-4 col-3 s-content-role">
+                      <p>Role</p>
+                      <p>Team</p>
+                      <p>Task</p>
+                      <p>Year</p>
+                    </div>
+
+                    <div class="s-content-des">
+                      <p>Lead Designer</p>
+                      <p>1 designer, 1 back-end developer</p>
+                      <p>UX/UI design and development</p>
+                      <p>2020 (3 months)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="row project-des-blocks wow fadeInUp"
+                data-wow-delay="1.2s"
+              >
+                <div class="col-md-12">
+                  <div class="split-pair-section">
+                    <p>
+                      <a class="text-link" href="https://candid.org/"
+                        >Candid's</a
+                      >
+                      Philanthropy News Digest is a website where users can
+                      learn about philanthropy news, nonprofit employment
+                      openings, and RFPs. The site receives approximately
+                      <b>450,000 page views per month</b>. Candid had recently
+                      been founded by the merger of two large firms, Foundation
+                      Directory Online and Guidestar, thus all of the products
+                      that were now part of Candid needed to be rebranded.<br /><br />
+                    </p>
+                  </div>
+
+                  <div class="tile-and-description split-wrap">
+                    <h4>My role<span class="ex-info"></span></h4>
+
+                    <p>
+                      After I joined Candid, I was immediately assigned this
+                      project. I was in charge of overseeing the design and
+                      development of Philanthropy News Digest's rebranding,
+                      which included user research and interface design with a
+                      new visual standard.
+                    </p>
+                  </div>
+
+                  <div class="tile-and-description split-wrap">
+                    <h4>Challenge <span class="ex-info"></span></h4>
+                    <div>
+                      <p>
+                        The rebranded site’s goal was to make the site more
+                        informational and visually consistent, and improvements
+                        in user experience for certain parts were required.
+                      </p>
+                      <p class="icons-desc">
+                        <i class="bi bi-exclamation-triangle-fill red-icon"></i
+                        ><b>Restrictions:</b>Limited flexibility to modify HTML
+                        elements. The entire site needed to be rebranded mainly
+                        with CSS, therefore design decisions had to focus around
+                        the existing site's layout.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tile-and-description split-wrap space-between picture-desc"
+                  >
+                    <div><img src="../../projects/web/pnd/old_site.svg" /></div>
+                    <div class="p-top-7">
+                      <h4>Previous website</h4>
+                      <p>
+                        The previous version of the site was operational. It
+                        did, however, contain pieces that were no longer in use
+                        or required. It also included visual elements that were
+                        not included in the new branding guidelines.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section One end -->
+
+      <div class="row">
+        <div class="col-lg-12 grey-bg text-center region-md">THE PROCESS</div>
+      </div>
+
+      <!-- Section Two-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tile-and-description split-wrap">
+                <h4>Research and Interviews<span class="ex-info"></span></h4>
+                <div>
+                  <p>
+                    A series of interviews and meetings were held with
+                    stakeholders and managers to better understand the site's
+                    workflow and strategies. One of the key goals was to make it
+                    easier for people to browse the list of articles and blog
+                    posts.
+                  </p>
+                  <p class="icons-desc">
+                    <i class="bi bi-ui-checks black-icon"></i><b>Survey:</b>I
+                    created a series of questionnaires that asked readers about
+                    their reading habits on various news websites. The scale was
+                    conducted in person to immediate users (those who visited
+                    the organization's library) as well as an online poll to
+                    work colleagues.
+                  </p>
+                </div>
+              </div>
+              <div class="region-lg">
+                <img
+                  src="../../projects/web/pnd/findings_survey.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="tile-and-description split-wrap">
+                <h4></h4>
+                <div>
+                  <p><b>Findings</b></p>
+                  <ul>
+                    <li>Most users use mobile to read the news.</li>
+                    <li>
+                      Validated user’s preference for condensed posts over long
+                      descriptive ones (the stakeholder had suggested full
+                      article in the blog list so this helped us come to a
+                      mutual agreement beneficial for the users).
+                    </li>
+                    <li>
+                      The majority of users only visited one news post from
+                      social media or newsletters. We needed to provide a list
+                      of similar posts for quick access from single news posts
+                      to improve user engagement.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div
+                class="tile-and-description split-wrap space-between picture-desc m-bottom-5"
+              >
+                <div class="region-lg">
+                  <img src="../../projects/web/pnd/competitive_analysis.svg" />
+                </div>
+                <div class="region-lg p-top-7">
+                  <h4>Competitive Analysis</h4>
+                  <p>
+                    I looked at other news sites to see how the parts in their
+                    UI were organized. I presented the common pattern identified
+                    in those sites to the stakeholders, which helped us make
+                    design decisions about moving forward with common practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Two end -->
+
+      <div class="row">
+        <div class="col-lg-12 grey-bg text-center region-md">UI DESIGN</div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center region-lg">
+          <div>
+            <img
+              src="../../projects/web/pnd/design_img1.svg"
+              class="contain-img-8"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div>
+            <img
+              src="../../projects/web/pnd/design_img5.svg"
+              class="contain-img-8"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Three-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tile-and-description split-wrap">
+                <h4>Design Iterations</h4>
+                <ul>
+                  <li>
+                    We had regular meetings with the stakeholders and manager
+                    for updates on progress and edits needed on the mockups.
+                  </li>
+                  <li>
+                    I initially make 3 versions of any page that had major edits
+                    and then iterate on decisions made on those versions. This
+                    saved us decision making time and also the time that would
+                    have been spent making iterations.
+                  </li>
+                </ul>
+              </div>
+
+              <div class="region-tn">
+                <h4>Header</h4>
+                <div>
+                  <p>
+                    The search icon was moved to the top for better visibility
+                    and use. The survey showed that the social media icons were
+                    rarely used and Twitter was the only link related to the
+                    site so we moved it to the footer.
+                  </p>
+                </div>
+              </div>
+              <div class="m-bottom-4">
+                <img
+                  src="../../projects/web/pnd/header_img_heatmap.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="region-tn">
+                <h4>Jobs and RFPs</h4>
+                <div>
+                  <p class="m-bottom-2">
+                    These sections had a lot of traffic. We added illustrations
+                    to make them stand out more.
+                  </p>
+                </div>
+              </div>
+              <div class="m-bottom-4">
+                <img
+                  src="../../projects/web/pnd/design_img2.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="region-tn">
+                <h4>Footer</h4>
+                <div>
+                  <p>
+                    The subscribe form had to be visible but not too prominent
+                    that it overshadows the footer, so we moved it to the right
+                    corner of the footer.
+                  </p>
+                </div>
+              </div>
+              <div class="region-tn m-bottom-4">
+                <img
+                  src="../../projects/web/pnd/design_img3.svg"
+                  class="contain-img"
+                />
+              </div>
+
+              <div class="region-tn">
+                <h4>Blog</h4>
+                <div>
+                  <p>
+                    The long list of blog posts was replaced by condensed
+                    versions for users to easily scroll through other posts.
+                  </p>
+                  <div class="region-tn">
+                    <img
+                      src="../../projects/web/pnd/design_img4.svg"
+                      class="contain-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Three end -->
+
+      <!-- Section Five-->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tile-and-description split-wrap region-tn">
+                <h4>Launch</h4>
+                <div>
+                  <p>
+                    The launch of the rebranded site was a huge success. We
+                    received positive feedback from our users. The user traction
+                    to the site increased as well.
+                  </p>
+                </div>
+              </div>
+              <div class="tile-and-description split-wrap region-tn">
+                <h4>Maintenance</h4>
+                <div>
+                  <p>
+                    Heatmaps of the site after launch was thoroughly analyzed
+                    and maintained for any bugs or issues.
+                  </p>
+                </div>
+              </div>
+
+              <div class="tile-and-description split-wrap">
+                <h4>Key takeaways</h4>
+
+                <ul>
+                  <li>
+                    User data is a powerful tool for validating several design
+                    decisions. It also helps the designer and the stakeholder
+                    remain grounded to the user's needs.
+                  </li>
+                  <li>
+                    Make multiple versions of the same screen for any major
+                    design edits to save reviewing and decision making time.
+                  </li>
+                  <li>
+                    Conduct regular check-ins with the stakeholder and the
+                    manager to get them involved in the process. They might have
+                    ideas and suggestions, so it is important to keep them in
+                    the loop.
+                  </li>
+                  <li>
+                    Know all the technical restrictions before the design
+                    process.
+                  </li>
+                  <li>
+                    Create tickets for all design and development tasks for
+                    better tracking and setting realistic deadlines every
+                    sprint.
+                  </li>
+                  <li>
+                    QA the site in parallel for any browser-related issues.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section Five end -->
+
+      <div class="whitespace"></div>
+      <!-- more description section ends here -->
+
+      <!-- project nav starts here -->
+
+      <div class="project-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-4 home"></div>
+
+            <div class="col-md-4 col-sm-4 col-4 home">
+              <a href="../../index.html" class="link-ba">home</a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 next">
+              <a href="mybrainandme.html" class="link-ba"
+                >My Brain and Me Website<ion-icon
+                  name="arrow-forward"
+                  class="forward-btn"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project nav starts here -->
+
+      <!-- footer starts here -->
+      <div class="footer">
+        <div class="container">
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="../../pages/about/about.html">about me</a>
+                </h4>
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <ul>
+                  <li id="em" class="wow fadeInUp" data-wow-delay="0.4s">
+                    <a href="mailto:barsha.mhr@gmail.com" target="_blank"
+                      ><ion-icon name="mail"></ion-icon
+                    ></a>
+                  </li>
+                  <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s">
+                    <a
+                      href="https://www.linkedin.com/in/maharjanbarsha/"
+                      target="_blank"
+                      ><ion-icon name="logo-linkedin"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s">
+                    <a
+                      href="https://www.instagram.com/bamtechart/"
+                      target="_blank"
+                      ><ion-icon name="logo-instagram"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li id="yt" class="wow fadeInUp" data-wow-delay="1s">
+                    <a
+                      href="https://www.youtube.com/barshamaharjan"
+                      target="_blank"
+                      ><ion-icon name="logo-youtube"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailto:barsha.mhr@gmail.com" target="_blank"
+                    >barsha.mhr@gmail.com</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <p class="copyright wow fadeInUp" data-wow-delay="0.4s">
+            © 2021 Barsha Maharjan
+          </p>
+        </div>
+      </div>
+
+      <!-- footer ends here -->
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
       // navigation starts here
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
       // navigation ends here
@@ -426,25 +629,26 @@
       // nav animation
 
       TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
 
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
 
       // navigation ends here
 
-
-
       new WOW().init();
-
-
-      </script>
-</body>
+    </script>
+  </body>
 </html>
