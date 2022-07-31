@@ -1,284 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="barsha">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="barsha" />
 
-      <title>Barsha Maharjan</title>
+    <title>Barsha Maharjan</title>
 
-      <link rel="icon" href="../../projects/favicon.png" type="image" sizes="32x32">
+    <link
+      rel="icon"
+      href="../../projects/favicon.png"
+      type="image"
+      sizes="32x32"
+    />
 
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="../../style/css/main.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../../style/css/main.css" />
 
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
 
-      <!-- ionicons cdn -->
-      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <!-- ionicons cdn -->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="../../style/css/animate.css" />
+    <script src="../../js/wow.min.js"></script>
 
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="../../style/css/animate.css">
-      <script src="../../js/wow.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+      gtag("config", "G-W8Y44SMWZR");
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- navbar starts here -->
+      <nav>
+        <span id="brand">
+          <a href="../../index.html">Barsha</a>
+        </span>
+        <ul id="menu" class="main-menu">
+          <li><a href="../../index.html#projects">Web projects</a></li>
+          <li>
+            <a href="../../pages/projects/projects.html" class="active-link"
+              >VR and animations</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../projects/resume/BarshaMaharjan_Resume_August_2022.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li class="main-menu-item">
+            <a href="../../pages/about/about.html"
+              >About
+              <img src="../../projects/selfportrait.png" class="about-image"
+            /></a>
+          </li>
+        </ul>
+        <div id="toggle">
+          <div class="span">menu</div>
+        </div>
+      </nav>
 
-        gtag('config', 'G-W8Y44SMWZR');
-      </script>
+      <div id="resize">
+        <div class="close-btn">close</div>
 
-</head>
-<body>
-      <div class="wrapper">
-
-
-            <!-- navbar starts here -->
-            <nav>
-                  <span id="brand">
-                        <a href="../../index.html">Barsha</a>
-                  </span>
-                  <ul id="menu" class="main-menu">
-                        <li><a href="../../index.html#projects">Web projects</a></li>
-                        <li><a href="../../pages/projects/projects.html"  class="active-link">VR and animations</a></li>
-                        <li><a href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf" target="_blank">Resume</a></li>
-                        <li class="main-menu-item"><a href="../../pages/about/about.html">About <img src="../../projects/selfportrait.png" class="about-image"></a></li>
-                     
-                  </ul>
-                  <div id="toggle">
-                        <div class="span">menu</div>
-                  </div>
-            </nav>
-
-            <div id="resize">
-                  <div class="close-btn">close</div>
-
-                  <ul id="menu">
-                        <li><a href="../../index.html#projects">Web projects</a></li>
-                        <li><a href="../../pages/projects/projects.html" class="active-link">VR and animations</a></li>
-                        <li><a href="../../projects/resume/BarshaMaharjan_Resume_July_2022.pdf" target="_blank">Resume</a></li>
-                        <li><a href="../../pages/about/about.html">About me</a></li>
-                  </ul>
-            </div>
-
-            <!-- navbar ends here -->
-
-            <div class="whitespace-sub"></div>
-
-            <!-- hero section starts here -->
-            <div class="container">
-                  <div class="hero-content">
-                        <div class="whitespace-sub"></div>
-                        <div class="row">
-
-                              <div class="col-lg-12">
-                                                                                    
-                                    <div class="project-video">
-                                          <div class="iframe-container wow fadeInUp" data-wow-delay="0.9s" >
-                                                <br><br>
-                                                <iframe src="https://www.youtube.com/embed/5xAfrD8t4Xc?vq=hd1080&modestbranding=1&showinfo=0&rel=0" width="560" height="315" frameborder="0"></iframe>
-                                          </div>
-                                    </div>
-
-                                    <div class="whitespace-sub"></div>
-
-                                    <div class="row">
-                                          <div class="col-lg-8 col-sm-7 col-12 s-content-title">
-                                                <p><a href="https://youtu.be/5xAfrD8t4Xc" target="_blank">Magikku</a></p>
-                                          </div>
-
-                                          <div class="col-lg-4 col-sm-5 col-12">
-                                                <div class="row">
-                                                      <div class="col-md-3 col-sm-4 col-3 s-content-role">
-                                                            <p>Project</p>
-                                                            <p>Software</p>
-                                                            <p>Year</p>
-                                                      </div>
-
-                                                      <div class="col-md-9 col-sm-8 col-9 s-content-des">
-                                                            <p>Game Development</p>
-                                                            <p>VR, Unity, Leap Motion</p>
-                                                            <p>2018</p>
-                                                      </div>
-                                                </div>
-
-                                          </div>
-                                    </div>
-
-
-
-                                    <div class="row project-des-blocks" > 
-                                          <div class="col-md-12">
-                                               <div class="split-pair-section">
-                                                <p>Magikku is a virtual reality game in which the player takes on the role of a protector of an ancient temple under attack by Evil Dragons. The player must defend the temple by making magical hand gestures to cast a spell and defeat the Dragons.</p>
-                                               </div>
-
-                                               <div class="tile-and-description split-wrap">
-                                                     <h4>Tools<span class="ex-info"></span></h4>
-                                                     
-                                                     <p>For this project, I used VIVE VR headset and Leap Motion.</p>   
-                                               </div>
-
-
-                                               <div class="tile-and-description split-wrap">
-                                                     <h4>Challenges <span class="ex-info"></span></h4>
-                                                     <div>  
-                                                           <p class="icons-desc">The VR hand controllers introduced a new set of barrier in user engagement because they had to learn the controls before thet could play the game. I wanted the users to be able to use their hand gestures without any controllers or wires attached to their hands.</p>
-                                                     </div>
-                                               </div>
-
-                                               
-
-                                               <div class="tile-and-description split-wrap space-between picture-desc">
-                                                     <div ><img src="../../projects/vr/magikku/vive-controllers.png"></div>
-                                                     <div class="p-top-7">
-                                                           <h4>Cons</h4>
-                                                           <ul>
-                                                            <li>Many point of actionable areas</li>
-                                                            <li>Learn which sensors performs what action before playing the game</li>
-                                                            </ul>    
-                                                     </div>
-                                                     
-                                               </div>
-
-                                               <div class="tile-and-description split-wrap space-between picture-desc">
-                                                <div ><img src="../../projects/vr/magikku/handgesture.jpg"></div>
-                                                <div class="p-top-7">
-                                                      <h4>Solution</h4>
-                                                      <ul>
-                                                       <li>Leap Motion is attached to the headset to detect hand gestures.</li>
-                                                       <li>Use natural hand gestures that corresponds to the VR object</li>
-                                                       </ul>    
-                                                </div>
-                                                </div>
-
-                                                <div class="tile-and-description split-wrap space-between picture-desc">
-                                                      <div ><img src="../../projects/vr/magikku/game-testing.jpg"></div>
-                                                      <div class="p-top-7">
-                                                            <h4>Testing</h4>
-                                                            <ul>
-                                                             <li>The controls were easy to understand for all ages.</li>
-                                                             <li>The hand gestures were easy to implement.</li>
-                                                             </ul>    
-                                                      </div>
-
-                                                      
-                                                
-                                                </div>
-
-                                                <div class="region-tn">
-                                                      <h4>Observation</h4>
-                                                      <div>
-                                                      <p>Overall, the users were able to complete the task with the given set of rules. However, it was interesting to see them trying to use different hand gestures than the actionable ones. It made me realise that we should always account for all the different actions that the users might perfrom even though those are not defined in the system.</p> 
-                                                      </div>
-                                                </div>
-                                                <div class="m-bottom-4"><img src="../../projects/vr/magikku/user-testing.jpg" class="contain-img"></div>
-                                                                                               
-
-                                         </div>
-                                   </div>
-
-                              </div>
-
-
-                        </div>
-                  </div>
-            </div>
-            <div class="whitespace"></div>
-            <!-- hero section ends here -->
-
-
-
-            <!-- project nav starts here -->
-
-            <div class="project-nav">
-                  <div class="container">
-                        <div class="row">
-                              <div class="col-md-4 col-sm-4 col-4 prev">
-                                    <a href="chagubakha.html" class="link-ba"><ion-icon name="arrow-back" class="back-btn"></ion-icon>Chagu Bakha Animation</a>
-                              </div>
-
-                              <div class="col-md-4 col-sm-4 col-4 home">
-                                    <a href="../../index.html" class="link-ba">home</a>
-                              </div>
-                              <div class="col-md-4 col-sm-4 col-4 next">
-                                    <a href="mythicalland.html" class="link-ba">Mythical Land VR<ion-icon name="arrow-forward" class="forward-btn"></ion-icon></a>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-
-            <!-- project nav starts here -->
-
-                        <!-- footer starts here -->
-                        <div class="footer m-top-10">
-                              <div class="container">
-            
-                                    <div class="info">
-                                          <div class="row">
-                                                 <div class="col-lg-4" id="personal">
-                                                      <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="../../pages/about/about.html">about me</a></h4>
-                                                    
-                                                </div>
-            
-                                                <div class="col-lg-4" id="media">
-            
-                                                      <ul>
-                                                            <li id="em" class="wow fadeInUp" data-wow-delay="0.4s"><a href="mailto:barsha.mhr@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a></li>
-                                                            <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-            
-                                                            <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.instagram.com/bamtechart/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-            
-                                                            <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.youtube.com/barshamaharjan" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                                                      </ul>
-                                                </div>
-            
-                                                <div class="col-lg-4" id="address">
-                                                      <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank">barsha.mhr@gmail.com</a></h4>
-                                                      
-                                                </div>
-                                          </div>
-            
-                                    </div>
-            
-                                    <p class="copyright wow fadeInUp" data-wow-delay="0.4s">© 2021 Barsha Maharjan</p>
-                              </div>
-                        </div>
-
-            <!-- footer ends here -->
-
+        <ul id="menu">
+          <li><a href="../../index.html#projects">Web projects</a></li>
+          <li>
+            <a href="../../pages/projects/projects.html" class="active-link"
+              >VR and animations</a
+            >
+          </li>
+          <li>
+            <a
+              href="../../projects/resume/BarshaMaharjan_Resume_August_2022.pdf"
+              target="_blank"
+              >Resume</a
+            >
+          </li>
+          <li><a href="../../pages/about/about.html">About me</a></li>
+        </ul>
       </div>
 
-      <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      <!-- navbar ends here -->
 
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript">
+      <div class="whitespace-sub"></div>
 
+      <!-- hero section starts here -->
+      <div class="container">
+        <div class="hero-content">
+          <div class="whitespace-sub"></div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="project-video">
+                <div
+                  class="iframe-container wow fadeInUp"
+                  data-wow-delay="0.9s"
+                >
+                  <br /><br />
+                  <iframe
+                    src="https://www.youtube.com/embed/5xAfrD8t4Xc?vq=hd1080&modestbranding=1&showinfo=0&rel=0"
+                    width="560"
+                    height="315"
+                    frameborder="0"
+                  ></iframe>
+                </div>
+              </div>
+
+              <div class="whitespace-sub"></div>
+
+              <div class="row">
+                <div class="col-lg-8 col-sm-7 col-12 s-content-title">
+                  <p>
+                    <a href="https://youtu.be/5xAfrD8t4Xc" target="_blank"
+                      >Magikku</a
+                    >
+                  </p>
+                </div>
+
+                <div class="col-lg-4 col-sm-5 col-12">
+                  <div class="row">
+                    <div class="col-md-3 col-sm-4 col-3 s-content-role">
+                      <p>Project</p>
+                      <p>Software</p>
+                      <p>Year</p>
+                    </div>
+
+                    <div class="col-md-9 col-sm-8 col-9 s-content-des">
+                      <p>Game Development</p>
+                      <p>VR, Unity, Leap Motion</p>
+                      <p>2018</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row project-des-blocks">
+                <div class="col-md-12">
+                  <div class="split-pair-section">
+                    <p>
+                      Magikku is a virtual reality game in which the player
+                      takes on the role of a protector of an ancient temple
+                      under attack by Evil Dragons. The player must defend the
+                      temple by making magical hand gestures to cast a spell and
+                      defeat the Dragons.
+                    </p>
+                  </div>
+
+                  <div class="tile-and-description split-wrap">
+                    <h4>Tools<span class="ex-info"></span></h4>
+
+                    <p>
+                      For this project, I used VIVE VR headset and Leap Motion.
+                    </p>
+                  </div>
+
+                  <div class="tile-and-description split-wrap">
+                    <h4>Challenges <span class="ex-info"></span></h4>
+                    <div>
+                      <p class="icons-desc">
+                        The VR hand controllers introduced a new set of barrier
+                        in user engagement because they had to learn the
+                        controls before thet could play the game. I wanted the
+                        users to be able to use their hand gestures without any
+                        controllers or wires attached to their hands.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tile-and-description split-wrap space-between picture-desc"
+                  >
+                    <div>
+                      <img
+                        src="../../projects/vr/magikku/vive-controllers.png"
+                      />
+                    </div>
+                    <div class="p-top-7">
+                      <h4>Cons</h4>
+                      <ul>
+                        <li>Many point of actionable areas</li>
+                        <li>
+                          Learn which sensors performs what action before
+                          playing the game
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tile-and-description split-wrap space-between picture-desc"
+                  >
+                    <div>
+                      <img src="../../projects/vr/magikku/handgesture.jpg" />
+                    </div>
+                    <div class="p-top-7">
+                      <h4>Solution</h4>
+                      <ul>
+                        <li>
+                          Leap Motion is attached to the headset to detect hand
+                          gestures.
+                        </li>
+                        <li>
+                          Use natural hand gestures that corresponds to the VR
+                          object
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tile-and-description split-wrap space-between picture-desc"
+                  >
+                    <div>
+                      <img src="../../projects/vr/magikku/game-testing.jpg" />
+                    </div>
+                    <div class="p-top-7">
+                      <h4>Testing</h4>
+                      <ul>
+                        <li>
+                          The controls were easy to understand for all ages.
+                        </li>
+                        <li>The hand gestures were easy to implement.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="region-tn">
+                    <h4>Observation</h4>
+                    <div>
+                      <p>
+                        Overall, the users were able to complete the task with
+                        the given set of rules. However, it was interesting to
+                        see them trying to use different hand gestures than the
+                        actionable ones. It made me realise that we should
+                        always account for all the different actions that the
+                        users might perfrom even though those are not defined in
+                        the system.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="m-bottom-4">
+                    <img
+                      src="../../projects/vr/magikku/user-testing.jpg"
+                      class="contain-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="whitespace"></div>
+      <!-- hero section ends here -->
+
+      <!-- project nav starts here -->
+
+      <div class="project-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-4 prev">
+              <a href="chagubakha.html" class="link-ba"
+                ><ion-icon name="arrow-back" class="back-btn"></ion-icon>Chagu
+                Bakha Animation</a
+              >
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-4 home">
+              <a href="../../index.html" class="link-ba">home</a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-4 next">
+              <a href="mythicalland.html" class="link-ba"
+                >Mythical Land VR<ion-icon
+                  name="arrow-forward"
+                  class="forward-btn"
+                ></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project nav starts here -->
+
+      <!-- footer starts here -->
+      <div class="footer m-top-10">
+        <div class="container">
+          <div class="info">
+            <div class="row">
+              <div class="col-lg-4" id="personal">
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="../../pages/about/about.html">about me</a>
+                </h4>
+              </div>
+
+              <div class="col-lg-4" id="media">
+                <ul>
+                  <li id="em" class="wow fadeInUp" data-wow-delay="0.4s">
+                    <a href="mailto:barsha.mhr@gmail.com" target="_blank"
+                      ><ion-icon name="mail"></ion-icon
+                    ></a>
+                  </li>
+                  <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s">
+                    <a
+                      href="https://www.linkedin.com/in/maharjanbarsha/"
+                      target="_blank"
+                      ><ion-icon name="logo-linkedin"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s">
+                    <a
+                      href="https://www.instagram.com/bamtechart/"
+                      target="_blank"
+                      ><ion-icon name="logo-instagram"></ion-icon
+                    ></a>
+                  </li>
+
+                  <li id="yt" class="wow fadeInUp" data-wow-delay="1s">
+                    <a
+                      href="https://www.youtube.com/barshamaharjan"
+                      target="_blank"
+                      ><ion-icon name="logo-youtube"></ion-icon
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4" id="address">
+                <h4 class="wow fadeInUp" data-wow-delay="0.2s">
+                  <a href="mailto:barsha.mhr@gmail.com" target="_blank"
+                    >barsha.mhr@gmail.com</a
+                  >
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <p class="copyright wow fadeInUp" data-wow-delay="0.4s">
+            © 2021 Barsha Maharjan
+          </p>
+        </div>
+      </div>
+
+      <!-- footer ends here -->
+    </div>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
       // navigation starts here
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
       });
 
       // navigation ends here
@@ -286,25 +398,26 @@
       // nav animation
 
       TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
 
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
 
       // navigation ends here
 
-
-
       new WOW().init();
-
-
-      </script>
-</body>
+    </script>
+  </body>
 </html>
