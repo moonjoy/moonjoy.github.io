@@ -585,7 +585,7 @@ h6 {
   .skillset .inner-skill:first-child {
     border-right: 0.5px solid #efefef; }
   .skillset .inner-skill {
-    padding: 40px 40px 40px 70px; }
+    padding: 30px 30px 30px 40px; }
     .skillset .inner-skill .skill-head h4 {
       color: #404040;
       line-height: 50px; }
