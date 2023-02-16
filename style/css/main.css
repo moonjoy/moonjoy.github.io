@@ -339,8 +339,13 @@ nav {
 .header p.hero-sub-font {
   font-size: 1.2rem;
   font-weight: 300;
-  max-width: 51ch;
-  color: #212529; }
+  max-width: 56ch;
+  color: #212529;
+  margin-bottom: 0; }
+
+.header .hero-sub-sub {
+  color: #212529;
+  margin-bottom: 2rem; }
 
 .header {
   display: flex;

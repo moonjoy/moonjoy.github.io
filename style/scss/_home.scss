@@ -464,8 +464,14 @@ nav {
 .header p.hero-sub-font {
   font-size: 1.2rem;
   font-weight: 300;
-  max-width: 51ch;
+  max-width: 56ch;
   color: $text-color;
+  margin-bottom: 0;
+}
+
+.header .hero-sub-sub {
+  color: $text-color;
+  margin-bottom: 2rem;
 }
 
 .header {
@@ -1382,7 +1388,7 @@ textarea:focus {
   width: 540px;
 }
 
-// web projects
+// Projects
 .web-one {
   &:hover {
     cursor: pointer;
