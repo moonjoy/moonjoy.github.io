@@ -1526,7 +1526,7 @@ b {
   border: 1.5px solid #212529;
   padding: 0.5rem 1rem;
   right: 0;
-  bottom: 15%;
+  top: 20%;
   background-color: #fff; }
   .resume-pdf:hover {
     background-color: #212529;
