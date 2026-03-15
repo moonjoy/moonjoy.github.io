@@ -55,61 +55,9 @@
   </head>
   <body>
     <div class="wrapper">
-      <!-- navbar starts here -->
-      <nav>
-        <span id="brand">
-          <a href="../../index.html">Barsha</a>
-        </span>
-        <ul id="menu" class="main-menu">
-          <li>
-            <a href="../../index.html#projects" class="active-link">Projects</a>
-          </li>
-          <!-- <li>
-            <a href="../../pages/projects/projects.html">VR and animations</a>
-          </li>
-          <li>
-            <a
-              href="../../projects/resume/BarshaMaharjan_Resume_2023.pdf"
-              target="_blank"
-              >Resume</a
-            >
-          </li> -->
-          <li class="main-menu-item">
-            <a href="../../pages/about/about.html"
-              >About
-              <img src="../../projects/selfportrait.png" class="about-image"
-            /></a>
-          </li>
-        </ul>
-        <div id="toggle">
-          <div class="span">menu</div>
-        </div>
-      </nav>
-
-      <div id="resize">
-        <div class="close-btn">close</div>
-
-        <ul id="menu">
-          <li>
-            <a href="../../index.html#projects" class="active-link">Projects</a>
-          </li>
-          <!-- <li>
-            <a href="../../pages/projects/projects.html" 
-              >VR and animations</a
-            >
-          </li>
-          <li>
-            <a
-              href="../../projects/resume/BarshaMaharjan_Resume_2023.pdf"
-              target="_blank"
-              >Resume</a
-            >
-          </li> -->
-          <li><a href="../../pages/about/about.html">About</a></li>
-        </ul>
-      </div>
-
-      <!-- navbar ends here -->
+      <!-- header (loaded from partials/header.html) -->
+      <div id="header-container" data-current="projects"></div>
+      <script src="../../js/load-header.js" data-base="../../"></script>
 
       <div class="whitespace-sub"></div>
 

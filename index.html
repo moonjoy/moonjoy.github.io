@@ -60,37 +60,9 @@
 </head>
 <body>
       <div class="wrapper">
-            <!-- navbar start -->
-            <nav class="nav-home">
-                  <span id="brand">
-                        <a href="index.html"><img src="projects/selfportrait.png" class="about-image"></a>
-                  </span>
-                  <ul id="menu" class="main-menu">
-                        
-                        <li><a href="#projects">Product thinking</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <!-- <li><a href="pages/projects/projects.html">VR and animations</a></li>
-                        <li><a href="projects/resume/BarshaMaharjan_Resume_2023.pdf" target="_blank">Resume</a></li> -->
-                        <li class="main-menu-item"><a href="pages/about/about.html">About me</a></li>
-                  </ul>
-
-                  <div id="toggle">
-                        <div class="span">Menu</div>
-                  </div>
-            </nav>
-
-            <div id="resize">
-                  <div class="close-btn">Close</div>
-
-                  <ul id="menu">            
-                        <li><a href="#projects" class="active-link">Projects</a></li>
-                        <!-- <li><a href="pages/projects/projects.html">VR and animations</a></li>
-                        <li><a href="projects/resume/BarshaMaharjan_Resume_2023.pdf" target="_blank">Resume</a></li> -->
-                        <li><a href="pages/about/about.html">About me</a></li>
-                        
-                  </ul>
-            </div>
-            <!-- navbar end -->
+            <!-- header (loaded from partials/header.html; data-current sets active link) -->
+            <div id="header-container" data-current="home"></div>
+            <script src="js/load-header.js" data-base=""></script>
 
             <!-- hero section -->
             <div class="hero">
@@ -106,10 +78,10 @@
                               <div class="wow fadeInUp" data-wow-delay="0.5s"></div></div>
                               <!-- <h1 class="line reveal-text-one">Interactive User Interfaces</h1> -->
                         <div class="">
-                              <div class="split-wrap"><a href="#projects" class="wow fadeInUp button-dark" data-wow-delay="1s" role="button" style="margin-top: 12px;">Projects ↓</a>
-                              <!-- <a href="pages/projects/projects.html" target="_blank" class="wow fadeInUp button-light-outline" data-wow-delay="1.5s" role="button">VR and animations</a> -->
+                              <div class="split-wrap"><a href="#projects" class="wow fadeInUp button-dark" data-wow-delay="1s" role="button">Projects ↓</a>
+                              <a href="projects/resume/BarshaMaharjan-Resume.pdf" target="_blank" class="wow fadeInUp button-light-outline" data-wow-delay="1.5s" role="button">Resume 📃</a>
                         </div>
-                              <p class="subtle-link m-top-2"><a href="../../projects/resume/BarshaMaharjan-Resume.pdf" target="_blank" class="wow fadeInUp" data-wow-delay="1.8s">Resume PDF 📃</a></p>
+                              <!-- <p class="subtle-link m-top-2"><a href="projects/resume/BarshaMaharjan-Resume.pdf" target="_blank" class="wow fadeInUp" data-wow-delay="1.8s">Resume PDF 📃</a></p> -->
                         </div>
                         <div>
                               
@@ -137,164 +109,267 @@
 
             <div class="sub-whitespace"></div>
 
-            <!-- project section -->
-            <div class="container">
+                  <!-- content starts here -->
+                  <div class="container">
 
-                  <div class="hero-content">
-                        <div class="whitespace"></div>
-                        <div class="whitespace" id="projects"></div>
-                        
-                      
-                        <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
-                         <div class="row">
-                              <div class="col-md-12 col-sm-12 col-12">
-                                    <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Projects</h3>
-                              </div>
-                        </div>
-                        
-                        <div class="row client-images m-top-1">
-                              <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/philanthropynewsdigest.html"><img src="projects/web/pnd/pnd.svg" style="width:100%;"></a>
-                              </div>
-                              <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
-                              </div>
-
-                              <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/himalayanwildfibers.html"><img src="projects/web/clients/himalayanwildfibers.png" style="width:100%;"></a>
-                              </div>
-
-                              <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/eattendance.html"><img src="projects/web/clients/eattendance.jpg"></a>
-                              </div>
-
-                              <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/coreweave.html"><img src="projects/web/clients/coreweave.jpg"></a>
-                              </div>
-
-                              <!-- <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/rapiddetectionsystems.html" ><img src="projects/web/clients/rapiddetectionsystems.jpg" style="width:100%;"></a>
-                              </div> -->
-
-                              <!-- <div class="col-md-6 col-sm-12 col-12">
-                                    <a href="pages/web/rapidmotionservices.html" ><img src="projects/web/clients/rapidmotionservices.png" style="width:100%;"></a>
-                              </div> -->
-
-                        </div>
-                        </div>
-
-                        <div class="hero-content misc-content">
-
+                        <!-- product thinking starts here (hidden: remove .hide-section wrapper to show) -->
+                        <div class="hide-section">
+                        <div class="hero-content">
                               <div class="whitespace"></div>
-                        
-                              <div class="fadeInUp" data-wow-delay="3s" id="projects"></div>
-                              <!-- <div class="row"> -->
-                                    <div class="web-fun web-three" onclick="location.href='pages/projects/projects.html'">
-                                          <h3><a href="pages/projects/projects.html"><img class="bit-image" src="8bit.gif">&nbsp;&nbsp;<span>VR and animations</span> <ion-icon name="open"></ion-icon></a></h3>
-                                    </div>        
-                              <!-- </div>        -->
+                              <div class="whitespace" id="product-thinking"></div>
                               
-
-
-                              <div class="sub-whitespace"></div>
-                              <!-- Project One -->
-
-                              <!-- <h4 class="wow fadeInUp text-center" data-wow-delay="0.2s">Web Animation</h4> -->
-                              <div class="row split-pair m-top-4">
-                                    <div class="web-fun web-one" onclick="location.href='pages/projects/magikku.html'">
-                                          <div class="row project-sm-space project-webs web-project01 m-0" onclick="location.href='pages/projects/magikku.html'"></div>
-                                          <div class="ui-project-description">
-                                                <p class="ui-project-des-title">Magikku <span>| VR game</span></p>
-                                          </div>
-                                    </div>        
-                                    <div class="web-fun web-two" onclick="location.href='pages/projects/micdrop.html'">
-                                          <div class="row project-sm-space project-webs web-project02 m-0" onclick="location.href='pages/projects/micdrop.html'"></div>
-                                          <div class="ui-project-description">
-                                                <p class="ui-project-des-title">Micdrop <span>| Motion Capture</span></p>
-                                          </div>
+                        
+                              <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
+                              <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-12">
+                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Product thinking</h3>
                                     </div>
                               </div>
-
-                              <div class="row split-pair m-top-4">
-                                    <div class="web-fun web-three" onclick="location.href='/pages/projects/chagubakha.html'">
-                                          <div class="row project-sm-space project-webs web-project03 m-0" onclick="location.href='/pages/projects/chagubakha.html'"></div>
-                                          <div class="ui-project-description">
-                                                <p class="ui-project-des-title">Chagu bakha | Animation</span></p>
-                                          </div>
-                                    </div>   
-                                    <div class="web-fun web-five" onclick="location.href='pages/web/prism.html'">
-                                          <div class="row project-sm-space project-webs web-project05 m-0" onclick="location.href='pages/web/prism.html'"></div>
-                                          <div class="ui-project-description">
-                                                <p class="ui-project-des-title">Prism <span>| MFADT website, Parsons School of Design</span></p>
-                                          </div>
-                                    </div> 
-                                    
-                              </div>
-
-
-                              <div class="row split-pair m-top-4">
-                                          
-                                    <div class="web-fun web-six" onclick="location.href='pages/web/cardin/index.html'">
-                                          <div class="row project-sm-space project-webs web-project06 m-0" onclick="location.href='pages/web/cardin/index.html'"></div>
-                                          <div class="ui-project-description">
-                                                <p class="ui-project-des-title">Charlotte Cardin <span>| Album concept</span></p>
-                                          </div>
+                              
+                              <div class="row client-images m-top-1">
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/philanthropynewsdigest.html"><img src="projects/web/pnd/pnd.svg" style="width:100%;"></a>
                                     </div>
-                                    <div class="web-fun web-seven" onclick="location.href='pages/web/ss/index.html'">
-                                          <div class="row project-sm-space project-webs web-project07 m-0" onclick="location.href='pages/web/ss/index.html'"></div>
-                                          <div class="ui-project-description">
-                                                <p class="ui-project-des-title">Music news | Website concept</span></p>
-                                          </div>
-                                    </div>     
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/himalayanwildfibers.html"><img src="projects/web/clients/himalayanwildfibers.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/eattendance.html"><img src="projects/web/clients/eattendance.jpg"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/coreweave.html"><img src="projects/web/clients/coreweave.jpg"></a>
+                                    </div>
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapiddetectionsystems.html" ><img src="projects/web/clients/rapiddetectionsystems.jpg" style="width:100%;"></a>
+                                    </div> -->
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapidmotionservices.html" ><img src="projects/web/clients/rapidmotionservices.png" style="width:100%;"></a>
+                                    </div> -->
+
                               </div>
                         </div>
+                        </div>
+                        <!-- product thinking ends here -->
 
-                       
+                        <!-- project starts here -->
+                        <div class="hero-content">
+                              <div class="whitespace"></div>
+                              <div class="whitespace" id="projects"></div>
+                              
+                        
+                              <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
+                              <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-12">
+                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Projects</h3>
+                                    </div>
+                              </div>
+                              
+                              <div class="row client-images m-top-1">
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/philanthropynewsdigest.html"><img src="projects/web/pnd/pnd.svg" style="width:100%;"></a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/himalayanwildfibers.html"><img src="projects/web/clients/himalayanwildfibers.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/eattendance.html"><img src="projects/web/clients/eattendance.jpg"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/coreweave.html"><img src="projects/web/clients/coreweave.jpg"></a>
+                                    </div>
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapiddetectionsystems.html" ><img src="projects/web/clients/rapiddetectionsystems.jpg" style="width:100%;"></a>
+                                    </div> -->
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapidmotionservices.html" ><img src="projects/web/clients/rapidmotionservices.png" style="width:100%;"></a>
+                                    </div> -->
+
+                              </div>
+                        </div>
+                        <!-- project starts here -->
+
+                        <!-- articles starts here (hidden: remove .hide-section wrapper to show) -->
+                        <div class="hide-section">
+                        <div class="hero-content">
+                              <div class="whitespace"></div>
+                              <div class="whitespace" id="articles"></div>
+                              
+                        
+                              <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
+                              <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-12">
+                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Articles</h3>
+                                    </div>
+                              </div>
+                              
+                              <div class="row client-images m-top-1">
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/philanthropynewsdigest.html"><img src="projects/web/pnd/pnd.svg" style="width:100%;"></a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/himalayanwildfibers.html"><img src="projects/web/clients/himalayanwildfibers.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/eattendance.html"><img src="projects/web/clients/eattendance.jpg"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/coreweave.html"><img src="projects/web/clients/coreweave.jpg"></a>
+                                    </div>
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapiddetectionsystems.html" ><img src="projects/web/clients/rapiddetectionsystems.jpg" style="width:100%;"></a>
+                                    </div> -->
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapidmotionservices.html" ><img src="projects/web/clients/rapidmotionservices.png" style="width:100%;"></a>
+                                    </div> -->
+
+                              </div>
+                        </div>
+                        </div>
+                        <!-- articles ends here -->
+
+                        <!-- figma plugins starts here (hidden: remove .hide-section wrapper to show) -->
+                        <div class="hide-section">
+                        <div class="hero-content">
+                              <div class="whitespace"></div>
+                              <div class="whitespace" id="figma-plugins"></div>
+                              
+                        
+                              <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
+                              <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-12">
+                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Figma plugins</h3>
+                                    </div>
+                              </div>
+                              
+                              <div class="row client-images m-top-1">
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/philanthropynewsdigest.html"><img src="projects/web/pnd/pnd.svg" style="width:100%;"></a>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/himalayanwildfibers.html"><img src="projects/web/clients/himalayanwildfibers.png" style="width:100%;"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/eattendance.html"><img src="projects/web/clients/eattendance.jpg"></a>
+                                    </div>
+
+                                    <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/coreweave.html"><img src="projects/web/clients/coreweave.jpg"></a>
+                                    </div>
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapiddetectionsystems.html" ><img src="projects/web/clients/rapiddetectionsystems.jpg" style="width:100%;"></a>
+                                    </div> -->
+
+                                    <!-- <div class="col-md-6 col-sm-12 col-12">
+                                          <a href="pages/web/rapidmotionservices.html" ><img src="projects/web/clients/rapidmotionservices.png" style="width:100%;"></a>
+                                    </div> -->
+
+                              </div>
+                        </div>
+                        </div>
+                        <!-- figma plugins ends here -->
+
+                        <!-- VR/Animation starts here -->
+                        <!-- <div class="hero-content misc-content">
+
+                                    <div class="whitespace"></div>
+                              
+                                    <div class="fadeInUp" data-wow-delay="3s" id="projects"></div>
+                                    
+                                          <div class="web-fun web-three" onclick="location.href='pages/projects/projects.html'">
+                                                <h3><a href="pages/projects/projects.html"><img class="bit-image" src="8bit.gif">&nbsp;&nbsp;<span>VR and animations</span> <ion-icon name="open"></ion-icon></a></h3>
+                                          </div>        
+                                    
+
+
+                                    <div class="sub-whitespace"></div>
+                                    <div class="row split-pair m-top-4">
+                                          <div class="web-fun web-one" onclick="location.href='pages/projects/magikku.html'">
+                                                <div class="row project-sm-space project-webs web-project01 m-0" onclick="location.href='pages/projects/magikku.html'"></div>
+                                                <div class="ui-project-description">
+                                                      <p class="ui-project-des-title">Magikku <span>| VR game</span></p>
+                                                </div>
+                                          </div>        
+                                          <div class="web-fun web-two" onclick="location.href='pages/projects/micdrop.html'">
+                                                <div class="row project-sm-space project-webs web-project02 m-0" onclick="location.href='pages/projects/micdrop.html'"></div>
+                                                <div class="ui-project-description">
+                                                      <p class="ui-project-des-title">Micdrop <span>| Motion Capture</span></p>
+                                                </div>
+                                          </div>
+                                    </div>
+
+                                    <div class="row split-pair m-top-4">
+                                          <div class="web-fun web-three" onclick="location.href='/pages/projects/chagubakha.html'">
+                                                <div class="row project-sm-space project-webs web-project03 m-0" onclick="location.href='/pages/projects/chagubakha.html'"></div>
+                                                <div class="ui-project-description">
+                                                      <p class="ui-project-des-title">Chagu bakha | Animation</span></p>
+                                                </div>
+                                          </div>   
+                                          <div class="web-fun web-five" onclick="location.href='pages/web/prism.html'">
+                                                <div class="row project-sm-space project-webs web-project05 m-0" onclick="location.href='pages/web/prism.html'"></div>
+                                                <div class="ui-project-description">
+                                                      <p class="ui-project-des-title">Prism <span>| MFADT website, Parsons School of Design</span></p>
+                                                </div>
+                                          </div> 
+                                          
+                                    </div>
+
+
+                                    <div class="row split-pair m-top-4">
+                                                
+                                          <div class="web-fun web-six" onclick="location.href='pages/web/cardin/index.html'">
+                                                <div class="row project-sm-space project-webs web-project06 m-0" onclick="location.href='pages/web/cardin/index.html'"></div>
+                                                <div class="ui-project-description">
+                                                      <p class="ui-project-des-title">Charlotte Cardin <span>| Album concept</span></p>
+                                                </div>
+                                          </div>
+                                          <div class="web-fun web-seven" onclick="location.href='pages/web/ss/index.html'">
+                                                <div class="row project-sm-space project-webs web-project07 m-0" onclick="location.href='pages/web/ss/index.html'"></div>
+                                                <div class="ui-project-description">
+                                                      <p class="ui-project-des-title">Music news | Website concept</span></p>
+                                                </div>
+                                          </div>     
+                                    </div>
+                        </div> -->
+                         <!-- VR/Animation ends here -->
+         
                   </div>
                  
 
-
-
-
             </div>
-            <!-- project section ends -->
+            <!-- content ends here -->
 
-            <!-- footer starts here -->
-            <div class="footer m-top-10">
-                  <div class="container">
-
-                        <div class="info">
-                              <div class="row">
-                                     <div class="col-lg-4" id="personal">
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="pages/about/about.html">about me</a></h4>
-                                        
-                                    </div>
-
-                                    <div class="col-lg-4" id="media">
-
-                                          <ul>
-                                                <li id="em" class="wow fadeInUp" data-wow-delay="0.4s"><a href="mailto:barsha.mhr@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a></li>
-                                                <li id="lin" class="wow fadeInUp" data-wow-delay="0.6s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.instagram.com/bamtechart/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-
-                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s"><a href="https://www.youtube.com/barshamaharjan" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                                          </ul>
-                                    </div>
-
-                                    <div class="col-lg-4" id="address">
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank">barsha.mhr@gmail.com</a></h4>
-                                          
-                                    </div>
-                              </div>
-
-                        </div>
-
-                        <!-- <p class="copyright wow fadeInUp" data-wow-delay="0.4s">© 2026 Barsha Maharjan</p> -->
-                  </div>
-            </div>
-
-            <!-- footer ends here -->
+            <!-- footer (loaded from partials/footer.html) -->
+            <div id="footer-container"></div>
 
       </div>
 
@@ -303,6 +378,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script src="js/load-footer.js" data-base=""></script>
       <script type="text/javascript">
 
 
@@ -328,22 +404,16 @@
 
 
 
-      // nav animation
-
-      TweenMax.from("#brand", 1, {
-            delay: 1,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
-
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 1,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
-
-      // nav animation ends
+      // nav animation (runs after shared header is injected)
+      function runNavAnimation() {
+        TweenMax.from("#brand", 1, { delay: 1, y: 10, opacity: 0, ease: Expo.easeInOut });
+        TweenMax.staggerFrom("#menu li a", 1, { delay: 1, opacity: 0, ease: Expo.easeInOut }, 0.1);
+      }
+      if (document.getElementById('header-container') && document.getElementById('header-container').innerHTML) {
+        runNavAnimation();
+      } else {
+        document.addEventListener('headerLoaded', runNavAnimation);
+      }
 
       new WOW().init();
 

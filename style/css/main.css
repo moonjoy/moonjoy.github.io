@@ -1316,6 +1316,11 @@ textarea:focus {
   margin-top: -1rem;
 }
 
+/* Hidden sections: remove .hide-section from element to show */
+.hide-section {
+  display: none !important;
+}
+
 /*--------------- work page --------------- */
 .hero-content {
   margin-left: 0%;

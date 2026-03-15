@@ -1518,3 +1518,8 @@ textarea:focus {
 
 .bit-desc {
 }
+
+/* Hidden sections: remove .hide-section from element to show */
+.hide-section {
+  display: none !important;
+}
