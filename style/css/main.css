@@ -443,6 +443,7 @@ nav #menu .submenu .submenu-item:hover {
   letter-spacing: 0.04em;
   word-spacing: 0.04em;
   line-height: 1.333;
+  font-weight: 700;
 }
 .header .subtle-link a {
   text-decoration: none;
