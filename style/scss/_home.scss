@@ -65,8 +65,21 @@ ion-icon {
   }
 }
 
+/* Root layout shell — keeps main column centered in the viewport */
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1200px !important;
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
 .container .web-container {
@@ -345,9 +358,14 @@ nav {
         color: $text-color !important;
         padding: 0 2px 1px 2px;
         font-size: 0.875rem;
+        /* Global `a:hover` uses underline !important — keep only gold border */
+        text-decoration: none !important;
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:focus-visible {
           border-bottom: 2px solid $dark-yellow !important;
+          text-decoration: none !important;
         }
       }
     }
@@ -437,9 +455,13 @@ nav {
       cursor: pointer;
       transition: all 0.3s ease-out;
       a {
-        &:hover {
+        text-decoration: none !important;
+        &:hover,
+        &:focus,
+        &:focus-visible {
           color: $text-color !important;
           border-bottom: 2px solid $dark-yellow !important;
+          text-decoration: none !important;
         }
       }
     }
@@ -1326,18 +1348,24 @@ textarea:focus {
   margin-bottom: 8%;
   row-gap: 2rem;
   column-gap: 0;
-  div {
-    // padding: 20px;
-    // border-radius: 14px;
-    img {
-      width: 101% !important;
-      margin-left: -1px;
-      // border-radius: 4px;
-
-      &:hover {
-        cursor: pointer;
-        opacity: 0.75;
-      }
+  /* Legacy tile: link wraps image only — slight width hack for old thumbnails */
+  > [class*="col-"] > a > img {
+    width: 101% !important;
+    margin-left: -1px;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.75;
+    }
+  }
+  /* Project cards: nested img — do not use 101% hack or page shifts horizontally */
+  .project-card-content img {
+    width: 100% !important;
+    max-width: 100%;
+    margin-left: 0;
+    display: block;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.75;
     }
   }
   .project-card-bottom {
@@ -1348,6 +1376,34 @@ textarea:focus {
     // width: 100%;
     // overflow: hidden;
     // height: 35%;
+  }
+
+  /*
+   * Homepage “Projects” row (not Articles/Figma/Mentorship columns):
+   * same-width image rail + object-fit so mixed SVG/PNG assets match visually.
+   */
+  &:not(.articles-content) {
+    .project-card-content {
+      align-items: stretch;
+    }
+    .project-card-top {
+      flex: 0 0 40%;
+      max-width: 40%;
+      min-width: 0;
+      min-height: 220px;
+      overflow: hidden;
+      background: #ececec;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .project-card-top img {
+      width: 100% !important;
+      height: 100%;
+      min-height: 220px;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 }
 
@@ -1407,8 +1463,10 @@ textarea:focus {
 .active-link {
   padding: 3px 6px;
   border-bottom: 2px solid $dark-yellow;
+  text-decoration: none !important;
   &:hover {
     color: $text-color !important;
+    text-decoration: none !important;
   }
 }
 
@@ -1700,5 +1758,20 @@ textarea:focus {
 .articles-content {
   .project-card-content {
     flex-direction: column;
+  }
+  .project-card-top {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    overflow: hidden;
+    background: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-card-top img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }

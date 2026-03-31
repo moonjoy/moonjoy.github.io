@@ -62,8 +62,21 @@ ion-icon {
   color: #fff;
 }
 
+/* Root layout shell — keeps main column centered in the viewport */
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 1200px !important;
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
 }
 
 .container .web-container {
@@ -305,9 +318,12 @@ nav #menu li a {
   color: #212529 !important;
   padding: 0 2px 1px 2px;
   font-size: 0.875rem;
+  /* Global `a:hover` uses underline !important — keep only gold border */
+  text-decoration: none !important;
 }
-nav #menu li a:hover {
+nav #menu li a:hover, nav #menu li a:focus, nav #menu li a:focus-visible {
   border-bottom: 2px solid #e3a128 !important;
+  text-decoration: none !important;
 }
 nav #menu .submenu {
   display: none;
@@ -393,9 +409,13 @@ nav #menu .submenu .submenu-item:hover {
   cursor: pointer;
   transition: all 0.3s ease-out;
 }
-#resize #menu li a:hover {
+#resize #menu li a {
+  text-decoration: none !important;
+}
+#resize #menu li a:hover, #resize #menu li a:focus, #resize #menu li a:focus-visible {
   color: #212529 !important;
   border-bottom: 2px solid #e3a128 !important;
+  text-decoration: none !important;
 }
 #resize.active {
   visibility: visible;
@@ -1135,12 +1155,26 @@ textarea:focus {
   margin-bottom: 8%;
   row-gap: 2rem;
   column-gap: 0;
+  /* Legacy tile: link wraps image only — slight width hack for old thumbnails */
 }
-.client-images div img {
+.client-images > [class*=col-] > a > img {
   width: 101% !important;
   margin-left: -1px;
 }
-.client-images div img:hover {
+.client-images > [class*=col-] > a > img:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.client-images {
+  /* Project cards: nested img — do not use 101% hack or page shifts horizontally */
+}
+.client-images .project-card-content img {
+  width: 100% !important;
+  max-width: 100%;
+  margin-left: 0;
+  display: block;
+}
+.client-images .project-card-content img:hover {
   cursor: pointer;
   opacity: 0.75;
 }
@@ -1148,6 +1182,34 @@ textarea:focus {
   padding: 1.5rem;
   flex: auto;
 }
+.client-images {
+  /*
+   * Homepage “Projects” row (not Articles/Figma/Mentorship columns):
+   * same-width image rail + object-fit so mixed SVG/PNG assets match visually.
+   */
+}
+.client-images:not(.articles-content) .project-card-content {
+  align-items: stretch;
+}
+.client-images:not(.articles-content) .project-card-top {
+  flex: 0 0 40%;
+  max-width: 40%;
+  min-width: 0;
+  min-height: 220px;
+  overflow: hidden;
+  background: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-images:not(.articles-content) .project-card-top img {
+  width: 100% !important;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .ui-project-video.inner-vid {
   margin-bottom: 4%;
 }
@@ -1199,9 +1261,11 @@ textarea:focus {
 .active-link {
   padding: 3px 6px;
   border-bottom: 2px solid #e3a128;
+  text-decoration: none !important;
 }
 .active-link:hover {
   color: #212529 !important;
+  text-decoration: none !important;
 }
 
 @media (max-width: 39.9375em) {
@@ -1465,6 +1529,21 @@ textarea:focus {
 
 .articles-content .project-card-content {
   flex-direction: column;
+}
+.articles-content .project-card-top {
+  aspect-ratio: 16/9;
+  width: 100%;
+  overflow: hidden;
+  background: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articles-content .project-card-top img {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /*--------------- work page --------------- */
