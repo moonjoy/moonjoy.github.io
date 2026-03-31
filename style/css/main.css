@@ -1522,6 +1522,23 @@ textarea:focus {
   margin-top: auto;
 }
 
+/* Non-interactive cards (no link): no lift, underline, or image dim on hover */
+.project-card-content--static {
+  cursor: default;
+  transition: none;
+}
+.project-card-content--static:hover, .project-card-content--static:focus, .project-card-content--static:focus-visible {
+  box-shadow: none;
+}
+.project-card-content--static:hover .project-card-title, .project-card-content--static:focus-visible .project-card-title {
+  text-decoration: none !important;
+}
+
+.client-images .project-card-content--static img:hover {
+  opacity: 1 !important;
+  cursor: default;
+}
+
 .project-card {
   background-color: #ffffff;
   border-color: #E4E4E4;
