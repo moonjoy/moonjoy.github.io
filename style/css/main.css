@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*--------------- basic styling --------------- */
 html,
 body {
@@ -41,7 +40,8 @@ a {
   color: #212529 !important;
 }
 a:hover {
-  text-decoration: underline !important;
+  color: #e3a128 !important;
+  text-decoration: none !important;
 }
 
 ul {
@@ -62,10 +62,6 @@ ion-icon {
   color: #fff;
 }
 
-.container {
-  max-width: 1200px !important;
-}
-
 .container .web-container {
   margin-bottom: 15%;
   padding: 0 8%;
@@ -81,10 +77,6 @@ a[role=button] {
   border-radius: 6px;
   font-size: 1.5rem;
   padding: 6px 18px 8px 18px;
-  text-decoration: none !important;
-}
-a[role=button]:hover, a[role=button]:focus, a[role=button]:focus-visible {
-  text-decoration: none !important;
 }
 
 .button-dark {
@@ -92,10 +84,9 @@ a[role=button]:hover, a[role=button]:focus, a[role=button]:focus-visible {
   text-decoration: none !important;
   background: #353535;
 }
-.button-dark:hover, .button-dark:focus, .button-dark:focus-visible {
+.button-dark:hover {
   background-color: rgba(0, 0, 0, 0.5803921569);
   color: #ffffff !important;
-  text-decoration: none !important;
 }
 
 .button-light-outline {
@@ -103,29 +94,12 @@ a[role=button]:hover, a[role=button]:focus, a[role=button]:focus-visible {
   text-decoration: none !important;
   outline: 1px solid #353535;
 }
-.button-light-outline:hover, .button-light-outline:focus, .button-light-outline:focus-visible {
+.button-light-outline:hover {
   background-color: rgba(0, 0, 0, 0.0509803922);
   color: #353535 !important;
-  text-decoration: none !important;
-}
-
-a[role=button].button-small {
-  font-size: 1rem;
-  padding: 0px 12px;
-  display: flex;
-  height: 2rem;
-  align-items: center;
 }
 
 /*--------------- Flex --------------- */
-.flex {
-  display: flex;
-}
-
-.gap-1 {
-  gap: 1rem;
-}
-
 .split-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -261,13 +235,13 @@ a[role=button].button-small {
 
 nav {
   width: 100%;
-  height: 60px;
+  height: 80px;
   position: fixed;
   z-index: 1;
   background: #fff;
 }
 nav.nav-home {
-  background-color: #f1f1f3;
+  background-color: transparent;
   z-index: 9;
   transition: background-color 500ms ease-in-out;
 }
@@ -275,7 +249,7 @@ nav #brand {
   float: left;
   display: block;
   margin-left: 82px;
-  line-height: 60px;
+  line-height: 80px;
   font-weight: 600;
 }
 nav #brand a {
@@ -294,7 +268,7 @@ nav #menu li {
   display: inline-block;
   cursor: pointer;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 80px;
   position: relative;
   transition: all 0.3s ease-out;
 }
@@ -423,7 +397,7 @@ nav #menu .submenu .submenu-item:hover {
   height: 100vh;
   display: flex;
   align-items: center;
-  margin: 0 auto 0 12%;
+  margin: 0 auto 0 10%;
 }
 .hero .bg-video {
   height: 100%;
@@ -1133,21 +1107,21 @@ textarea:focus {
 
 .client-images {
   margin-bottom: 8%;
-  row-gap: 2rem;
-  column-gap: 0;
+}
+.client-images div {
+  padding: 20px;
+  border-radius: 14px;
 }
 .client-images div img {
-  width: 101% !important;
-  margin-left: -1px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0px 1px 4px rgba(136, 136, 136, 0.4117647059);
 }
 .client-images div img:hover {
   cursor: pointer;
   opacity: 0.75;
 }
-.client-images .project-card-bottom {
-  padding: 1.5rem;
-  flex: auto;
-}
+
 .ui-project-video.inner-vid {
   margin-bottom: 4%;
 }
@@ -1345,126 +1319,6 @@ textarea:focus {
 /* Hidden sections: remove .hide-section from element to show */
 .hide-section {
   display: none !important;
-}
-
-/* Common tag (pill) – base styles shared by .tag, .status, .tag--metric */
-.tag--metric, .status, .tag {
-  display: inline-block;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.6rem;
-  color: #2c2b2b;
-  background-color: #e9e9e9;
-  letter-spacing: 0.01em;
-}
-
-.tag + .tag {
-  margin-left: 6px;
-}
-
-/* Status tags – right-aligned in card header */
-.status {
-  background-color: #e0edff;
-  color: #2563eb;
-}
-
-.status--complete {
-  background-color: #C5E3FE;
-  color: #212529;
-}
-
-.status--in-progress {
-  background-color: #fef3c7;
-  color: #b45309;
-}
-
-.status--planned {
-  background-color: #f3f4f6;
-  color: #6b7280;
-}
-
-/* Metric / bottom stat pill */
-.tag--metric {
-  background-color: #edecec;
-  margin-top: 1rem;
-  font-size: 0.6rem;
-}
-
-/* Content card (title + description + tags) */
-.project-card-content {
-  background: #ffffff;
-  border-radius: 8px;
-  border: 1px solid #cbc9c9;
-  overflow: hidden;
-  height: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  text-align: left;
-  /* Override global `a:hover { text-decoration: underline !important }` */
-  text-decoration: none !important;
-  color: #212529;
-  transition: box-shadow 0.2s ease;
-}
-.project-card-content:hover, .project-card-content:focus, .project-card-content:focus-visible {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  color: #212529;
-  text-decoration: none !important;
-}
-.project-card-content {
-  /* Underline only the title when the card link is hovered / keyboard-focused */
-}
-.project-card-content:hover .project-card-title, .project-card-content:focus-visible .project-card-title {
-  text-decoration: underline !important;
-  text-underline-offset: 0.12em;
-  text-decoration-thickness: 1.25px !important;
-}
-.project-card-content .project-card-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 1rem;
-}
-.project-card-content .project-card-tags {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-}
-.project-card-content .project-card-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin: 0 0 0.75rem 0;
-  line-height: 1.3;
-  text-decoration: none;
-  display: inline;
-}
-.project-card-content .project-card-description {
-  font-size: 0.8rem;
-  line-height: 1.6;
-  color: #212529;
-  margin-top: 0.5rem;
-  flex-grow: 1;
-}
-.project-card-content .project-card-description p {
-  margin-bottom: 0.5rem;
-}
-.project-card-content .project-card-description p:last-child {
-  margin-bottom: 0;
-}
-.project-card-content .project-card-metric {
-  margin-top: auto;
-}
-
-.project-card {
-  background-color: #ffffff;
-  border-color: #E4E4E4;
-}
-
-.articles-content .project-card-content {
-  flex-direction: column;
 }
 
 /*--------------- work page --------------- */
