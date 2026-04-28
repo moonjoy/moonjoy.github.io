@@ -198,26 +198,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="../../js/site-nav.js"></script>
     <script type="text/javascript">
-      // navigation starts here
-      $("#toggle").click(function () {
-        $(this).toggleClass("on");
-        $("#resize").toggleClass("active");
-      });
-
-      $("#resize ul li a").click(function () {
-        $(this).toggleClass("on");
-        $("#resize").toggleClass("active");
-      });
-
-      $(".close-btn").click(function () {
-        $(this).toggleClass("on");
-        $("#resize").toggleClass("active");
-      });
-
-      // navigation ends here
-
-      // nav animation
+// nav animation
 
       TweenMax.from("#brand", 1, {
         delay: 0.4,
@@ -236,9 +219,6 @@
         },
         0.1
       );
-
-      // navigation ends here
-
       new WOW().init();
     </script>
   </body>

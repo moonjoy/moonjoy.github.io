@@ -1,618 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="barsha">
-
-      <title>Barsha Maharjan</title>
-
-      <link rel="icon" href="projects/favicon.png" type="image" sizes="32x32">
-
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="style/css/main.css">
-
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-      <!-- google fonts -->
-      <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
-       -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-
-      <!-- Hotjar Tracking Code for https://www.baarshaa.com/ -->
-      <script>
-            (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:3066140,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      </script>
-
-      <!-- terminal effect -->
-      <script src="js/t.min.js"></script>
-
-      <!-- icons -->
-      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="style/css/animate.css">
-      <script src="js/wow.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
-
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-W8Y44SMWZR');
-      </script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="barsha">
+  <title>Barsha Maharjan</title>
+  <link rel="icon" href="projects/favicon.png" type="image" sizes="32x32">
+  <link rel="stylesheet" href="style/css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <script>
+    (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3066140,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <script src="js/t.min.js"></script>
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+  <link rel="stylesheet" href="style/css/animate.css">
+  <script src="js/wow.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W8Y44SMWZR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-W8Y44SMWZR');
+  </script>
 </head>
 <body>
-      <div class="wrapper">
-            <!-- header (loaded from partials/header.html; data-current sets active link) -->
-            <div id="header-container" data-current="home"></div>
-            <script src="js/load-header.js" data-base=""></script>
+  <div class="wrapper">
+    <div id="header-container" data-current="home"></div>
+    <script src="js/load-header.js" data-base=""></script>
 
-            <!-- hero section -->
-            <div class="hero">
-                  <div class="bg-image hide-for-desktop"></div>
-                  <div class="bg-video hide-for-mobile">
-                        <video autoplay="" loop="" muted="" class="hide-for-mobile">
-                            <source src="video_avatar.mp4" type="video/mp4">
-                        </video>
+    <div class="hero">
+      <div class="bg-image hide-for-desktop"></div>
+      <div class="bg-video hide-for-mobile">
+        <video autoplay loop muted class="hide-for-mobile">
+          <source src="video_avatar.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="header">
+        <div class="wow fadeInUp" data-wow-delay="0.5s">
+          <h1>Hi! I am Barsha Maharjan</h1>
+          <p class="hero-sub-font subtle-link">Product Designer based in New York passionate about designing <br>user-centered products</p>
+        </div>
+        <div class="split-wrap hero-cta">
+          <a href="#projects" class="wow fadeInUp button-dark" data-wow-delay="1s" role="button">Projects ↓</a>
+          <a href="projects/resume/BarshaMaharjan-Resume.pdf" target="_blank" rel="noopener noreferrer" class="wow fadeInUp button-light-outline" data-wow-delay="1.5s" role="button">Resume 📃</a>
+        </div>
+        <div>
+          <ul class="split-wrap" id="media-contact">
+            <li id="em" class="wow fadeInUp" data-wow-delay="2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank" rel="noopener noreferrer"><ion-icon name="mail"></ion-icon></a></li>
+            <li id="lin" class="wow fadeInUp" data-wow-delay="2.1s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          </ul>
+          <p class="wow fadeInUp hide-for-mobile sub-p pseudo-info" data-wow-delay="5s">Psst! that is me hovering around, <a href="pages/projects/micdrop.html">see behind the scenes</a></p>
+        </div>
+      </div>
+    </div>
+
+    <a class="scroll-down" href="#projects"><div class="scroll-down-icon"></div></a>
+    <div class="sub-whitespace"></div>
+
+    <div class="container">
+
+      <!-- Projects -->
+      <div class="hero-content">
+        <!-- <div class="whitespace"></div> -->
+        <div id="projects"></div>
+        <div class="fadeInUp m-top-2" data-wow-delay="3s"></div>
+        <div class="row">
+          <div class="col-12 section-heading-col">
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Projects</h3>
+          </div>
+        </div>
+        <div class="row client-images articles-content project-featured-cards m-top-1">
+          <div class="col-12 col-md-6">
+            <a href="pages/web/philanthropynewsdigest.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top">
+                <img src="projects/web/pnd/pnd.svg" alt="Philanthropy News Digest" class="u-img-fill">
+              </div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">News</span>
+                    <span class="tag">Nonprofit</span>
                   </div>
-                  <div class="header">
-                        <div class="wow fadeInUp" data-wow-delay="0.5s"><h1>Hi! I am Barsha Maharjan</h1> 
-                              <p class="hero-sub-font subtle-link">Product Designer based in New York passionate about designing <br>user-centered products</p> 
-                              <div class="wow fadeInUp" data-wow-delay="0.5s"></div></div>
-                              <!-- <h1 class="line reveal-text-one">Interactive User Interfaces</h1> -->
-                        <div class="">
-                              <div class="split-wrap"><a href="#projects" class="wow fadeInUp button-dark" data-wow-delay="1s" role="button">Projects ↓</a>
-                              <a href="projects/resume/BarshaMaharjan-Resume.pdf" target="_blank" class="wow fadeInUp button-light-outline" data-wow-delay="1.5s" role="button">Resume 📃</a>
-                        </div>
-                              <!-- <p class="subtle-link m-top-2"><a href="projects/resume/BarshaMaharjan-Resume.pdf" target="_blank" class="wow fadeInUp" data-wow-delay="1.8s">Resume PDF 📃</a></p> -->
-                        </div>
-                        <div>
-                              
-                        <ul class="split-wrap" id="media-contact">
-                              <li id="em" class="wow fadeInUp" data-wow-delay="2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a></li>
-                              <li id="lin" class="wow fadeInUp" data-wow-delay="2.1s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-
-                              <!-- <li id="ig" class="wow fadeInUp" data-wow-delay="2.2s"><a href="https://www.instagram.com/bamtechart/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li> -->
-
-                              <!-- <li id="yt" class="wow fadeInUp" data-wow-delay="2.3s"><a href="https://www.youtube.com/barshamaharjan" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li> -->
-                        </ul>
-                        
-                        
-                             <p class="wow fadeInUp hide-for-mobile sub-p pseudo-info" data-wow-delay="5s">Psst! that is me hovering around, <a href="pages/projects/micdrop.html">see behind the scenes</a></p>
-                        </div>
-                       
+                </div>
+                <h3 class="project-card-title">Philanthropy News Digest</h3>
+                <div class="project-card-description">
+                  <p>Lead UX/UI and front-end work on the sector news hub—jobs, resources, newsletters, and philanthropy coverage.</p>
+                </div>
+                <span class="project-card-cta">Read case study</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="pages/web/mybrainandme.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top">
+                <img src="projects/web/images/my-brain-and-me.svg" alt="My Brain and Me" class="u-img-fill">
+              </div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">Health tech</span>
+                    <span class="tag">Web app</span>
                   </div>
-
-            </div>
-
-            <a class="scroll-down" href="#projects"><div class="scroll-down-icon"></div></a>
-            
-            <!-- end hero section -->
-           
-
-            <div class="sub-whitespace"></div>
-
-                  <!-- content starts here -->
-                  <div class="container">
-
-                        <!-- product thinking starts here -->
-                         <!-- <div class="hero-content">
-                              <div class="whitespace"></div>
-                              <div class="whitespace" id="product-thinking"></div>
-                              
-                        
-                              <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
-                              <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-12">
-                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Product thinking</h3>
-                                    </div>
-                              </div>
-                              
-                              <div class="row client-images m-top-1">
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/philanthropynewsdigest.html"><img src="projects/web/pnd/pnd.svg" style="width:100%;"></a>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/mybrainandme.html"><img src="projects/web/clients/mybrainandme.png" style="width:100%;"></a>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/himalayanwildfibers.html"><img src="projects/web/clients/himalayanwildfibers.png" style="width:100%;"></a>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/eattendance.html"><img src="projects/web/clients/eattendance.jpg"></a>
-                                    </div>
-
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/coreweave.html"><img src="projects/web/clients/coreweave.jpg"></a>
-                                    </div>
-
-                              </div>
-                        </div> -->
-                        <!-- product thinking ends here -->
-
-                        <!-- project starts here -->
-                        <div class="hero-content">
-                              <div class="whitespace"></div>
-                              <div class="whitespace" id="projects"></div>
-                              
-                        
-                              <div class="fadeInUp m-top-2" data-wow-delay="3s" ></div>
-                              <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-12">
-                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Projects</h3>
-                                    </div>
-                              </div>
-                              
-                              <div class="row client-images articles-content m-top-1">
-
-                                    <!-- Project 1 — Philanthropy News Digest -->
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/philanthropynewsdigest.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/pnd/pnd.svg" alt="Philanthropy News Digest" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">News</span>
-                                                                  <span class="tag">Nonprofit</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">Philanthropy News Digest</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Lead UX/UI and front-end work on the sector news hub—jobs, resources, newsletters, and philanthropy coverage.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 1 ends -->
-
-                                    <!-- Project 2 — My Brain and Me -->
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/mybrainandme.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/my-brain-and-me.svg" alt="My Brain and Me" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">Health tech</span>
-                                                                  <span class="tag">Web app</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">My Brain and Me</h3>
-                                                      <div class="project-card-description">
-                                                            <p>UX/UI design and build for a neuroscience research platform connecting participants with brain-health studies.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 2 ends -->
-
-
-                                    <!-- Project 3 — Himalayan Wild Fibers -->
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/himalayanwildfibers.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/himalayan-wild-fiber.svg" alt="Himalayan Wild Fibers" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">Brand</span>
-                                                                  <span class="tag">E‑commerce</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">Himalayan Wild Fibers</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Website redesign for a natural fiber company with fair sourcing that supports Himalayan communities.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 3 ends -->
-
-
-                                    <!-- Project 4 — Concierge Render (CoreWeave) -->
-                                    <div class="col-md-6 col-sm-12 col-12">
-                                          <a href="pages/web/coreweave.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/concierge-render.svg" alt="Concierge Render" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">B2B</span>
-                                                                  <span class="tag">Cloud GPU</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">Concierge Render</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Site rebrand and UI development for CoreWeave’s cloud GPU rendering platform and marketing surfaces.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 4 ends -->
-                                   
-
-                              </div>
-                        </div>
-                        <!-- project starts here -->
-
-
-                        <!-- articles starts here -->
-                        <div class="hero-content">
-                              <div class="whitespace" id="articles"></div>
-                              
-                        
-                              <div class="fadeInUp m-top-1" data-wow-delay="3s" ></div>
-                              <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-12">
-                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Articles</h3>
-                                    </div>
-                              </div>
-                              
-                              <div class="row client-images articles-content m-top-1">
-
-                                    <!-- Project 1 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://friends.figma.com/events/details/figma-kathmandu-presents-design-jatra-2025/" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/friend-of-figma-panel.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <h3 class="project-card-title">Friends of Figma: Panel talk</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Panel discussion at Design Jatra 2025 on how generative AI is reshaping product design and development workflows.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 1 ends -->
-
-                                    <!-- Project 2 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://designkakura.substack.com/p/design-from-concept-to-launch-with" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/AI-concept-to-launch.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <h3 class="project-card-title">Design from concept to launch with AI</h3>
-                                                      <div class="project-card-description">
-                                                            <p>A Designka Kura session at Kathmandu University on using AI tools to revive unfinished ideas and move from concept to launch faster.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 2 ends -->
-
-                                    <!-- Project 3 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://uxdesign.cc/the-ux-reflex-theory-lessons-from-apples-search-bar-experiment-8870a7068496" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/ux-reflex-theory.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <h3 class="project-card-title">The UX Reflex theory: lessons from Apple’s search bar experiment</h3>
-                                                      <div class="project-card-description">
-                                                            <p>The significant role conditioned reflexes play in UX design.</p>
-                                                      </div>
-                                                      <span class="tag tag--metric">🏆 10 most-read stories on Medium - July 2024</span>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 3 ends -->
-
-                                    <!-- Project 4 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://nycmedialab.medium.com/this-summer-four-new-startups-emerge-at-the-intersection-of-sports-media-technology-d0d8a4e3377f" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/nyc-media-lab-pre-g.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <h3 class="project-card-title">NYC Media Lab</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Feature on NYC Media Lab's Sports/Media/Tech bootcamp and startup teams exploring 5G, XR, and fan engagement innovation.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 4 ends -->
-
-                                  
-
-                              </div>
-                        </div>
-                        <!-- articles end here -->
-
-
-                        <!-- figma plugins starts here -->
-                        <div class="hero-content">
-                              <div class="whitespace" id="figma-plugins"></div>
-                              
-                        
-                              <div class="fadeInUp m-top-1" data-wow-delay="3s" ></div>
-                              <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-12 flex gap-1 wow fadeInUp" data-wow-delay="0.2s">
-                                          <h3>Figma plugins</h3>
-                                          <a href="https://www.figma.com/@barshamaharjan" target="_blank" rel="noopener noreferrer" class="button-light-outline button-small" role="button">Visit my figma profile ↗</a>
-                                    </div>
-                              </div>
-                              
-                              <div class="row client-images articles-content m-top-1">
-
-                                    <!-- Project 1 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://www.figma.com/community/plugin/1464120626872219561/wcag-color-contrast-checker" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/wcag-plugin.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">Accessibility</span>
-                                                                  <span class="tag">WCAG compliance</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">WCAG Color Contrast Checker</h3>     
-                                                      <div class="project-card-description">
-                                                            <p>Checks foreground and background combinations against WCAG contrast requirements to support accessible UI decisions.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 1 ends -->
-
-                                    <!-- Project 2 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://www.figma.com/community/plugin/1464108050879580059/ai-text-and-lorem-ipsum-generator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/lorem-ipsum-generator-plugin.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">AI</span>
-                                                                  <span class="tag">Content generation</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">AI Text and Lorem Ipsum Generator</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Generates AI and Lorem Ipsum placeholder copy with character controls for faster wireframing and content iteration.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 2 ends -->
-
-                                    <!-- Project 3 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <a href="https://www.figma.com/community/plugin/1461508095110804119/accessibility-simulator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/accessibility-simulator-plugin.svg" style="width:100%;">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <div class="project-card-header">
-                                                            <div class="project-card-tags">
-                                                                  <span class="tag">Accessibility</span>
-                                                            </div>
-                                                      </div>
-                                                      <h3 class="project-card-title">Accessibility Simulator</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Simulates accessibility-related viewing conditions to help teams audit designs and improve inclusive experiences.</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <!-- Project 3 ends -->
-
-                                  
-
-                              </div>
-                        </div>
-                        <!-- figma plugins end here -->
-
-
-                        <!-- mentorships starts here -->
-                        <div class="hero-content">
-                              <div class="whitespace" id="mentioships"></div>
-                              
-                        
-                              <div class="fadeInUp m-top-1" data-wow-delay="3s" ></div>
-                              <div class="row">
-                                    <div class="col-md-12 col-sm-12 col-12">
-                                          <h3 class="wow fadeInUp" data-wow-delay="0.2s" >Mentorships</h3>
-                                    </div>
-                              </div>
-                              
-                              <div class="row client-images articles-content m-top-1">
-
-                                    <!-- Project 1 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/aiga-mentorship.svg" style="width:100%;" alt="AIGA NY mentorship">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <h3 class="project-card-title">AIGA NY</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Mentorship support through AIGA New York programs focused on portfolio growth, career direction, and design community building.</p>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <!-- Project 1 ends -->
-
-                                    <!-- Project 2 -->
-                                    <div class="col-md-4 col-sm-12 col-12">
-                                          <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.2s">
-                                                <div class="project-card-top">
-                                                      <img src="projects/web/images/mit-reality-hack-mentor.svg" style="width:100%;" alt="MIT Reality Hack mentor">
-                                                </div>
-                                                <div class="project-card-bottom">
-                                                      <h3 class="project-card-title">MIT Reality Hack</h3>
-                                                      <div class="project-card-description">
-                                                            <p>Mentored interdisciplinary teams building XR prototypes during MIT Reality Hack's rapid ideation and shipping environment.</p>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                                    <!-- Project 2 ends -->
-
-                                    
-
-                              </div>
-                        </div>
-                        <!-- mentorships end here -->
-
-
-                        <!-- VR/Animation starts here -->
-                        <div class="hero-content misc-content">
-
-                                    <div class="whitespace"></div>
-                              
-                                    <div class="fadeInUp" data-wow-delay="3s" id="vr-animations"></div>
-                                    
-                                          <div class="web-fun web-three" onclick="location.href='pages/projects/projects.html'">
-                                                <h3><a href="pages/projects/projects.html"><img class="bit-image" src="8bit.gif">&nbsp;&nbsp;<span>VR and animations</span> <ion-icon name="open"></ion-icon></a></h3>
-                                          </div>        
-                                    
-
-
-                                    <div class="sub-whitespace"></div>
-                                    <div class="row split-pair m-top-4">
-                                          <div class="web-fun web-one" onclick="location.href='pages/projects/magikku.html'">
-                                                <div class="row project-sm-space project-webs web-project01 m-0" onclick="location.href='pages/projects/magikku.html'"></div>
-                                                <div class="ui-project-description">
-                                                      <p class="ui-project-des-title">Magikku <span>| VR game</span></p>
-                                                </div>
-                                          </div>        
-                                          <div class="web-fun web-two" onclick="location.href='pages/projects/micdrop.html'">
-                                                <div class="row project-sm-space project-webs web-project02 m-0" onclick="location.href='pages/projects/micdrop.html'"></div>
-                                                <div class="ui-project-description">
-                                                      <p class="ui-project-des-title">Micdrop <span>| Motion Capture</span></p>
-                                                </div>
-                                          </div>
-                                    </div>
-
-                                    <div class="row split-pair m-top-4">
-                                          <div class="web-fun web-three" onclick="location.href='/pages/projects/chagubakha.html'">
-                                                <div class="row project-sm-space project-webs web-project03 m-0" onclick="location.href='/pages/projects/chagubakha.html'"></div>
-                                                <div class="ui-project-description">
-                                                      <p class="ui-project-des-title">Chagu bakha <span>| Animation</span></p>
-                                                </div>
-                                          </div>   
-                                          <div class="web-fun web-five" onclick="location.href='pages/web/prism.html'">
-                                                <div class="row project-sm-space project-webs web-project05 m-0" onclick="location.href='pages/web/prism.html'"></div>
-                                                <div class="ui-project-description">
-                                                      <p class="ui-project-des-title">Prism <span>| MFADT website, Parsons School of Design</span></p>
-                                                </div>
-                                          </div> 
-                                          
-                                    </div>
-
-
-                                    <div class="row split-pair m-top-4">
-                                                
-                                          <div class="web-fun web-six" onclick="location.href='pages/web/cardin/index.html'">
-                                                <div class="row project-sm-space project-webs web-project06 m-0" onclick="location.href='pages/web/cardin/index.html'"></div>
-                                                <div class="ui-project-description">
-                                                      <p class="ui-project-des-title">Charlotte Cardin <span>| Album concept</span></p>
-                                                </div>
-                                          </div>
-                                          <div class="web-fun web-seven" onclick="location.href='pages/web/ss/index.html'">
-                                                <div class="row project-sm-space project-webs web-project07 m-0" onclick="location.href='pages/web/ss/index.html'"></div>
-                                                <div class="ui-project-description">
-                                                      <p class="ui-project-des-title">Music news <span>| Website concept</span></p>
-                                                </div>
-                                          </div>     
-                                    </div>
-                        </div>
-                         <!-- VR/Animation ends here -->
-         
+                </div>
+                <h3 class="project-card-title">My Brain and Me</h3>
+                <div class="project-card-description">
+                  <p>UX/UI design and build for a neuroscience research platform connecting participants with brain-health studies.</p>
+                </div>
+                <span class="project-card-cta">Read case study</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="pages/web/himalayanwildfibers.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top">
+                <img src="projects/web/images/himalayan-wild-fiber.svg" alt="Himalayan Wild Fibers" class="u-img-fill">
+              </div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">Brand</span>
+                    <span class="tag">E‑commerce</span>
                   </div>
-
-            <!-- content ends here -->
-
-            <!-- footer (loaded from partials/footer.html) -->
-            <div id="footer-container"></div>
-
+                </div>
+                <h3 class="project-card-title">Himalayan Wild Fibers</h3>
+                <div class="project-card-description">
+                  <p>Website redesign for a natural fiber company with fair sourcing that supports Himalayan communities.</p>
+                </div>
+                <span class="project-card-cta">Read case study</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-6">
+            <a href="pages/web/coreweave.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top">
+                <img src="projects/web/images/concierge-render.svg" alt="Concierge Render" class="u-img-fill">
+              </div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">B2B</span>
+                    <span class="tag">Cloud GPU</span>
+                  </div>
+                </div>
+                <h3 class="project-card-title">Concierge Render</h3>
+                <div class="project-card-description">
+                  <p>Site rebrand and UI development for CoreWeave’s cloud GPU rendering platform and marketing surfaces.</p>
+                </div>
+                <span class="project-card-cta">Read case study</span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
 
+      <!-- Articles -->
+      <div class="hero-content">
+        <div class="whitespace" id="articles"></div>
+        <div class="fadeInUp m-top-1" data-wow-delay="3s"></div>
+        <div class="row">
+          <div class="col-12 section-heading-col">
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Articles</h3>
+          </div>
+        </div>
+        <div class="row client-images articles-content m-top-1">
+          <div class="col-12 col-md-4">
+            <a href="https://friends.figma.com/events/details/figma-kathmandu-presents-design-jatra-2025/" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/friend-of-figma-panel.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <h3 class="project-card-title">Friends of Figma: Panel talk</h3>
+                <div class="project-card-description">
+                  <p>Panel discussion at Design Jatra 2025 on how generative AI is reshaping product design and development workflows.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://designkakura.substack.com/p/design-from-concept-to-launch-with" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/AI-concept-to-launch.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <h3 class="project-card-title">Design from concept to launch with AI</h3>
+                <div class="project-card-description">
+                  <p>A Designka Kura session at Kathmandu University on using AI tools to revive unfinished ideas and move from concept to launch faster.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://uxdesign.cc/the-ux-reflex-theory-lessons-from-apples-search-bar-experiment-8870a7068496" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/ux-reflex-theory.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <h3 class="project-card-title">The UX Reflex theory: lessons from Apple’s search bar experiment</h3>
+                <div class="project-card-description">
+                  <p>The significant role conditioned reflexes play in UX design.</p>
+                </div>
+                <span class="tag tag--metric">🏆 10 most-read stories on Medium - July 2024</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://nycmedialab.medium.com/this-summer-four-new-startups-emerge-at-the-intersection-of-sports-media-technology-d0d8a4e3377f" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/nyc-media-lab-pre-g.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <h3 class="project-card-title">NYC Media Lab</h3>
+                <div class="project-card-description">
+                  <p>Feature on NYC Media Lab's Sports/Media/Tech bootcamp and startup teams exploring 5G, XR, and fan engagement innovation.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
-        <!-- greensock cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+      <!-- Figma plugins -->
+      <div class="hero-content">
+        <div class="whitespace" id="figma-plugins"></div>
+        <div class="fadeInUp m-top-1" data-wow-delay="3s"></div>
+        <div class="row">
+          <div class="col-12 section-heading-col flex gap-1 wow fadeInUp" data-wow-delay="0.2s">
+            <h3>Figma plugins</h3>
+            <a href="https://www.figma.com/@barshamaharjan" target="_blank" rel="noopener noreferrer" class="button-light-outline button-small" role="button">Visit my figma profile ↗</a>
+          </div>
+        </div>
+        <div class="row client-images articles-content m-top-1">
+          <div class="col-12 col-md-4">
+            <a href="https://www.figma.com/community/plugin/1464120626872219561/wcag-color-contrast-checker" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/wcag-plugin.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">Accessibility</span>
+                    <span class="tag">WCAG compliance</span>
+                  </div>
+                </div>
+                <h3 class="project-card-title">WCAG Color Contrast Checker</h3>
+                <div class="project-card-description">
+                  <p>Checks foreground and background combinations against WCAG contrast requirements to support accessible UI decisions.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://www.figma.com/community/plugin/1464108050879580059/ai-text-and-lorem-ipsum-generator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/lorem-ipsum-generator-plugin.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">AI</span>
+                    <span class="tag">Content generation</span>
+                  </div>
+                </div>
+                <h3 class="project-card-title">AI Text and Lorem Ipsum Generator</h3>
+                <div class="project-card-description">
+                  <p>Generates AI and Lorem Ipsum placeholder copy with character controls for faster wireframing and content iteration.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="https://www.figma.com/community/plugin/1461508095110804119/accessibility-simulator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/accessibility-simulator-plugin.svg" alt="" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags"><span class="tag">Accessibility</span></div>
+                </div>
+                <h3 class="project-card-title">Accessibility Simulator</h3>
+                <div class="project-card-description">
+                  <p>Simulates accessibility-related viewing conditions to help teams audit designs and improve inclusive experiences.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script src="js/load-footer.js" data-base=""></script>
-      <script type="text/javascript">
+      <!-- Mentorships -->
+      <div class="hero-content">
+        <div class="whitespace" id="mentioships"></div>
+        <div class="fadeInUp m-top-1" data-wow-delay="3s"></div>
+        <div class="row">
+          <div class="col-12 section-heading-col">
+            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Mentorships</h3>
+          </div>
+        </div>
+        <div class="row client-images articles-content m-top-1">
+          <div class="col-12 col-md-4">
+            <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/aiga-mentorship.svg" alt="AIGA NY mentorship" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <h3 class="project-card-title">AIGA NY</h3>
+                <div class="project-card-description">
+                  <p>Mentorship support through AIGA New York programs focused on portfolio growth, career direction, and design community building.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.2s">
+              <div class="project-card-top"><img src="projects/web/images/mit-reality-hack-mentor.svg" alt="MIT Reality Hack mentor" class="u-img-fill"></div>
+              <div class="project-card-bottom">
+                <h3 class="project-card-title">MIT Reality Hack</h3>
+                <div class="project-card-description">
+                  <p>Mentored interdisciplinary teams building XR prototypes during MIT Reality Hack's rapid ideation and shipping environment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <!-- VR / animations -->
+      <div class="hero-content misc-content" style="display: none;">
+        <div class="whitespace"></div>
+        <div class="fadeInUp" data-wow-delay="3s" id="vr-animations"></div>
+        <div class="web-fun web-three" onclick="location.href='pages/projects/projects.html'">
+          <h3><a href="pages/projects/projects.html"><img class="bit-image" src="8bit.gif" alt=""> <span>VR and animations</span> <ion-icon name="open"></ion-icon></a></h3>
+        </div>
+        <div class="sub-whitespace"></div>
+        <div class="row split-pair m-top-4">
+          <div class="web-fun web-one" onclick="location.href='pages/projects/magikku.html'">
+            <div class="row project-sm-space project-webs web-project01 m-0" onclick="location.href='pages/projects/magikku.html'"></div>
+            <div class="ui-project-description">
+              <p class="ui-project-des-title">Magikku <span>| VR game</span></p>
+            </div>
+          </div>
+          <div class="web-fun web-two" onclick="location.href='pages/projects/micdrop.html'">
+            <div class="row project-sm-space project-webs web-project02 m-0" onclick="location.href='pages/projects/micdrop.html'"></div>
+            <div class="ui-project-description">
+              <p class="ui-project-des-title">Micdrop <span>| Motion Capture</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="row split-pair m-top-4">
+          <div class="web-fun web-three" onclick="location.href='pages/projects/chagubakha.html'">
+            <div class="row project-sm-space project-webs web-project03 m-0" onclick="location.href='pages/projects/chagubakha.html'"></div>
+            <div class="ui-project-description">
+              <p class="ui-project-des-title">Chagu bakha <span>| Animation</span></p>
+            </div>
+          </div>
+          <div class="web-fun web-five" onclick="location.href='pages/web/prism.html'">
+            <div class="row project-sm-space project-webs web-project05 m-0" onclick="location.href='pages/web/prism.html'"></div>
+            <div class="ui-project-description">
+              <p class="ui-project-des-title">Prism <span>| MFADT website, Parsons School of Design</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="row split-pair m-top-4">
+          <div class="web-fun web-six" onclick="location.href='pages/web/cardin/index.html'">
+            <div class="row project-sm-space project-webs web-project06 m-0" onclick="location.href='pages/web/cardin/index.html'"></div>
+            <div class="ui-project-description">
+              <p class="ui-project-des-title">Charlotte Cardin <span>| Album concept</span></p>
+            </div>
+          </div>
+          <div class="web-fun web-seven" onclick="location.href='pages/web/ss/index.html'">
+            <div class="row project-sm-space project-webs web-project07 m-0" onclick="location.href='pages/web/ss/index.html'"></div>
+            <div class="ui-project-description">
+              <p class="ui-project-des-title">Music news <span>| Website concept</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="whitespace"></div>
+      <div class="hero-content about-preview-rule" id="about" data-wow-delay="0.2s">
+        <div class="whitespace"></div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-12 wow fadeInUp" data-wow-delay="0.2s">
+            <img src="projects/selfportrait.jpg" alt="Barsha portrait" class="s-portrait about-preview-portrait">
+          </div>
+          <div class="col-lg-8 col-md-8 col-12">
+            <div class="about-preview-copy flow-md wow fadeInUp" data-wow-delay="0.25s">
+              <h3 class="about-me">About</h3>
+              <p class="about-me">I build experiences by breaking down difficult problems into intuitive, empathy-driven, and simplified solutions for end-to-end products. My work spans UX research, interaction design, visual systems, and front-end implementation, so ideas can move from concept to shipped experiences with consistency and clarity. I care deeply about accessibility, usability, and thoughtful details that make products feel effortless for real people.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-      // navigation starts here
+    </div>
 
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+    <div id="footer-container"></div>
+  </div>
 
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="js/site-nav.js"></script>
+  <script src="js/load-footer.js" data-base=""></script>
+  <script>
+    function runNavAnimation() {
+      TweenMax.from("#brand", 1, { delay: 1, y: 10, opacity: 0, ease: Expo.easeInOut });
+      TweenMax.staggerFrom("#menu li a", 1, { delay: 1, opacity: 0, ease: Expo.easeInOut }, 0.1);
+    }
+    if (document.getElementById('header-container') && document.getElementById('header-container').innerHTML) {
+      runNavAnimation();
+    } else {
+      document.addEventListener('headerLoaded', runNavAnimation);
+    }
+    new WOW().init();
+    var textone = baffle(".reveal-text-one");
+    textone.set({
+      characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
+      speed: 150
+    });
+    textone.start();
+    textone.reveal(1600);
 
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
-
-      // navigation ends here
-
-
-
-      // nav animation (runs after shared header is injected)
-      function runNavAnimation() {
-        TweenMax.from("#brand", 1, { delay: 1, y: 10, opacity: 0, ease: Expo.easeInOut });
-        TweenMax.staggerFrom("#menu li a", 1, { delay: 1, opacity: 0, ease: Expo.easeInOut }, 0.1);
-      }
-      if (document.getElementById('header-container') && document.getElementById('header-container').innerHTML) {
-        runNavAnimation();
-      } else {
-        document.addEventListener('headerLoaded', runNavAnimation);
-      }
-
-      new WOW().init();
-
-
-      const textone = baffle (".reveal-text-one");
-      textone.set({
-            characters: '█░░ ▓█▒▓▒ ░█░██ ░▓█ ▒▒▒▓ ░▒░ ▓▓▒ ▒░█░ ██',
-            speed: 150
-      });
-
-      textone.start();
-      textone.reveal(1600)
-
-      </script>
+  </script>
 </body>
 </html>

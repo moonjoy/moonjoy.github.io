@@ -3,9 +3,9 @@
   var base = (script && script.getAttribute('data-base')) || '';
 
   var fallback = '<nav class="nav-home"><span id="brand"><a href="/" data-page="home"><img src="/projects/selfportrait.png" class="about-image" alt="Barsha"></a></span>' +
-    '<ul id="menu" class="main-menu"><li><a href="/#projects" data-page="projects">Projects</a></li><li class="main-menu-item"><a href="/pages/about/about.html" data-page="about">About me</a></li></ul>' +
+    '<ul id="menu" class="main-menu"><li><a href="/#projects" data-page="projects">Projects</a></li><li class="main-menu-item"><a href="/#about" data-page="about">About</a></li></ul>' +
     '<div id="toggle"><div class="span">Menu</div></div></nav>' +
-    '<div id="resize"><div class="close-btn">Close</div><ul id="menu"><li><a href="/#projects" data-page="projects">Projects</a></li><li><a href="/pages/about/about.html" data-page="about">About me</a></li></ul></div>';
+    '<div id="resize"><div class="close-btn">Close</div><ul id="menu"><li><a href="/#projects" data-page="projects">Projects</a></li><li><a href="/#about" data-page="about">About me</a></li></ul></div>';
 
   function setActiveState(container) {
     var current = (container.getAttribute('data-current') || '').toLowerCase();
@@ -21,6 +21,39 @@
       var all = container.querySelectorAll('a[data-page]');
       for (var i = 0; i < all.length; i++) all[i].classList.remove('active-link');
       link.classList.add('active-link');
+    });
+  }
+
+  function normalizePath(pathname) {
+    return pathname.replace(/\/index\.html$/i, '/');
+  }
+
+  function bindSmoothSectionScroll(container) {
+    container.addEventListener('click', function(e) {
+      var link = e.target.closest && e.target.closest('a[href*="#"]');
+      if (!link) return;
+
+      var url;
+      try {
+        url = new URL(link.getAttribute('href'), window.location.href);
+      } catch (_) {
+        return;
+      }
+
+      if (!url.hash) return;
+
+      var samePage = normalizePath(url.pathname) === normalizePath(window.location.pathname);
+      if (!samePage) return;
+
+      var target = document.getElementById(url.hash.slice(1));
+      if (!target) return;
+
+      e.preventDefault();
+      var nav = document.querySelector('nav');
+      var offset = nav ? nav.offsetHeight + 12 : 72;
+      var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+      history.replaceState(null, '', url.hash);
     });
   }
 
@@ -49,6 +82,7 @@
       rewriteLinks(container, base);
       setActiveState(container);
       bindActiveOnClick(container);
+      bindSmoothSectionScroll(container);
       document.dispatchEvent(new CustomEvent('headerLoaded'));
     }
 
