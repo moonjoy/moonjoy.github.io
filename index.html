@@ -12,7 +12,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
   <script>
     (function(h,o,t,j,a,r){
       h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -49,9 +49,11 @@
         </video>
       </div>
       <div class="header">
+        
         <div class="wow fadeInUp" data-wow-delay="0.5s">
+          <p class="hero-status wow fadeInUp" data-wow-delay="0.4s">Based in New York</p>
           <h1>Hi! I am Barsha Maharjan</h1>
-          <p class="hero-sub-font subtle-link">Product Designer based in New York passionate about designing <br>user-centered products</p>
+          <p class="hero-sub-font subtle-link">A Product Designer turning complex systems into clear<br> and motivated experiences</p>
         </div>
         <div class="split-wrap hero-cta">
           <a href="#projects" class="wow fadeInUp button-dark" data-wow-delay="1s" role="button">Projects ↓</a>
@@ -62,7 +64,7 @@
             <li id="em" class="wow fadeInUp" data-wow-delay="2s"><a href="mailto:barsha.mhr@gmail.com" target="_blank" rel="noopener noreferrer"><ion-icon name="mail"></ion-icon></a></li>
             <li id="lin" class="wow fadeInUp" data-wow-delay="2.1s"><a href="https://www.linkedin.com/in/maharjanbarsha/" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></li>
           </ul>
-          <p class="wow fadeInUp hide-for-mobile sub-p pseudo-info" data-wow-delay="5s">Psst! that is me hovering around, <a href="pages/projects/micdrop.html">see behind the scenes</a></p>
+          <p class="wow fadeInUp hide-for-mobile sub-p pseudo-info" data-wow-delay="5s">Psst! that is me hovering around, <a href="pages/projects/micdrop.html" id="behind-scenes-trigger" class="behind-scenes-link">see behind the scenes</a></p>
         </div>
       </div>
     </div>
@@ -76,37 +78,31 @@
       <div class="hero-content">
         <!-- <div class="whitespace"></div> -->
         <div id="projects"></div>
-        <div class="fadeInUp m-top-2" data-wow-delay="3s"></div>
-        <div class="row">
-          <div class="col-12 section-heading-col">
-            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Projects</h3>
-          </div>
-        </div>
-        <div class="row client-images articles-content project-featured-cards m-top-1">
-          <div class="col-12 col-md-6">
-            <a href="pages/web/philanthropynewsdigest.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+        <div class="row client-images project-featured-cards m-top-1">
+          <div class="col-12">
+            <a href="pages/web/candidpdp.html" class="project-card-content project-block wow fadeInUp" data-wow-delay="0.1s">
               <div class="project-card-top">
-                <img src="projects/web/pnd/pnd.svg" alt="Philanthropy News Digest" class="u-img-fill">
+                <img src="projects/web/images/candid-seals.svg" alt="Candid PDP Seals of Transparency" class="u-img-fill">
               </div>
               <div class="project-card-bottom">
                 <div class="project-card-header">
                   <div class="project-card-tags">
-                    <span class="tag">News</span>
                     <span class="tag">Nonprofit</span>
+                    <span class="tag">Product design</span>
                   </div>
                 </div>
-                <h3 class="project-card-title">Philanthropy News Digest</h3>
+                <h3 class="project-card-title">Candid PDP: Seals of Transparency</h3>
                 <div class="project-card-description">
-                  <p>Lead UX/UI and front-end work on the sector news hub—jobs, resources, newsletters, and philanthropy coverage.</p>
+                  <p>Redesign of Candid's profile data program, turning a multi-step compliance form into a motivating, seal-driven experience nonprofits return to year after year.</p>
                 </div>
                 <span class="project-card-cta">Read case study</span>
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-6">
-            <a href="pages/web/mybrainandme.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12">
+            <a href="pages/web/mybrainandme.html" class="project-card-content project-block wow fadeInUp" data-wow-delay="0.25s">
               <div class="project-card-top">
-                <img src="projects/web/images/my-brain-and-me.svg" alt="My Brain and Me" class="u-img-fill">
+                <img src="projects/web/images/mbam.svg" alt="My Brain and Me" class="u-img-fill">
               </div>
               <div class="project-card-bottom">
                 <div class="project-card-header">
@@ -123,30 +119,10 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-6">
-            <a href="pages/web/himalayanwildfibers.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12">
+            <a href="pages/web/coreweave.html" class="project-card-content project-block wow fadeInUp" data-wow-delay="0.4s">
               <div class="project-card-top">
-                <img src="projects/web/images/himalayan-wild-fiber.svg" alt="Himalayan Wild Fibers" class="u-img-fill">
-              </div>
-              <div class="project-card-bottom">
-                <div class="project-card-header">
-                  <div class="project-card-tags">
-                    <span class="tag">Brand</span>
-                    <span class="tag">E‑commerce</span>
-                  </div>
-                </div>
-                <h3 class="project-card-title">Himalayan Wild Fibers</h3>
-                <div class="project-card-description">
-                  <p>Website redesign for a natural fiber company with fair sourcing that supports Himalayan communities.</p>
-                </div>
-                <span class="project-card-cta">Read case study</span>
-              </div>
-            </a>
-          </div>
-          <div class="col-12 col-md-6">
-            <a href="pages/web/coreweave.html" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
-              <div class="project-card-top">
-                <img src="projects/web/images/concierge-render.svg" alt="Concierge Render" class="u-img-fill">
+                <img src="projects/web/images/crwv.svg" alt="Concierge Render" class="u-img-fill">
               </div>
               <div class="project-card-bottom">
                 <div class="project-card-header">
@@ -163,20 +139,75 @@
               </div>
             </a>
           </div>
+          <div class="col-12">
+            <a href="pages/web/philanthropynewsdigest.html" class="project-card-content project-block wow fadeInUp" data-wow-delay="0.55s">
+              <div class="project-card-top">
+                <img src="projects/web/images/pnd.svg" alt="Philanthropy News Digest" class="u-img-fill">
+              </div>
+              <div class="project-card-bottom">
+                <div class="project-card-header">
+                  <div class="project-card-tags">
+                    <span class="tag">News</span>
+                    <span class="tag">Nonprofit</span>
+                  </div>
+                </div>
+                <h3 class="project-card-title">Philanthropy News Digest</h3>
+                <div class="project-card-description">
+                  <p>Lead UX/UI and front-end work on the sector news hub—jobs, resources, newsletters, and philanthropy coverage.</p>
+                </div>
+                <span class="project-card-cta">Read case study</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 
+    </div>
+
+    <!-- About -->
+    <div id="about-container">
+      <div class="container">
+        <div class="hero-content about-preview-rule" id="about" data-wow-delay="0.2s">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-12 wow fadeInUp" data-wow-delay="0.1s">
+              <img src="projects/selfportrait.jpg" alt="Barsha portrait" class="s-portrait about-preview-portrait">
+            </div>
+            <div class="col-lg-8 col-md-8 col-12">
+              <div class="about-preview-copy flow-md wow fadeInUp" data-wow-delay="0.25s">
+                <h3 class="about-me">About</h3>
+                <p class="about-me">I build experiences by breaking down difficult problems into intuitive, empathy-driven, and simplified solutions for end-to-end products. My work spans UX research, interaction design, visual systems, and front-end implementation, so ideas can move from concept to shipped experiences with consistency and clarity. I care deeply about accessibility, usability, and thoughtful details that make products feel effortless for real people.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-content" id="design-process">
+          <div class="row">
+            <div class="col-12 section-heading-col">
+              <h3 class="wow fadeInUp" data-wow-delay="0.1s">Design process</h3>
+            </div>
+          </div>
+          <div class="design-process-diagram wow fadeInUp" data-wow-delay="0.25s">
+            <img src="projects/web/images/design-process.svg" alt="Design process: Define scope, Discover and Ideate, Prototype and Build, Test and Validate, Launch, Measure and Learn" class="design-process-diagram__img" width="2400" height="800">
+          </div>
+        </div>
+
+        <div class="whitespace"></div>
+      </div>
+    </div>
+
+    <div class="container">
+
       <!-- Articles -->
-      <div class="hero-content">
-        <div class="whitespace" id="articles"></div>
+      <div class="hero-content" id="articles">
         <div class="fadeInUp m-top-1" data-wow-delay="3s"></div>
         <div class="row">
           <div class="col-12 section-heading-col">
-            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Articles</h3>
+            <h3 class="wow fadeInUp" data-wow-delay="0.1s">Articles</h3>
           </div>
         </div>
         <div class="row client-images articles-content m-top-1">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-3">
             <a href="https://friends.figma.com/events/details/figma-kathmandu-presents-design-jatra-2025/" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
               <div class="project-card-top"><img src="projects/web/images/friend-of-figma-panel.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
@@ -187,8 +218,8 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-4">
-            <a href="https://designkakura.substack.com/p/design-from-concept-to-launch-with" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 col-md-3">
+            <a href="https://designkakura.substack.com/p/design-from-concept-to-launch-with" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.35s">
               <div class="project-card-top"><img src="projects/web/images/AI-concept-to-launch.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
                 <h3 class="project-card-title">Design from concept to launch with AI</h3>
@@ -198,8 +229,8 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-4">
-            <a href="https://uxdesign.cc/the-ux-reflex-theory-lessons-from-apples-search-bar-experiment-8870a7068496" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 col-md-3">
+            <a href="https://uxdesign.cc/the-ux-reflex-theory-lessons-from-apples-search-bar-experiment-8870a7068496" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.5s">
               <div class="project-card-top"><img src="projects/web/images/ux-reflex-theory.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
                 <h3 class="project-card-title">The UX Reflex theory: lessons from Apple’s search bar experiment</h3>
@@ -210,8 +241,8 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-4">
-            <a href="https://nycmedialab.medium.com/this-summer-four-new-startups-emerge-at-the-intersection-of-sports-media-technology-d0d8a4e3377f" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 col-md-3">
+            <a href="https://nycmedialab.medium.com/this-summer-four-new-startups-emerge-at-the-intersection-of-sports-media-technology-d0d8a4e3377f" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.65s">
               <div class="project-card-top"><img src="projects/web/images/nyc-media-lab-pre-g.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
                 <h3 class="project-card-title">NYC Media Lab</h3>
@@ -225,17 +256,16 @@
       </div>
 
       <!-- Figma plugins -->
-      <div class="hero-content">
-        <div class="whitespace" id="figma-plugins"></div>
+      <div class="hero-content" id="figma-plugins">
         <div class="fadeInUp m-top-1" data-wow-delay="3s"></div>
         <div class="row">
-          <div class="col-12 section-heading-col flex gap-1 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 section-heading-col flex gap-1 wow fadeInUp" data-wow-delay="0.1s">
             <h3>Figma plugins</h3>
             <a href="https://www.figma.com/@barshamaharjan" target="_blank" rel="noopener noreferrer" class="figma-profile-link">Visit my figma profile ↗</a>
           </div>
         </div>
         <div class="row client-images articles-content m-top-1">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-3">
             <a href="https://www.figma.com/community/plugin/1464120626872219561/wcag-color-contrast-checker" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
               <div class="project-card-top"><img src="projects/web/images/wcag-plugin.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
@@ -252,8 +282,8 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-4">
-            <a href="https://www.figma.com/community/plugin/1464108050879580059/ai-text-and-lorem-ipsum-generator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 col-md-3">
+            <a href="https://www.figma.com/community/plugin/1464108050879580059/ai-text-and-lorem-ipsum-generator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.35s">
               <div class="project-card-top"><img src="projects/web/images/lorem-ipsum-generator-plugin.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
                 <div class="project-card-header">
@@ -269,8 +299,8 @@
               </div>
             </a>
           </div>
-          <div class="col-12 col-md-4">
-            <a href="https://www.figma.com/community/plugin/1461508095110804119/accessibility-simulator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 col-md-3">
+            <a href="https://www.figma.com/community/plugin/1461508095110804119/accessibility-simulator" target="_blank" rel="noopener noreferrer" class="project-card-content wow fadeInUp" data-wow-delay="0.5s">
               <div class="project-card-top"><img src="projects/web/images/accessibility-simulator-plugin.svg" alt="" class="u-img-fill"></div>
               <div class="project-card-bottom">
                 <div class="project-card-header">
@@ -287,16 +317,15 @@
       </div>
 
       <!-- Mentorships -->
-      <div class="hero-content">
-        <div class="whitespace" id="mentioships"></div>
+      <div class="hero-content" id="mentioships">
         <div class="fadeInUp m-top-1" data-wow-delay="3s"></div>
         <div class="row">
           <div class="col-12 section-heading-col">
-            <h3 class="wow fadeInUp" data-wow-delay="0.2s">Mentorships</h3>
+            <h3 class="wow fadeInUp" data-wow-delay="0.1s">Mentorships</h3>
           </div>
         </div>
         <div class="row client-images articles-content m-top-1">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-md-3">
             <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.2s">
               <div class="project-card-top"><img src="projects/web/images/aiga-mentorship.svg" alt="AIGA NY mentorship" class="u-img-fill"></div>
               <div class="project-card-bottom">
@@ -307,8 +336,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4">
-            <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-12 col-md-3">
+            <div class="project-card-content project-card-content--static wow fadeInUp" data-wow-delay="0.35s">
               <div class="project-card-top"><img src="projects/web/images/mit-reality-hack-mentor.svg" alt="MIT Reality Hack mentor" class="u-img-fill"></div>
               <div class="project-card-bottom">
                 <h3 class="project-card-title">MIT Reality Hack</h3>
@@ -374,24 +403,55 @@
       </div>
 
       <div class="whitespace"></div>
-      <div class="hero-content about-preview-rule" id="about" data-wow-delay="0.2s">
-        <div class="whitespace"></div>
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-12 wow fadeInUp" data-wow-delay="0.2s">
-            <img src="projects/selfportrait.jpg" alt="Barsha portrait" class="s-portrait about-preview-portrait">
-          </div>
-          <div class="col-lg-8 col-md-8 col-12">
-            <div class="about-preview-copy flow-md wow fadeInUp" data-wow-delay="0.25s">
-              <h3 class="about-me">About</h3>
-              <p class="about-me">I build experiences by breaking down difficult problems into intuitive, empathy-driven, and simplified solutions for end-to-end products. My work spans UX research, interaction design, visual systems, and front-end implementation, so ideas can move from concept to shipped experiences with consistency and clarity. I care deeply about accessibility, usability, and thoughtful details that make products feel effortless for real people.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
 
-    <div id="footer-container"></div>
+  </div>
+
+  <div id="footer-container"></div>
+
+  <div id="behind-scenes-page-modal" class="page-embed-modal" hidden aria-hidden="true">
+    <div class="page-embed-modal__backdrop" data-close-modal tabindex="-1"></div>
+    <div class="page-embed-modal__panel" role="dialog" aria-modal="true" aria-labelledby="behind-scenes-modal-title">
+      <header class="page-embed-modal__header">
+        <h2 id="behind-scenes-modal-title" class="page-embed-modal__title">Animation projects — behind the scenes</h2>
+        <button type="button" class="page-embed-modal__close" data-close-modal aria-label="Close">&times;</button>
+      </header>
+      <div class="page-embed-modal__body">
+        <section class="embed-section">
+          <iframe
+            class="page-embed-modal__iframe"
+            data-src="pages/projects/micdrop.html"
+            title="Mic Drop"
+            loading="eager"
+            scrolling="no"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section class="embed-section">
+          <iframe
+            class="page-embed-modal__iframe"
+            data-src="pages/projects/magikku.html"
+            title="Magikku"
+            loading="eager"
+            scrolling="no"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section class="embed-section">
+          <iframe
+            class="page-embed-modal__iframe"
+            data-src="pages/projects/chagubakha.html"
+            title="Chagu Bakha"
+            loading="eager"
+            scrolling="no"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </div>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
@@ -399,15 +459,6 @@
   <script src="js/site-nav.js"></script>
   <script src="js/load-footer.js" data-base=""></script>
   <script>
-    function runNavAnimation() {
-      TweenMax.from("#brand", 1, { delay: 1, y: 10, opacity: 0, ease: Expo.easeInOut });
-      TweenMax.staggerFrom("#menu li a", 1, { delay: 1, opacity: 0, ease: Expo.easeInOut }, 0.1);
-    }
-    if (document.getElementById('header-container') && document.getElementById('header-container').innerHTML) {
-      runNavAnimation();
-    } else {
-      document.addEventListener('headerLoaded', runNavAnimation);
-    }
     new WOW().init();
     var textone = baffle(".reveal-text-one");
     textone.set({
@@ -416,6 +467,140 @@
     });
     textone.start();
     textone.reveal(1600);
+
+    (function () {
+      var trigger = document.getElementById('behind-scenes-trigger');
+      var modal = document.getElementById('behind-scenes-page-modal');
+      if (!trigger || !modal) return;
+      var iframes = modal.querySelectorAll('.page-embed-modal__iframe');
+      var closers = modal.querySelectorAll('[data-close-modal]');
+      var loaded = false;
+
+      function forceHideChrome(doc) {
+        if (!doc) return;
+        doc.documentElement.classList.add('page-embed');
+        var byId = ['header-container', 'footer-container'];
+        for (var i = 0; i < byId.length; i++) {
+          var el = doc.getElementById(byId[i]);
+          if (el) el.style.setProperty('display', 'none', 'important');
+        }
+        var sels = ['.wrapper .footer', '.project-nav'];
+        for (var s = 0; s < sels.length; s++) {
+          var nodes = doc.querySelectorAll(sels[s]);
+          for (var k = 0; k < nodes.length; k++) {
+            nodes[k].style.setProperty('display', 'none', 'important');
+          }
+        }
+        var hc = doc.getElementById('header-container');
+        if (hc && hc.nextElementSibling && hc.nextElementSibling.tagName === 'SCRIPT') {
+          var sp = hc.nextElementSibling.nextElementSibling;
+          if (sp && sp.classList && (sp.classList.contains('whitespace-sub') || sp.classList.contains('whitespace'))) {
+            sp.style.setProperty('display', 'none', 'important');
+          }
+        }
+      }
+
+      function resizeIframe(iframe) {
+        try {
+          var doc = iframe.contentDocument;
+          if (!doc || !doc.documentElement) return;
+          var h = Math.max(
+            doc.documentElement.scrollHeight,
+            doc.body ? doc.body.scrollHeight : 0
+          );
+          if (h > 80) iframe.style.height = h + 'px';
+        } catch (e) {}
+      }
+
+      function watchAndResize(iframe) {
+        try {
+          var doc = iframe.contentDocument;
+          if (!doc) return;
+          if (typeof ResizeObserver !== 'undefined' && doc.body) {
+            var ro = new ResizeObserver(function () { resizeIframe(iframe); });
+            ro.observe(doc.body);
+          }
+          var imgs = doc.images || [];
+          for (var i = 0; i < imgs.length; i++) {
+            if (!imgs[i].complete) {
+              imgs[i].addEventListener('load', function () { resizeIframe(iframe); });
+              imgs[i].addEventListener('error', function () { resizeIframe(iframe); });
+            }
+          }
+          if (iframe.contentWindow) {
+            iframe.contentWindow.addEventListener('load', function () {
+              forceHideChrome(doc);
+              resizeIframe(iframe);
+            });
+          }
+        } catch (e) {}
+      }
+
+      function onIframeLoad(iframe) {
+        if ((iframe.getAttribute('src') || '') === 'about:blank') return;
+        try {
+          forceHideChrome(iframe.contentDocument);
+        } catch (e) {}
+        resizeIframe(iframe);
+        [50, 200, 600, 1500, 3000].forEach(function (ms) {
+          setTimeout(function () {
+            try { forceHideChrome(iframe.contentDocument); } catch (e) {}
+            resizeIframe(iframe);
+          }, ms);
+        });
+        watchAndResize(iframe);
+      }
+
+      iframes.forEach(function (iframe) {
+        iframe.addEventListener('load', function () { onIframeLoad(iframe); });
+      });
+
+      function loadFrames() {
+        if (loaded) return;
+        loaded = true;
+        iframes.forEach(function (iframe, index) {
+          var src = iframe.getAttribute('data-src');
+          if (!src) return;
+          setTimeout(function () { iframe.setAttribute('src', src); }, index * 120);
+        });
+      }
+
+      function openModal() {
+        modal.removeAttribute('hidden');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        var closeBtn = modal.querySelector('.page-embed-modal__close');
+        if (closeBtn) closeBtn.focus();
+        window.requestAnimationFrame(function () {
+          window.requestAnimationFrame(loadFrames);
+        });
+      }
+
+      function closeModal() {
+        modal.setAttribute('hidden', '');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+        iframes.forEach(function (iframe) {
+          iframe.setAttribute('src', 'about:blank');
+          iframe.style.height = '';
+        });
+        loaded = false;
+        if (trigger) trigger.focus();
+      }
+
+      trigger.addEventListener('click', function (e) {
+        e.preventDefault();
+        openModal();
+      });
+
+      closers.forEach(function (el) {
+        el.addEventListener('click', closeModal);
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !modal.hasAttribute('hidden')) closeModal();
+      });
+    })();
 
   </script>
 </body>

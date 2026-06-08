@@ -1,3 +1,5 @@
+@use "_colors" as *;
+
 // // Projects
 // .web-project1 {
 //     background: url(../../projects/web/mfadt/mfadt.jpg) no-repeat 50% 50%;
@@ -371,6 +373,1150 @@
       center center / cover;
     background-position: -70px 8px;
   }
+
+  &.candidpdp-banner {
+    background-color: #f6f3ec;
+    background-image: url(../../projects/web/images/candid-pdp.svg);
+    background-repeat: no-repeat;
+    background-position: right 9.5rem center;
+    background-size: auto 145%;
+    min-height: 280px;
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+/* ===================================================================
+   Candid PDP case study — page-specific helpers
+   Built on existing portfolio language: Roboto / Roboto Mono,
+   neutral palette, accessible blue accent ($accent, AAA on white).
+   =================================================================== */
+
+@mixin pdp-label-eyebrow {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: $accent;
+  display: inline-flex;
+  align-items: center;
+}
+
+.pdp-eyebrow {
+  @include pdp-label-eyebrow;
+  margin-bottom: 1rem;
+}
+
+.pdp-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: #ececec;
+  border: 1px solid #d8dde6;
+  max-width: 760px;
+  margin: 0 0 2.5rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pdp-stat {
+  background: #fff;
+  padding: 1.5rem 1.25rem;
+
+  .pdp-stat__num {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #1f232b;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  .pdp-stat__label {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-bottom: 0.5rem;
+  }
+  .pdp-stat__desc {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: #6e727a;
+    margin: 0;
+  }
+}
+
+.pdp-seal-track {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: #fff;
+  max-width: 760px;
+  margin: 2rem 0 2.5rem;
+  padding: 0;
+
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+    gap: 1.5rem 1rem;
+  }
+}
+
+.pdp-seal-step {
+  flex: 1 1 0;
+  min-width: 0;
+
+  &__img {
+    display: block;
+    width: 108px;
+    height: 108px;
+    max-width: 100%;
+  }
+
+  h4 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin: 0.85rem 0 0.25rem;
+    color: #1f232b;
+  }
+
+  p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #3a3a3a;
+    margin: 0;
+  }
+
+  @media (max-width: 900px) {
+    flex: 1 1 calc(50% - 0.5rem);
+  }
+
+  @media (max-width: 520px) {
+    flex: 1 1 100%;
+  }
+}
+
+.pdp-seal-track__arrow {
+  flex: 0 0 1.75rem;
+  align-self: flex-start;
+  margin-top: 3.375rem;
+  height: 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0.45rem;
+    top: 0;
+    border-top: 2px dotted #686868;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -4px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 7px solid #686868;
+  }
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+.pdp-friction {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ececec;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #3a3a3a;
+    &:last-child { border-bottom: 1px solid #ececec; }
+  }
+  .pdp-friction__num {
+    flex-shrink: 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    color: $accent;
+    padding-top: 0.2rem;
+    min-width: 28px;
+  }
+}
+
+.pdp-personas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  background: transparent;
+  margin-top: 1.5rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pdp-persona {
+  background: #fff;
+  padding: 1.75rem 1.5rem;
+  border: 1px solid #ececec;
+  box-shadow: 0 10px 28px -16px rgba(0, 0, 0, 0.14);
+
+  &.is-primary {
+    box-shadow: 0 12px 32px -14px rgba(29, 78, 216, 0.18);
+  }
+
+  .pdp-persona__tag {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-bottom: 0.85rem;
+    display: block;
+  }
+  .pdp-persona__title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #1f232b;
+    margin-bottom: 0.75rem;
+  }
+  p {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #6e727a;
+    margin: 0;
+  }
+}
+
+.pdp-callout {
+  border-left: 3px solid $accent;
+  padding: 0.4rem 0 0.4rem 1.5rem;
+  margin: 2rem 0;
+
+  .pdp-callout__label {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-bottom: 0.6rem;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    color: #1f232b;
+    margin: 0;
+  }
+
+  &.is-standout {
+    border: 1px solid #d8dde6;
+    background: $accent-soft;
+    padding: 1.5rem 1.75rem;
+    margin: 2.5rem 0;
+    width: 100%;
+    max-width: none;
+    box-shadow: 0 12px 32px -16px rgba(29, 78, 216, 0.14);
+
+    .pdp-callout__label {
+      @include pdp-label-eyebrow;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.15rem;
+      line-height: 1.65;
+      font-weight: 400;
+
+      b {
+        font-weight: 600;
+        color: #1f232b;
+      }
+    }
+  }
+}
+
+.pdp-finding__label {
+  background: #b0e2ff;
+  padding: 0 4px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.pdp-validated {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.25rem;
+
+  li {
+    position: relative;
+    padding-left: 1.35rem;
+    margin-bottom: 0.125rem;
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: #4a4642;
+
+    &::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: $accent;
+      font-weight: 600;
+    }
+  }
+}
+
+.pdp-iter {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-top: 1px solid #ececec;
+  align-items: start;
+
+  &:last-of-type { border-bottom: 1px solid #ececec; }
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .pdp-iter__label {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $accent;
+    padding-top: 0.25rem;
+  }
+  h4 {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    color: #1f232b;
+    line-height: 1.4;
+  }
+  p {
+    font-size: 0.95rem;
+    line-height: 1.75;
+    color: #4a4642;
+    margin-bottom: 1rem;
+  }
+}
+
+.pdp-guidestar-stack {
+  max-width: 760px;
+  margin: 2.5rem 0 2rem;
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1f232b;
+    margin: 0 0 1.25rem;
+  }
+}
+
+.pdp-figgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: #ececec;
+  margin-top: 1rem;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+
+  &.is-quad {
+    grid-template-columns: repeat(4, 1fr);
+    @media (max-width: 900px) { grid-template-columns: 1fr 1fr; }
+  }
+
+  &.is-trio {
+    grid-template-columns: repeat(3, 1fr);
+    @media (max-width: 900px) { grid-template-columns: 1fr; }
+  }
+
+  &.is-stack {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    background: transparent;
+    margin: 0;
+
+    .pdp-fig.is-svg {
+      background: #fff;
+
+      &:not(:last-child) {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid #ececec;
+      }
+    }
+
+    .pdp-fig.is-full {
+      aspect-ratio: auto;
+      background: #fff;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+      }
+    }
+  }
+
+  .pdp-fig {
+    position: relative;
+    background: #f4f1ea;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top left;
+    }
+
+    &.is-svg {
+      background: #fff;
+      aspect-ratio: 1278 / 592;
+
+      img {
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+
+    .pdp-fig__caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.5rem 0.85rem;
+      background: linear-gradient(to top, rgba(255, 255, 255, 0.95), transparent);
+      font-family: "Roboto Mono", monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #6e727a;
+    }
+    &.is-highlight .pdp-fig__caption { color: $accent; }
+  }
+}
+
+.pdp-decisions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: #ececec;
+  margin-top: 2rem;
+
+  @media (max-width: 992px) { grid-template-columns: 1fr; }
+}
+
+.pdp-decision {
+  background: #fff;
+  padding: 2rem 1.75rem 1.75rem;
+  position: relative;
+  overflow: hidden;
+
+  .pdp-decision__num {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    color: $accent;
+    display: block;
+    margin-bottom: 0.85rem;
+  }
+  h4 {
+    font-size: 1.05rem;
+    line-height: 1.4;
+    color: #1f232b;
+    margin-bottom: 0.75rem;
+  }
+  p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #6e727a;
+    margin-bottom: 1.25rem;
+  }
+}
+
+.pdp-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  background: transparent;
+
+  @media (max-width: 768px) { grid-template-columns: 1fr; }
+
+  .pdp-compare__slot {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      object-position: top left;
+      background: #f4f1ea;
+    }
+    .pdp-compare__caption {
+      margin-top: 0.75rem;
+      padding: 0;
+      font-family: "Roboto Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #6e727a;
+      line-height: 1.5;
+    }
+    &.is-after .pdp-compare__caption { color: $accent; }
+  }
+}
+
+.pdp-dialogs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4rem 0.55rem;
+  margin-top: 1rem;
+}
+
+.pdp-dialog {
+  width: fit-content;
+  max-width: min(26rem, calc(50% - 0.35rem));
+  background: transparent;
+  border: 1px solid rgba(31, 35, 43, 0.12);
+  border-radius: 8px;
+  padding: 0.4rem 0.55rem;
+  box-shadow: 0 1px 6px rgba(31, 35, 43, 0.05);
+
+  &.is-w-f {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &.is-trust {
+    border-color: rgba($accent, 0.35);
+    box-shadow: 0 3px 14px rgba(29, 78, 216, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  p {
+    line-height: 1.35;
+    margin: 0 0 0.15rem;
+
+    &:last-child { margin-bottom: 0; }
+  }
+
+  p#{&}__q {
+    font-size: 0.6rem;
+    line-height: 1.3;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 0.05rem;
+  }
+
+  p#{&}__a {
+    font-size: 0.78rem;
+    font-style: italic;
+    color: #6e727a;
+    margin-bottom: 0.3rem;
+
+    &:last-child { margin-bottom: 0; }
+
+    strong {
+      font-style: normal;
+      font-weight: 700;
+      color: $text-color;
+    }
+  }
+
+  &__org {
+    margin-top: 0.75rem;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9a9a9a;
+    font-style: normal;
+  }
+}
+
+.pdp-pullquote {
+  background: #1f232b;
+  color: #fff;
+  padding: 4rem 2rem;
+  margin: 3rem 0;
+  text-align: center;
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.45;
+    max-width: 820px;
+    margin: 0 auto 1.25rem;
+    color: #fff;
+  }
+  .pdp-pullquote__source {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #b3b3b3;
+  }
+}
+
+.pdp-impact {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-top: 2rem;
+
+  @media (max-width: 992px) { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+
+  .pdp-impact__card {
+    background: #fafafa;
+    padding: 2rem 1.5rem;
+
+    &.is-hero {
+      grid-column: 1 / span 2;
+      background: $accent-tint;
+      .pdp-impact__num { font-size: 3.6rem; }
+
+      @media (max-width: 992px) { grid-column: 1 / -1; }
+    }
+  }
+  .pdp-impact__num {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #1f232b;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+  .pdp-impact__label {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-bottom: 0.85rem;
+  }
+  .pdp-impact__desc {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #6e727a;
+    margin: 0;
+  }
+}
+
+.pdp-compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+
+  th,
+  td {
+    text-align: left;
+    padding: 0.95rem 1rem;
+    vertical-align: top;
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  th {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    border-bottom: 2px solid #ececec;
+    font-weight: 500;
+  }
+  td {
+    border-bottom: 1px solid #f0f0f0;
+    color: #4a4642;
+  }
+  td:first-child {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    color: #6e727a;
+    width: 26%;
+  }
+  td:nth-child(3) {
+    color: #1f232b;
+    font-weight: 500;
+  }
+  .pdp-change {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.78rem;
+    color: $accent;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .pdp-placeholder {
+    color: #b3b3b3;
+    font-style: italic;
+  }
+
+  @media (max-width: 768px) {
+    th, td { padding: 0.7rem 0.5rem; font-size: 0.82rem; }
+    td:first-child { width: auto; }
+  }
+}
+
+.pdp-press {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fafafa;
+    border: 1px solid #ececec;
+    color: #6e727a !important;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    padding: 0.5rem 0.85rem;
+    text-decoration: none;
+    transition: background 0.18s, border-color 0.18s, color 0.18s;
+
+    &:hover {
+      background: #f4ecd8;
+      border-color: $dark-yellow;
+      color: $text-color !important;
+      text-decoration: none !important;
+
+      ion-icon {
+        color: $accent;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__seal {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    display: block;
+  }
+
+  &__name {
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  ion-icon {
+    flex-shrink: 0;
+    font-size: 0.85rem;
+    color: #6e727a;
+    opacity: 0.65;
+    transition: color 0.18s, opacity 0.18s;
+  }
+
+  &__more {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+    padding: 0.5rem 0;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    color: $text-color;
+    letter-spacing: 0.02em;
+    flex-shrink: 0;
+  }
+}
+
+/* ===================================================================
+   Candid PDP — modern reading layout + right-side TOC
+   =================================================================== */
+
+/* Shared content column width — used by intro AND case-study body */
+$pdp-col: 1200px;
+
+.pdp-intro {
+  max-width: $pdp-col;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  /* When the fixed sidebar is showing, push the inner content away
+     from the right edge so the prose has breathing room next to it. */
+  @media (min-width: 1401px) {
+    padding: 0 8rem 0 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 1.25rem;
+  }
+}
+
+.pdp-deck {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #3a3a3a;
+  margin: 1.75rem 0 2.5rem;
+  max-width: 820px;
+  font-weight: 300;
+
+  b {
+    font-weight: 500;
+    color: #1f232b;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.05rem;
+    margin: 1.25rem 0 1.75rem;
+  }
+}
+
+.pdp-prose {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #3a3a3a;
+  max-width: 760px;
+
+  p { margin-bottom: 1.15rem; }
+  ul:not([class]),
+  ol:not([class]) {
+    padding-left: 1.25rem;
+    margin: 0 0 1.25rem;
+    li { margin-bottom: 0.55rem; line-height: 1.7; }
+  }
+  b, strong { color: #1f232b; font-weight: 500; }
+  a { color: $accent; }
+}
+
+.pdp-reframe {
+  margin: 1.25rem 0 0;
+  padding: 0.9rem 1.1rem;
+  background: $accent-soft;
+  border-left: 3px solid $accent;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #3a3a3a;
+
+  b {
+    color: #1f232b;
+    margin-right: 0.35rem;
+  }
+}
+
+.pdp-prose--before-seals {
+  margin: 1.5rem 0 0;
+
+  .pdp-reframe {
+    margin: 0;
+  }
+}
+
+.pdp-meta-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: #ececec;
+  margin: 1.5rem 0 4rem;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+
+  > div {
+    background: #fff;
+    padding: 1rem 1.1rem;
+  }
+
+  dt {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+  }
+  dd {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: #1f232b;
+
+    a {
+      color: $accent;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Single-column case-study body — same width as .pdp-intro.
+   Sidebar (.pdp-toc) is pinned to the viewport's right edge via
+   position: fixed and lives visually outside this column. */
+.pdp-layout {
+  max-width: $pdp-col;
+  margin: 0 auto;
+  padding: 1rem 2rem 2rem;
+  position: relative;
+
+  /* Match the intro's right-side gutter so the sidebar never crowds
+     the body copy. */
+  @media (min-width: 1401px) {
+    padding: 1rem 8rem 2rem 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 1.25rem 2rem;
+  }
+}
+
+.pdp-main {
+  min-width: 0;
+}
+
+/* Chip-style TOC — shown whenever the fixed right-edge sidebar can't fit. */
+.pdp-toc-mobile {
+  display: none;
+
+  @media (max-width: 1400px) {
+    display: block;
+    position: sticky;
+    top: 64px;
+    z-index: 8;
+    margin: 0 -2rem 1.25rem;
+    padding: 0.5rem 2rem;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid #ececec;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    ol {
+      display: flex;
+      gap: 0.5rem;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      white-space: nowrap;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.75rem;
+      font-family: "Roboto Mono", monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #8a8a8a;
+      text-decoration: none;
+      border: 1px solid #ececec;
+      border-radius: 999px;
+      transition: all 0.18s;
+
+      &.is-active {
+        color: $accent;
+        border-color: $accent;
+        background: $accent-soft;
+      }
+    }
+  }
+}
+
+.pdp-toc {
+  /* Sidebar starts at its "natural" position next to the hero
+     meta-strip, follows the page on scroll, then sticks to the top
+     once it reaches the header offset. JS keeps `top` in sync. */
+  position: fixed;
+  top: 150px; /* fallback; JS overrides on load + scroll */
+  right: 1.25rem;
+  width: 160px;
+  font-family: "Roboto Mono", monospace;
+  max-height: calc(100vh - 140px);
+  overflow-y: auto;
+  padding-right: 0.25rem;
+  z-index: 5;
+
+  &::-webkit-scrollbar { width: 0; }
+  scrollbar-width: none;
+
+  /* Below this width there isn't enough room next to the 920px column
+     for the fixed sidebar — fall back to the mobile chip nav. */
+  @media (max-width: 1400px) {
+    display: none;
+  }
+
+  /* Wraps the indicator + list so the indicator can be absolutely
+     positioned relative to the rows. */
+  &__list-wrap {
+    position: relative;
+  }
+
+  /* Sliding active-row bar — JS keeps its top/height in sync with the
+     currently active row. CSS handles the smooth motion. */
+  &__indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 0;
+    background: $accent;
+    opacity: 0;
+    transform: translateZ(0); /* hint compositor for smoother transform-y */
+    transition:
+      transform 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+      height 0.32s cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 0.2s ease;
+    pointer-events: none;
+
+    &.is-ready { opacity: 1; }
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li { display: block; }
+
+    a {
+      display: block;
+      font-size: 0.75rem;
+      color: #8a8a8a;
+      text-decoration: none;
+      padding: 0.4rem 0 0.4rem 1rem;
+      transition: color 0.2s ease;
+      line-height: 1.333;
+
+      &:hover { color: #1f232b; }
+
+      &.is-active {
+        color: $accent;
+        font-weight: 500;
+      }
+    }
+  }
+
+  /* Child rows — flush list, same type size as parents; only the
+     softer color hints at hierarchy. */
+  &__item--child a {
+    color: #a4a4a4;
+  }
+}
+
+/* Mobile chip nav: dim child chips slightly so the hierarchy reads */
+.pdp-toc-mobile .pdp-toc__item--child a {
+  color: #a4a4a4;
+  font-size: 0.6rem;
+}
+
+/* Sections inside the layout */
+.pdp-section {
+  scroll-margin-top: 110px;
+  padding: 3.5rem 0 3rem;
+  // border-top: 1px solid #ececec;
+
+  &:first-child {
+    border-top: none;
+    padding-top: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2.5rem 0 2rem;
+  }
+
+  &__eyebrow {
+    @include pdp-label-eyebrow;
+    margin: 0 0 1.25rem;
+  }
+
+  &__heading {
+    font-size: 2.15rem;
+    font-weight: 500;
+    line-height: 1.18;
+    color: #1f232b;
+    margin: 0 0 1.25rem;
+    letter-spacing: -0.005em;
+    max-width: 820px;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__lede {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4a4642;
+    margin: 0 0 2rem;
+    max-width: 760px;
+    font-weight: 300;
+
+    b { color: #1f232b; font-weight: 500; }
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.pdp-subhead {
+  @include pdp-label-eyebrow;
+  margin: 2.5rem 0 1.25rem;
+  max-width: 760px;
+}
+
+/* Layout-scoped polish — the single column is ~920px wide, so multi-col
+   grids can stay denser without crowding. */
+.pdp-main {
+  .pdp-decisions {
+    @media (max-width: 820px) { grid-template-columns: 1fr; }
+  }
+  .pdp-impact {
+    @media (max-width: 820px) {
+      grid-template-columns: repeat(2, 1fr);
+      .pdp-impact__card.is-hero { grid-column: 1 / -1; }
+    }
+    @media (max-width: 560px) { grid-template-columns: 1fr; }
+  }
+  .pdp-personas {
+    @media (max-width: 820px) { grid-template-columns: 1fr; }
+  }
+  .pdp-pullquote {
+    padding: 3rem 1.75rem;
+    margin: 2.5rem 0;
+    p { font-size: 1.25rem; }
+  }
+  .pdp-stats {
+    margin-top: 1rem;
+  }
 }
 
 .demo-link {
@@ -384,4 +1530,175 @@
   img {
     margin-bottom: 6%;
   }
+}
+
+/* Case-study pages — white wrapper instead of the homepage's tinted grey.
+   Class is added to <html> by js/load-header.js whenever a page loads the
+   shared header with a non-empty data-base (i.e. any /pages/** page). */
+html.is-case-study .wrapper {
+  background: #fff;
+}
+
+/* Pages loaded inside the home animation modal iframe */
+html.page-embed #header-container,
+html.page-embed #footer-container,
+html.page-embed .wrapper .footer,
+html.page-embed .project-nav,
+html.page-embed .kw-keep-reading,
+html.page-embed #keep-reading-container {
+  display: none !important;
+}
+
+/* ============================================================
+   "Keep reading" — card-based next-project navigation that
+   replaces the old text-only `.project-nav` at the end of every
+   case study. Cards live in #keep-reading-container and are
+   injected by js/load-keep-reading.js using a central registry.
+   ============================================================ */
+.kw-keep-reading {
+  max-width: 1320px;
+  margin: 6rem auto 4rem;
+  padding: 0 2rem;
+
+  @media (max-width: 768px) {
+    margin: 4rem auto 3rem;
+    padding: 0 1.25rem;
+  }
+
+  &__head {
+    margin-bottom: 1.75rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1f232b;
+    margin: 0 0 0.4rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__lede {
+    font-size: 0.9rem;
+    color: #6e727a;
+    margin: 0;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+    @media (max-width: 820px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.kw-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.25rem 2.25rem 2rem;
+  border-radius: 1.5rem;
+  text-decoration: none !important;
+  color: $text-color !important;
+  background: $canvas-bg;
+  border: 1px solid $ui-border;
+  @include card-hover;
+  min-height: 280px;
+
+  @media (max-width: 768px) {
+    padding: 1.75rem 1.5rem 1.5rem;
+    min-height: 220px;
+  }
+
+  &:hover {
+    @include card-hover-active;
+    color: $text-color !important;
+    text-decoration: none !important;
+  }
+
+  &__eyebrow {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: $text-color;
+    margin: 0 0 1.5rem;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: $text-color;
+    margin: 0 0 0.85rem;
+
+    @media (max-width: 768px) {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__lede {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: $text-color;
+    opacity: 0.78;
+    margin: 0 0 1.75rem;
+    flex: 1;
+  }
+
+  &__cta {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.45rem 1.2rem;
+    min-height: 2rem;
+    outline: 1px solid $ui-dark;
+    border: none;
+    border-radius: 6px;
+    background: transparent;
+    color: $ui-dark;
+    font-size: 0.92rem;
+    font-weight: 500;
+    line-height: 1;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  &:hover &__cta {
+    background: $ui-dark;
+    color: $color-white;
+  }
+
+  /* Tint class names kept for registry compatibility — unified header grey */
+  &--blush,
+  &--mint,
+  &--sand,
+  &--sky,
+  &--lavender,
+  &--butter,
+  &--peach,
+  &--stone {
+    background: $canvas-bg;
+  }
+}
+
+html.page-embed #header-container + script + .whitespace-sub,
+html.page-embed #header-container + script + .whitespace {
+  display: none !important;
+}
+
+html.page-embed,
+html.page-embed body {
+  background: #fff;
+  overflow: hidden !important;
+}
+
+html.page-embed .whitespace-sub:last-child,
+html.page-embed .whitespace:last-child {
+  display: none !important;
 }

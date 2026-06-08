@@ -51,9 +51,9 @@
     if (!container) return;
 
   var fallback = `
-<div class="footer footer-v2 m-top-10">
+<div class="footer footer-v2 m-top-3">
+  <div class="footer-v2-rule"></div>
   <div class="container">
-    <div class="footer-v2-rule"></div>
     <div class="footer-v2-card">
       <div class="footer-v2-grid">
         <div class="footer-v2-col footer-v2-intro">

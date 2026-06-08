@@ -1,9 +1,37 @@
+// —— Text ——
 $text-color: #1f232b;
 $text-grey: #6e727a;
+$text-muted: #777777;
+
+// —— UI chrome (buttons, borders, fills) ——
+$ui-dark: #353535;
+$ui-border: #353535;
+$border-rule: #2f2f2f;
+
+// —— Surfaces
+$color-white: #ffffff;
+$canvas-bg: #f1f1f3;
+$surface-hover: #f5f5f7;
+$surface-tag: #f4f4f4;
+$grey-outline: #e4e4e4;
+
+// —— Accent ——
 $yellow: #ffb23f;
 $dark-yellow: #e3a128;
 $red: #ff6363;
 $blue: #7ca4ff;
-$color-white: #ffffff;
-$grey-outline:#E4E4E4;
-$canvas-bg: #eeedf2;
+
+// Case-study accent — accessible blue (7.0:1 on white)
+$accent: #1d4ed8;
+$accent-tint: #dfe7f6;
+$accent-soft: #eef3fc;
+
+// —— Shared card hover (lift + shadow) ——
+@mixin card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+@mixin card-hover-active {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px -18px rgba(0, 0, 0, 0.25);
+}
