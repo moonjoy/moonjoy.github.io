@@ -385,6 +385,46 @@
     position: relative;
     overflow: hidden;
   }
+
+  &.fi2w-banner {
+    background: url(../../projects/web/fi2w/fi2w-logo.jpg) no-repeat center
+      center / cover;
+    background-position: center 35%;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 220px;
+
+    h2 {
+      top: 50%;
+      left: 5%;
+      font-size: 1.25rem;
+    }
+
+    &.eattendance-banner,
+    &.coreweave-banner,
+    &.prism-banner,
+    &.mbam-banner,
+    &.hwf-banner,
+    &.cardin-banner,
+    &.rms-banner,
+    &.pnd-banner,
+    &.fd-banner,
+    &.fi2w-banner {
+      background-position: center center;
+    }
+
+    &.mbam-banner {
+      background-position: center 30%;
+    }
+
+    &.candidpdp-banner {
+      background-position: right center;
+      background-size: auto 115%;
+      min-height: 200px;
+      padding: 2rem 0;
+    }
+  }
 }
 
 /* ===================================================================
@@ -816,6 +856,22 @@
     }
     &.is-highlight .pdp-fig__caption { color: $accent; }
   }
+
+  @media (max-width: 768px) {
+    .pdp-fig.is-svg,
+    .pdp-fig.is-full {
+      aspect-ratio: auto;
+    }
+
+    .pdp-fig.is-svg img,
+    .pdp-fig.is-full img {
+      width: 100%;
+      height: auto;
+      object-fit: initial;
+      object-position: initial;
+      display: block;
+    }
+  }
 }
 
 .pdp-decisions {
@@ -1029,10 +1085,18 @@
   }
 }
 
+.pdp-compare-table-wrap {
+  width: 100%;
+  margin-top: 2rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .pdp-compare-table {
   width: 100%;
+  min-width: 42rem;
   border-collapse: collapse;
-  margin-top: 2rem;
+  margin-top: 0;
 
   th,
   td {
@@ -1312,6 +1376,13 @@ $pdp-col: 1200px;
     z-index: 8;
     margin: 0 -2rem 1.25rem;
     padding: 0.5rem 2rem;
+
+    @media (max-width: 768px) {
+      margin-left: -1.25rem;
+      margin-right: -1.25rem;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
     background: rgba(255, 255, 255, 0.96);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid #ececec;

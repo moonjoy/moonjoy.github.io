@@ -687,6 +687,7 @@
               </div>
             </div>
 
+            <div class="pdp-compare-table-wrap">
             <table class="pdp-compare-table">
                 <thead>
                   <tr>
@@ -741,6 +742,7 @@
                   </tr>
                 </tbody>
               </table>
+            </div>
           </section>
 
           <!-- In their own words · customer replies -->
@@ -1790,20 +1792,35 @@
         window.addEventListener("resize", syncIndicator);
         window.addEventListener("load", syncIndicator);
 
+        var lastActiveId = null;
+
+        // Scroll only the chip nav horizontally — never the page (scrollIntoView
+        // on sticky nav links was jerking the document at section boundaries).
+        function scrollMobileTocToLink(link) {
+          var nav = link.closest(".pdp-toc-mobile");
+          if (!nav) return;
+          var navRect = nav.getBoundingClientRect();
+          var linkRect = link.getBoundingClientRect();
+          if (
+            linkRect.left >= navRect.left &&
+            linkRect.right <= navRect.right
+          ) {
+            return;
+          }
+          var delta =
+            linkRect.left +
+            linkRect.width / 2 -
+            (navRect.left + navRect.width / 2);
+          nav.scrollTo({ left: nav.scrollLeft + delta, behavior: "smooth" });
+        }
+
         function setActive(id) {
+          if (id === lastActiveId) return;
+          lastActiveId = id;
           links.forEach(function (a) {
             if (a.getAttribute("data-target") === id) {
               a.classList.add("is-active");
-              // keep mobile chip nav scrolled to active item
-              if (a.closest(".pdp-toc-mobile")) {
-                try {
-                  a.scrollIntoView({
-                    behavior: "smooth",
-                    block: "nearest",
-                    inline: "center",
-                  });
-                } catch (err) {}
-              }
+              scrollMobileTocToLink(a);
             } else {
               a.classList.remove("is-active");
             }

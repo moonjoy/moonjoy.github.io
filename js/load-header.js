@@ -13,24 +13,22 @@
     '<ul id="menu" class="main-menu">' +
     '<li class="main-menu-item nav-dropdown"><button type="button" class="nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">Projects<svg class="nav-chevron" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' +
     '<ul class="nav-submenu" role="menu">' +
-    '<li role="none"><a role="menuitem" href="/pages/web/candidpdp.html" data-page="projects">Candid PDP — Seals of Transparency</a></li>' +
-    '<li role="none"><a role="menuitem" href="/pages/web/philanthropynewsdigest.html" data-page="projects">Philanthropy News Digest</a></li>' +
+    '<li role="none"><a role="menuitem" href="/pages/web/candidpdp.html" data-page="projects">Candid PDP: Seals of Transparency</a></li>' +
     '<li role="none"><a role="menuitem" href="/pages/web/mybrainandme.html" data-page="projects">My Brain and Me</a></li>' +
-    '<li role="none"><a role="menuitem" href="/pages/web/himalayanwildfibers.html" data-page="projects">Himalayan Wild Fibers</a></li>' +
     '<li role="none"><a role="menuitem" href="/pages/web/coreweave.html" data-page="projects">Concierge Render</a></li>' +
+    '<li role="none"><a role="menuitem" href="/pages/web/philanthropynewsdigest.html" data-page="projects">Philanthropy News Digest</a></li>' +
     '<li role="none" class="nav-submenu-all"><a role="menuitem" href="/#projects" data-page="projects">All projects</a></li>' +
     '</ul></li>' +
     '<li class="main-menu-item"><a href="/#about" data-page="about">About me</a></li></ul>' +
     '<button type="button" id="toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="resize"><span class="span">Menu</span></button></div></nav>' +
     '<div id="resize" aria-hidden="true"><div class="resize-inner"><button type="button" class="close-btn" aria-label="Close menu">Close</button>' +
     '<ul id="menu" class="resize-menu">' +
-    '<li class="resize-dropdown"><button type="button" class="resize-dropdown-trigger" aria-expanded="false">Projects</button>' +
+    '<li class="resize-dropdown"><button type="button" class="resize-dropdown-trigger" aria-expanded="false">Projects<svg class="nav-chevron resize-chevron" width="10" height="6" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>' +
     '<ul class="resize-submenu">' +
-    '<li><a href="/pages/web/candidpdp.html" data-page="projects">Candid PDP — Seals of Transparency</a></li>' +
-    '<li><a href="/pages/web/philanthropynewsdigest.html" data-page="projects">Philanthropy News Digest</a></li>' +
+    '<li><a href="/pages/web/candidpdp.html" data-page="projects">Candid PDP: Seals of Transparency</a></li>' +
     '<li><a href="/pages/web/mybrainandme.html" data-page="projects">My Brain and Me</a></li>' +
-    '<li><a href="/pages/web/himalayanwildfibers.html" data-page="projects">Himalayan Wild Fibers</a></li>' +
     '<li><a href="/pages/web/coreweave.html" data-page="projects">Concierge Render</a></li>' +
+    '<li><a href="/pages/web/philanthropynewsdigest.html" data-page="projects">Philanthropy News Digest</a></li>' +
     '<li><a href="/#projects" data-page="projects">All projects</a></li>' +
     '</ul></li>' +
     '<li><a href="/#about" data-page="about">About me</a></li></ul></div></div>';
@@ -51,6 +49,10 @@
     container.addEventListener('click', function(e) {
       var link = e.target.closest && e.target.closest('a[data-page]');
       if (!link) return;
+      if (link.closest('#brand')) {
+        link.classList.remove('active-link');
+        return;
+      }
       var all = container.querySelectorAll('a[data-page]');
       for (var i = 0; i < all.length; i++) all[i].classList.remove('active-link');
       link.classList.add('active-link');

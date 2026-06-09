@@ -47,7 +47,8 @@
       $(this).attr("aria-expanded", open);
     });
 
-    $(document).on("click", function () {
+    $(document).on("click", function (e) {
+      if ($(e.target).closest(".nav-dropdown").length) return;
       $(".nav-dropdown.is-open")
         .removeClass("is-open")
         .find(".nav-dropdown-trigger")
@@ -57,6 +58,17 @@
     $(document).on("click", ".nav-submenu a", function () {
       $(this).closest(".nav-dropdown").removeClass("is-open");
       $(".nav-dropdown-trigger").attr("aria-expanded", "false");
+    });
+
+    /* Desktop: close click-opened dropdown when pointer leaves */
+    $(document).on("mouseleave", ".nav-dropdown", function () {
+      var $dropdown = $(this);
+      if (!$dropdown.hasClass("is-open")) return;
+      $dropdown
+        .removeClass("is-open")
+        .find(".nav-dropdown-trigger")
+        .attr("aria-expanded", "false")
+        .blur();
     });
   });
 })(jQuery);
