@@ -4628,6 +4628,194 @@ html.page-embed .whitespace:last-child {
   display: none !important;
 }
 
+/* ===================================================================
+   PND case study — metrics layout (2×2 grid + channel bars)
+   =================================================================== */
+.pnd-metrics-label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin: 2rem 0 1.25rem;
+}
+
+.pnd-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: #ececec;
+  border: 1px solid #d8dde6;
+  max-width: 520px;
+  margin: 0 0 2.5rem;
+}
+@media (max-width: 480px) {
+  .pnd-stat-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pnd-stat {
+  background: #fff;
+  padding: 1.35rem 1.25rem;
+}
+.pnd-stat__num {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1f232b;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+.pnd-stat__label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin-bottom: 0.35rem;
+}
+.pnd-stat__desc {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: #6e727a;
+  margin: 0;
+}
+
+.pnd-metrics-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin: 2rem 0 1.5rem;
+}
+@media (max-width: 768px) {
+  .pnd-metrics-split {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.pnd-metrics-card h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #1f232b;
+  margin: 0 0 1.15rem;
+}
+.pnd-metrics-card__note {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: #6e727a;
+  margin: 1rem 0 0;
+}
+
+.pnd-bar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pnd-bar-list li {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr 2.25rem;
+  gap: 0.65rem;
+  align-items: center;
+  margin-bottom: 0.85rem;
+}
+.pnd-bar-list li:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 480px) {
+  .pnd-bar-list li {
+    grid-template-columns: 1fr 2.25rem;
+    grid-template-rows: auto auto;
+    gap: 0.35rem 0.65rem;
+  }
+  .pnd-bar-list li .pnd-bar-list__track {
+    grid-column: 1/-1;
+  }
+}
+.pnd-bar-list__label {
+  font-size: 0.82rem;
+  color: #1f232b;
+}
+.pnd-bar-list__track {
+  display: block;
+  height: 6px;
+  background: #ececec;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.pnd-bar-list__fill {
+  display: block;
+  height: 100%;
+  background: #1d4ed8;
+  border-radius: 3px;
+}
+.pnd-bar-list__pct {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.72rem;
+  color: #6e727a;
+  text-align: right;
+}
+
+.pnd-page-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pnd-page-list li {
+  padding: 0.75rem 0;
+  border-top: 1px solid #ececec;
+}
+.pnd-page-list li:last-child {
+  border-bottom: 1px solid #ececec;
+}
+.pnd-page-list strong {
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #1f232b;
+  margin-bottom: 0.2rem;
+}
+.pnd-page-list span {
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: #6e727a;
+}
+
+.pnd-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: #ececec;
+  border: 1px solid #d8dde6;
+  margin: 0 0 2rem;
+}
+@media (max-width: 600px) {
+  .pnd-metrics-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pnd-metric-chip {
+  background: #fff;
+  padding: 1.15rem 1.1rem;
+  text-align: center;
+}
+.pnd-metric-chip__num {
+  font-size: 1.35rem;
+  font-weight: 500;
+  color: #1f232b;
+  line-height: 1;
+  margin-bottom: 0.35rem;
+}
+.pnd-metric-chip__label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+}
+
 /*---------------about page --------------- */
 .about {
   height: 500px;
