@@ -38,6 +38,13 @@
       lede: "Redesigning a multi-step compliance form into a motivating, seal-driven surface nonprofits return to year after year.",
       tint: "sky",
     },
+    genaicopywriter: {
+      href: "pages/web/genaicopywriter.html",
+      eyebrow: "Candid · Innovation Fund",
+      title: "Generative Copywriter",
+      lede: "Validated generative AI for turning IRS-scraped ALL CAPS mission text into readable copy nonprofits would approve — successful pilot, never shipped due to resourcing.",
+      tint: "butter",
+    },
     philanthropynewsdigest: {
       href: "pages/web/philanthropynewsdigest.html",
       eyebrow: "Candid",

@@ -3062,6 +3062,31 @@ b {
   position: relative;
   overflow: hidden;
 }
+.project-banner.genai-copywriter-banner {
+  background-color: #0f1419;
+  background-image: linear-gradient(135deg, rgba(15, 20, 25, 0.92) 0%, rgba(26, 35, 50, 0.88) 55%, rgba(15, 20, 25, 0.94) 100%), url(../../projects/web/images/genai-copywriter/banner-pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover, 520px auto;
+  background-position: center, right -2rem center;
+  min-height: 280px;
+  padding: 3rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.project-banner.genai-copywriter-banner::after {
+  content: "Gen AI";
+  position: absolute;
+  right: clamp(1.5rem, 8vw, 6rem);
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Roboto Mono", monospace;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  color: rgba(255, 196, 86, 0.18);
+  pointer-events: none;
+  user-select: none;
+}
 .project-banner.fi2w-banner {
   background: url(../../projects/web/fi2w/fi2w-logo.jpg) no-repeat center center/cover;
   background-position: center 35%;
@@ -3086,6 +3111,154 @@ b {
     background-size: auto 115%;
     min-height: 200px;
     padding: 2rem 0;
+  }
+  .project-banner.genai-copywriter-banner {
+    background-position: center, center;
+    background-size: cover, 360px auto;
+    min-height: 200px;
+  }
+  .project-banner.genai-copywriter-banner::after {
+    font-size: 2rem;
+    right: 1.25rem;
+  }
+}
+
+/* GenAI Copywriter — validation pipeline (intro) */
+.genai-flow-label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin: 2rem 0 1.25rem;
+}
+
+.genai-flow {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  position: relative;
+  /* Horizontal connector rail */
+}
+.genai-flow::before {
+  content: "";
+  position: absolute;
+  top: 1.0625rem;
+  left: calc(12.5% + 0.35rem);
+  right: calc(12.5% + 0.35rem);
+  height: 2px;
+  background: linear-gradient(90deg, rgba(29, 78, 216, 0.15) 0%, rgba(29, 78, 216, 0.55) 50%, rgba(29, 78, 216, 0.15) 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+.genai-flow__step {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.65rem;
+}
+.genai-flow__marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  background: #1d4ed8;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+  box-shadow: 0 0 0 4px #fff;
+  margin-bottom: 1rem;
+}
+.genai-flow__body {
+  width: 100%;
+  max-width: 11.5rem;
+  margin: 0 auto;
+}
+.genai-flow__title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #1f232b;
+  margin: 0 0 0.35rem;
+}
+.genai-flow__desc {
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: #6e727a;
+  margin: 0;
+  text-align: left;
+}
+.genai-flow__chip {
+  display: inline-block;
+  margin-top: 0.55rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: #eef3fc;
+  color: #1d4ed8;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+@media (max-width: 900px) {
+  .genai-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 2rem;
+  }
+  .genai-flow::before {
+    display: none;
+  }
+  .genai-flow__step {
+    padding: 0 0.5rem;
+  }
+  .genai-flow__body {
+    max-width: none;
+  }
+}
+@media (max-width: 520px) {
+  .genai-flow {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-left: 0.35rem;
+  }
+  .genai-flow::before {
+    display: block;
+    top: 0.85rem;
+    bottom: 0.85rem;
+    left: 1.05rem;
+    right: auto;
+    width: 2px;
+    height: auto;
+    background: linear-gradient(180deg, rgba(29, 78, 216, 0.15) 0%, rgba(29, 78, 216, 0.55) 50%, rgba(29, 78, 216, 0.15) 100%);
+  }
+  .genai-flow__step {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+    padding: 0 0 1.75rem 0;
+  }
+  .genai-flow__step:last-child {
+    padding-bottom: 0;
+  }
+  .genai-flow__marker {
+    margin-bottom: 0;
+  }
+  .genai-flow__body {
+    flex: 1;
+    padding-top: 0.15rem;
   }
 }
 
@@ -3301,8 +3474,7 @@ b {
 }
 
 .pdp-callout {
-  border-left: 3px solid #1d4ed8;
-  padding: 0.4rem 0 0.4rem 1.5rem;
+  padding: 0.4rem 0;
   margin: 2rem 0;
 }
 .pdp-callout .pdp-callout__label {
@@ -3476,6 +3648,14 @@ b {
   width: 100%;
   height: auto;
   object-fit: initial;
+}
+.pdp-figgrid.is-stack .pdp-fig.is-full.is-w60 {
+  width: 60%;
+}
+@media (max-width: 768px) {
+  .pdp-figgrid.is-stack .pdp-fig.is-full.is-w60 {
+    width: 100%;
+  }
 }
 .pdp-figgrid .pdp-fig {
   position: relative;
@@ -3949,7 +4129,6 @@ b {
   margin: 1.25rem 0 0;
   padding: 0.9rem 1.1rem;
   background: #eef3fc;
-  border-left: 3px solid #1d4ed8;
   font-size: 0.95rem;
   line-height: 1.65;
   color: #3a3a3a;
@@ -4511,3 +4690,5 @@ html.page-embed .whitespace:last-child {
   background-color: #1f232b;
   color: #fff;
 }
+
+/*# sourceMappingURL=main.css.map */
