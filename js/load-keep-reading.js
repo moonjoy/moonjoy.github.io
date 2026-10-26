@@ -22,6 +22,7 @@
   // Matches index.html featured projects order.
   var FEATURED_ORDER = [
     "candidpdp",
+    "fundraisingassistant",
     "mybrainandme",
     "coreweave",
     "philanthropynewsdigest",
@@ -42,8 +43,15 @@
       href: "pages/web/genaicopywriter.html",
       eyebrow: "Candid · Innovation Fund",
       title: "Generative Copywriter",
-      lede: "Validated generative AI for turning IRS-scraped ALL CAPS mission text into readable copy nonprofits would approve — successful pilot, never shipped due to resourcing.",
+      lede: "Validated generative AI for turning IRS-scraped ALL CAPS mission text into readable copy nonprofits would approve. Successful pilot, never shipped due to resourcing.",
       tint: "butter",
+    },
+    fundraisingassistant: {
+      href: "pages/web/fundraisingassistant.html",
+      eyebrow: "Candid · AI product",
+      title: "Fundraising Assistant",
+      lede: "Lead design for Candid's conversational AI: semantic funder search, RFP discovery, LOI drafting, and peer-org research inside Candid Search.",
+      tint: "sand",
     },
     philanthropynewsdigest: {
       href: "pages/web/philanthropynewsdigest.html",

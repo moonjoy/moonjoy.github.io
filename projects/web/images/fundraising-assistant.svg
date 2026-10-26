@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none" role="img" aria-label="Fundraising Assistant">
+  <rect width="800" height="450" fill="#FFB23F"/>
+  <rect x="96" y="56" width="608" height="338" rx="16" fill="#FFFFFF" opacity="0.96"/>
+  <circle cx="400" cy="132" r="34" fill="#1F232B"/>
+  <text x="400" y="143" text-anchor="middle" fill="#FFB23F" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">C.</text>
+  <text x="400" y="198" text-anchor="middle" fill="#6E727A" font-family="Arial, Helvetica, sans-serif" font-size="20">How can I help you today?</text>
+  <rect x="168" y="232" width="220" height="72" rx="10" fill="#F5F5F7" stroke="#ECECEC"/>
+  <rect x="412" y="232" width="220" height="72" rx="10" fill="#F5F5F7" stroke="#ECECEC"/>
+  <rect x="168" y="320" width="220" height="72" rx="10" fill="#F5F5F7" stroke="#ECECEC"/>
+  <rect x="412" y="320" width="220" height="72" rx="10" fill="#F5F5F7" stroke="#ECECEC"/>
+  <text x="278" y="262" text-anchor="middle" fill="#1F232B" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600">Find funders</text>
+  <text x="278" y="280" text-anchor="middle" fill="#6E727A" font-family="Arial, Helvetica, sans-serif" font-size="10">climate · California</text>
+  <text x="522" y="262" text-anchor="middle" fill="#1F232B" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600">Draft an LOI</text>
+  <text x="522" y="280" text-anchor="middle" fill="#6E727A" font-family="Arial, Helvetica, sans-serif" font-size="10">letter of inquiry</text>
+  <text x="278" y="350" text-anchor="middle" fill="#1F232B" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600">Recommend RFPs</text>
+  <text x="522" y="350" text-anchor="middle" fill="#1F232B" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600">Peer org funders</text>
+</svg>
